@@ -58,14 +58,14 @@ a:hover {
     -webkit-animation: fadeSideIn .5s;
     -moz-animation: fadeSideIn .5s;
     -o-animation: fadeSideIn .5s;
-    
+
     background: #373a3c url(images/header.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    
+
     min-height: 200px;
     max-height: 500px;
     width: 100%;
@@ -74,7 +74,7 @@ a:hover {
     left: 0;
     z-index: -2;
     overflow: hidden;
-} 
+}
 
 .container-fluid .logo {
     animation: fadeSideIn .5s;
@@ -94,7 +94,7 @@ a:hover {
     margin-top: 0px;
     position: absolute;
     z-index: -3;
-    
+
 }
 
 /* Nav */
@@ -275,10 +275,9 @@ nav #right-nav {
     padding: 40px 20px;
 }
 
-.col-md-3 p {
+.col-md-4 p {
     text-align: left;
 }
-
 .row#portraits p {
     font-size: 12px;
 }
@@ -290,7 +289,14 @@ nav #right-nav {
     margin: 10px auto;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.12);
 }
+.groupPhoto#pic{
+    width: 90%;
+    display: block;
+}
+.centerText{
+  text-align: center; 
 
+}
 .img-fluid#AW {
     width: 65%;
     padding: 1em;

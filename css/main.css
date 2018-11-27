@@ -33,14 +33,14 @@ a:hover {
 .jumbotron {
     animation: fadeSideIn .5s;
     -webkit-animation: fadeSideIn .5s;
-    
+
     background: #373a3c url(../images/header.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    
+
     min-height: 200px;
     max-height: 500px;
     width: 100%;
@@ -49,7 +49,7 @@ a:hover {
     left: 0;
     z-index: -2;
     overflow: hidden;
-} 
+}
 
 .container-fluid .logo {
     animation: fadeSideIn .5s;
@@ -69,7 +69,7 @@ a:hover {
     margin-top: 0px;
     position: absolute;
     z-index: -3;
-    
+
 }
 
 /* Nav */
@@ -255,4 +255,6 @@ nav #right-nav {
     padding: 5px;
     margin: 10px auto;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.12);
+}
+.groupPhoto {
 }
