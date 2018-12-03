@@ -1,0 +1,11 @@
+
+Vad är teknikfokus?: svaret ges här
+Vilka datum är teknikfokus?: svar1
+Vilka företag kommer att vara närvarande på teknikfokus?: svar2
+Var kommer teknikfokus att vara?: svar3
+Vad innebär kontaktsamtalen?, svar4
+Vem ska man kontakta om man har frågor om företagen?: svar5
+Vem ska man kontakta om man har frågor om kontaktsamtal?: svar6
+Vem ska man kontakta om man har frågor om företagsplacering?: svar7
+Vem ska man kontakta om man har frågor om hemsidan?: svar8
+Hur arbetar Teknikfokus med hållbarhetsfrågor?: svar9
