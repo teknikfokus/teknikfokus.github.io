@@ -5,9 +5,19 @@ window.onload = function () {
   fetch('https://www.teknikfokus.se/FAQ.json')
   .then(res => res.json())
   .then(faqs => {
-    console.log(BASE_DIV)
-    BASE_DIV.style.backgroundColor = 'red'
-    BASE_DIV.style.height = '100px'
+    // Här har vi precis tagit emot hela FAQ.json --> faqs
+
+
+
+    var h5Tag = document.createElement('h5')
+    h5Tag.innerText = faqs[0]['question']
+    BASE_DIV.appendChild(h5Tag)
+
+    pTag = document.createElement('p')
+    pTag.innerText = faqs[0]['answer']
+    BASE_DIV.appendChild(pTag)
+
+
 
     console.log(faqs[0])
   })

@@ -1,38 +1,46 @@
 [
   {
-    "Vad är teknikfokus?": "Vilka datum är teknikfokus?",
-    "En mässa": "12-13 feb"
+    "question": "Vad är teknikfokus?",
+    "answer": "Teknikfokus är en arbetsmarknadsmässa anordnad av E- och D-sektionen vid Lunds Tekniska Högskola. Mässan riktar sig i huvudsak till studenter inom IT, data, elektroteknik samt medicinteknik. Målet med mässan är dels att ge medverkande studenter och företag ett tillfälle att knyta kontakter inför framtiden, men också dels ge studenter möjlighet att inspireras samt se inom vilka områden de kommer kunna jobba med efter examen och under studierna.\n\nHar man frågor angående mässan, kan man kontakta Teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se."
   },
   {
-    "Vad är teknikfokus?": "Vilka företag kommer att vara närvarande på teknikfokus?",
-    "En mässa": "x"
+    "question": "Vilka datum är teknikfokus?",
+    "answer": "Mässan hålls i år mellan den 12:e och 13:e februari, mellan 10.00 till 16.00 båda dagarna."
   },
   {
-    "Vad är teknikfokus?": "Var kommer teknikfokus att vara?",
-    "En mässa": "c"
+    "question": "Vilka anordnar teknikfokus?",
+    "answer": "Mässan anordnas av en projektgrupp som består av studenter från D,E- och BME-programmet, som vid sidan av studierna jobbat för att få ihop en fantastisk mässa. Målet har alltid varit att göra en mässa där alla känner sig välkomna, och där samtliga deltagare ska gå från mässan och känna sig nöjda.\n\nDessutom hade mässan aldrig blivit av om det inte vore för de funktionärer som frivilligt hjälper till att jobba under mässan. Det är funktionärerna som ser till att varje företag har det bra och är nöjda, serverar lunch, frukost, riggar upp/ned samt vaktar allt värdefullt under nätterna. \n\nHar man frågor angående projektgruppen kan man ta kontakt med teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se. Du kan också se samtliga i projektgruppen under Om Teknikfokus på hemsidan."
   },
   {
-    "Vad är teknikfokus?": "Vad innebär kontaktsamtalen?",
-    "En mässa": "f"
+    "question": "Vilka företag kommer att vara närvarande på teknikfokus?",
+    "answer": "Vi kommer inom kort att presentera samtliga företag som kommer at närvara under mässan. Vid frågor angående företagen ber vi er ta kontakt med någon av teknikfokus företagsansvariga Keiwan Mosaddegh och Olivia Wiaczek på, relations@teknikfokus.se."
   },
   {
-    "Vad är teknikfokus?": "Vem ska man kontakta om man har frågor om företagen?",
-    "En mässa": "r"
+    "question": "Var kommer teknikfokus att vara?",
+    "answer": "Teknikfokus kommer att hållas i E-huset,  Ole Römers väg 3, 223 63 Lund, på Lunds Tekniska Höskolas campusområde. Specifikt hålls mässan i husets huvudentré samt i de större lässalarna på bottenvåningen. Se kartan för mer detaljerad information."
   },
   {
-    "Vad är teknikfokus?": "Vem ska man kontakta om man har frågor om kontaktsamtal?",
-    "En mässa": "y"
+    "question": "Vad innebär kontaktsamtalen?",
+    "answer": "Kontaktsamtalen ger företag möjligheten att under mässdagarna hålla intervjuer med studenter angående sommarjobb, praktik, extrajobb och examensarbeten. Intresserade studenter kommer då att i förväg ha skickat in sina CV:n till oss, samt fyllt i ett formulär med de företagen de är intresserade av. Dessa vidarebefordrar vi sedan till de företag som är intresserade. Därefter försöker vi matcha rätt student till rätt företag utifrån de åsikter som båda har uttryckt. Intervjuerna pågår sedan under mässan i mindre rum i E-huset, utifrån ett förutbestämt schema."
   },
   {
-    "Vad är teknikfokus?": "Vem ska man kontakta om man har frågor om företagsplacering?",
-    "En mässa": "u"
+    "question": "Vem ska man kontakta om man har frågor om företagen?",
+    "answer": "Vid frågor angående mässans företag ber vi er att maila någon av våra två företagsansvariga Keiwan Mosaddegh  och Olivia Wiaczek på, relations@teknikfokus.se."
   },
   {
-    "Vad är teknikfokus?": "Vem ska man kontakta om man har frågor om hemsidan?",
-    "En mässa": "h"
+    "question": "Vem ska man kontakta om man har frågor om kontaktsamtal?",
+    "answer": "Vid frågor angående kontaktsamtalen och dess utformning ber vi er maila vår logistikansvarig Måns Lindeberg, logistics@teknikfokus.se."
   },
   {
-    "Vad är teknikfokus?": "Hur arbetar Teknikfokus med hållbarhetsfrågor?",
-    "En mässa": "r"
+    "question": "Vem ska man kontakta om man har frågor om företagsplacering?",
+    "answer": "Vi i projektgruppen har jobbat hårt för att alla ska känna sig nöjda med sin placering utifrån de förutsättningar som vi utgått från. Vi har varit tvungna att kompromissa eftersom att E-huset i grunden inte är någon mässlokal. Vi har försökt se till att skapa förutsättningar för att flödet ska vara så optimalt som möjligt under de två dagarna. \n\nVid åsikter angående er placering ber vi er kontakta informationsdisken på mässan. Om ni vill framföra åsikter skriftligt ber vi er kontakt logistikansvarig Måns Lindeberg på mail, logistics@teknikfokus.se."
+  },
+  {
+    "question": "Vem ska man kontakta om man har frågor om hemsidan?",
+    "answer": "Vid frågor angående hemsidan ber vi er kontakta vår IT-ansvarig Elin Hanstorp, logistics@teknikfokus.se."
+  },
+  {
+    "question": "Hur arbetar Teknikfokus med hållbarhetsfrågor?",
+    "answer": ""
   }
 ]
