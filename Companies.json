@@ -1,0 +1,12 @@
+[
+  {
+    "company": "AltenTest",
+    "description": "Teknikfokus är en arbetsmarknadsmässa anordnad av E- och D-sektionen vid Lunds Tekniska Högskola. Mässan riktar sig i huvudsak till studenter inom IT, data, elektroteknik samt medicinteknik. Målet med mässan är dels att ge medverkande studenter och företag ett tillfälle att knyta kontakter inför framtiden, men också dels ge studenter möjlighet att inspireras samt se inom vilka områden de kommer kunna jobba med efter examen och under studierna.\n\nHar man frågor angående mässan, kan man kontakta Teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se.",
+    "logoName": "logos/alten.png"
+  },
+  {
+    "company": "Teknikfokus",
+    "description": "Teknikfokus är en arbetsmarknadsmässa anordnad av E- och D-sektionen vid Lunds Tekniska Högskola. Mässan riktar sig i huvudsak till studenter inom IT, data, elektroteknik samt medicinteknik. Målet med mässan är dels att ge medverkande studenter och företag ett tillfälle att knyta kontakter inför framtiden, men också dels ge studenter möjlighet att inspireras samt se inom vilka områden de kommer kunna jobba med efter examen och under studierna.\n\nHar man frågor angående mässan, kan man kontakta Teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se.",
+    "logoName": "logos/axis.png"
+  }
+]
