@@ -12,16 +12,28 @@ window.onload = function () {
     BASE_DIV.style.textAlign = "left"
 
     compInfo.forEach(compInfo => {
+      var div = document.createElement('div')
+      div.className = "card"
+      BASE_DIV.appendChild(div)
+
       var h5Tag = document.createElement('h4')
       h5Tag.innerText = compInfo['company']
-      BASE_DIV.appendChild(h5Tag)
+      div.appendChild(h5Tag)
+
+      var img = document.createElement('img')
+      img.className = "img-fluid"
+      img.id = "pic"
+      img.src = compInfo['logoName']
+      div.appendChild(img)
+
+
 
       pTag = document.createElement('p')
       pTag.innerText = compInfo['description']
-      BASE_DIV.appendChild(pTag)
+      div.appendChild(pTag)
 
       lineBreak = document.createElement('br')
-      BASE_DIV.appendChild(lineBreak)
+      div.appendChild(lineBreak)
     })
 
     // console.log(faqs[0])
