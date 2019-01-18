@@ -1,5 +1,6 @@
 window.onload = function () {
 
+  const CompanyList_DIV = document.getElementById('compact_company_list.js')
 
   const BASE_DIV = document.getElementById('company_info_coming_from_Companies.js')
 
@@ -10,6 +11,8 @@ window.onload = function () {
     // Här har vi precis tagit emot hela FAQ.json --> faqs
 
     BASE_DIV.style.textAlign = "left"
+    CompanyList_DIV.style.textAlign = "center"
+    var P = document.createElement('p')
 
     compInfo.forEach(compInfo => {
       var div = document.createElement('div')
@@ -19,6 +22,15 @@ window.onload = function () {
       var h5Tag = document.createElement('h4')
       h5Tag.innerText = compInfo['company']
       div.appendChild(h5Tag)
+
+      // var listElement = document.createElement('li')
+      // listElement.innerText =compInfo['company']
+      // CompanyList_DIV.appendChild(listElement)
+
+      //var P = document.createElement('p')
+      P.innerText +=  compInfo['company'] + '\u00A0' +'|'+ '\u00A0'
+      CompanyList_DIV.appendChild(P)
+      
 
       var img = document.createElement('img')
       img.className = "img-fluid"
