@@ -1,42 +1,62 @@
 [
   {
-    "question": "Vad är teknikfokus?",
-    "answer": "Teknikfokus är en arbetsmarknadsmässa anordnad av E- och D-sektionen vid Lunds Tekniska Högskola. Mässan riktar sig i huvudsak till studenter inom IT, data, elektroteknik samt medicinteknik. Målet med mässan är dels att ge medverkande studenter och företag ett tillfälle att knyta kontakter inför framtiden, men också dels ge studenter möjlighet att inspireras samt se inom vilka områden de kommer kunna jobba med efter examen och under studierna.\n\nHar man frågor angående mässan, kan man kontakta Teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se."
+    "fraga": "Vad är Teknikfokus?",
+    "svar": "Teknikfokus är en arbetsmarknadsmässa anordnad av E- och D-sektionen vid Lunds Tekniska Högskola. Mässan riktar sig i huvudsak till studenter som går infoCom, data, elektroteknik samt medicinteknik. Målet med mässan är dels att ge medverkande studenter och företag ett tillfälle att knyta kontakter inför framtiden, men också dels ge studenter möjlighet att inspireras samt se inom vilka områden de kommer kunna jobba med efter examen och under studierna.\n\nHar man frågor angående mässan, kan man kontakta Teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se.",
+    "question": "What is Teknikfokus?",
+    "answer": "Teknikfokus is a fair organized by the E- and D-section at Lund Institute of Technology. The fair is mainly aimed at students who go to infoCom, data, electrical engineering and medical technology. contacts for the future, but also give students the opportunity to be inspired and see in which areas they will be able to work with after graduation and during the studies.\n\nIf you have questions regarding the fair, you can contact Teknikfokus Project Manager Jonathan Frisk, jonathan@teknikfokus.se and Johan Wikstrand, johan@teknikfokus.se."
   },
   {
-    "question": "Vilka datum är teknikfokus?",
-    "answer": "Mässan hålls i år mellan den 12:e och 13:e februari, mellan 10.00 till 16.00 båda dagarna."
+    "fraga": "Vilka datum är teknikfokus?",
+    "svar": "Mässan hålls mellan den 12:e och 13:e februari, 2019 mellan 10.00 till 16.000 båda dagarna.",
+    "question": "What dates are Teknikfokus?",
+    "answer": "The fair is held between the 12th and 13th of February, 2019 between 10.00 and 16.000 both days."
   },
   {
-    "question": "Vilka anordnar teknikfokus?",
-    "answer": "Mässan anordnas av en projektgrupp som består av studenter från D,E- och BME-programmet, som vid sidan av studierna jobbat för att få ihop en fantastisk mässa. Målet har alltid varit att göra en mässa där alla känner sig välkomna, och där samtliga deltagare ska gå från mässan och känna sig nöjda.\n\nDessutom hade mässan aldrig blivit av om det inte vore för de funktionärer som frivilligt hjälper till att jobba under mässan. Det är funktionärerna som ser till att varje företag har det bra och är nöjda, serverar lunch, frukost, riggar upp/ned samt vaktar allt värdefullt under nätterna. \n\nHar man frågor angående projektgruppen kan man ta kontakt med teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se. Du kan också se samtliga i projektgruppen under Om Teknikfokus på hemsidan."
+    "fraga": "Vilka anordnar teknikfokus?",
+    "svar": "Mässan anordnas av en projektgrupp som består av studenter från C-, D-, E- och BME-programmet, som vid sidan av studierna jobbat för att få ihop en fantastisk mässa. Målet har alltid varit att göra en mässa där alla känner sig välkomna, och där samtliga deltagare ska gå från mässan och känna sig nöjda.\n\nDessutom hade mässan aldrig blivit av om det inte vore för de funktionärer som frivilligt hjälper till att jobba under mässan. Det är funktionärerna som ser till att varje företag har det bra och är nöjda, serverar lunch, frukost, riggar upp/ned samt vaktar allt värdefullt under nätterna. \n\nHar man frågor angående projektgruppen kan man ta kontakt med teknikfokus projektledare Jonathan Frisk, jonathan@teknikfokus.se samt Johan Wikstrand, johan@teknikfokus.se. Du kan också se samtliga i projektgruppen under Om Teknikfokus på hemsidan.",
+    "question": "Who organizes Teknikfokus?",
+    "answer": "The fair is organized by a project group consisting of students from the C, D, E and BME program, who worked alongside the studies to get together a fantastic fair. The goal has always been to make a fair where everyone feels welcome, and where all participants must leave the fair and feel satisfied.\n\nIn addition, the fair had never been if it was not for all the students who volunteered to work during the fair. It is the volunteers who make sure that each company is happy, serves lunch, breakfast, rigs up / down and watches everything valuable during the nights.\n\nIf you have questions regarding the project group, you can contact the Teknikfokus project manager Jonathan Frisk, jonathan@teknikfokus.se and Johan Wikstrand, johan@teknikfokus.se. You can also see all of the project group under About Teknikfokus on the website."
   },
   {
-    "question": "Vilka företag kommer att vara närvarande på teknikfokus?",
-    "answer": "Vi kommer inom kort att presentera samtliga företag som kommer at närvara under mässan. Vid frågor angående företagen ber vi er ta kontakt med någon av teknikfokus företagsansvariga Keiwan Mosaddegh och Olivia Wiaczek på, relations@teknikfokus.se."
+    "fraga": "Vilka företag kommer att vara närvarande på teknikfokus?",
+    "svar": "Du hittar alla företag som kommer på mässan under \"Company List\". Vid frågor angående företagen ber vi er ta kontakt med någon av teknikfokus företagsansvariga Keiwan Mosaddegh och Olivia Wiaczek på, relations@teknikfokus.se.",
+    "question": "Which companies will be present on Teknikfokus?",
+    "answer": "You can find all companies that are attending the fair under \"Company List\". For questions regarding the companies, please contact one of the Teknikfokus company managers Keiwan Mosaddegh and Olivia Wiaczek at, relations@teknikfokus.se."
   },
   {
-    "question": "Var kommer teknikfokus att vara?",
-    "answer": "Teknikfokus kommer att hållas i E-huset,  Ole Römers väg 3, 223 63 Lund, på Lunds Tekniska Höskolas campusområde. Specifikt hålls mässan i husets huvudentré samt i de större lässalarna på bottenvåningen. Se kartan för mer detaljerad information."
+    "fraga": "Var kommer teknikfokus att vara?",
+    "svar": "Teknikfokus kommer att hållas i E-huset,  Ole Römers väg 3, 223 63 Lund, på Lunds Tekniska Höskolas campusområde. Specifikt hålls mässan i husets huvudentré samt i de större lässalarna på entréplan.",
+    "question": "Where will Teknikfokus be?",
+    "answer": "Teknikfokus will be held in the E-house, Ole Römers väg 3, 223 63 Lund, on Lund's Technical College's campus area. Specifically, the fair is held in the main entrance of the house and in the larger reading rooms on the main floor."
   },
   {
-    "question": "Vad innebär kontaktsamtalen?",
-    "answer": "Kontaktsamtalen ger företag möjligheten att under mässdagarna hålla intervjuer med studenter angående sommarjobb, praktik, extrajobb och examensarbeten. Intresserade studenter kommer då att i förväg ha skickat in sina CV:n till oss, samt fyllt i ett formulär med de företagen de är intresserade av. Dessa vidarebefordrar vi sedan till de företag som är intresserade. Därefter försöker vi matcha rätt student till rätt företag utifrån de åsikter som båda har uttryckt. Intervjuerna pågår sedan under mässan i mindre rum i E-huset, utifrån ett förutbestämt schema."
+    "fraga": "Vad innebär kontaktsamtalen?",
+    "svar": "Kontaktsamtalen ger företag möjligheten att under mässdagarna enskilt få prata med studenter angående t.ex. sommarjobb, praktik, extrajobb, examensarbeten eller anställning efter studierna. Intresserade studenter kommer då att i förväg ha skickat in sina CV:n till oss, samt fyllt i ett formulär med de företagen de är intresserade av. Dessa vidarebefordrar vi sedan till de företag som är intresserade. Därefter försöker vi matcha rätt student till rätt företag utifrån de åsikter som båda har uttryckt. Intervjuerna pågår sedan under mässan i mindre rum i E-huset, utifrån ett förutbestämt schema.",
+    "question": "What does the \"kontaktsamtal\" mean?",
+    "answer": "The \"kontaktsamtal\" gives companies the opportunity to talk to students individually during the fair days about eg summer jobs, internships, extra jobs, degree projects or employment after the studies. Interested students will then have submitted their CVs to us in advance, and filled in We then forward the form to the companies that they are interested in. We then forward them to the companies that are interested, after which we try to match the right student to the right company based on the opinions that both have expressed. The interviews then proceed during the fair in smaller rooms in the E-house , based on a predetermined schedule."
   },
   {
-    "question": "Vem ska man kontakta om man har frågor om företagen?",
-    "answer": "Vid frågor angående mässans företag ber vi er att maila någon av våra två företagsansvariga Keiwan Mosaddegh  och Olivia Wiaczek på, relations@teknikfokus.se."
+    "fraga": "Vem ska man kontakta om man har frågor om företagen?",
+    "svar": "Vid frågor angående mässans företag ber vi er att maila någon av våra två företagsansvariga Keiwan Mosaddegh  och Olivia Wiaczek på, relations@teknikfokus.se.",
+    "question": "Who should you contact if you have questions about the companies?",
+    "answer": "For questions regarding the fair's company, please email one of our two company managers Keiwan Mosaddegh and Olivia Wiaczek at, relations@teknikfokus.se."
   },
   {
-    "question": "Vem ska man kontakta om man har frågor om kontaktsamtal?",
-    "answer": "Vid frågor angående kontaktsamtalen och dess utformning ber vi er maila vår logistikansvarig Måns Lindeberg, logistics@teknikfokus.se."
+    "fraga": "Vem ska man kontakta om man har frågor om kontaktsamtal?",
+    "svar": "Vid frågor angående kontaktsamtalen och dess utformning ber vi er maila vår logistikansvarig Måns Lindeberg, logistics@teknikfokus.se.",
+    "question": "Who should you contact if you have questions about \"kontaktsamtal\"?",
+    "answer": "For questions regarding the contact calls and its design, please email our logistics manager Måns Lindeberg, logistics@teknikfokus.se."
   },
   {
-    "question": "Vem ska man kontakta om man har frågor om företagsplacering?",
-    "answer": "Vi i projektgruppen har jobbat hårt för att alla ska känna sig nöjda med sin placering utifrån de förutsättningar som vi utgått från. Vi har varit tvungna att kompromissa eftersom att E-huset i grunden inte är någon mässlokal. Vi har försökt se till att skapa förutsättningar för att flödet ska vara så optimalt som möjligt under de två dagarna. \n\nVid åsikter angående er placering ber vi er kontakta informationsdisken på mässan. Om ni vill framföra åsikter skriftligt ber vi er kontakt logistikansvarig Måns Lindeberg på mail, logistics@teknikfokus.se."
+    "fraga": "Vem ska man kontakta om man har frågor om företagsplacering?",
+    "svar": "Vi i projektgruppen har jobbat hårt för att alla ska känna sig nöjda med sin placering utifrån de förutsättningar som vi utgått från. Vi har varit tvungna att kompromissa eftersom att E-huset i grunden inte är någon mässlokal. Vi har försökt se till att skapa förutsättningar för att flödet ska vara så optimalt som möjligt under de två dagarna. \n\nVid åsikter angående er placering ber vi er kontakta informationsdisken på mässan. Om ni vill framföra åsikter skriftligt ber vi er kontakt logistikansvarig Måns Lindeberg på mail, logistics@teknikfokus.se.",
+    "question": "Who should you contact if you have questions about company placement?",
+    "answer": "We in the project group have worked hard for everyone to feel satisfied with their location based on the conditions that we have assumed. We have had to compromise because the E-house is basically not a fairground. We have tried to make sure that conditions for the flow to be as optimal as possible during the two days.\n\nFor opinions regarding your placement, please contact the information desk at the fair. If you wish to submit your views in writing, please contact the logistics manager, Måns Lindeberg, by mail, logistics@teknikfokus.se."
   },
   {
-    "question": "Vem ska man kontakta om man har frågor om hemsidan?",
-    "answer": "Vid frågor angående hemsidan ber vi er kontakta vår IT-ansvarig Elin Hanstorp, logistics@teknikfokus.se."
+    "fraga": "Finns ett utkast på en tidsplan att förhålla sig till?",
+    "svar": "Mässan hålls mellan 10-16 varje dag. Som företag kan det vara bra att känna till följande: 8:45 - 9:45 serveras frukost, och då är ni välkomna att rigga upp er monter. Om ni behöver mer tid är vi på plats från 06:30, och ni är välkomna redan då om så behövs. Banquetten hålls den 12:e februari (alltså på tisdagen). Fördrinkarna börjar vid 18, och sittningen lär vara slut runt 22-23.",
+    "question": "Is there a draft of a timetable to relate to?",
+    "answer": "The fair is held between 10-16 every day. As a company it can be good to know the following: 8:45 - 9:45 breakfast is served, and during this time you are welcome to rig your stand. If you need more time, we are in place from 6.30am, and you are welcome already then if needed. The banquet will be held on February 12 (ie on Tuesday). The pre-dinner starts at 18, and the sitting is until about 22-23."
   }
 ]
