@@ -46,6 +46,12 @@ window.onload = function () {
 
       lineBreak = document.createElement('br')
       div.appendChild(lineBreak)
+
+      p2Tag = document.createElement('p')
+      number = compInfo['Dag']
+      p2Tag.innerText = 'Attending the fair: ' + number + ' february'
+      div.appendChild(p2Tag)
+
     })
 
     // console.log(faqs[0])
