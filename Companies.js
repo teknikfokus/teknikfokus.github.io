@@ -4,6 +4,8 @@ window.onload = function () {
 
   const BASE_DIV = document.getElementById('company_info_coming_from_Companies.js')
 
+  let isFirstCompany = true;
+
   fetch('https://www.teknikfokus.se/Companies.json')
   .then(res => res.json())
   .then(compInfo => {
@@ -16,6 +18,7 @@ window.onload = function () {
 
     compInfo.forEach(compInfo => {
       var div = document.createElement('div')
+      div.id = compInfo['logoName']
       div.className = "card"
       BASE_DIV.appendChild(div)
 
@@ -23,12 +26,20 @@ window.onload = function () {
       h5Tag.innerText = compInfo['company']
       div.appendChild(h5Tag)
 
-      // var listElement = document.createElement('li')
-      // listElement.innerText =compInfo['company']
-      // CompanyList_DIV.appendChild(listElement)
+      if(isFirstCompany) {
+        isFirstCompany = false
+      } else {
+        spacer = document.createElement('span')
+        spacer.innerText = '\u00A0' +'|'+ '\u00A0'
+        P.appendChild(spacer)
+      }
+      aaa = document.createElement('a')
+      aaa.href = '#'+ compInfo['logoName']
+      aaa.innerText = compInfo['company']
 
-      //var P = document.createElement('p')
-      P.innerText +=  compInfo['company'] + '\u00A0' +'|'+ '\u00A0'
+      P.appendChild(aaa)
+
+
       CompanyList_DIV.appendChild(P)
       
 
