@@ -38,8 +38,6 @@ window.onload = function () {
       img.src = compInfo['logoName']
       div.appendChild(img)
 
-
-
       pTag = document.createElement('p')
       pTag.innerText = compInfo['description']
       div.appendChild(pTag)
@@ -48,12 +46,9 @@ window.onload = function () {
       div.appendChild(lineBreak)
 
       p2Tag = document.createElement('p')
-      number = compInfo['Dag']
-      p2Tag.innerText = 'Attending the fair: ' + number + ' february'
+      p2Tag.innerText = 'Attending the fair: ' + compInfo['Dag'] + ' february'
       div.appendChild(p2Tag)
 
     })
-
-    // console.log(faqs[0])
   })
 }
