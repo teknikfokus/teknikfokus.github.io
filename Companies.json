@@ -80,7 +80,7 @@
   {
     "company": "Capgemini",
     "description": "Capgemini is a world leading IT & Management Consultancy. We have some of the largest companies in the world as our clients and are located in all major cities in Sweden. We are interested in finding students that are interested in Technology and want to be a part of our graduate program. Ignite your career by applying to Capgemini.",
-    "logoName": "companyLogos/capgemini.png",
+    "logoName": "companyLogos/Capgemini.png",
     "Dag": 13
   },
   {
@@ -142,6 +142,12 @@
     "description": "In a world where all devices are intelligent and networked, HMS is the leader in making industrial devices and systems communicate - for a more productive and sustainable world.",
     "logoName": "companyLogos/hms.png",
     "Dag": 12
+  },
+  {
+    "company": "IAESTE Lund",
+    "description": "IAESTE is your ticket out into the world! With our global network, we send thousands of students every year on the adventure of a life time by connecting them with the companies we collaborate with. So no matter if you want to make 3D blueprints in Switzerland or work for an architectural firm in Turkey - visit us at Teknikfokus or online at iaeste.se",
+    "logoName": "companyLogos/IAESTE.jpg",
+    "Dag": 13
   },
   {
     "company": "InfraSight Labs",
@@ -230,13 +236,25 @@
   {
     "company": "ONE Nordic AB",
     "description": "ONE Nordic är en av Sveriges ledande leverantörer av tekniska konsulttjänster, entreprenader och service inom energi- och industrisektorn. \nMed vår rikstäckande organisation och lokala kännedom tar vi ansvar för och levererar högklassiga tjänster och lösningar till energiproducenter, distributörer och energianvändare. Vi har marknadens bästa kompetens för att utveckla, bygga, modernisera, optimera och underhålla kundernas anläggningar. Vi arbetar bland annat med de största aktörerna i branschen och tillsammans utvecklar vi högteknologiska och hållbara energisystem. ONE Nordic har cirka 1000 medarbetare och huvudkontoret ligger i Malmö.",
-    "logoName": "companyLogos/nordic.png",
+    "logoName": "companyLogos/one.png",
     "Dag": 12
   },
   {
     "company": "Qlik",
     "description": "Qlik helps enterprises around the world move faster, work smarter, and lead the way forward with an end-to-end solution for getting value out of data. Our platform is the only one on the market that allows for open-ended, curiosity-driven exploration, giving everyone – at any skill level – the ability to make real discoveries that lead to real outcomes and transformative changes. We are a Values-Driven organization, operating over 100 countries with 45,000 customers around the world.",
     "logoName": "companyLogos/Qlik.jpg",
+    "Dag": 12
+  },
+  {
+    "company": "Scientific EdTech AB",
+    "description": "Scientific EdTech is developing the optimal digital learning tool for teaching basic math to 7-9 year old children across the world. Our solution helps children find the fun in math, using easy and effective tools. Our short-term goal is to help children succeed in math so they can live better lives. Our long-term goal is to increase the countries’ PISA scores and GDP by providing solid education.",
+    "logoName": "companyLogos/Scientific.png",
+    "Dag": 13
+  },
+  {
+    "company": "Sectra",
+    "description": "At Sectra we want to use our passion for technology to contribute to a better world. Sectra develops and sells IT systems and products for imaging management within healthcare. More than 1,800 hospitals worldwide use Sectra’s systems daily. We also have core expertise in encryption technology. Sectra was founded in 1978 and has its roots in Linköping University in Sweden.",
+    "logoName": "companyLogos/Sectra.png",
     "Dag": 12
   },
   {
@@ -268,6 +286,12 @@
     "description": "We are a consultancy company that is excellent at developing solutions with software and developing people and businesses. We’ve been doing this since 1996. Today we are one of the leading companies in Scandinavia within Lean & Agile. Softhouse is a privately-owned Swedish company, that shown growth and profitability every year.",
     "logoName": "companyLogos/Softhouse.jpg",
     "Dag": 12
+  },
+  {
+    "company": "Soreco AB",
+    "description": "Soreco is all about Social and Regulatory Compliance. We are a startup company that is developing a groudbreaking tool for product compliance. All sold consumer products must fullfil the latest set of reguatory rules and regulatons, such as environmental, safety, radio etc. This is were our tool www.regmat.com is making diffrence, we are helping great companies being good. We are looking for people with C+ and SQL database knowledge.",
+    "logoName": "companyLogos/Soreco.png",
+    "Dag": 13
   },
   {
     "company": "Storytel",
