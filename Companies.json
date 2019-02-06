@@ -21,7 +21,7 @@
     "company": "Accenture",
     "description": "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology, security and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – we work at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 469,000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives.",
     "logoName": "companyLogos/Accenture.png",
-    "Dag": 13
+    "Dag": 12
   },
   {
     "company": "Acconeer",
@@ -56,7 +56,7 @@
   {
     "company": "ARM",
     "description": "Arm is the world’s leading designer of key technologies that are\nused in semiconductor computer chips. We design the processors\nused in 95% of the world’s smartphones sold each year; and our\ntechnology can also be found in many other devices from digital\nTVs to automotive systems to smart sensors and to the data\ncenters that run the cloud. Our technology is everywhere.\nArm was acquired by SoftBank Group Corp. (SBG) in September\n2016, and is now a fully owned subsidiary of SBG. Arm’s\noperations are independent from the rest of SBG, although Arm\nnow works closely with other SBG companies. Arm also provides\ninsight into technologies used by SBG.",
-    "logoName": "companyLogos/arm.png",
+    "logoName": "companyLogos/none.png",
     "Dag": 12
   },
   {
@@ -74,29 +74,29 @@
   {
     "company": "Bosch",
     "description": "The Lund office is a development site working on software solutions for connecting Bosch devices to the internet in a secure way. Main focus is automotive devices to connect vehicles, but also on CE-devices like the next generation eBike-computer.",
-    "logoName": "companyLogos/bosch.png",
+    "logoName": "companyLogos/none.png",
     "Dag": 12
   },
   {
     "company": "Capgemini",
     "description": "Capgemini is a world leading IT & Management Consultancy. We have some of the largest companies in the world as our clients and are located in all major cities in Sweden. We are interested in finding students that are interested in Technology and want to be a part of our graduate program. Ignite your career by applying to Capgemini.",
-    "logoName": "companyLogos/Capgemini.png",
+    "logoName": "companyLogos/capgemini.png",
     "Dag": 13
   },
   {
-    "company": "CellaVision AB",
+    "company": "CellaVision",
     "description": "At CellaVision we work with state-of-the-art methods in image analysis, artificial intelligence and automated microscopy. We´re an innovative, global medical technology company that develop its own leading systems for routine analysis of blood and other body fluids in healthcare services. Our products rationalize manual laboratory work, and secure and support effective workflows and skills development within and between hospitals. While our analyzers are used in labs all over the world, all innovation & engineering takes place at CellaVision headquarters in Lund. Join our business and take part in leading technical development that creates value in the healthcare services!",
     "logoName": "companyLogos/CellaVision.png",
     "Dag": 13
   },
   {
-    "company": "Combain Mobile AB",
+    "company": "Combain Mobile",
     "description": "Combain is providing cloud-services for connected devices. We provides solutions for indoor and outdoor tracking of IoT devices, targets and personnel. Accurate indoor positioning requires machine learning and deep learning algorithms. Apps and cloud-services requires full stack web developers.",
     "logoName": "companyLogos/Combian.png",
     "Dag": 13
   },
   {
-    "company": "Consid AB",
+    "company": "Consid",
     "description": "We are one of Sweden's fastest growing companies which provides consulting services within IT, management and digital marketing. Our mission is to ensure that our clients becomes the best in the world at what they do by taking advantage of the digital world possibilities. We do it with technology that enabled that dictatorships fall, societies change and human development - with Swedish heart and global ambitions. \n\nOur mission is to ensure that our customers becomes the best in the world at what they do by taking advantage of the digital world's possibilities. We want to help our customers to become better, more efficient and more successful. With the help of the digital world's opportunities that continues to expand at an increasing pace, this is possible. And to ensure our customers get better, more efficient and more successful with our help - it's our favourite thing to do.\n\nConsid has offices in 17 locations in Sweden and we are just over 700 ”Considare”. Our offices in Skåne are located in Malmö and Helsingborg.\n\nYou can check out our vacancies and read more about us by visiting our website www.consid.se",
     "logoName": "companyLogos/consid.png",
     "Dag": 12
@@ -114,9 +114,9 @@
     "Dag": 12
   },
   {
-    "company": "Dirac Research AB",
+    "company": "Dirac Research",
     "description": "Dirac specializes in digital sound optimization solutions with the mission to invent the future of sound. Whether you’re listening to music in your car or home, relaxing with headphones or using your mobile device as a makeshift boombox, audio quality can make or break the experience. Our digital audio solutions fundamentally improve sound quality across all devices for a pristine, dynamic and immersive listening experience.",
-    "logoName": "companyLogos/DiracResearch.png",
+    "logoName": "companyLogog/DiracResearch.png",
     "Dag": 12
   },
   {
@@ -126,13 +126,13 @@
     "Dag": 12
   },
   {
-    "company": "Grade AB",
+    "company": "Grade",
     "description": "Grade – Creating Employee Engagement\n \nAt Grade in Lund, we have since 1995 been developing one of the Nordics leading employee engagement software products.\n\nOur software not only measures the amount of employee engagement within companies and organizations, it also provides a great deal of solutions and counter measures, for dealing with these issues.\n\nThrough our user-friendly software, the user can manage employee’s personal development, digital learning, feedback, appraisals, goals, competence and career paths.",
     "logoName": "companyLogos/Grade.png",
     "Dag": 12
   },
   {
-    "company": "HemoCue AB",
+    "company": "HemoCue",
     "description": "HemoCue is a global leader in a field of diagnostics known as near patient, or point-of-care, testing. In 1982, HemoCue AB, based in Ängelholm, Sweden, introduced the first system making accurate hemoglobin testing possible in near-patient settings. Since then, more than 400,000 HemoCue systems have been sold worldwide. The company also offers point-of-care tests for glucose, urine albumin, HbA1c, total and differential white blood cell count. HemoCue subsidiaries, franchises, and third-party distributors generate revenue in more than 130 countries worldwide. Since April 2013 HemoCue is part of the Radiometer Group. Additional company information is available at hemocue.com.",
     "logoName": "companyLogos/hemocue.png",
     "Dag": 13
@@ -146,7 +146,7 @@
   {
     "company": "IAESTE Lund",
     "description": "IAESTE is your ticket out into the world! With our global network, we send thousands of students every year on the adventure of a life time by connecting them with the companies we collaborate with. So no matter if you want to make 3D blueprints in Switzerland or work for an architectural firm in Turkey - visit us at Teknikfokus or online at iaeste.se",
-    "logoName": "companyLogos/IAESTE.jpg",
+    "logoName": "companyLogos/IAESTE.png",
     "Dag": 13
   },
   {
@@ -168,7 +168,7 @@
     "Dag": 12
   },
   {
-    "company": "Knightec AB",
+    "company": "Knightec",
     "description": "Knightec is a consultancy specialising in technology, quality and project management for product development, systems and production. Among our customers you find many of Sweden's largest industrial companies within automotive, Life science, security, packaging and industry. \n\nKnightec creates a better future via development of people and technology, driven by the belief that a diversified team is the key to success. Right now Knightec consists of more than 30 nationalities and a third of our employees are women. Knightec's ambition is to further increase this diversity. We believe in daring to be the best, exceeding expectations and showing consideration for colleagues and customers.",
     "logoName": "companyLogos/KNIGHTEC.jpg",
     "Dag": 13
@@ -204,7 +204,7 @@
     "Dag": 12
   },
   {
-    "company": "Neodev AB",
+    "company": "Neodev",
     "description": "Neodev AB is a Swedish consulting firm operating in the Öresund region. Our main expertise is software engineering with business areas: artificial intelligence, web, embedded, mobile applications and test automation. We offer solutions from prototyping to implementation, as well as initial guidance and advise on how you can best use machine learning to make your product more efficient and competitive for the future. For more information, visit www.neodev.se or contact us at info@neodev.se.",
     "logoName": "companyLogos/Neodev.png",
     "Dag": 12
@@ -216,7 +216,7 @@
     "Dag": 12
   },
   {
-    "company": "Netlight Consulting AB",
+    "company": "Netlight Consulting",
     "description": "Digitalization is about the people. Netlight offers a unique community and career development in an international setting. Our flat organization is characterized by high engagement along with company wide cooperation. As a top-ranked IT and Management consultancy company, we work with some of the most significant companies within the forefront of digitalization, employing more than 1000 people. We have several times received awards as a top employer, as well as for our growth, continued profitability and our engagement for equality within the IT industry.",
     "logoName": "companyLogos/Netlight.png",
     "Dag": 12
@@ -234,9 +234,9 @@
     "Dag": 13
   },
   {
-    "company": "ONE Nordic AB",
+    "company": "ONE Nordic",
     "description": "ONE Nordic är en av Sveriges ledande leverantörer av tekniska konsulttjänster, entreprenader och service inom energi- och industrisektorn. \nMed vår rikstäckande organisation och lokala kännedom tar vi ansvar för och levererar högklassiga tjänster och lösningar till energiproducenter, distributörer och energianvändare. Vi har marknadens bästa kompetens för att utveckla, bygga, modernisera, optimera och underhålla kundernas anläggningar. Vi arbetar bland annat med de största aktörerna i branschen och tillsammans utvecklar vi högteknologiska och hållbara energisystem. ONE Nordic har cirka 1000 medarbetare och huvudkontoret ligger i Malmö.",
-    "logoName": "companyLogos/one.png",
+    "logoName": "companyLogos/none.png",
     "Dag": 12
   },
   {
@@ -246,7 +246,7 @@
     "Dag": 12
   },
   {
-    "company": "Scientific EdTech AB",
+    "company": "Scientific EdTech",
     "description": "Scientific EdTech is developing the optimal digital learning tool for teaching basic math to 7-9 year old children across the world. Our solution helps children find the fun in math, using easy and effective tools. Our short-term goal is to help children succeed in math so they can live better lives. Our long-term goal is to increase the countries’ PISA scores and GDP by providing solid education.",
     "logoName": "companyLogos/Scientific.png",
     "Dag": 13
@@ -288,7 +288,7 @@
     "Dag": 12
   },
   {
-    "company": "Soreco AB",
+    "company": "Soreco",
     "description": "Soreco is all about Social and Regulatory Compliance. We are a startup company that is developing a groudbreaking tool for product compliance. All sold consumer products must fullfil the latest set of reguatory rules and regulatons, such as environmental, safety, radio etc. This is were our tool www.regmat.com is making diffrence, we are helping great companies being good. We are looking for people with C+ and SQL database knowledge.",
     "logoName": "companyLogos/Soreco.png",
     "Dag": 13
@@ -357,6 +357,12 @@
     "company": "Venture Cup",
     "description": "Venture Cup have supported tens of thousands of entrepreneurs and helped nearly 15 000 ideas to blossom since the start in 1998. We are Sweden's no. 1 competition and the competition where ideas become businesses. Each year we arrange two competitions, IDEA and STARTUP. The spring is all about startups in an early phase, and during the fall the competition is all about ideas. By challenging yourself, meet our network and get feedback on the business idea, both the entrepreneur and the business idea develops during the competition process.",
     "logoName": "companyLogos/ventureCup.png",
+    "Dag": 13
+  },
+  {
+    "company": "VentureLab",
+    "description": "VentureLab is the Startup hub of Lund University consisting of three pillars; inspiration, business development and incubation.\nWe want to inspire students towards an alternative career through different activities and events with a focus on startups and innovation.\nBusiness development means that you meet a business developer to help you with a plan, network, and knowledge.\nIn the incubator you get an office space, becomes part of a community with other entrepreneurs determined and facing similar challenges just like you. This is kickstarted by a three month incubator program to really accelerate your journey.\nAll ideas are welcome and remember that we have confidentiality. \nWelcome!",
+    "logoName": "companyLogos/VentureLab.png",
     "Dag": 13
   },
   {
