@@ -56,7 +56,7 @@
   {
     "company": "ARM",
     "description": "Arm is the world’s leading designer of key technologies that are\nused in semiconductor computer chips. We design the processors\nused in 95% of the world’s smartphones sold each year; and our\ntechnology can also be found in many other devices from digital\nTVs to automotive systems to smart sensors and to the data\ncenters that run the cloud. Our technology is everywhere.\nArm was acquired by SoftBank Group Corp. (SBG) in September\n2016, and is now a fully owned subsidiary of SBG. Arm’s\noperations are independent from the rest of SBG, although Arm\nnow works closely with other SBG companies. Arm also provides\ninsight into technologies used by SBG.",
-    "logoName": "companyLogos/none.png",
+    "logoName": "companyLogos/arm.png",
     "Dag": 12
   },
   {
@@ -74,13 +74,13 @@
   {
     "company": "Bosch",
     "description": "The Lund office is a development site working on software solutions for connecting Bosch devices to the internet in a secure way. Main focus is automotive devices to connect vehicles, but also on CE-devices like the next generation eBike-computer.",
-    "logoName": "companyLogos/none.png",
+    "logoName": "companyLogos/bosch.png",
     "Dag": 12
   },
   {
     "company": "Capgemini",
     "description": "Capgemini is a world leading IT & Management Consultancy. We have some of the largest companies in the world as our clients and are located in all major cities in Sweden. We are interested in finding students that are interested in Technology and want to be a part of our graduate program. Ignite your career by applying to Capgemini.",
-    "logoName": "companyLogos/capgemini.png",
+    "logoName": "companyLogos/Capgemini.png",
     "Dag": 13
   },
   {
@@ -116,8 +116,8 @@
   {
     "company": "Dirac Research",
     "description": "Dirac specializes in digital sound optimization solutions with the mission to invent the future of sound. Whether you’re listening to music in your car or home, relaxing with headphones or using your mobile device as a makeshift boombox, audio quality can make or break the experience. Our digital audio solutions fundamentally improve sound quality across all devices for a pristine, dynamic and immersive listening experience.",
-    "logoName": "companyLogog/DiracResearch.png",
-    "Dag": 12
+    "logoName": "companyLogos/DiracResearch.png",
+    "Dag": 13
   },
   {
     "company": "Ericsson",
@@ -146,7 +146,7 @@
   {
     "company": "IAESTE Lund",
     "description": "IAESTE is your ticket out into the world! With our global network, we send thousands of students every year on the adventure of a life time by connecting them with the companies we collaborate with. So no matter if you want to make 3D blueprints in Switzerland or work for an architectural firm in Turkey - visit us at Teknikfokus or online at iaeste.se",
-    "logoName": "companyLogos/IAESTE.png",
+    "logoName": "companyLogos/IAESTE.jpg",
     "Dag": 13
   },
   {
@@ -236,7 +236,7 @@
   {
     "company": "ONE Nordic",
     "description": "ONE Nordic är en av Sveriges ledande leverantörer av tekniska konsulttjänster, entreprenader och service inom energi- och industrisektorn. \nMed vår rikstäckande organisation och lokala kännedom tar vi ansvar för och levererar högklassiga tjänster och lösningar till energiproducenter, distributörer och energianvändare. Vi har marknadens bästa kompetens för att utveckla, bygga, modernisera, optimera och underhålla kundernas anläggningar. Vi arbetar bland annat med de största aktörerna i branschen och tillsammans utvecklar vi högteknologiska och hållbara energisystem. ONE Nordic har cirka 1000 medarbetare och huvudkontoret ligger i Malmö.",
-    "logoName": "companyLogos/none.png",
+    "logoName": "companyLogos/one.png",
     "Dag": 12
   },
   {
