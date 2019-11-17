@@ -24,6 +24,7 @@
     "company": "Accenture",
     "description": "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology, security and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – we work at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 469,000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives.",
     "logoName": "companyLogos/Accenture.png",
+    "Dep": "EE",
     "Dag": 12
   },
   {
@@ -36,30 +37,35 @@
     "company": "Advenica AB",
     "description": "Advenica tillhandahåller expertis, hög assurans och cybersäkerhetslösningar i världsklass för kritisk data-in-motion upp till Top Secret-klassning. Med oss stärker länder,myndigheter och företag informationssäkerheten och digitaliserar ansvarsfullt. Bolaget grundades 1993 och har EU-godkännande på högsta säkerhetsnivå. Våra unika produkter designas, utvecklas och tillverkas i Sverige.",
     "logoName": "companyLogos/advencia.png",
+    "Dep": "CS",
     "Dag": 13
   },
   {
     "company": "ÅF",
     "description": "ÅF is an engineering and design company within the fields of energy, industry, infrastructure and digital solutions. We create sustainable solutions for the next generation through talented people and technology. We are based in Europe and our business and clients are found all over the world.",
     "logoName": "companyLogos/AF.jpg",
+    "Dep": "BME, CS",
     "Dag": 12
   },
   {
     "company": "Airthings",
     "description": "Airthings is an IoT company creating radon and indoor air quality detectors for consumers and professionals. We are headquartered in the heart of Oslo with offices in both Chicago and Quebec and customers in more than 50 countries. At our headquarters, we develop everything from hardware and firmware to mobile apps, cloud services and a dashboard where we visualize the users data. Airthings was recently named one of the fastest growing companies in Europe by the Financial Times.",
     "logoName": "companyLogos/Airthings.png",
+    "Dep": "BME, CS, EE",
     "Dag": 12
   },
   {
     "company": "ALTEN",
     "description": "At ALTEN Sweden we develop and deliver expertise for world-leading companies and have a committed team of engineers and IT consultants. Our customers are found in the Energy, Telecom, Automotive, Life Science, Pharmaceuticals, Defence & Aerospace and other industries and we cover the whole product development cycle. We are a part of the Alten Group and have a workforce of over 28.000 in 20 countries.\n\nWe believe that genuine commitment comes through freedom of choice and the opportunity to have a say in one's own professional development. Our business model offers that opportunity. This freedom of choice enables us to offer our customers the very best consultants, regardless of assignment.",
     "logoName": "companyLogos/alten.png",
+    "Dep": "EE, CS",
     "Dag": 13
   },
   {
     "company": "ARM",
     "description": "Arm is the world’s leading designer of key technologies that are\nused in semiconductor computer chips. We design the processors\nused in 95% of the world’s smartphones sold each year; and our\ntechnology can also be found in many other devices from digital\nTVs to automotive systems to smart sensors and to the data\ncenters that run the cloud. Our technology is everywhere.\nArm was acquired by SoftBank Group Corp. (SBG) in September\n2016, and is now a fully owned subsidiary of SBG. Arm’s\noperations are independent from the rest of SBG, although Arm\nnow works closely with other SBG companies. Arm also provides\ninsight into technologies used by SBG.",
     "logoName": "companyLogos/arm.png",
+    "Dep": "BME, EE",
     "Dag": 12
   },
   {
@@ -78,12 +84,14 @@
     "company": "Bosch",
     "description": "The Lund office is a development site working on software solutions for connecting Bosch devices to the internet in a secure way. Main focus is automotive devices to connect vehicles, but also on CE-devices like the next generation eBike-computer.",
     "logoName": "companyLogos/bosch.png",
+    "Dep": "EE",
     "Dag": 12
   },
   {
     "company": "Capgemini",
     "description": "Capgemini is a world leading IT & Management Consultancy. We have some of the largest companies in the world as our clients and are located in all major cities in Sweden. We are interested in finding students that are interested in Technology and want to be a part of our graduate program. Ignite your career by applying to Capgemini.",
     "logoName": "companyLogos/Capgemini.png",
+    "Dep": "CS",
     "Dag": 13
   },
   {
@@ -96,6 +104,7 @@
     "company": "Combain Mobile",
     "description": "Combain is providing cloud-services for connected devices. We provides solutions for indoor and outdoor tracking of IoT devices, targets and personnel. Accurate indoor positioning requires machine learning and deep learning algorithms. Apps and cloud-services requires full stack web developers.",
     "logoName": "companyLogos/Combian.png",
+    "Dep": "CS, EE",
     "Dag": 13
   },
   {
@@ -120,12 +129,14 @@
     "company": "Dirac Research",
     "description": "Dirac specializes in digital sound optimization solutions with the mission to invent the future of sound. Whether you’re listening to music in your car or home, relaxing with headphones or using your mobile device as a makeshift boombox, audio quality can make or break the experience. Our digital audio solutions fundamentally improve sound quality across all devices for a pristine, dynamic and immersive listening experience.",
     "logoName": "companyLogos/DiracResearch.png",
+    "Dep": "BME",
     "Dag": 13
   },
   {
     "company": "Ericsson",
     "description": "Ericsson is one of the leading providers of Information and Communication Technology (ICT) to service providers, with about 40% of the world’s mobile traffic carried through our networks. We enable the full value of connectivity by creating game-changing technology and services that are easy to use, adopt and scale, making our customers successful in a fully connected world. For more than 140 years, our ideas, technology and people have changed the world: real turning points that have transformed lives, industries and society as a whole.\n\nWant to know more? Come by us and let us tell you how you can make a difference.",
     "logoName": "companyLogos/ericsson.png",
+    "Dep": "CS",
     "Dag": 12
   },
   {
