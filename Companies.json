@@ -52,42 +52,42 @@
     "company": "Airthings",
     "description": "Airthings is an IoT company creating radon and indoor air quality detectors for consumers and professionals. We are headquartered in the heart of Oslo with offices in both Chicago and Quebec and customers in more than 50 countries. At our headquarters, we develop everything from hardware and firmware to mobile apps, cloud services and a dashboard where we visualize the users data. Airthings was recently named one of the fastest growing companies in Europe by the Financial Times.",
     "logoName": "companyLogos/Airthings.png",
-    "Dep": "CS",
+    "Dep": "CS, EE",
     "Dag": 12
   },
   {
     "company": "ALTEN",
     "description": "At ALTEN Sweden we develop and deliver expertise for world-leading companies and have a committed team of engineers and IT consultants. Our customers are found in the Energy, Telecom, Automotive, Life Science, Pharmaceuticals, Defence & Aerospace and other industries and we cover the whole product development cycle. We are a part of the Alten Group and have a workforce of over 28.000 in 20 countries.\n\nWe believe that genuine commitment comes through freedom of choice and the opportunity to have a say in one's own professional development. Our business model offers that opportunity. This freedom of choice enables us to offer our customers the very best consultants, regardless of assignment.",
     "logoName": "companyLogos/alten.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
     "company": "ARM",
     "description": "Arm is the world’s leading designer of key technologies that are\nused in semiconductor computer chips. We design the processors\nused in 95% of the world’s smartphones sold each year; and our\ntechnology can also be found in many other devices from digital\nTVs to automotive systems to smart sensors and to the data\ncenters that run the cloud. Our technology is everywhere.\nArm was acquired by SoftBank Group Corp. (SBG) in September\n2016, and is now a fully owned subsidiary of SBG. Arm’s\noperations are independent from the rest of SBG, although Arm\nnow works closely with other SBG companies. Arm also provides\ninsight into technologies used by SBG.",
     "logoName": "companyLogos/arm.png",
-    "Dep": "CS",
+    "Dep": "EE",
     "Dag": 12
   },
   {
     "company": "Auranest",
     "description": "Auranest was founded 5 years ago to simplify job hunting by letting users easily synchronize their professional profile to many different job listings sites. Today Auranest is one of the most highly acclaimed companies on the JobTech scene, not only focusing on job seekers but as well to be the infrastructure of other JobTech companies. With a growing customer and partner list Auranest is in a unique position to truly create a great tool for job seekers.",
     "logoName": "companyLogos/auranest.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
     "company": "Axis Communications",
     "description": "Axis is the market leader in network video. Several of our successful innovations were initiated by students collaborating with us. We offer a number of student opportunities, such as thesis, summer and part time jobs. We don’t make up problems for you to solve – we give you real ones that can have a huge impact on our future groundbreaking products. Each year we recruit many new graduates straight from school. Together we innovate for a smarter, safer world increasing the security of millions of people worldwide. Come join us!",
     "logoName": "companyLogos/Axis.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
     "company": "Bosch",
     "description": "The Lund office is a development site working on software solutions for connecting Bosch devices to the internet in a secure way. Main focus is automotive devices to connect vehicles, but also on CE-devices like the next generation eBike-computer.",
     "logoName": "companyLogos/bosch.png",
-    "Dep": "CS",
+    "Dep": "EE; BME",
     "Dag": 12
   },
   {
@@ -101,7 +101,7 @@
     "company": "CellaVision",
     "description": "At CellaVision we work with state-of-the-art methods in image analysis, artificial intelligence and automated microscopy. We´re an innovative, global medical technology company that develop its own leading systems for routine analysis of blood and other body fluids in healthcare services. Our products rationalize manual laboratory work, and secure and support effective workflows and skills development within and between hospitals. While our analyzers are used in labs all over the world, all innovation & engineering takes place at CellaVision headquarters in Lund. Join our business and take part in leading technical development that creates value in the healthcare services!",
     "logoName": "companyLogos/CellaVision.png", 
-    "Dep": "CS",
+    "Dep": "BME",
     "Dag": 13
   },
   {
