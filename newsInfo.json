@@ -1,16 +1,13 @@
 [
   {
-    "company": "Academic Solutions AB",
-    "description": "Academic Solutions connect companies/organizations with students. We supply companies with students who are looking for internships, part-time jobs, are going to write their thesis or any other type of assignments linked to the years the students are studying. AcademicSolutions improves the contact between academia and industry by offering a service that can be tailored to suit special needs.",
-    "logoName": "companyLogos/AcademicSolution.png",
-    "Dep": "CS",
-    "Dag": 12
+    "Date": "12th of January",
+    "Container": "New page for TeknikFokus is launched. This page is under 'News' and will present news regarding TeknikFokus 2020",
+    "Time": "11pm"
+    
   },
   {
-    "company": "Academic Work",
-    "description": "Academic Work är Home of the Young Professionals. Vi arbetar med personaluthyrning och rekrytering av akademiker i början av sina karriärer, antingen när de studerar eller upp till fem år efter examen. Det är vår nisch, vårt expertområde och en målgrupp vi tror på. Academic Work finns i sex länder och förmedlar över 16 000 jobb per år. Genom oss kan du få utvecklande och meriterande deltidsjobb, heltidsarbeten, sommarjobb, internship och talangprogram, knyta viktiga kontakter inför framtiden och få en bra start på din karriär.  \nHos oss påbörjar Young Professionals sina karriärer varje dag, varför gör du inte samma sak?",
-    "logoName": "companyLogos/AcademicWork.png",
-    "Dep": "CS, EE, BME",
-    "Dag": 12
+    "Date": "11th of January",
+    "Container": "TeknikFokus has recently received positive feedback regarding the experience",
+    "Time": "12pm"
   }
 ]
