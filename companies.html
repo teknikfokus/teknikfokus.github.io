@@ -17,7 +17,7 @@
 
     </head>
 
-    <body>
+    <body onLoad="printCompanies(true,true,'CS, EE, BME')">
         <div class="jumbotron jumbotron-fluid">
             <div class="container container-fluid">
                 <img src="images/logo_white_on_black.png" class="logo">
@@ -31,7 +31,6 @@
         <!-- <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
           <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
           <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
-
             <ul class="nav navbar-nav" id="right-nav">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Nyheter</a>
@@ -82,7 +81,6 @@
             <hr/>
             <a href="website"></a>
           </div>
-
             -->
 
             <!-- <div class="card">
@@ -105,10 +103,65 @@
               <h3 id="card-header" style="text-align: center;"> Companies</h3>
             </div> -->
 
+              <div class="filter">
+                <h4>Filter</h4>
+                <p>
+                  <h5>Sort by date</h5>
+                12th: <input type="checkbox" id="12th" onclick="filterAlgoritm()">
+                13th: <input type="checkbox" id="13th" onclick="filterAlgoritm()">
+                </p>
 
+                <p>
+                  <h5>Sort by department</h5>
+                  Computer Science <input type="checkbox" id="CS" value="CS" onclick="filterAlgoritm()">
+                  Electrical Engineering <input type="checkbox" id="EE" value="EE" onclick="filterAlgoritm()">
+                  Biomedical Engineering <input type="checkbox" id="BME" value="BME" onclick="filterAlgoritm()">
+
+                </p>
+            <button type="button" onclick="reset()">Clear</button>
+
+
+              </div>
+
+
+                <script>
+
+                function reset(){
+                  document.getElementById('12th').checked = false;
+                  document.getElementById('13th').checked = false;
+                  document.getElementById('CS').checked = false;
+                  document.getElementById('EE').checked = false;
+                  document.getElementById('BME').checked = false;
+                  filterAlgoritm();
+                }
+                   function filterAlgoritm() {
+                document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
+                document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s).
+
+                var a = document.getElementById('12th');
+                var b = document.getElementById('13th');
+
+                var CSR = document.getElementById('CS');
+                var EER  = document.getElementById('EE');
+                var BMER = document.getElementById('BME');
+
+                var checks = new Array();
+
+                if(CSR.checked){
+                  checks.push("CS");
+                }
+                if(EER.checked){
+                  checks.push("EE");
+                }
+                if(BMER.checked){
+                  checks.push("BME");
+                }
+
+                printCompanies(a.checked, b.checked, checks);
+                   }
+                 </script>
 
           <div id="company_info_coming_from_Companies.js"></div>
-
 
         </div><!-- dont touch -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
@@ -117,3 +170,4 @@
         <script src="Companies.js"></script>
     </body>
 </html>
+
