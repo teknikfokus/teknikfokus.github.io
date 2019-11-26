@@ -25,6 +25,7 @@ function printNews() {
   fetch('https://www.teknikfokus.se/newsInfo.json')
   .then(res => res.json())
   .then(compInfo => {
+    compInfo.reverse();
     BASE_DIV.style.textAlign = "left"
     CompanyList_DIV.style.textAlign = "center"
 
