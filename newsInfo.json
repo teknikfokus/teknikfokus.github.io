@@ -1,5 +1,5 @@
 [
-  {
+ {
     "Header": "'News' page has been issued!",
     "Date": "26th of November 2019, 4:22 pm, UTC.",
     "Container": "New page for TeknikFokus is up and running! The page will present news regarding TeknikFokus 2020",
@@ -10,5 +10,11 @@
     "Date": "26th of November 2019, 6:38 pm, UTC.",
     "Container": "Website for companies attending has been updated. Filtering system implemented.",
     "Tags": "TeknikFokus, 2020, News, Company List, Attending"
+  },
+  {
+    "Header": "Revised homepage",
+    "Date": "27th of November 2019, 10:49 am, UTC.",
+    "Container": "New design features implemented.",
+    "Tags": "TeknikFokus, 2020, News, Homepage"
   }
 ]
