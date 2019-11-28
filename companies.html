@@ -133,10 +133,13 @@
 
 
                 <script>
-                function buttonEnable(){
+                function buttonEnable(z1,z2){
+                    if(z1 || z2){
+                      
              document.getElementById("CS").disabled = false;
              document.getElementById("EE").disabled = false;
              document.getElementById("BME").disabled = false;
+                    }
                 }
                     
                 function reset(){
@@ -152,9 +155,10 @@
                    function filterAlgoritm() {
                 document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                 document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s).
-                buttonEnable();
+                
                 var a = document.getElementById('12th');
                 var b = document.getElementById('13th');
+                       buttonEnable(a.checked,b.checked);
 
                 var CSR = document.getElementById('CS');
                 var EER  = document.getElementById('EE');
