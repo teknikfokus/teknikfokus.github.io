@@ -102,7 +102,8 @@
           <!-- <div class="card" id="compact_company_list.js">
               <h3 id="card-header" style="text-align: center;"> Companies</h3>
             </div> -->
-
+            
+            document.getElementById("myBtn").disabled = true;
               <div class="filter">
                 <h4>Filter</h4>
                 <p>
@@ -113,9 +114,16 @@
 
                 <p>
                   <h5>Sort by department</h5>
+                 
                   Computer Science <input type="checkbox" id="CS" value="CS" onclick="filterAlgoritm()">
                   Electrical Engineering <input type="checkbox" id="EE" value="EE" onclick="filterAlgoritm()">
                   Biomedical Engineering <input type="checkbox" id="BME" value="BME" onclick="filterAlgoritm()">
+            
+             document.getElementById("CS").disabled = true;
+             document.getElementById("EE").disabled = true;
+             document.getElementById("BME").disabled = true;
+            
+    
 
                 </p>
             <button type="button" onclick="reset()">Clear</button>
@@ -125,7 +133,12 @@
 
 
                 <script>
-
+                function buttonEnable(){
+             document.getElementById("CS").disabled = false;
+             document.getElementById("EE").disabled = false;
+             document.getElementById("BME").disabled = false;
+                }
+                    
                 function reset(){
                     document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                 document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s)
@@ -139,7 +152,7 @@
                    function filterAlgoritm() {
                 document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                 document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s).
-
+                buttonEnable();
                 var a = document.getElementById('12th');
                 var b = document.getElementById('13th');
 
