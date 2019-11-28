@@ -87,7 +87,7 @@
     "company": "Bosch",
     "description": "The Lund office is a development site working on software solutions for connecting Bosch devices to the internet in a secure way. Main focus is automotive devices to connect vehicles, but also on CE-devices like the next generation eBike-computer.",
     "logoName": "companyLogos/bosch.png",
-    "Dep": "EE; BME",
+    "Dep": "EE, BME",
     "Dag": 12
   },
   {
@@ -129,21 +129,21 @@
     "company": "Danske Bank",
     "description": "Danske Bank is the largest bank in Denmark (founded 1871) and one of the leading financial enterprises in northern Europe. The Markets IT team is responsible for building, integrating and supporting our next generation of trading applications. \nWe support asset classes across our investment banking business, including Fixed Income, Equities and Foreign Exchange. \nWe are a high-performance team delivering Danske Bank's global competitive edge with innovative digital solutions.",
     "logoName": "companyLogos/DanskeBank.png",
-    "Dep": "CS",
+    "Dep": "CS, EE",
     "Dag": 12
   },
   {
     "company": "Dirac Research",
     "description": "Dirac specializes in digital sound optimization solutions with the mission to invent the future of sound. Whether you’re listening to music in your car or home, relaxing with headphones or using your mobile device as a makeshift boombox, audio quality can make or break the experience. Our digital audio solutions fundamentally improve sound quality across all devices for a pristine, dynamic and immersive listening experience.",
     "logoName": "companyLogos/DiracResearch.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
     "company": "Ericsson",
     "description": "Ericsson is one of the leading providers of Information and Communication Technology (ICT) to service providers, with about 40% of the world’s mobile traffic carried through our networks. We enable the full value of connectivity by creating game-changing technology and services that are easy to use, adopt and scale, making our customers successful in a fully connected world. For more than 140 years, our ideas, technology and people have changed the world: real turning points that have transformed lives, industries and society as a whole.\n\nWant to know more? Come by us and let us tell you how you can make a difference.",
     "logoName": "companyLogos/ericsson.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 12
   },
   {
@@ -157,21 +157,21 @@
     "company": "HemoCue",
     "description": "HemoCue is a global leader in a field of diagnostics known as near patient, or point-of-care, testing. In 1982, HemoCue AB, based in Ängelholm, Sweden, introduced the first system making accurate hemoglobin testing possible in near-patient settings. Since then, more than 400,000 HemoCue systems have been sold worldwide. The company also offers point-of-care tests for glucose, urine albumin, HbA1c, total and differential white blood cell count. HemoCue subsidiaries, franchises, and third-party distributors generate revenue in more than 130 countries worldwide. Since April 2013 HemoCue is part of the Radiometer Group. Additional company information is available at hemocue.com.",
     "logoName": "companyLogos/hemocue.png",
-    "Dep": "CS",
+    "Dep": "BME",
     "Dag": 13
   },
   {
     "company": "HMS",
     "description": "In a world where all devices are intelligent and networked, HMS is the leader in making industrial devices and systems communicate - for a more productive and sustainable world.",
     "logoName": "companyLogos/hms.png",
-    "Dep": "CS",
+    "Dep": "CS, EE",
     "Dag": 12
   },
   {
     "company": "IAESTE Lund",
     "description": "IAESTE is your ticket out into the world! With our global network, we send thousands of students every year on the adventure of a life time by connecting them with the companies we collaborate with. So no matter if you want to make 3D blueprints in Switzerland or work for an architectural firm in Turkey - visit us at Teknikfokus or online at iaeste.se",
     "logoName": "companyLogos/IAESTE.jpg",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
@@ -185,7 +185,7 @@
     "company": "Ingenjörer utan gränser Lund",
     "description": "Ingenjörer utan gränser är en ideell nationell organisation med syftet att använda sin ingenjörskonst för att skapa en bättre framtid. Organisationen består av ett stort antal lokalgrupper som drivs av yrkesverksamma och studenter.\nLokalgruppen i Lund är en studentorganisation med huvudmålet att föra samman studenter, universitet och näringsliv till ett gemensamt forum som bidrar till kunskapsutbyte och uppmärksammar utmaningarna inom hållbarhet och global utveckling. Vi består av åtta utskott som samordnas av en ledningsgrupp.",
     "logoName": "companyLogos/IngenjorerUtanGranser.jpg",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
@@ -199,28 +199,28 @@
     "company": "Knightec",
     "description": "Knightec is a consultancy specialising in technology, quality and project management for product development, systems and production. Among our customers you find many of Sweden's largest industrial companies within automotive, Life science, security, packaging and industry. \n\nKnightec creates a better future via development of people and technology, driven by the belief that a diversified team is the key to success. Right now Knightec consists of more than 30 nationalities and a third of our employees are women. Knightec's ambition is to further increase this diversity. We believe in daring to be the best, exceeding expectations and showing consideration for colleagues and customers.",
     "logoName": "companyLogos/KNIGHTEC.jpg",
-    "Dep": "CS",
+    "Dep": "CS, BME",
     "Dag": 13
   },
   {
     "company": "Knowit",
     "description": "We create a sustainable and humane society through digitization and innovation.\nBy combining strategic capacity with a passion for technology and creative solutions, we create digital opportunities and long-term value.\nOur core values\nWe are decent\nWe are close and available\nWe are passionate about innovation\nKnowit is a consultancy firm that creates unique customer values by offering digital and cross-functional solutions from three business areas: Experience, Insight and Solutions. What sets us apart is our ability to combine expertise in design and communication, management consulting and IT. Knowit has around 2,000 employees.",
     "logoName": "companyLogos/knowit.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 13
   },
   {
     "company": "Lime",
     "description": "At Lime, we love CRM! \n\nSince the beginning we have helped more than 6000 companies to reach better results with the help of easy-to-use CRM solutions that we develop, consult and support ourselves. Today we are over 220 colleagues and one of the largest CRM suppliers in the Nordic countries. We are extremely passionate, and we usually say that the only thing we take seriously is our customers. Still interested? Great! \n\nWe are constantly on the lookout for new and passionate talents with a strong technical interest. Now we are looking for you who wants to be a part of the Nordics sharpest CRM-team and our Nordic Trainee Program with start in January or August every year!",
     "logoName": "companyLogos/Lime.png",
-    "Dep": "CS",
+    "Dep": "CS, EE",
     "Dag": 12
   },
   {
     "company": "Lunds tekniska högskola",
     "description": "Lunds tekniska högskola är en del av Lunds universitet som grundades 1666 och rankas återkommande som ett av världens 100 främsta lärosäten. Här finns 42 000 studenter och 7 400 medarbetare i Lund, Helsingborg och Malmö. \n\nLund är landets mest populära studieort. Universitetet har ett av Skandinaviens bredaste utbildningsutbud baserat på gränsöverskridande och ledande forskning. Den täta universitetsmiljön stimulerar nätverkande som i sin tur bäddar för vetenskapliga genombrott och innovationer. Universitetet har en tydlig internationell profil och har partneruniversitet i mer än 70 länder. \n\nLunds universitet omsätter åtta miljarder, varav två tredjedelar går till forskning.",
     "logoName": "companyLogos/LTH.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 12
   },
   {
@@ -234,7 +234,7 @@
     "company": "Medical Imaging Technologies",
     "description": "Founded in 2009 and proudly headquartered in Lund, Sweden, Medical Imaging Technologies provides complete audiovisual integration for hospitals - connecting interventional labs and operating rooms within the hospital and beyond.\nOur image management technology enables medical professionals to record, share and save video, audio and image sources. With more than 100 installations at 40 hospitals across 12 countries, we are an international group of companies operating in India, the Nordics, United Arab Emirates and United Kingdom.",
     "logoName": "companyLogos/MedicalImagingTech.jpg",
-    "Dep": "CS",
+    "Dep": "EE, BME",
     "Dag": 12
   },
   {
@@ -248,7 +248,7 @@
     "company": "Netcompany",
     "description": "Netcompany delivers business critical IT solutions and consultancy. Due to our incomparable track of record, we keep landing prestigious and complex projects, nationally and internationally. Not only does it mean that our growth has been unstoppable for the last decade, we also have the pleasure of managing projects that makes a difference in both the private and public sector. Due to our career model, Netcompany Academy, all employee’s personal career progress is at high focus, and a responsibility we take very serious. At Netcompany we encourage to have fun. We believe that great collegial bands foster great collaborative skills, thus great solutions and results for our customers.",
     "logoName": "companyLogos/Netcompany.png",
-    "Dep": "CS",
+    "Dep": "CS, EE, BME",
     "Dag": 12
   },
   {
