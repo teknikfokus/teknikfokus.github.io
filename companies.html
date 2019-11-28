@@ -143,12 +143,9 @@
                 
                 var a = document.getElementById('12th');
                 var b = document.getElementById('13th');
-           
-
                 var CSR = document.getElementById('CS');
                 var EER  = document.getElementById('EE');
                 var BMER = document.getElementById('BME');
-
                 var checks = new Array();
 
                 if(CSR.checked){
@@ -160,9 +157,8 @@
                 if(BMER.checked){
                   checks.push("BME");
                 }
-
-                printCompanies(a.checked, b.checked, checks);
-                   }
+              printCompanies(a.checked, b.checked, checks);
+            }
                  </script>
 
           <div id="company_info_coming_from_Companies.js"></div>
