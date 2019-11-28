@@ -116,10 +116,11 @@
                   Computer Science <input type="checkbox" id="CS" value="CS" onclick="filterAlgoritm()">
                   Electrical Engineering <input type="checkbox" id="EE" value="EE" onclick="filterAlgoritm()">
                   Biomedical Engineering <input type="checkbox" id="BME" value="BME" onclick="filterAlgoritm()">
-            
+            <script>
              document.getElementById("CS").disabled = true;
              document.getElementById("EE").disabled = true;
              document.getElementById("BME").disabled = true;
+            </script>
             
     
 
@@ -155,7 +156,7 @@
                 
                 var a = document.getElementById('12th');
                 var b = document.getElementById('13th');
-                       buttonEnable(a.checked,b.checked);
+                buttonEnable(a.checked,b.checked);
 
                 var CSR = document.getElementById('CS');
                 var EER  = document.getElementById('EE');
