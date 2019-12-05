@@ -147,8 +147,11 @@
                 var EER  = document.getElementById('EE');
                 var BMER = document.getElementById('BME');
                 var checks = new Array();
-
-                if(CSR.checked){
+                if(!a.checked && !b.checked){
+                    reset();
+                }
+                       else {
+                            if(CSR.checked){
                   checks.push("CS");
                 }
                 if(EER.checked){
@@ -158,6 +161,7 @@
                   checks.push("BME");
                 }
               printCompanies(a.checked, b.checked, checks);
+                       }
             }
                  </script>
 
