@@ -16,6 +16,40 @@ body {
     font-weight: 300;
 }
 
+/* Nav */
+nav > div > a {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    color: #18b2d6;
+}
+
+.navbar-dark-bg-inverse {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav #right-nav {
+    float: right;
+}
+
+.nav.navbar-nav li a {
+    color: #ffffff;
+}
+
+.nav.navbar-nav li a:hover {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    color: #18b2d6;
+}
+
+.navbar-dark .navbar-toggler:hover {
+    cursor: pointer;
+}
+/* Nav */
+
 .background-tf1 {
     background: #ffffff url(../images/testbackgroundpepe.png) no-repeat center center;
     position: absolute;
@@ -71,42 +105,6 @@ div {
     display: block;
 }
 
-/* Nav */
-nav > div > a {
-    color: #ffffff;
-}
-
-a:hover {
-    text-decoration: none;
-    transition: all .2s ease-in-out;
-    color: #18b2d6;
-}
-
-.navbar-dark-bg-inverse {
-    background: rgba(0, 0, 0, 0.5);
-    height: 8%;
-    position: fixed;
-}
-
-nav #right-nav {
-    float: right;
-}
-
-.nav.navbar-nav li a {
-    color: #ffffff;
-}
-
-.nav.navbar-nav li a:hover {
-    text-decoration: none;
-    transition: all .2s ease-in-out;
-    color: #18b2d6;
-}
-
-.navbar-dark .navbar-toggler:hover {
-    cursor: pointer;
-}
-/* Nav */
-
 /* Carousel */
 .carousel-wrapper {
     position: absolute;
@@ -139,7 +137,16 @@ nav #right-nav {
 }
 /* Carousel */
 
-
+.jumbotron-fluid {
+    background: #ffffff url(../images/backgroundall6.png) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    overflow:auto;
+    background-size: cover;
+}
 
 #body-content {
     min-height: 100vh;
@@ -174,6 +181,15 @@ nav #right-nav {
 #card-text {
     margin: 0em 1em;
     text-align: justify;
+}
+
+.news {
+    text-align: center;
+    font-size: 3em;
+}
+
+.news-info {
+    text-align: center;
 }
 
 @-webkit-keyframes fadeUpIn {
@@ -287,7 +303,14 @@ nav #right-nav {
 }
 
 .img-fluid#pic {
-    width: 100%;
+    width: 45%;
+    /*border-radius: 50%;*/
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+.img-fluid#prof {
     /*border-radius: 50%;*/
     padding: 5px;
     margin: 10px auto;
