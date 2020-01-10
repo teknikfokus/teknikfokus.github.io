@@ -45,9 +45,9 @@ nav #right-nav {
     color: #18b2d6;
 }
 
-.navbar-dark .navbar-toggler:hover {
-    cursor: pointer;
-}
+.navbar-toggler{
+    background-image: url(../images/dropdownbutton.png)!important;
+    }
 /* Nav */
 
 .background-tf1 {
