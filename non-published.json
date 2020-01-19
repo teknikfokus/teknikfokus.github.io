@@ -3,21 +3,21 @@
   {
     "company": "Acconer",
     "description": "sec",
-    "logoName": "Acconer",
+    "logoName": "companyLogos/Acconer.png",
     "Dep": "CS",
     "Dag": "TBD"
   },
   {
     "company": "Capgemini",
     "description": "secs",
-    "logoName": "Capgemini",
+    "logoName": "companyLogos/netcompany.png",
     "Dep": "EE",
     "Dag": 18
   },
   {
     "company": "Netlight Consulting AB",
     "description": "2asdsacg351§2R%242€125",
-    "logoName": "Netlight Consulting AB",
+    "logoName": "companyLogos/AcademicSolution.png",
     "Dep": "BME",
     "Dag": "TBD"
   },
