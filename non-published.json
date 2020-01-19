@@ -1,207 +1,487 @@
+  
 [
   {
-    "company": "",
+    "company": "Acconer",
     "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Capgemini",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Netlight Consulting AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Airthings AS",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Elastic Mobile",
+    "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag":
+    "Dag": 
   },
-  {
-    "company": "",
-    "description":  "",
+    {
+    "company": "IKEA DIGITAL",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Klarna",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Lunicore Student Consulting",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Minut",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "ONE Nordic AB",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Oticon",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Sectra",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Serstech AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Skatteverket",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Xenergic",
+    "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag":
+    "Dag": 
   },
-  {
-    "company": "",
-    "description":  "",
+    {
+    "company": "Krafttag AB",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Smart Refill",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Jayway",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Netville",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Verisure",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Advenica AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Axis Communications",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Ericsson",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Grade",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Lime Technologies AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Siemens AB",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Volvo Car Corporation",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Vårdinnovation Sverige AB",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "AuraNest",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Academic Work",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "ÅF",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Arm",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "CellaVision",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Schneider Electric",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Sentian Al",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Netcompany",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Cygni",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Alten Sverige AB",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "ASSA ABLOY Entrance Systems IDDS AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Beijer Electronics",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Bosch",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Cybercom",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Storytel",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Sveriges Ingenjörer",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Tactel",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Telavox AB",
+    "description": "",
     "logoName": "",
     "Dep": "",
     "Dag": 
   },
   {
-    "company": "",
-    "description":  "",
+    "company": "Tetra Pak",
+    "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag":  
+    "Dag": 
+  },
+    {
+    "company": "u-blox",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+  {
+    "company": "Perigee",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "MCA Sweden",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+  {
+    "company": "Visma",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Qgroup",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+  {
+    "company": "Alteri Care",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Evry",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+  {
+    "company": "Tunstall",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Flexens",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+  {
+    "company": "HMS industrial networks",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Region Skåne",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+  {
+    "company": "Qlik",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+    {
+    "company": "Qoitech",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+     {
+    "company": "Neodev",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+          {
+    "company": "Sigma",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+     {
+    "company": "E.ON",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+          {
+    "company": "Accenture A/S",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+     {
+    "company": "Spectronic Medical",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+          {
+    "company": "Energy Opticon AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+     {
+    "company": "Combitech",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+          {
+    "company": "Doverfs",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
+  },
+     {
+    "company": "Qrtech",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 
   }
-  
-]
-
+ 
+  ]
