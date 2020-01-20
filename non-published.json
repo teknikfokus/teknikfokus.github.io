@@ -15,9 +15,9 @@
   },
   {
     "company": "Netlight Consulting AB",
-    "description": "",
+    "description": "We know that if you want to be on the forefront of digitalisation and IT you have to rely on people. That is why we have an organisation built on trust and responsibility, with a comprehensive personal development program. We offer a unique community and career development in an international environment. Our flat network organization is characterized by high engagement and personal responsibility along with companywide cooperation, where every employee is matched with a personal mentor and career coach. As a top-ranked IT and Management consultancy company, we work with some of the most significant companies within the forefront of digitalization, employing more than 1300 people in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt and Zurich. Several times we have received awards as a top employer, as well as for our growth, continued profitability and our engagement for equality within the IT industry.",
     "logoName": "companyLogos/Netlight.png",
-    "Dep": "",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
     {
@@ -35,31 +35,31 @@
     "Dag": 18
   },
     {
-    "company": "IKEA DIGITAL",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "company": "Ingka group - IKEAL",
+    "description": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
+    "logoName": "companyLogos/ingka",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
   {
     "company": "Klarna",
     "description": "",
-    "logoName": "companyLogos/",
+    "logoName": "companyLogos/klarna",
     "Dep": "",
     "Dag": 18
   },
     {
     "company": "Lunicore Student Consulting",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Lunicore is Lund University's student consulting company. We offer the latest expertise in areas such as sustainability, analytics, IT and communication. With a new perspective, we create value for Skåne's business community. We offer quality part-time jobs for students, 10 hours a week and a steppingstone into working life",
+    "logoName": "companyLogos/Lunicore.png",
+    "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
   {
     "company": "Minut",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "An all-in-one smart home alarm that’s easy-to-install, packed full of sensors and can instantly alert you to different threats in your home.",
+    "logoName": "companyLogos/minut",
+    "Dep": "CS, EE, I&C",
     "Dag": 18
   },
     {
