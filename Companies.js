@@ -1,4 +1,4 @@
-function printCompanies (day18, day19, crit) {
+function printCompanies (day12, day13, crit) {
   var criteria = new Array();
   var saved = new Array();
 
@@ -14,56 +14,56 @@ function printCompanies (day18, day19, crit) {
 
   const CompanyList_DIV = document.getElementById('compact_company_list.js')
 
-    var compact_18 = document.createElement('div')
-    var head18 = document.createElement('h5')
-    head18.innerText = "Date: TBD"
-    head18.style.fontWeight = "bold"
+    var compact_12 = document.createElement('div')
+    var head12 = document.createElement('h5')
+    head12.innerText = "TBD"
+    head12.style.fontWeight = "bold"
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day1'
-    pageLink.appendChild(head18)
-    compact_18.appendChild(pageLink)
+    pageLink.appendChild(head12)
+    compact_12.appendChild(pageLink)
 
-    var P18 = document.createElement('p')
-    compact_18.appendChild(P18)
-    CompanyList_DIV.appendChild(compact_18)
+    var P12 = document.createElement('p')
+    compact_12.appendChild(P12)
+    CompanyList_DIV.appendChild(compact_12)
 
 
-    var compact_19 = document.createElement('div')
-    var head19 = document.createElement('h5')
-    head19.innerText = "Date: TBD"
+    var compact_13 = document.createElement('div')
+    var head13 = document.createElement('h5')
+    head13.innerText = "TBD"
 
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day2'
-    pageLink.appendChild(head19)
-    compact_19.appendChild(pageLink)
-    head19.style.fontWeight = "bold"
-    var P19 = document.createElement('p')
-    compact_19.appendChild(P13)
-    CompanyList_DIV.appendChild(compact_19)
+    pageLink.appendChild(head13)
+    compact_13.appendChild(pageLink)
+    head13.style.fontWeight = "bold"
+    var P13 = document.createElement('p')
+    compact_13.appendChild(P13)
+    CompanyList_DIV.appendChild(compact_13)
 
   const BASE_DIV = document.getElementById('company_info_coming_from_Companies.js')
 
-  if(day18){
-    CompanyCards_18 = document.createElement('div')
+  if(day12){
+    CompanyCards_12 = document.createElement('div')
     var div = document.createElement('div')
     div.id = "Day1"
     div.className = "card"
     var h5Tag = document.createElement('h4')
-    h5Tag.innerText = "Date: TBD"
+    h5Tag.innerText = "TBD"
     div.appendChild(h5Tag)
-    CompanyCards_18.appendChild(div)
-    BASE_DIV.appendChild(CompanyCards_18)
+    CompanyCards_12.appendChild(div)
+    BASE_DIV.appendChild(CompanyCards_12)
   }
-if(day19){
-  CompanyCards_19 = document.createElement('div')
+if(day13){
+  CompanyCards_13 = document.createElement('div')
   var div = document.createElement('div')
   div.id = "Day2"
   div.className = "card"
   var h5Tag = document.createElement('h4')
-  h5Tag.innerText = "Date: TBD"
+  h5Tag.innerText = "TBD"
   div.appendChild(h5Tag)
-  CompanyCards_19.appendChild(div)
-  BASE_DIV.appendChild(CompanyCards_19)
+  CompanyCards_13.appendChild(div)
+  BASE_DIV.appendChild(CompanyCards_13)
 
 }
 
@@ -100,15 +100,22 @@ if(day19){
       div.className = "card"
       //CompanyCards_13.appendChild(div)
 
-      var h5Tag = document.createElement('h4')
+
+	  var h5Tag = document.createElement('h4')
       h5Tag.innerText = compInfo['company']
       div.appendChild(h5Tag)
-
+	  
       var img = document.createElement('img')
       img.className = "img-fluid"
       img.id = "pic"
       img.src = compInfo['logoName']
       div.appendChild(img)
+	  
+
+ var h5Tag = document.createElement('h4')
+      h5Tag.innerText = compInfo['company']
+      div.appendChild(h5Tag)
+	  
 
       pTag = document.createElement('p')
       pTag.innerText = compInfo['description']
@@ -127,12 +134,13 @@ if(day19){
         div.appendChild(p3Tag)
       }
 
+
       date = compInfo["Dag"]
       spacer = document.createElement('span')
 
-      if(isFirstCompany12 && date==12) {
+      if(isFirstCompany12 && date==18) {
         isFirstCompany12 = false
-      } else if(isFirstCompany13 && date==13) {
+      } else if(isFirstCompany13 && date==19) {
         isFirstCompany13 = false
       }
 
@@ -146,15 +154,15 @@ if(day19){
 
       //Adding to cards and compactlist dependning on day.
 
-      if(date == 18 && day18){
-        P18.appendChild(spacer)
-        P18.appendChild(aaa)
-        CompanyCards_18.appendChild(div)
+      if(date == 18 && day12){
+        P12.appendChild(spacer)
+        P12.appendChild(aaa)
+        CompanyCards_12.appendChild(div)
 
-      } else if (date == 19 && day19) {
-         P19.appendChild(spacer)
-         P19.appendChild(aaa)
-         CompanyCards_19.appendChild(div)
+      } else if (date == 19 && day13) {
+         P13.appendChild(spacer)
+         P13.appendChild(aaa)
+         CompanyCards_13.appendChild(div)
       }
   }
       //CompanyList_DIV.appendChild(P)
