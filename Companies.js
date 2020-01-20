@@ -16,7 +16,7 @@ function printCompanies (day12, day13, crit) {
 
     var compact_12 = document.createElement('div')
     var head12 = document.createElement('h5')
-    head12.innerText = "Tuesday 12 February"
+    head12.innerText = "Date: TBD"
     head12.style.fontWeight = "bold"
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day1'
@@ -30,7 +30,7 @@ function printCompanies (day12, day13, crit) {
 
     var compact_13 = document.createElement('div')
     var head13 = document.createElement('h5')
-    head13.innerText = "Wednesday 13 February"
+    head13.innerText = "Date: TBD"
 
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day2'
@@ -49,7 +49,7 @@ function printCompanies (day12, day13, crit) {
     div.id = "Day1"
     div.className = "card"
     var h5Tag = document.createElement('h4')
-    h5Tag.innerText = "~ Tuesday 12 February ~"
+    h5Tag.innerText = "Date: TBD"
     div.appendChild(h5Tag)
     CompanyCards_12.appendChild(div)
     BASE_DIV.appendChild(CompanyCards_12)
@@ -60,7 +60,7 @@ if(day13){
   div.id = "Day2"
   div.className = "card"
   var h5Tag = document.createElement('h4')
-  h5Tag.innerText = "~ Wednesday 13 February ~"
+  h5Tag.innerText = "Date: TBD"
   div.appendChild(h5Tag)
   CompanyCards_13.appendChild(div)
   BASE_DIV.appendChild(CompanyCards_13)
@@ -146,12 +146,12 @@ if(day13){
 
       //Adding to cards and compactlist dependning on day.
 
-      if(date == 12 && day12){
+      if(date == 18 && day12){
         P12.appendChild(spacer)
         P12.appendChild(aaa)
         CompanyCards_12.appendChild(div)
 
-      } else if (date == 13 && day13) {
+      } else if (date == 19 && day13) {
          P13.appendChild(spacer)
          P13.appendChild(aaa)
          CompanyCards_13.appendChild(div)
