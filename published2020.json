@@ -27,13 +27,7 @@
     "Dep": "CS, I&C",
     "Dag": 18
   },
-  {
-    "company": "Klarna",
-    "description": "",
-    "logoName": "companyLogos/klarna",
-    "Dep": "",
-    "Dag": 18
-  },
+  
     {
     "company": "Lunicore Student Consulting",
     "description": "Lunicore is Lund University's student consulting company. We offer the latest expertise in areas such as sustainability, analytics, IT and communication. With a new perspective, we create value for Skåne's business community. We offer quality part-time jobs for students, 10 hours a week and a steppingstone into working life",
@@ -247,13 +241,6 @@
     "description": "Storytel is Northern Europe's largest audiobook and ebook subscription service, and we aspire to be a global market leader in storytelling. We believe in stories, and we aim to be the obvious choice for all audiobook lovers. Storytel offers a friendly, entrepreneurial and fast-moving work environment where new ideas and creativity is welcomed. We like doing things in new ways and questioning old methods. The Storytel culture - characterized by being welcoming and helpful - is important to us. We don’t believe in hierarchy and micromanagement, we highly believe in giving responsibility and having people grow alongside it. And we always find time for “fika” (the Swedish concept of sitting down and having a cup of coffee together).",
     "logoName": "companyLogos/Storytel.png",
     "Dep": "CS, I&C",
-    "Dag": 18
-  },
-    {
-    "company": "Sveriges Ingenjörer",
-    "description": "",
-    "logoName": "companyLogos/SvergiesIngenjorer.png",
-    "Dep": "",
     "Dag": 18
   },
   {
