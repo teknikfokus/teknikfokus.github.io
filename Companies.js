@@ -71,7 +71,7 @@ if(day13){
   let isFirstCompany13 = true;
 
 
-  fetch('https://www.teknikfokus.se/published2020.json')
+  fetch('https://www.teknikfokus.se/non-published.json')
   .then(res => res.json())
   .then(compInfo => {
     //const faqs = JSON_FILE
