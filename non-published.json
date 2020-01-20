@@ -19,5 +19,467 @@
     "logoName": "companyLogos/Netlight.png",
     "Dep": "CS, I&C",
     "Dag": 18
+  },
+    {
+    "company": "Airthings AS",
+    "description": "",
+    "logoName": "companyLogos/Airthings.png",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Elastic Mobile",
+    "description": "",
+    "logoName": "companyLogos/",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Ingka group - IKEAL",
+    "description": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
+    "logoName": "companyLogos/ingka",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Klarna",
+    "description": "",
+    "logoName": "companyLogos/klarna",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Lunicore Student Consulting",
+    "description": "Lunicore is Lund University's student consulting company. We offer the latest expertise in areas such as sustainability, analytics, IT and communication. With a new perspective, we create value for Skåne's business community. We offer quality part-time jobs for students, 10 hours a week and a steppingstone into working life",
+    "logoName": "companyLogos/Lunicore.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Minut",
+    "description": "An all-in-one smart home alarm that’s easy-to-install, packed full of sensors and can instantly alert you to different threats in your home.",
+    "logoName": "companyLogos/minut",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "ONE Nordic AB",
+    "description": "ONE Nordic is the leading supplier of technical services, maintenance services and contracting services in the energy and manufacturing industry in Sweden .With our nationwide organization and local knowledge, we take responsibility for and deliver high-quality services and solutions to energy producers, distributors and energy users.",
+    "logoName": "companyLogos/ONE.png",
+    "Dep": "EE",
+    "Dag": 18
+  },
+  {
+    "company": "Oticon",
+    "description": "",
+    "logoName": "companyLogos/",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Sectra",
+    "description": "Sectra’s work enables hospitals across the world to become more effective and thus take care of more patients and save more lives. Through our solutions, Sectra also provides greater security for society’s most critical communication and IT systems, which contributes to a more stable and secure society. ",
+    "logoName": "companyLogos/Sectra.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Serstech AB",
+    "description": "",
+    "logoName": "companyLogos/",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Skatteverket",
+    "description": "At the Swedish Tax Agency, several departments work with IT. Our IT department has more than 1000 coworkers. We are developers, analysts, test engineers, specialists, product owners and scrum masters . We make our society work! Our assignments cover development, operation, management and maintenance of IT systems. We offer open positions and degree projects. Feel welcome to apply to our open positions at https://skatteverket.se/ledigajobb. We look forward to meet you at Teknikfokus!",
+    "logoName": "companyLogos/",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Xenergic",
+    "description": "",
+    "logoName": "companyLogos/xenergic.png",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Krafttag AB",
+    "description": "Krafttag AB is an engineering company which have specialized in power stations for heavy industries, substations and power grids. Today we also work with local distribution nets with inspections, cable terminations, testing and commissioning of switchgears for our clients. We pride ourselves in hiring people with diverse education and experience levels. By combining young mindsets with the newest knowledge from the academia with older foxes with tons of wisdom and work experience, we believe great results can be achieved.",
+    "logoName": "companyLogos/",
+    "Dep": "EE",
+    "Dag": 18
+  },
+  {
+    "company": "Smart Refill",
+    "description": "Smart Refill provides platforms and engaging apps for the fintech and telecom sectors. The mobile banks, fund apps and prepaid apps we develop simplify the everyday life of the users and boost the businesses of our customers - Handelsbanken, Resurs Bank, Telia Company and Telenor are some examples. Our PCI DSS compliant environment handles hundreds of millions of SEK in payments every year and we are an E-money Institution/Payment Institution under supervision of Finansinspektionen. We are really proud of our product, culture and the inclusive atmosphere at our office in central Helsingborg.   Did you know: Smart Refill develops Handelsbanken’s award-winning banking app for children. We are a global provider to Telia Company with apps in Sweden, Norway, Denmark, Finland and Lithuania. With the EU’s PSD2 and Open Banking, more smart fintech solutions are on the way. Exciting times are ahead of us!",
+    "logoName": "companyLogos/SmartRefill.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Jayway",
+    "description": "Today we are a leading creative tech company based in Scandinavia, providing innovative tech solutions to an international client base. We deliver world class design and software development services to local and global enterprises; creating ground-breaking new value propositions and improving business efficiency. We combine creativity and technology to swiftly transform ideas into remarkable experiences — we do #techforpeople. Founded in 2000, our company is now a place of 250 skilled creative developers and tech edgy designers; we call ourselves creative technologists. We have offices in Malmö, Copenhagen, Halmstad, Stockholm and in Silicon Valley.",
+    "logoName": "companyLogos/Jayway.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Netville",
+    "description": "",
+    "logoName": "companyLogos/",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Verisure",
+    "description": "Verisure Innovation is one of Sweden’s top R&D Centers in the connected smart home market. This is where we create and develop services and products for home security and home automation. We are specialists in home safety and customer integrity issues and have amassed a wealth of experience and expertise over more than 30 years. We do most things in-house to guarantee premium quality every step of the way. ",
+    "logoName": "companyLogos/verisure.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Advenica AB",
+    "description": "Advenica is a leading European provider of cybersecurity. Advenica offers advanced cybersecurity solutions and services for business-driven information exchange, secure digitalisation and high assurance. For more than 20 years Advenica has enabled organisations and companies to take digital responsibility by providing future-proof, sustainable solutions. ",
+    "logoName": "companyLogos/advencia.png",
+    "Dep": "CS, EE; I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Axis Communications",
+    "description": "Constantly breaking new ground! Axis is the market leader in network video with R&D offices in Lund and Linköping.  We have many master thesis opportunities, and all of them are an important part of Axis' product development and research. We also offer summer jobs and part time opportunities. For this summer we are looking for 150 summer workers! We don’t make up projects for you to solve, we give you real ones which have a great impact on our solutions and products. Several of Axis' successful products was initiated by students.  Together we innovate for a smarter and safer world. ",
+    "logoName": "companyLogos/Axis.png",
+    "Dep": "CS; EE, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Ericsson",
+    "description": "Ericsson is one of the leading providers of Information and Communication Technology (ICT) to service providers, with about 40% of the world’s mobile traffic carried through our networks. We enable the full value of connectivity by creating game-changing technology and services that are easy to use, adopt and scale, making our customers successful in a fully connected world. For more than 140 years, our ideas, technology and people have changed the world: real turning points that have transformed lives, industries and society as a whole.",
+    "logoName": "companyLogos/ericsson.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Grade",
+    "description": "Engagerade medarbetare med rätt kompetens är den viktigaste resursen ett företag eller organisation har. Vårt mål är att hjälpa våra kunder att engagera, utveckla och behålla rätt medarbetare. Vi erbjuder ett användarvänligt och intuitivt Talent Management System (TMS) och Learning Management System (LMS) tillsammans med skräddarsydda e-Learnings – för företag och organisationer i alla storlekar. Med vår plattform kan våra kunder på ett enkelt sätt mäta och höja medarbetares engagemang och kompetens.",
+    "logoName": "companyLogos/Grade.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Lime Technologies AB",
+    "description": "At Lime, we love CRM! Since the beginning we have helped more than 6000 companies to reach better results with the help of easy-to-use CRM solutions that we develop, consult and support ourselves. Today we are over 270 colleagues and one of the largest CRM suppliers in the Nordic countries with offices in Gothenburg, Stockholm, Lund, Helsinki, Oslo and Copenhagen. Are you into coding and want to be a developer? Or be a tech account manager helping companies understand how Lime can grow their business? Maybe you are our next project manager or application consultant that deliver our solutions? With our Nordic Trainee Program, we promise a unique opportunity to kick-start your career. With a solid training program as a base together with challenging projects and a senior mentor, we guarantee that you will have a steep progress line. Quite simply, a brilliant start to your career! Welcome to apply to our trainee program with start in January or August every year. We like to have ridiculously fun at work and are convinced that it is one of Lime’s success factors. We usually say that the only thing we take seriously is our customers... What kind of workplace would you like to have?"
+    "logoName": "companyLogos/Lime.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Siemens AB",
+    "description": "Creating environments that care. Making real what matters: Humans care. We want an urban, sustainable, livable world that optimally combines real and digital solutions. We address infrastructure challenges, contributing to sustainable development and creating the best possible environments in which to live and work. At Siemens Smart Infrastructure, we intelligently connect energy systems, buildings and industries to adapt and evolve the way we live and work. We create an ecosystem that intuitively responds to the needs of people and helps us to better use resources. It helps our customers to thrive and communities to progress.",
+    "logoName": "companyLogos/Siemens.jpg",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Volvo Cars Corporation",
+    "description": "Volvo Cars is a company on a mission; to bring traditional car manufacturing into a connected, sustainable and smart future. We are a brand known for our commitment to safety, creating innovative cars that make life less complicated for people. We are looking for innovative, committed people to create safe, sustainable and connected cars. Join us and be part of Volvo Cars’ journey into the future!",
+    "logoName": "companyLogos/volvo.png",
+    "Dep": "CS, EE",
+    "Dag": 18
+  },
+    {
+    "company": "Vårdinnovation Sverige AB",
+    "description": "Vårdinnovation bildades av vårdpersonal för att utveckla och förbättra vården genom innovativa digitala hjälpmedel. Vårt medicinska utvecklingsteam skapar de digitala lösningarna utifrån vetenskaplig evidens, i nära samarbete med specialister inom statistik och artificiell intelligens. Vårt implementationsteam arbetar tvärprofessionellt med förändringsledning och införande ute i den kliniska verksamheten. Tillsammans ändrar vi förutsättningarna för vården att möta alla dess utmaningar!",
+    "logoName": "companyLogos/Vårdinnovation.png",
+    "Dep": "CS, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "AuraNest",
+    "description": "Auranest empowers individuals in the future of work. We are changing the focus of the labor market from the needs of the companies to the needs of the individual. By using the latest technology within jobtech, we can digitize processes and visualize data that make the individual's path to their dream career as smooth as possible.",
+    "logoName": "companyLogos/auranest.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Academic Work",
+    "description": "Academic Work is the home of the young professionals. We offer jobs to students and academics in the beginning of their careers (0-5 years experience). That is our niche, our area of expertise and the target group we believe in. Academic Work operates in six countries and mediates over 16 000 jobs on a yearly basis. We offer qualified jobs within multiple business areas and the opportunity to form business relationships relevant for the future.",
+    "logoName": "companyLogos/AcademicWork.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "ÅF",
+    "description": "",
+    "logoName": "companyLogos/AF.jpg",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Arm",
+    "description": "Arm technology is at the heart of a computing and connectivity revolution that is transforming the way people live and businesses operate. Our advanced, energy-efficient processor designs have enabled intelligent computing in more than 150 billion chips and our technologies now securely power products from the sensor to the smartphone and the supercomputer. In combination with our IoT device, connectivity and data management platform, we are also enabling customers with powerful and actionable business insights that are generating new value from their connected devices and data. Together with 1,000+ technology partners we are at the forefront of designing, securing and managing all areas of compute from the chip to the cloud.",
+    "logoName": "companyLogos/arm.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "CellaVision",
+    "description": "CellaVision is the world-leading provider of digital solutions for medical microscopy in the field of hematology. We help hematology laboratories around the world improve and transform the process of analyzing blood and other body fluids. By introducing innovative automation, digital imaging, and artificial neural network technology, CellaVision makes the analysis process faster, better and more flexible to create a streamlined workflow for the laboratory and improving quality of care for healthcare patients. All product development and manufacturing is overseen from our global HQ in Lund.",
+    "logoName": "companyLogos/CellaVision.png",
+    "Dep": "CS, EE, BME",
+    "Dag": 18
+  },
+    {
+    "company": "Schneider Electric",
+    "description": "We provide energy and automation digital solutions for efficiency and sustainability. We combine world-leading energy technologies, real-time automation, software and services into integrated solutions for homes, buildings, data centers, infrastructure and industries. We make process and energy safe and reliable, efficient and sustainable, open and connected.",
+    "logoName": "companyLogos/schneider.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Sentian Al",
+    "description": "Sentian is a fast growing start-up that works with Data Science and AI and their applications in intelligent solutions for Industry 4.0. We love building solutions to solve previously unsolvable problems. In these problems, fields of mathematics, statistics, programming, computer science, and others are combined, which offers a rich and exciting environment to work in. We are based in Malmö, and we are looking to hire a number of people to fill-in the great demand for services in these areas.",
+    "logoName": "companyLogos/SentianAI2.png",
+    "Dep": "CS, EE",
+    "Dag": 18
+  },
+  {
+    "company": "Netcompany",
+    "description": "Netcompany accelerates digital transformation in public and private enterprises in Denmark and Northern Europe. We deliver business-critical IT solutions to support sustainable societies, successful and competitive businesses, and better lives for all of us.",
+    "logoName": "companyLogos/Netcompany.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Cygni",
+    "description": "Vi är Sveriges Bästa Arbetsgivare, självklart har vi också de bästa IT-konsulterna! Cygnis konsulter är fullstacksutvecklare, frontendare, mobilutvecklare, UX-designers, Digitala Designers, projektledare osv. Alla kompetenser som krävs för att kunna hjälpa våra kunder med att bygga de bästa digitala lösningarna. Ett konsultbolag kan antingen nischa sig inom en viss bransch eller inom ett visst teknikområde. Vi har valt det senare; oavsett bransch kan vi delta i utvecklingen av våra kunders digitala system. Många av våra kunder upplever också en fördel i att konsulterna har erfarenhet från andra branscher än den kunden själv verkar i. På vår kundlista återfinns företag och organisationer inom ett flertal branscher såsom media, finans, telekom, spel och retail. De flesta är ledande i sin bransch men vi jobbar även med mindre företag och organisationer. Idag finns vi i Stockholm, Göteborg, Malmö, Linköping, Luleå och Östersund. Många av våra uppdrag utför vi på plats hos våra kunder men vi har också projekt på våra kontor och som helhetsåtaganden ute hos våra kunder. Våra kontor fungerar som naturliga samlingsplatser för konsultmöten, afterworks och andra aktiviteter.",
+    "logoName": "companyLogos/cygni.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Alten Sverige AB",
+    "description": "Every employee is equally valuable in the success of ALTEN! We are driven by making people grow and develop, which is why we offer you the opportunity to work with what you are truly passionate about. At ALTEN, we have a broad range of assignments at most of the leading companies in Sweden in several different sectors, to make it possible for your wishes to come true. We offer both national and international opportunities and together with your coaching manager, you build your career path so you constantly are able to develop and achieve your goals and dreams! As a consultant at ALTEN, you will get the genuine team feeling at your assignment but also a wonderful togetherness at ALTEN. Through our different internal networks, such as ALTEN Sports, Women@ALTEN and ALTEN Innovation you will get the opportunity to drive topics and activities that are close to your heart, together with your colleagues. All activities are of course optional. Work life balance is our top priority. We also have a collective agreement and other benefits like Pension, Insurances and Wellness grants. We believe in growing together.",
+    "logoName": "companyLogos/alten.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "ASSA ABLOY Entrance Systems IDDS AB",
+    "description": "The ASSA ABLOY Group provides opening solutions, trusted identities, entrance automation and service for institutional and commercial customers, as well as for the residential market.",
+    "logoName": "companyLogos/assa.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Beijer Electronics",
+    "description": "",
+    "logoName": "companyLogos/beijer.png",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Bosch",
+    "description": "The Bosch office in Lund is a development site, which was started in the end of 2015, and has now grown to 170 persons. The teams in the office are working on software solutions for connecting Bosch devices to the internet in a secure way. The main focus is on automotive devices to connect vehicles (e.g. car infotainment system and other electronic control units), but also on CE-devices like the next generation eBike-computer.",
+    "logoName": "companyLogos/bosch.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Cybercom",
+    "description": "Cybercom is an innovative IT consultancy firm. We are working every day to connect people, machines and services to make them work more smoothly together. Our consultants and the solutions they create take us all the way from e-services in the Nordic public sector to streamed media and driverless cars in Europe, national eIDs, secure card payments and health apps to healthcare, connected cranes and lifts and smart industrial robots. The company was founded in 1995. The group has approximately 1,300 employees in five countries.",
+    "logoName": "companyLogos/CybercomG.png",
+    "Dep": "CS, I&C",
+    "Dag": "TBD"
+  },
+  {
+    "company": "Storytel",
+    "description": "Storytel is Northern Europe's largest audiobook and ebook subscription service, and we aspire to be a global market leader in storytelling. We believe in stories, and we aim to be the obvious choice for all audiobook lovers. Storytel offers a friendly, entrepreneurial and fast-moving work environment where new ideas and creativity is welcomed. We like doing things in new ways and questioning old methods. The Storytel culture - characterized by being welcoming and helpful - is important to us. We don’t believe in hierarchy and micromanagement, we highly believe in giving responsibility and having people grow alongside it. And we always find time for “fika” (the Swedish concept of sitting down and having a cup of coffee together).",
+    "logoName": "companyLogos/Storytel.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Sveriges Ingenjörer",
+    "description": "",
+    "logoName": "companyLogos/SvergiesIngenjorer.png",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Tactel",
+    "description": "Tactel är en digital interaktionsbyrå. Vi levererar insikterna, designen och tekniken som underlättar dina kunders vardag. Tjänster som förtjänar sin plats i deras digitala liv. Det är så vi skapar kvalitetstiden som utvecklar er relation, långsiktigt och lönsamt.",
+    "logoName": "companyLogos/TACTEL.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Telavox AB",
+    "description": "Telavox develops world-leading communications platforms with solutions for smart and efficient telephony, PBX, chat and much more. Regardless of whether it involves an entrepreneur-driven startup or a giant among giants, Telavox contributes to making companies more transparent, efficient and accessible.",
+    "logoName": "companyLogos/telavox.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Tetra Pak",
+    "description": "At Tetra Pak we touch millions of people’s lives every day, ensuring better nutrition and healthier lifestyles through safe packaging and food processing solutions. Guided by our global brand promise, PROTECTS WHAT’S GOOD, we strive to make a difference by protecting food, people and our futures. To do this we need more than smart technology.  We need smart people too. People like you, who want to work with people like us. Determined to come up with some of the brightest ideas on the planet. It may seem a little excessive for a humble carton company. But when we tell you we’re the largest food processing and packaging company in the world, with more than 5000 patents, then maybe not.",
+    "logoName": "companyLogos/TetraPak.png",
+    "Dep": "CS, EE, BME",
+    "Dag": 18
+  },
+    {
+    "company": "u-blox",
+    "description": "u‑blox is a leading fabless semiconductor provider of embedded positioning and wireless communication solutions. Our multi‑national employees working in 21 countries develop, deliver, and support high quality products. With their ideas, expertise, and passion for their work, they contribute to the successful achievement of u‑blox’s strategic goals. ",
+    "logoName": "companyLogos/ublox.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Perigee",
+    "description": "We're a Malmö-based company, looking to make the world a better place, one app at a time. With over 35 million downloads, our apps Cycles & Seven are globally recognized as the top period tracking and fitness apps on the market. Innovation, passion and curiosity are how our team moves the needle and creates exciting new features our users love and we're always on the hunt for new talent to help us make our dreams reality!",
+    "logoName": "companyLogos/perigee.jfif",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "MCA Sweden",
+    "description": "We are a technology consulting company with ca 100 employees, and we are continuously growing with new talents. Our HQ is located in Göteborg, and we have an office in Stockholm as well! We are looking for talents who are as passionate about innovation and new technology as we are. When you decide to become a MCA colleague we offer you the opportunity to grow as an engineer in a flexible and diverse environment. We offer long term assignments within innovative areas like autonomous drive, electric and hybrid cars, connectivity, IT and telecom.",
+    "logoName": "companyLogos/mca.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+  {
+    "company": "Visma",
+    "description": "Visma är en av Europas mest expansiva IT-koncerner med plats för dig att växa, både professionellt och som individ. På Visma jobbar du i en snabbrörlig och vänlig miljö med stor möjlighet att påverka. Vi tror att engagemang skapas genom utmaningar, trygghet och flexibilitet. Visma fokuserar på affärskritisk mjukvara och erbjuder system och molnbaserade tjänster till privata företag och offentlig sektor. Hos oss hittar du karriärmöjligheter inom bl.a. mjukvaruutveckling, IT-projektledning, UX-design, Business Intelligence och affärsutveckling.",
+    "logoName": "companyLogos/visma.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Qgroup",
+    "description": "",
+    "logoName": "companyLogos/Q.jfif",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Alteri Care",
+    "description": "",
+    "logoName": "companyLogos/AlteriCare.png",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Evry",
+    "description": "",
+    "logoName": "companyLogos/Evry.png",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Tunstall",
+    "description": "",
+    "logoName": "companyLogos/Tunstall.png",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Flexens",
+    "description": "",
+    "logoName": "companyLogos/Flexens.jpg",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "HMS industrial networks",
+    "description": "In a world where all devices are intelligent and networked, HMS is the leader in making industrial devices and systems communicate - for a more productive and sustainable world.",
+    "logoName": "companyLogos/hms.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Region Skåne",
+    "description": "",
+    "logoName": "companyLogos/RegionSkane.png",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Qlik",
+    "description": "We’re motivated to help people make discoveries in data, share insights, make decisions and act with confidence. Making a difference, both in small and large ways, is our passion. At the heart of Qlik is our Swedish soul, which guides everything from our culture and product design approach to our corporate social responsibility program. It’s what drives us to create a culture of innovation. We believe data can change the world. And we believe people can, too",
+    "logoName": "companyLogos/Qlik.jpg",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
+    "company": "Qoitech",
+    "description": "At Qoitech, we are passionate about product longevity. We endeavor to make the most effective developer tools for the ​energy optimization of battery-driven products. By enabling ease of use, our products help developers, throughout the stack, to develop for longer battery life, shorter development cycles, and lower maintenance cost.",
+    "logoName": "companyLogos/Qoitech.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+     {
+    "company": "Neodev",
+    "description": "Neodev AB is a Swedish consulting firm operating in the Öresund region. Our main expertise is software engineering with business areas: artificial intelligence, web, embedded, mobile applications and test automation. We offer solutions from prototyping to implementation, as well as initial guidance and advise on how you can best use machine learning to make your product more efficient and competitive for the future. For more information, visit www.neodev.se ",
+    "logoName": "companyLogos/Neodev.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
+          {
+    "company": "Sigma",
+    "description": "Sigma IT is a strong and fast growing IT consulting company, helping our customers with innovative solutions every day. We have built a dynamic and passionate corporate culture, driven by our vision Expect a Better Tomorrow and our core-values Passion and Execution.",
+    "logoName": "companyLogos/Sigma.png",
+    "Dep": "CS",
+    "Dag": 18
+  },
+     {
+    "company": "E.ON",
+    "description": "Nya behov ställer krav på energimarknaden. Energimarknaden förändras och det är ett helt nytt energilandskap som växer fram och efterfrågan av förnybara energikällor ökar. Vi är med och driver förändringen och vi vill att det genomsyrar allt vi gör, från samarbeten till hållbara energilösningar som sätter våra kunder i fokus. Drivkrafterna bakom förändringen är kraven på nya teknologier, så som solceller, digitalisering och lokalt producerad förnybar energi. Men framförallt sker omställningen på grund av nya kundbehov. Nu gör vi vår största satsning någonsin och ställer om till 100 % förnybar och återvunnen energi. Istället för att leva på naturen, måste vi börja leva med den. Nu gör vi stora investeringar för att vara med och skapa ett land som drivs av naturens kraft istället för på dess bekostnad. Du är en viktig del i den. Vill du vara med?",
+    "logoName": "companyLogos/e-on.jpg",
+    "Dep": "CS",
+    "Dag": 18
+  },
+          {
+    "company": "Accenture A/S",
+    "description": "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – Accenture works at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 492 000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives. Visit us at www.accenture.com.",
+    "logoName": "companyLogos/Accenture.png",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+     {
+    "company": "Spectronic Medical",
+    "description": "",
+    "logoName": "companyLogos/Spectronic.png",
+    "Dep": "",
+    "Dag": 18
+  },
+          {
+    "company": "Energy Opticon AB",
+    "description": "",
+    "logoName": "companyLogos/energyopticon.jpg",
+    "Dep": "",
+    "Dag": 18
+  },
+     {
+    "company": "Combitech",
+    "description": "Combitech AB contributes to a safer and more sustainable society, by delivering technology consultancy services to a wide variety of industries and customers. Our motto - 'Technology with a purpose' - guides us while working with everything from digitalisation to cyber security.",
+    "logoName": "companyLogos/Combitech.png",
+    "Dep": "CS, I&E",
+    "Dag": 18
+  },
+          {
+    "company": "Doverfs",
+    "description": "Dover Fueling Solutions delivers advanced fuel dispensing equipment, electronic systems and payment, automatic tank gauging and wetstock management solutions to customers worldwide. Headquartered in Austin, Texas, DFS has a significant manufacturing presence around the world, including facilities in the USA, the UK, the Netherlands, France, India, China, and Brazil.",
+    "logoName": "companyLogos/dover.jpg",
+    "Dep": "CS, EE, I&C",
+    "Dag": 18
+  },
+     {
+    "company": "Qrtech",
+    "description": "",
+    "logoName": "companyLogos/Qrtech.png",
+    "Dep": "",
+    "Dag": 18
   }
   ]
