@@ -78,9 +78,9 @@
   },
     {
     "company": "Sectra",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Sectra’s work enables hospitals across the world to become more effective and thus take care of more patients and save more lives. Through our solutions, Sectra also provides greater security for society’s most critical communication and IT systems, which contributes to a more stable and secure society. ",
+    "logoName": "companyLogos/Sectra.png",
+    "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
   {
@@ -92,37 +92,37 @@
   },
     {
     "company": "Skatteverket",
-    "description": "",
+    "description": "At the Swedish Tax Agency, several departments work with IT. Our IT department has more than 1000 coworkers. We are developers, analysts, test engineers, specialists, product owners and scrum masters . We make our society work! Our assignments cover development, operation, management and maintenance of IT systems. We offer open positions and degree projects. Feel welcome to apply to our open positions at https://skatteverket.se/ledigajobb. We look forward to meet you at Teknikfokus!",
     "logoName": "companyLogos/",
-    "Dep": "",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
   {
     "company": "Xenergic",
     "description": "",
-    "logoName": "companyLogos/",
+    "logoName": "companyLogos/xenergic",
     "Dep": "",
     "Dag": 18
   },
     {
     "company": "Krafttag AB",
-    "description": "",
+    "description": "Krafttag AB is an engineering company which have specialized in power stations for heavy industries, substations and power grids. Today we also work with local distribution nets with inspections, cable terminations, testing and commissioning of switchgears for our clients. We pride ourselves in hiring people with diverse education and experience levels. By combining young mindsets with the newest knowledge from the academia with older foxes with tons of wisdom and work experience, we believe great results can be achieved.",
     "logoName": "companyLogos/",
-    "Dep": "",
+    "Dep": "EE",
     "Dag": 18
   },
   {
     "company": "Smart Refill",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Smart Refill provides platforms and engaging apps for the fintech and telecom sectors. The mobile banks, fund apps and prepaid apps we develop simplify the everyday life of the users and boost the businesses of our customers - Handelsbanken, Resurs Bank, Telia Company and Telenor are some examples. Our PCI DSS compliant environment handles hundreds of millions of SEK in payments every year and we are an E-money Institution/Payment Institution under supervision of Finansinspektionen. We are really proud of our product, culture and the inclusive atmosphere at our office in central Helsingborg.   Did you know: Smart Refill develops Handelsbanken’s award-winning banking app for children. We are a global provider to Telia Company with apps in Sweden, Norway, Denmark, Finland and Lithuania. With the EU’s PSD2 and Open Banking, more smart fintech solutions are on the way. Exciting times are ahead of us!",
+    "logoName": "companyLogos/SmartRefill.png",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
     {
     "company": "Jayway",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Today we are a leading creative tech company based in Scandinavia, providing innovative tech solutions to an international client base. We deliver world class design and software development services to local and global enterprises; creating ground-breaking new value propositions and improving business efficiency. We combine creativity and technology to swiftly transform ideas into remarkable experiences — we do #techforpeople. Founded in 2000, our company is now a place of 250 skilled creative developers and tech edgy designers; we call ourselves creative technologists. We have offices in Malmö, Copenhagen, Halmstad, Stockholm and in Silicon Valley.",
+    "logoName": "companyLogos/Jayway.png",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
   {
@@ -134,58 +134,58 @@
   },
     {
     "company": "Verisure",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Verisure Innovation is one of Sweden’s top R&D Centers in the connected smart home market. This is where we create and develop services and products for home security and home automation. We are specialists in home safety and customer integrity issues and have amassed a wealth of experience and expertise over more than 30 years. We do most things in-house to guarantee premium quality every step of the way. ",
+    "logoName": "companyLogos/verisure.png",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
   {
     "company": "Advenica AB",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Advenica is a leading European provider of cybersecurity. Advenica offers advanced cybersecurity solutions and services for business-driven information exchange, secure digitalisation and high assurance. For more than 20 years Advenica has enabled organisations and companies to take digital responsibility by providing future-proof, sustainable solutions. ",
+    "logoName": "companyLogos/advencia.png",
+    "Dep": "CS, EE; I&C",
     "Dag": 18
   },
     {
     "company": "Axis Communications",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Constantly breaking new ground! Axis is the market leader in network video with R&D offices in Lund and Linköping.  We have many master thesis opportunities, and all of them are an important part of Axis' product development and research. We also offer summer jobs and part time opportunities. For this summer we are looking for 150 summer workers! We don’t make up projects for you to solve, we give you real ones which have a great impact on our solutions and products. Several of Axis' successful products was initiated by students.  Together we innovate for a smarter and safer world. ",
+    "logoName": "companyLogos/Axis.png",
+    "Dep": "CS; EE, I&C",
     "Dag": 18
   },
   {
     "company": "Ericsson",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Ericsson is one of the leading providers of Information and Communication Technology (ICT) to service providers, with about 40% of the world’s mobile traffic carried through our networks. We enable the full value of connectivity by creating game-changing technology and services that are easy to use, adopt and scale, making our customers successful in a fully connected world. For more than 140 years, our ideas, technology and people have changed the world: real turning points that have transformed lives, industries and society as a whole.",
+    "logoName": "companyLogos/ericsson.png",
+    "Dep": "CS, EE, I&C",
     "Dag": 18
   },
     {
     "company": "Grade",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Engagerade medarbetare med rätt kompetens är den viktigaste resursen ett företag eller organisation har. Vårt mål är att hjälpa våra kunder att engagera, utveckla och behålla rätt medarbetare. Vi erbjuder ett användarvänligt och intuitivt Talent Management System (TMS) och Learning Management System (LMS) tillsammans med skräddarsydda e-Learnings – för företag och organisationer i alla storlekar. Med vår plattform kan våra kunder på ett enkelt sätt mäta och höja medarbetares engagemang och kompetens.",
+    "logoName": "companyLogos/Grade.png",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
   {
     "company": "Lime Technologies AB",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "At Lime, we love CRM! Since the beginning we have helped more than 6000 companies to reach better results with the help of easy-to-use CRM solutions that we develop, consult and support ourselves. Today we are over 270 colleagues and one of the largest CRM suppliers in the Nordic countries with offices in Gothenburg, Stockholm, Lund, Helsinki, Oslo and Copenhagen. Are you into coding and want to be a developer? Or be a tech account manager helping companies understand how Lime can grow their business? Maybe you are our next project manager or application consultant that deliver our solutions? With our Nordic Trainee Program, we promise a unique opportunity to kick-start your career. With a solid training program as a base together with challenging projects and a senior mentor, we guarantee that you will have a steep progress line. Quite simply, a brilliant start to your career! Welcome to apply to our trainee program with start in January or August every year. We like to have ridiculously fun at work and are convinced that it is one of Lime’s success factors. We usually say that the only thing we take seriously is our customers... What kind of workplace would you like to have?"
+    "logoName": "companyLogos/Lime.png",
+    "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
     {
     "company": "Siemens AB",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "description": "Creating environments that care. Making real what matters: Humans care. We want an urban, sustainable, livable world that optimally combines real and digital solutions. We address infrastructure challenges, contributing to sustainable development and creating the best possible environments in which to live and work. At Siemens Smart Infrastructure, we intelligently connect energy systems, buildings and industries to adapt and evolve the way we live and work. We create an ecosystem that intuitively responds to the needs of people and helps us to better use resources. It helps our customers to thrive and communities to progress.",
+    "logoName": "companyLogos/Siemens.jpg",
+    "Dep": "CS, EE, I&C",
     "Dag": 18
   },
   {
-    "company": "Volvo Car Corporation",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
+    "company": "Volvo Cars Corporation",
+    "description": "Volvo Cars is a company on a mission; to bring traditional car manufacturing into a connected, sustainable and smart future. We are a brand known for our commitment to safety, creating innovative cars that make life less complicated for people. We are looking for innovative, committed people to create safe, sustainable and connected cars. Join us and be part of Volvo Cars’ journey into the future!",
+    "logoName": "companyLogos/volvo.png",
+    "Dep": "CS, EE",
     "Dag": 18
   },
     {
