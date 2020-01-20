@@ -133,6 +133,11 @@ if(day13){
         p3Tag.innerText = 'Department: ' + compInfo['Dep']
         div.appendChild(p3Tag)
       }
+	else {
+		  p3Tag = document.createElement('p')
+		p3Tag.innerText = 'Department: TBD'
+		    div.appendChild(p3Tag)
+	}
 
 
       date = compInfo["Dag"]
