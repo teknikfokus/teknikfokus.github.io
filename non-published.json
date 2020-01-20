@@ -1,552 +1,485 @@
 [
     {
-    "company": "",
+    "company": "Acconer",
+    "description": "sec",
+    "logoName": "companyLogos/Acconer.png",
+    "Dep": "CS",
+    "Dag": 18
+  },
+  {
+    "company": "Capgemini",
+    "description": "secs",
+    "logoName": "companyLogos/netcompany.png",
+    "Dep": "EE",
+    "Dag": 18
+  },
+  {
+    "company": "Netlight Consulting AB",
+    "description": "2asdsacg351§2R%242€125",
+    "logoName": "companyLogos/AcademicSolution.png",
+    "Dep": "BME",
+    "Dag": 18
+  },
+    {
+    "company": "Airthings AS",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
+    "Dag": 18
+  },
+  {
+    "company": "Elastic Mobile",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "IKEA DIGITAL",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Klarna",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Lunicore Student Consulting",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Minut",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "ONE Nordic AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Oticon",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Sectra",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Serstech AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Skatteverket",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Xenergic",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Krafttag AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Smart Refill",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Jayway",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Netville",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Verisure",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Advenica AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Axis Communications",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Ericsson",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Grade",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Lime Technologies AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Siemens AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Volvo Car Corporation",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Vårdinnovation Sverige AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "AuraNest",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Academic Work",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "ÅF",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Arm",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "CellaVision",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Schneider Electric",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Sentian Al",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Netcompany",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Cygni",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Alten Sverige AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "ASSA ABLOY Entrance Systems IDDS AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Beijer Electronics",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Bosch",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Cybercom",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": "TBD"
+  },
+  {
+    "company": "Storytel",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Sveriges Ingenjörer",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Tactel",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Telavox AB",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Tetra Pak",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "u-blox",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Perigee",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "MCA Sweden",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Visma",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Qgroup",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Alteri Care",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Evry",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Tunstall",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Flexens",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "HMS industrial networks",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Region Skåne",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+  {
+    "company": "Qlik",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+    {
+    "company": "Qoitech",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
+     {
+    "company": "Neodev",
+    "description": "",
+    "logoName": "",
+    "Dep": "",
+    "Dag": 18
+  },
           {
-    "company": "",
+    "company": "Sigma",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
+    "Dag": 18
+  },
      {
-    "company": "",
+    "company": "E.ON",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
+    "Dag": 18
+  },
+          {
+    "company": "Accenture A/S",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
+    "Dag": 18
+  },
      {
-    "company": "",
+    "company": "Spectronic Medical",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
+    "Dag": 18
+  },
+          {
+    "company": "Energy Opticon AB",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
+    "Dag": 18
+  },
      {
-    "company": "",
+    "company": "Combitech",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
+    "Dag": 18
+  },
+          {
+    "company": "Doverfs",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
+    "Dag": 18
+  },
      {
-    "company": "",
+    "company": "Qrtech",
     "description": "",
     "logoName": "",
     "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-     {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-      {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    },
-            {
-    "company": "",
-    "description": "",
-    "logoName": "",
-    "Dep": "",
-    "Dag": 
-    }
-    ]
-    
-    
-]
- 
+    "Dag": 18
+  }
+  ]
