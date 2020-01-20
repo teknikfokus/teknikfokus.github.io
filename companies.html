@@ -103,7 +103,6 @@
                   Computer Science <input type="checkbox" id="CS" value="CS" onclick="filterAlgoritm()">
                   Electrical Engineering <input type="checkbox" id="EE" value="EE" onclick="filterAlgoritm()">
                   Biomedical Engineering <input type="checkbox" id="BME" value="BME" onclick="filterAlgoritm()">
-                  Information & communications technology <input type="checkbox" id="I&C" value="I&C" onclick="filterAlgoritm()">
          
                 </p>
             <button type="button" onclick="reset()">Clear</button>
@@ -123,8 +122,7 @@
                   document.getElementById('CS').checked = false;
                   document.getElementById('EE').checked = false;
                   document.getElementById('BME').checked = false;
-                  document.getElementById('IC').checked = false;
-                  printCompanies(true,true,'CS, EE, BME, I&C')
+                  printCompanies(true,true,'CS, EE, BME')
                 }
                    function filterAlgoritm() {
                 document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
@@ -135,7 +133,6 @@
                 var CSR = document.getElementById('CS');
                 var EER  = document.getElementById('EE');
                 var BMER = document.getElementById('BME');
-                var IC = document.getElementById('IC');
                 var checks = new Array();
                 if(!a.checked && !b.checked){
                     reset();
@@ -150,9 +147,6 @@
                 if(BMER.checked){
                   checks.push("BME");
                 }
-                if(IC.checked){
-                  checks.push("IC");
-                }
               printCompanies(a.checked, b.checked, checks);
                        }
             }
@@ -163,4 +157,5 @@
         </div><!-- dont touch -->
     </body>
 </html>
+
 
