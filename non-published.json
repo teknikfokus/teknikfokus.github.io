@@ -463,7 +463,7 @@
   },
      {
     "company": "Combitech",
-    "description": "Combitech AB contributes to a safer and more sustainable society, by delivering technology consultancy services to a wide variety of industries and customers. Our motto - "Technology with a purpose" - guides us while working with everything from digitalisation to cyber security.",
+    "description": 'Combitech AB contributes to a safer and more sustainable society, by delivering technology consultancy services to a wide variety of industries and customers. Our motto - "Technology with a purpose" - guides us while working with everything from digitalisation to cyber security.',
     "logoName": "companyLogos/Combitech.png",
     "Dep": "CS, I&E",
     "Dag": 18
