@@ -118,7 +118,7 @@ if(day13){
       div.appendChild(lineBreak)
 
       p2Tag = document.createElement('p')
-      p2Tag.innerText = 'Attending the fair: ' + compInfo['Dag'] + ' february'
+      p2Tag.innerText = 'Attending the fair: TBD'
       div.appendChild(p2Tag)
 
       if(compInfo['Dep'] != null) {
