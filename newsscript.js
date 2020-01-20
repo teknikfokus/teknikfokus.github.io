@@ -3,16 +3,7 @@ function printNews() {
 
   const CompanyList_DIV = document.getElementById('compact_company_list.js')
 
-    var compact_12 = document.createElement('div')
-    var head12 = document.createElement('p')
-     head12.innerText = "News regarding TeknikFokus 2020"
-     head12.style.fontWeight = "bold"
-     var pageLink = document.createElement('a')
-     pageLink.appendChild(head12)
-     compact_12.appendChild(pageLink)
-     var P12 = document.createElement('p')
-     compact_12.appendChild(P12)
-     CompanyList_DIV.appendChild(compact_12)
+
 
 
     const BASE_DIV = document.getElementById('company_info_coming_from_Companies.js')
