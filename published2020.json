@@ -23,7 +23,7 @@
     {
     "company": "Ingka group - IKEAL",
     "description": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
-    "logoName": "companyLogos/ingka",
+    "logoName": "companyLogos/ingka.png",
     "Dep": "CS, I&C",
     "Dag": 18
   },
@@ -38,7 +38,7 @@
   {
     "company": "Minut",
     "description": "An all-in-one smart home alarm that’s easy-to-install, packed full of sensors and can instantly alert you to different threats in your home.",
-    "logoName": "companyLogos/minut",
+    "logoName": "companyLogos/minut.jpg",
     "Dep": "CS, EE, I&C",
     "Dag": 18
   },
@@ -61,7 +61,7 @@
     {
     "company": "Skatteverket",
     "description": "At the Swedish Tax Agency, several departments work with IT. Our IT department has more than 1000 coworkers. We are developers, analysts, test engineers, specialists, product owners and scrum masters . We make our society work! Our assignments cover development, operation, management and maintenance of IT systems. We offer open positions and degree projects. Feel welcome to apply to our open positions at https://skatteverket.se/ledigajobb. We look forward to meet you at Teknikfokus!",
-    "logoName": "companyLogos/",
+    "logoName": "companyLogos/skatteverket.png",
     "Dep": "CS, I&C",
     "Dag": 18
   },
@@ -69,7 +69,7 @@
     {
     "company": "Krafttag AB",
     "description": "Krafttag AB is an engineering company which have specialized in power stations for heavy industries, substations and power grids. Today we also work with local distribution nets with inspections, cable terminations, testing and commissioning of switchgears for our clients. We pride ourselves in hiring people with diverse education and experience levels. By combining young mindsets with the newest knowledge from the academia with older foxes with tons of wisdom and work experience, we believe great results can be achieved.",
-    "logoName": "companyLogos/",
+    "logoName": "companyLogos/Krafttag.png",
     "Dep": "EE",
     "Dag": 18
   },
