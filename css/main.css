@@ -51,7 +51,7 @@ nav #right-nav {
 /* Nav */
 
 .background-tf1 {
-    background: #ffffff url(../images/testbackgroundpepe.png) no-repeat center center;
+    background: #ffffff url(../images/indexbackground.jpg) no-repeat center center;
     position: absolute;
     top: 0;
     left: 0;
@@ -131,7 +131,7 @@ div {
 }
 .carousel-item b {
     color: #ffffff;
-    font-size: 10vw;
+    font-size: 5vw;
     text-shadow: 0em 0em 0.1em rgba(0,0,0,0.5);
     margin: auto;
 }
