@@ -21,33 +21,13 @@
     "Dag": 18
   },
     {
-    "company": "Airthings AS",
-    "description": "",
-    "logoName": "companyLogos/Airthings.png",
-    "Dep": "",
-    "Dag": 18
-  },
-  {
-    "company": "Elastic Mobile",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
-    "Dag": 18
-  },
-    {
     "company": "Ingka group - IKEAL",
     "description": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
     "logoName": "companyLogos/ingka.png",
     "Dep": "CS, I&C",
     "Dag": 18
   },
-  {
-    "company": "Klarna",
-    "description": "",
-    "logoName": "companyLogos/klarna.png",
-    "Dep": "",
-    "Dag": 18
-  },
+  
     {
     "company": "Lunicore Student Consulting",
     "description": "Lunicore is Lund University's student consulting company. We offer the latest expertise in areas such as sustainability, analytics, IT and communication. With a new perspective, we create value for Skåne's business community. We offer quality part-time jobs for students, 10 hours a week and a steppingstone into working life",
@@ -69,13 +49,7 @@
     "Dep": "EE",
     "Dag": 18
   },
-  {
-    "company": "Oticon",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
-    "Dag": 18
-  },
+
     {
     "company": "Sectra",
     "description": "Sectra’s work enables hospitals across the world to become more effective and thus take care of more patients and save more lives. Through our solutions, Sectra also provides greater security for society’s most critical communication and IT systems, which contributes to a more stable and secure society. ",
@@ -83,13 +57,7 @@
     "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
-  {
-    "company": "Serstech AB",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
-    "Dag": 18
-  },
+
     {
     "company": "Skatteverket",
     "description": "At the Swedish Tax Agency, several departments work with IT. Our IT department has more than 1000 coworkers. We are developers, analysts, test engineers, specialists, product owners and scrum masters . We make our society work! Our assignments cover development, operation, management and maintenance of IT systems. We offer open positions and degree projects. Feel welcome to apply to our open positions at https://skatteverket.se/ledigajobb. We look forward to meet you at Teknikfokus!",
@@ -97,13 +65,7 @@
     "Dep": "CS, I&C",
     "Dag": 18
   },
-  {
-    "company": "Xenergic",
-    "description": "",
-    "logoName": "companyLogos/xenergic.png",
-    "Dep": "",
-    "Dag": 18
-  },
+ 
     {
     "company": "Krafttag AB",
     "description": "Krafttag AB is an engineering company which have specialized in power stations for heavy industries, substations and power grids. Today we also work with local distribution nets with inspections, cable terminations, testing and commissioning of switchgears for our clients. We pride ourselves in hiring people with diverse education and experience levels. By combining young mindsets with the newest knowledge from the academia with older foxes with tons of wisdom and work experience, we believe great results can be achieved.",
@@ -123,13 +85,6 @@
     "description": "Today we are a leading creative tech company based in Scandinavia, providing innovative tech solutions to an international client base. We deliver world class design and software development services to local and global enterprises; creating ground-breaking new value propositions and improving business efficiency. We combine creativity and technology to swiftly transform ideas into remarkable experiences — we do #techforpeople. Founded in 2000, our company is now a place of 250 skilled creative developers and tech edgy designers; we call ourselves creative technologists. We have offices in Malmö, Copenhagen, Halmstad, Stockholm and in Silicon Valley.",
     "logoName": "companyLogos/Jayway.png",
     "Dep": "CS, I&C",
-    "Dag": 18
-  },
-  {
-    "company": "Netville",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
     "Dag": 18
   },
     {
@@ -209,13 +164,7 @@
     "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
-  {
-    "company": "ÅF",
-    "description": "",
-    "logoName": "companyLogos/AF.jpg",
-    "Dep": "",
-    "Dag": 18
-  },
+ 
     {
     "company": "Arm",
     "description": "Arm technology is at the heart of a computing and connectivity revolution that is transforming the way people live and businesses operate. Our advanced, energy-efficient processor designs have enabled intelligent computing in more than 150 billion chips and our technologies now securely power products from the sensor to the smartphone and the supercomputer. In combination with our IoT device, connectivity and data management platform, we are also enabling customers with powerful and actionable business insights that are generating new value from their connected devices and data. Together with 1,000+ technology partners we are at the forefront of designing, securing and managing all areas of compute from the chip to the cloud.",
@@ -272,13 +221,7 @@
     "Dep": "CS, EE, I&C",
     "Dag": 18
   },
-    {
-    "company": "Beijer Electronics",
-    "description": "",
-    "logoName": "companyLogos/beijer.png",
-    "Dep": "",
-    "Dag": 18
-  },
+   
   {
     "company": "Bosch",
     "description": "The Bosch office in Lund is a development site, which was started in the end of 2015, and has now grown to 170 persons. The teams in the office are working on software solutions for connecting Bosch devices to the internet in a secure way. The main focus is on automotive devices to connect vehicles (e.g. car infotainment system and other electronic control units), but also on CE-devices like the next generation eBike-computer.",
@@ -298,13 +241,6 @@
     "description": "Storytel is Northern Europe's largest audiobook and ebook subscription service, and we aspire to be a global market leader in storytelling. We believe in stories, and we aim to be the obvious choice for all audiobook lovers. Storytel offers a friendly, entrepreneurial and fast-moving work environment where new ideas and creativity is welcomed. We like doing things in new ways and questioning old methods. The Storytel culture - characterized by being welcoming and helpful - is important to us. We don’t believe in hierarchy and micromanagement, we highly believe in giving responsibility and having people grow alongside it. And we always find time for “fika” (the Swedish concept of sitting down and having a cup of coffee together).",
     "logoName": "companyLogos/Storytel.png",
     "Dep": "CS, I&C",
-    "Dag": 18
-  },
-    {
-    "company": "Sveriges Ingenjörer",
-    "description": "",
-    "logoName": "companyLogos/SvergiesIngenjorer.png",
-    "Dep": "",
     "Dag": 18
   },
   {
@@ -356,41 +292,6 @@
     "Dep": "CS, I&C",
     "Dag": 18
   },
-    {
-    "company": "Qgroup",
-    "description": "",
-    "logoName": "companyLogos/Q.jfif",
-    "Dep": "",
-    "Dag": 18
-  },
-  {
-    "company": "Alteri Care",
-    "description": "",
-    "logoName": "companyLogos/AlteriCare.png",
-    "Dep": "",
-    "Dag": 18
-  },
-    {
-    "company": "Evry",
-    "description": "",
-    "logoName": "companyLogos/Evry.png",
-    "Dep": "",
-    "Dag": 18
-  },
-  {
-    "company": "Tunstall",
-    "description": "",
-    "logoName": "companyLogos/Tunstall.png",
-    "Dep": "",
-    "Dag": 18
-  },
-    {
-    "company": "Flexens",
-    "description": "",
-    "logoName": "companyLogos/Flexens.jpg",
-    "Dep": "",
-    "Dag": 18
-  },
   {
     "company": "HMS industrial networks",
     "description": "In a world where all devices are intelligent and networked, HMS is the leader in making industrial devices and systems communicate - for a more productive and sustainable world.",
@@ -398,13 +299,7 @@
     "Dep": "CS, EE, I&C",
     "Dag": 18
   },
-    {
-    "company": "Region Skåne",
-    "description": "",
-    "logoName": "companyLogos/RegionSkane.png",
-    "Dep": "",
-    "Dag": 18
-  },
+
   {
     "company": "Qlik",
     "description": "We’re motivated to help people make discoveries in data, share insights, make decisions and act with confidence. Making a difference, both in small and large ways, is our passion. At the heart of Qlik is our Swedish soul, which guides everything from our culture and product design approach to our corporate social responsibility program. It’s what drives us to create a culture of innovation. We believe data can change the world. And we believe people can, too",
@@ -447,39 +342,14 @@
     "Dep": "CS, EE, I&C",
     "Dag": 18
   },
-     {
-    "company": "Spectronic Medical",
-    "description": "",
-    "logoName": "companyLogos/Spectronic.png",
-    "Dep": "",
-    "Dag": 18
-  },
-          {
-    "company": "Energy Opticon AB",
-    "description": "",
-    "logoName": "companyLogos/energyopticon.jpg",
-    "Dep": "",
-    "Dag": 18
-  },
+ 
+       
      {
     "company": "Combitech",
     "description": "Combitech AB contributes to a safer and more sustainable society, by delivering technology consultancy services to a wide variety of industries and customers. Our motto - 'Technology with a purpose' - guides us while working with everything from digitalisation to cyber security.",
     "logoName": "companyLogos/Combitech.png",
     "Dep": "CS, I&E",
     "Dag": 18
-  },
-          {
-    "company": "Doverfs",
-    "description": "Dover Fueling Solutions delivers advanced fuel dispensing equipment, electronic systems and payment, automatic tank gauging and wetstock management solutions to customers worldwide. Headquartered in Austin, Texas, DFS has a significant manufacturing presence around the world, including facilities in the USA, the UK, the Netherlands, France, India, China, and Brazil.",
-    "logoName": "companyLogos/dover.jpg",
-    "Dep": "CS, EE, I&C",
-    "Dag": 18
-  },
-     {
-    "company": "Qrtech",
-    "description": "",
-    "logoName": "companyLogos/Qrtech.png",
-    "Dep": "",
-    "Dag": 18
   }
+  
   ]

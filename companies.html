@@ -72,38 +72,41 @@
 
 
         <div class="container container-fluid" id="body-content">
-          <div class="news">Attending Companies (last year)</div>
-          <div class="news-info">Here you will soon be able to find which companies that will attend the fair 2020.<br>
-            For now 2019 attendies are shown but this will be updated in a couple of days.
+          <div class="news">Attending Companies</div>
+          <div class="news-info">Here you will be able to find which companies that will attend the fair 2020.<br>
+            
         </div>
 
 
 
           <div class="card">
-            <h3 id="card-header" style="text-align: center;"> Last years attending companies</h3>
+            <h3 id="card-header" style="text-align: center;"> Attendees 2020</h3>
             <!-- <a href="https://www.teknikfokus.se/companies.html"><h3 id="card-header" style="text-align: center;"> Attending Companies 2019</h3></a> -->
-            <p> Below you can see all companies who attended Teknikfokus 2019. </p>
+            <p> Below you can see all companies who will attend Teknikfokus 2020. </p>
             <p id="compact_company_list.js"></p>
           </div>
 
           <!-- <div class="card" id="compact_company_list.js">
               <h3 id="card-header" style="text-align: center;"> Companies</h3>
             </div> -->
+          <h5>
+            Buttons have been disabled. Please see "News".
+          </h5>
               <div class="filter">
                 <h4>Filter</h4>
                 <p>
                   <h5>Sort by date</h5>
-                12th: <input type="checkbox" id="12th" onclick="filterAlgoritm()">
-                13th: <input type="checkbox" id="13th" onclick="filterAlgoritm()">
+                18th: <input type="checkbox" disabled id="18th" onclick="filterAlgoritm()">
+                19th: <input type="checkbox" disabled id="19th" onclick="filterAlgoritm()">
                 </p>
 
                 <p>
                   <h5>Sort by department</h5>
                  
-                  Computer Science <input type="checkbox" id="CS" value="CS" onclick="filterAlgoritm()">
-                  Electrical Engineering <input type="checkbox" id="EE" value="EE" onclick="filterAlgoritm()">
-                  Biomedical Engineering <input type="checkbox" id="BME" value="BME" onclick="filterAlgoritm()">
-                  Information & communication techonology <input type="checkbox" id="IC" value="IC" onclick="filterAlgoritm()">
+                  Computer Science <input type="checkbox" id="CS" disabled value="CS" onclick="filterAlgoritm()">
+                  Electrical Engineering <input type="checkbox" id="EE" disabled value="EE" onclick="filterAlgoritm()">
+                  Biomedical Engineering <input type="checkbox" id="BME" disabled value="BME" onclick="filterAlgoritm()">
+                  Information & communication techonology <input type="checkbox" id="IC" disabled value="IC" onclick="filterAlgoritm()">
          
                 </p>
             <button type="button" onclick="reset()">Clear</button>
@@ -118,8 +121,8 @@
                 function reset(){
                   document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                   document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s)
-                  document.getElementById('12th').checked = false;
-                  document.getElementById('13th').checked = false;
+                  document.getElementById('18th').checked = false;
+                  document.getElementById('119th').checked = false;
                   document.getElementById('CS').checked = false;
                   document.getElementById('EE').checked = false;
                   document.getElementById('BME').checked = false;
@@ -130,8 +133,8 @@
                 document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                 document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s).
                 
-                var a = document.getElementById('12th');
-                var b = document.getElementById('13th');
+                var a = document.getElementById('18th');
+                var b = document.getElementById('19th');
                 var CSR = document.getElementById('CS');
                 var EER  = document.getElementById('EE');
                 var BMER = document.getElementById('BME');
@@ -163,5 +166,3 @@
         </div><!-- dont touch -->
     </body>
 </html>
-
-

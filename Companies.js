@@ -16,7 +16,7 @@ function printCompanies (day12, day13, crit) {
 
     var compact_12 = document.createElement('div')
     var head12 = document.createElement('h5')
-    head12.innerText = "Tuesday 12 February"
+    head12.innerText = "TBD"
     head12.style.fontWeight = "bold"
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day1'
@@ -30,7 +30,7 @@ function printCompanies (day12, day13, crit) {
 
     var compact_13 = document.createElement('div')
     var head13 = document.createElement('h5')
-    head13.innerText = "Wednesday 13 February"
+    head13.innerText = "TBD"
 
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day2'
@@ -49,7 +49,7 @@ function printCompanies (day12, day13, crit) {
     div.id = "Day1"
     div.className = "card"
     var h5Tag = document.createElement('h4')
-    h5Tag.innerText = "~ Tuesday 12 February ~"
+    h5Tag.innerText = "TBD"
     div.appendChild(h5Tag)
     CompanyCards_12.appendChild(div)
     BASE_DIV.appendChild(CompanyCards_12)
@@ -60,7 +60,7 @@ if(day13){
   div.id = "Day2"
   div.className = "card"
   var h5Tag = document.createElement('h4')
-  h5Tag.innerText = "~ Wednesday 13 February ~"
+  h5Tag.innerText = "TBD"
   div.appendChild(h5Tag)
   CompanyCards_13.appendChild(div)
   BASE_DIV.appendChild(CompanyCards_13)
@@ -71,7 +71,7 @@ if(day13){
   let isFirstCompany13 = true;
 
 
-  fetch('https://www.teknikfokus.se/Companies.json')
+  fetch('https://www.teknikfokus.se/non-published.json')
   .then(res => res.json())
   .then(compInfo => {
     //const faqs = JSON_FILE
@@ -100,15 +100,22 @@ if(day13){
       div.className = "card"
       //CompanyCards_13.appendChild(div)
 
-      var h5Tag = document.createElement('h4')
+
+	  var h5Tag = document.createElement('h4')
       h5Tag.innerText = compInfo['company']
       div.appendChild(h5Tag)
-
+	  
       var img = document.createElement('img')
       img.className = "img-fluid"
       img.id = "pic"
       img.src = compInfo['logoName']
       div.appendChild(img)
+	  
+
+ var h5Tag = document.createElement('h4')
+      h5Tag.innerText = compInfo['company']
+      div.appendChild(h5Tag)
+	  
 
       pTag = document.createElement('p')
       pTag.innerText = compInfo['description']
@@ -118,7 +125,7 @@ if(day13){
       div.appendChild(lineBreak)
 
       p2Tag = document.createElement('p')
-      p2Tag.innerText = 'Attending the fair: ' + compInfo['Dag'] + ' february'
+      p2Tag.innerText = 'Attending the fair: TBD'
       div.appendChild(p2Tag)
 
       if(compInfo['Dep'] != null) {
@@ -126,13 +133,19 @@ if(day13){
         p3Tag.innerText = 'Department: ' + compInfo['Dep']
         div.appendChild(p3Tag)
       }
+	else {
+		  p3Tag = document.createElement('p')
+		p3Tag.innerText = 'Department: TBD'
+		    div.appendChild(p3Tag)
+	}
+
 
       date = compInfo["Dag"]
       spacer = document.createElement('span')
 
-      if(isFirstCompany12 && date==12) {
+      if(isFirstCompany12 && date==18) {
         isFirstCompany12 = false
-      } else if(isFirstCompany13 && date==13) {
+      } else if(isFirstCompany13 && date==19) {
         isFirstCompany13 = false
       }
 
@@ -146,12 +159,12 @@ if(day13){
 
       //Adding to cards and compactlist dependning on day.
 
-      if(date == 12 && day12){
+      if(date == 18 && day12){
         P12.appendChild(spacer)
         P12.appendChild(aaa)
         CompanyCards_12.appendChild(div)
 
-      } else if (date == 13 && day13) {
+      } else if (date == 19 && day13) {
          P13.appendChild(spacer)
          P13.appendChild(aaa)
          CompanyCards_13.appendChild(div)
