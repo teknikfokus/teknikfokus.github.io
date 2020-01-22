@@ -27,6 +27,27 @@
     "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
+     {
+    "company": "SVT",
+    "description": "Our vision is to contribute to a more inquisitive, informed Sweden. Our aim is to create content that engages, entertains and enriches - in the service of the public. Our operation is based on a democratic idea and is independent of political and commercial interests. In total the digital section of SVT has about 170 employees, with a great mix of people. We love that we are from different cultural backgrounds and that we have different personalities and interests. We can offer you a workplace where learning is in focus and where we take great care of each other. To students we offer internship and possibility to do your master thesis at SVT.",
+    "logoName": "companyLogos/SVT.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+      {
+    "company": "VentureLab",
+    "description": "VentureLab is the Startup hub of Lund University consisting of three parts; Inspiration, Idea guidance & Incubation. We want to Inspire you as a student towards an alternative career through different activities & events. Idea guidance means that you meet a coach to help you with a plan, network, & knowledge to help your idea become reality. In the Incubator you get an office space, becomes part of a community with other entrepreneurs determined & facing similar challenges just like you. All ideas are welcome and remember that we have full confidentiality. Welcome!",
+    "logoName": "companyLogos/venturelab.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+      {
+    "company": "Neo4j",
+    "description": "The World Leader in Graph Databases",
+    "logoName": "companyLogos/neo4j.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
     {
     "company": "Cybercom",
     "description": "Cybercom is an innovative IT consultancy firm. We are working every day to connect people, machines and services to make them work more smoothly together. Our consultants and the solutions they create take us all the way from e-services in the Nordic public sector to streamed media and driverless cars in Europe, national eIDs, secure card payments and health apps to healthcare, connected cranes and lifts and smart industrial robots. The company was founded in 1995. The group has approximately 1,300 employees in five countries.",
