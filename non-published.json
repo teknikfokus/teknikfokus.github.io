@@ -21,6 +21,13 @@
     "Dag": 18
   },
     {
+    "company": "Cybercom",
+    "description": "Cybercom is an innovative IT consultancy firm. We are working every day to connect people, machines and services to make them work more smoothly together. Our consultants and the solutions they create take us all the way from e-services in the Nordic public sector to streamed media and driverless cars in Europe, national eIDs, secure card payments and health apps to healthcare, connected cranes and lifts and smart industrial robots. The company was founded in 1995. The group has approximately 1,300 employees in five countries.",
+    "logoName": "companyLogos/CybercomG.png",
+    "Dep": "CS, I&C",
+    "Dag": 18
+  },
+    {
     "company": "Ingka group - IKEAL",
     "description": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
     "logoName": "companyLogos/ingka.png",
