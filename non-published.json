@@ -111,7 +111,7 @@
     "logoName": "companyLogos/ericsson.png",
     "Dep": "CS, EE, I&C",
     "Dag": 18
-  },v
+  },
     {
     "company": "Grade",
     "description": "Engagerade medarbetare med rätt kompetens är den viktigaste resursen ett företag eller organisation har. Vårt mål är att hjälpa våra kunder att engagera, utveckla och behålla rätt medarbetare. Vi erbjuder ett användarvänligt och intuitivt Talent Management System (TMS) och Learning Management System (LMS) tillsammans med skräddarsydda e-Learnings – för företag och organisationer i alla storlekar. Med vår plattform kan våra kunder på ett enkelt sätt mäta och höja medarbetares engagemang och kompetens.",
@@ -364,5 +364,5 @@
     "logoName": "companyLogos/dover.jpg",
     "Dep": "CS, EE, I&C",
     "Dag": 18
-  },
+  }
   ]
