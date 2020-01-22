@@ -34,6 +34,13 @@
     "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
+     {
+    "company": "Lunds Tekniska Högskola",
+    "description": "Lunds tekniska högskola är en del av Lunds universitet som grundades 1666 och rankas återkommande som ett av världens 100 främsta lärosäten. Här finns 42 000 studenter och 7 400 medarbetare i Lund, Helsingborg och Malmö. Lund är landets mest populära studieort. Universitetet har ett av Skandinaviens bredaste utbildningsutbud baserat på gränsöverskridande och ledande forskning. Den täta universitetsmiljön stimulerar nätverkande som i sin tur bäddar för vetenskapliga genombrott och innovationer. Universitetet har en tydlig internationell profil och har partneruniversitet i mer än 70 länder. Lunds universitet omsätter åtta miljarder, varav två tredjedelar går till forskning.",
+    "logoName": "companyLogos/LTH.png",
+    "Dep": "CS, EE, BME, I&C",
+    "Dag": 18
+  },
   {
     "company": "Minut",
     "description": "An all-in-one smart home alarm that’s easy-to-install, packed full of sensors and can instantly alert you to different threats in your home.",
