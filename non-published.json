@@ -224,13 +224,6 @@
     "Dep": "CS, EE, I&C",
     "Dag": 18
   },
-    {
-    "company": "Beijer Electronics",
-    "description": "TBA",
-    "logoName": "companyLogos/beijer.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
   {
     "company": "Bosch",
     "description": "The Bosch office in Lund is a development site, which was started in the end of 2015, and has now grown to 170 persons. The teams in the office are working on software solutions for connecting Bosch devices to the internet in a secure way. The main focus is on automotive devices to connect vehicles (e.g. car infotainment system and other electronic control units), but also on CE-devices like the next generation eBike-computer.",
@@ -252,13 +245,7 @@
     "Dep": "CS, I&C",
     "Dag": 18
   },
-    {
-    "company": "Sveriges Ingenjörer",
-    "description": "TBA",
-    "logoName": "companyLogos/SvergiesIngenjorer.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
+ 
   {
     "company": "Tactel",
     "description": "Tactel är en digital interaktionsbyrå. Vi levererar insikterna, designen och tekniken som underlättar dina kunders vardag. Tjänster som förtjänar sin plats i deras digitala liv. Det är så vi skapar kvalitetstiden som utvecklar er relation, långsiktigt och lönsamt.",
@@ -308,35 +295,6 @@
     "Dep": "CS, I&C",
     "Dag": 18
   },
-    {
-    "company": "Qgroup",
-    "description": "TBA",
-    "logoName": "companyLogos/Q.jfif",
-    "Dep": "TBA",
-    "Dag": 18
-  },
-  {
-    "company": "Alteri Care",
-    "description": "TBA",
-    "logoName": "companyLogos/AlteriCare.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
-    {
-    "company": "Evry",
-    "description": "TBA",
-    "logoName": "companyLogos/Evry.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
- 
-    {
-    "company": "Flexens",
-    "description": "TBA",
-    "logoName": "companyLogos/Flexens.jpg",
-    "Dep": "TBA",
-    "Dag": 18
-  },
   {
     "company": "HMS industrial networks",
     "description": "In a world where all devices are intelligent and networked, HMS is the leader in making industrial devices and systems communicate - for a more productive and sustainable world.",
@@ -347,7 +305,7 @@
     {
     "company": "Softhouse Consulting",
     "description": "We develop software! We are experts in software development. It is a part of our DNA just like the agile way of working. We have experts in different technologies, programming languages and digital strategies.",
-    "logoName": "companyLogos/RegionSkane.png",
+    "logoName": "companyLogos/softhouse.jfif",
     "Dep": "CS, I&C",
     "Dag": 18
   },
@@ -394,20 +352,6 @@
     "Dag": 18
   },
      {
-    "company": "Spectronic Medical",
-    "description": "TBA",
-    "logoName": "companyLogos/Spectronic.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
-          {
-    "company": "Energy Opticon AB",
-    "description": "TBA",
-    "logoName": "companyLogos/energyopticon.jpg",
-    "Dep": "TBA",
-    "Dag": 18
-  },
-     {
     "company": "Combitech",
     "description": "Combitech AB contributes to a safer and more sustainable society, by delivering technology consultancy services to a wide variety of industries and customers. Our motto - 'Technology with a purpose' - guides us while working with everything from digitalisation to cyber security.",
     "logoName": "companyLogos/Combitech.png",
@@ -421,11 +365,4 @@
     "Dep": "CS, EE, I&C",
     "Dag": 18
   },
-     {
-    "company": "Qrtech",
-    "description": "TBA",
-    "logoName": "companyLogos/Qrtech.png",
-    "Dep": "TBA",
-    "Dag": 18
-  }
   ]
