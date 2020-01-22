@@ -159,6 +159,10 @@ div {
     top: 420px;
 }
 
+div.filter h4{
+    text-align: center;
+}
+
 .card {
     animation: fadeUpIn .5s;
     -webkit-animation: fadeUpIn .5s;
