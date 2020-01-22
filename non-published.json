@@ -21,31 +21,10 @@
     "Dag": 18
   },
     {
-    "company": "Airthings AS",
-    "description": "TBA",
-    "logoName": "companyLogos/Airthings.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
-  {
-    "company": "Elastic Mobile",
-    "description": "TBA",
-    "logoName": "companyLogos/elasticmobile.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
-    {
     "company": "Ingka group - IKEAL",
     "description": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
     "logoName": "companyLogos/ingka.png",
     "Dep": "CS, I&C",
-    "Dag": 18
-  },
-  {
-    "company": "Klarna",
-    "description": "TBA",
-    "logoName": "companyLogos/klarna.png",
-    "Dep": "TBA",
     "Dag": 18
   },
     {
@@ -69,25 +48,11 @@
     "Dep": "EE",
     "Dag": 18
   },
-  {
-    "company": "Oticon",
-    "description": "",
-    "logoName": "companyLogos/",
-    "Dep": "",
-    "Dag": 18
-  },
     {
     "company": "Sectra",
     "description": "Sectra’s work enables hospitals across the world to become more effective and thus take care of more patients and save more lives. Through our solutions, Sectra also provides greater security for society’s most critical communication and IT systems, which contributes to a more stable and secure society. ",
     "logoName": "companyLogos/Sectra.png",
     "Dep": "CS, EE, BME, I&C",
-    "Dag": 18
-  },
-  {
-    "company": "Serstech AB",
-    "description": "TBA",
-    "logoName": "companyLogos/",
-    "Dep": "TBA",
     "Dag": 18
   },
     {
@@ -97,13 +62,7 @@
     "Dep": "CS, I&C",
     "Dag": 18
   },
-  {
-    "company": "Xenergic",
-    "description": "TBA",
-    "logoName": "companyLogos/xenergic.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
+
     {
     "company": "Krafttag AB",
     "description": "Krafttag AB is an engineering company which have specialized in power stations for heavy industries, substations and power grids. Today we also work with local distribution nets with inspections, cable terminations, testing and commissioning of switchgears for our clients. We pride ourselves in hiring people with diverse education and experience levels. By combining young mindsets with the newest knowledge from the academia with older foxes with tons of wisdom and work experience, we believe great results can be achieved.",
@@ -123,13 +82,6 @@
     "description": "Today we are a leading creative tech company based in Scandinavia, providing innovative tech solutions to an international client base. We deliver world class design and software development services to local and global enterprises; creating ground-breaking new value propositions and improving business efficiency. We combine creativity and technology to swiftly transform ideas into remarkable experiences — we do #techforpeople. Founded in 2000, our company is now a place of 250 skilled creative developers and tech edgy designers; we call ourselves creative technologists. We have offices in Malmö, Copenhagen, Halmstad, Stockholm and in Silicon Valley.",
     "logoName": "companyLogos/Jayway.png",
     "Dep": "CS, I&C",
-    "Dag": 18
-  },
-  {
-    "company": "Netville",
-    "description": "TBA",
-    "logoName": "companyLogos/",
-    "Dep": "TBA",
     "Dag": 18
   },
     {
@@ -159,7 +111,7 @@
     "logoName": "companyLogos/ericsson.png",
     "Dep": "CS, EE, I&C",
     "Dag": 18
-  },
+  },v
     {
     "company": "Grade",
     "description": "Engagerade medarbetare med rätt kompetens är den viktigaste resursen ett företag eller organisation har. Vårt mål är att hjälpa våra kunder att engagera, utveckla och behålla rätt medarbetare. Vi erbjuder ett användarvänligt och intuitivt Talent Management System (TMS) och Learning Management System (LMS) tillsammans med skräddarsydda e-Learnings – för företag och organisationer i alla storlekar. Med vår plattform kan våra kunder på ett enkelt sätt mäta och höja medarbetares engagemang och kompetens.",
@@ -210,10 +162,10 @@
     "Dag": 18
   },
   {
-    "company": "ÅF",
-    "description": "TBA",
+    "company": "AFRY",
+    "description": "AFRY is an international engineering, design and advisory company. We support our clients to progress in sustainability and digitalisation. We are 17,000 devoted experts within the fields of infrastructure, industry and energy, operating across the world to create sustainable solutions for future generations. Making Future",
     "logoName": "companyLogos/AF.jpg",
-    "Dep": "TBA",
+    "Dep": "CS, EE, BME, I&C",
     "Dag": 18
   },
     {
@@ -260,7 +212,7 @@
   },
   {
     "company": "Alten Sverige AB",
-    "description": "Every employee is equally valuable in the success of ALTEN! We are driven by making people grow and develop, which is why we offer you the opportunity to work with what you are truly passionate about. At ALTEN, we have a broad range of assignments at most of the leading companies in Sweden in several different sectors, to make it possible for your wishes to come true. We offer both national and international opportunities and together with your coaching manager, you build your career path so you constantly are able to develop and achieve your goals and dreams! As a consultant at ALTEN, you will get the genuine team feeling at your assignment but also a wonderful togetherness at ALTEN. Through our different internal networks, such as ALTEN Sports, Women@ALTEN and ALTEN Innovation you will get the opportunity to drive topics and activities that are close to your heart, together with your colleagues. All activities are of course optional. Work life balance is our top priority. We also have a collective agreement and other benefits like Pension, Insurances and Wellness grants. We believe in growing together.",
+    "description": "Every employee is equally valuable in the success of F! We are driven by making people grow and develop, which is why we offer you the opportunity to work with what you are truly passionate about. At ALTEN, we have a broad range of assignments at most of the leading companies in Sweden in several different sectors, to make it possible for your wishes to come true. We offer both national and international opportunities and together with your coaching manager, you build your career path so you constantly are able to develop and achieve your goals and dreams! As a consultant at ALTEN, you will get the genuine team feeling at your assignment but also a wonderful togetherness at ALTEN. Through our different internal networks, such as ALTEN Sports, Women@ALTEN and ALTEN Innovation you will get the opportunity to drive topics and activities that are close to your heart, together with your colleagues. All activities are of course optional. Work life balance is our top priority. We also have a collective agreement and other benefits like Pension, Insurances and Wellness grants. We believe in growing together.",
     "logoName": "companyLogos/alten.png",
     "Dep": "CS, EE, BME, I&C",
     "Dag": 18
@@ -377,13 +329,7 @@
     "Dep": "TBA",
     "Dag": 18
   },
-  {
-    "company": "Tunstall",
-    "description": "TBA",
-    "logoName": "companyLogos/Tunstall.png",
-    "Dep": "TBA",
-    "Dag": 18
-  },
+ 
     {
     "company": "Flexens",
     "description": "TBA",
@@ -399,10 +345,10 @@
     "Dag": 18
   },
     {
-    "company": "Region Skåne",
-    "description": "TBA",
+    "company": "Softhouse Consulting",
+    "description": "We develop software! We are experts in software development. It is a part of our DNA just like the agile way of working. We have experts in different technologies, programming languages and digital strategies.",
     "logoName": "companyLogos/RegionSkane.png",
-    "Dep": "TBA",
+    "Dep": "CS, I&C",
     "Dag": 18
   },
   {
@@ -441,7 +387,7 @@
     "Dag": 18
   },
           {
-    "company": "Accenture A/S",
+    "company": "Accenture AB",
     "description": "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – Accenture works at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 492 000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives. Visit us at www.accenture.com.",
     "logoName": "companyLogos/Accenture.png",
     "Dep": "CS, EE, I&C",
