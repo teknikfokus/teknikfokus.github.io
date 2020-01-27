@@ -28,12 +28,12 @@
           <a class="navbar-brand" href="index.html">
             Teknikfokus
           </a>
-          <button class="navbar-toggler hidden-md-up" 
-                  type="button" 
-                  data-toggle="collapse" 
-                  data-target="#navbarResponsive" 
-                  aria-controls="navbarResponsive" 
-                  aria-expanded="false" 
+          <button class="navbar-toggler hidden-md-up"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarResponsive"
+                  aria-controls="navbarResponsive"
+                  aria-expanded="false"
                   aria-label="Toggle navigation">
           </button>
 
@@ -72,7 +72,7 @@
         <div class="container container-fluid" id="body-content">
           <div class="news">Attending Companies</div>
           <div class="news-info">Here you will be able to find which companies that will attend the fair 2020.<br>
-            
+
         </div>
 
 
@@ -90,27 +90,24 @@
 
               <div class="filter">
                 <h4>Filter</h4>
-                <br>
-                <h4>Buttons have been disabled. Please see "News".</h4>
-                <br>
                 <p>
                   <h5>Sort by date</h5>
-                18th: <input type="checkbox" disabled id="18th" onclick="filterAlgoritm()">
-                19th: <input type="checkbox" disabled id="19th" onclick="filterAlgoritm()">
+                18th: <input type="checkbox" id="18th" onclick="filterAlgoritm()">
+                19th: <input type="checkbox" id="19th" onclick="filterAlgoritm()">
                 </p>
 
                 <p>
                   <h5>Sort by department</h5>
-                 
-                  <input type="checkbox" id="CS" disabled value="CS" onclick="filterAlgoritm()"> Computer Science 
+
+                  <input type="checkbox" id="CS" value="CS" onclick="filterAlgoritm()"> Computer Science
                   <br>
-                  <input type="checkbox" id="EE" disabled value="EE" onclick="filterAlgoritm()"> Electrical Engineering 
+                  <input type="checkbox" id="EE" value="EE" onclick="filterAlgoritm()"> Electrical Engineering
                   <br>
-                  <input type="checkbox" id="BME" disabled value="BME" onclick="filterAlgoritm()"> Biomedical Engineering 
+                  <input type="checkbox" id="BME" value="BME" onclick="filterAlgoritm()"> Biomedical Engineering
                   <br>
-                  <input type="checkbox" id="IC" disabled value="IC" onclick="filterAlgoritm()"> Information & Communication techonology 
+                  <input type="checkbox" id="IC" value="IC" onclick="filterAlgoritm()"> Information & Communication techonology
                   <br>
-         
+
                 </p>
               <button type="button" class="btn btn-dark btn-lg" onclick="reset()">Clear</button>
 
@@ -119,13 +116,13 @@
 
 
                 <script>
-           
-                    
+
+
                 function reset(){
                   document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                   document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s)
                   document.getElementById('18th').checked = false;
-                  document.getElementById('119th').checked = false;
+                  document.getElementById('19th').checked = false;
                   document.getElementById('CS').checked = false;
                   document.getElementById('EE').checked = false;
                   document.getElementById('BME').checked = false;
@@ -135,7 +132,7 @@
                    function filterAlgoritm() {
                 document.getElementById("compact_company_list.js").innerHTML = ""; //Removes the literal presentation of companies attending date(s).
                 document.getElementById("company_info_coming_from_Companies.js").innerHTML = ""; //Removes the printed company list for the specific date(s).
-                
+
                 var a = document.getElementById('18th');
                 var b = document.getElementById('19th');
                 var CSR = document.getElementById('CS');
