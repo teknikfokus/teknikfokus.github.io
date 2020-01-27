@@ -11,14 +11,14 @@ window.onload = function () {
 
     events.forEach(events => {
       var h5Tag = document.createElement('h4')
-      h5Tag.innerText = events['title (Datummet)'] + '\u00A0' +'◗'+ '\u00A0' 
+      h5Tag.innerText = events['title (Datummet)'] + '\u00A0' + '\u00A0' 
       BASE_DIV.appendChild(h5Tag)
       
       tab = document.createElement('tr')
       BASE_DIV.appendChild(tab)
 
       var h5Tag = document.createElement('h4')
-      h5Tag.innerText =  '◖' + events['name']
+      h5Tag.innerText =  events['name']
       BASE_DIV.appendChild(h5Tag)
     
       lineBreak = document.createElement('br')
