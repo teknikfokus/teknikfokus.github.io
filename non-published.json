@@ -102,7 +102,7 @@
     "description": "InfraSight Labs is the company behind vScope - a solution for IT inventory and and insights. The company was founded in Malmö 2010, and went from a small startup to an established player in the global IT industry in a few years. With vScope, we help people within IT to be better through automation, transparency and efficient collaboration. vScope collects data from multiple IT sources and makes that information easily accessible and easier to understand. This leads to a more efficient team, increased productivity, and greater control over the IT environment. Our product vScope is based on proprietary graph database technology, which enables many exciting development projects and we are continuously on the lookout for new members to join our fantastic team. Read more: vscope.net",
     "logoName": "companyLogos/InfraSightLabs.png",
     "Dep": "CS",
-    "Dag": 18
+    "Dag": 19
   },
   {
     "company": "Minut",
