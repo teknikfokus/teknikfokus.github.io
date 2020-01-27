@@ -1,8 +1,6 @@
 function printCompanies (day12, day13, crit) {
   var criteria = new Array();
   var saved = new Array();
-
-
     for(k = 0; k < crit.length; k++){ //Copy 1
       criteria.push(crit[k]);
     }
@@ -16,7 +14,7 @@ function printCompanies (day12, day13, crit) {
 
     var compact_12 = document.createElement('div')
     var head12 = document.createElement('h5')
-    head12.innerText = "TBD"
+    head12.innerText = "18th of February"
     head12.style.fontWeight = "bold"
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day1'
@@ -30,7 +28,7 @@ function printCompanies (day12, day13, crit) {
 
     var compact_13 = document.createElement('div')
     var head13 = document.createElement('h5')
-    head13.innerText = "TBD"
+    head13.innerText = "19th of February"
 
     var pageLink = document.createElement('a')
     pageLink.href = '#'+'Day2'
@@ -49,7 +47,7 @@ function printCompanies (day12, day13, crit) {
     div.id = "Day1"
     div.className = "card"
     var h5Tag = document.createElement('h4')
-    h5Tag.innerText = "TBD"
+    h5Tag.innerText = "18th of February"
     div.appendChild(h5Tag)
     CompanyCards_12.appendChild(div)
     BASE_DIV.appendChild(CompanyCards_12)
@@ -60,18 +58,16 @@ if(day13){
   div.id = "Day2"
   div.className = "card"
   var h5Tag = document.createElement('h4')
-  h5Tag.innerText = "TBD"
+  h5Tag.innerText = "19th of February"
   div.appendChild(h5Tag)
   CompanyCards_13.appendChild(div)
   BASE_DIV.appendChild(CompanyCards_13)
-
 }
 
   let isFirstCompany12 = true;
   let isFirstCompany13 = true;
 
-
-  fetch('https://www.teknikfokus.se/non-published.json')
+  fetch('https://www.teknikfokus.se/published2020.json')
   .then(res => res.json())
   .then(compInfo => {
     //const faqs = JSON_FILE
@@ -100,22 +96,21 @@ if(day13){
       div.className = "card"
       //CompanyCards_13.appendChild(div)
 
-
 	  var h5Tag = document.createElement('h4')
       h5Tag.innerText = compInfo['company']
       div.appendChild(h5Tag)
-	  
+
       var img = document.createElement('img')
       img.className = "img-fluid"
       img.id = "pic"
       img.src = compInfo['logoName']
       div.appendChild(img)
-	  
+
 
  var h5Tag = document.createElement('h4')
       h5Tag.innerText = compInfo['company']
       div.appendChild(h5Tag)
-	  
+
 
       pTag = document.createElement('p')
       pTag.innerText = compInfo['description']
@@ -124,9 +119,16 @@ if(day13){
       lineBreak = document.createElement('br')
       div.appendChild(lineBreak)
 
-      p2Tag = document.createElement('p')
-      p2Tag.innerText = 'Attending the fair: TBD'
-      div.appendChild(p2Tag)
+if(compInfo['Dag'] == 1819){
+  p2Tag = document.createElement('p')
+  p2Tag.innerText = 'Attending the fair: ' + "18th & 19th of February"
+  div.appendChild(p2Tag)
+} else {
+  p2Tag = document.createElement('p')
+  p2Tag.innerText = 'Attending the fair: ' + compInfo['Dag'] + 'th of February'
+  div.appendChild(p2Tag)
+
+}
 
       if(compInfo['Dep'] != null) {
         p3Tag = document.createElement('p')
@@ -135,7 +137,7 @@ if(day13){
       }
 	else {
 		  p3Tag = document.createElement('p')
-		p3Tag.innerText = 'Department: TBD'
+		p3Tag.innerText = 'Department: ' + compInfo['Dep']
 		    div.appendChild(p3Tag)
 	}
 
@@ -143,7 +145,7 @@ if(day13){
       date = compInfo["Dag"]
       spacer = document.createElement('span')
 
-      if(isFirstCompany12 && date==18) {
+       if(isFirstCompany12 && date==18) {
         isFirstCompany12 = false
       } else if(isFirstCompany13 && date==19) {
         isFirstCompany13 = false
@@ -159,7 +161,13 @@ if(day13){
 
       //Adding to cards and compactlist dependning on day.
 
-      if(date == 18 && day12){
+        if(date == 1819){
+          P12.appendChild(spacer)
+          P12.appendChild(aaa)
+          CompanyCards_12.appendChild(div)
+        }
+
+      else if(date == 18 && day12){
         P12.appendChild(spacer)
         P12.appendChild(aaa)
         CompanyCards_12.appendChild(div)
