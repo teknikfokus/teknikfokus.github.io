@@ -1,5 +1,4 @@
 [
-   [
     {
     "company": "Acconeer",
     "description": "Based on research from Lund University, Acconeer has created a unique radar solution that creates new opportunities for human interaction with technology. The radar sensor is based on pulsed coherent radar technology and combines extremely low power consumption with high accuracy. The unique characteristics of this radar sensor make it possible to identify materials and detect motion in advanced sensor applications. The small size, only 5x5 mm, and low power consumption are ideal for compact battery-driven and mobile devices.",
@@ -436,6 +435,4 @@
     "Dep": "CS, EE, I&C",
     "Dag": 19
   }
-  ]
-
   ]
