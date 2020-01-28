@@ -1,0 +1,40 @@
+[
+ {
+    "Header": "'News' page has been issued!",
+    "Date": "26th of November 2019, 4:22 pm, UTC.",
+    "Container": "New page for TeknikFokus is up and running! The page will present news regarding TeknikFokus 2020",
+    "Tags": "TeknikFokus, 2020, News"
+  }, 
+  {
+    "Header": "'Company List' has been updated.",
+    "Date": "26th of November 2019, 6:38 pm, UTC.",
+    "Container": "Website for companies attending has been updated. Filter system implemented.",
+    "Tags": "TeknikFokus, 2020, News, Company List, Attending"
+  },
+  {
+    "Header": "Revised homepage",
+    "Date": "27th of November 2019, 10:49 am, UTC.",
+    "Container": "New design features implemented.",
+    "Tags": "TeknikFokus, 2020, News, Homepage"
+  },
+  {
+    "Header": "Performance issued fixed.",
+    "Date": "5th of December 2019, 5:22pm, UTC.",
+    "Container": "Improved filter system.",
+    "Tags": "TeknikFokus, 2020, News, Homepage"
+  },
+ {
+    "Header": "Companies attending Teknikfokus 2020 has been published!",
+    "Date": "27th of January 2020, 5:57pm, UTC.",
+    "Container": "The team is proud to present the complete list of companies attending the Teknikfokus 2020 fair. Be sure to look through the list under 'Attending'!",
+    "Tags": "TeknikFokus, 2020, News, Homepage"
+  },
+  {
+    "Header": "Lunch lecture with Siemens!",
+    "Date": "27th of January 2020, 6:01pm, UTC.",
+    "Container": "Lunch lecture with Siemens has been published! The event is to take place the 3rd of February, 12:15am-1pm (UTC +1) at LTH, hall E:B. More info at: https://www.facebook.com/events/2565615360428088/",
+    "Tags": "TeknikFokus, 2020, News, Lunch lecture, Siemens"
+  }
+]
+
+
