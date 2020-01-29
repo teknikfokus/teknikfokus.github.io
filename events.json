@@ -29,14 +29,14 @@
       "title (Datummet)": "4th of February",
       "data": "",
       "key": 4,
-      "name": "'Kosten att leva sina drömar och nå sina mål' med Peppe Ekmark",
+      "name": "Inspirationsföreläsning med Peppe Ekmark",
       "speaker": "Peppe Ekmark",
       "startTime": "17:15",
-      "endTime": "20:15",
+      "endTime": "20:00",
       "language": "English",
       "location": "E:B, E-huset",
       "description": "Peppe har mer än 35 års erfarenhet som säljare, säljchef samt försäljningsdirektör inom bland annat Kinnevik-gruppen med varumärken som MTG, TV3, Tidningen Metro mm. Vidare har han varit med om att framgångsrikt bygga upp ett tiotal olika säljorganisationer och listan över säljare som han har tränat och coachat till framgång är lång. Han bygger sina föreläsningar på hans egna resa och där han växte upp som den blyga lilla killen som efter en skilsmässa var tvungen att göra en vändning på 180 grader och hamnade tillslut på en kurs där allt vände. Det var där han kom till insikt med hur vi människor fungerar och att vi alla kan ta fram det engagemang och driv som vi alla har inom oss. Efter den insikten började han skapa resultat utöver det vanliga. Bland annat lyckades han vända Tidningen Metro´s säljavdelning, på rekordtid, från den sämsta till den bästa i mediebranschen. På MTG missade hans avdelning inte ett kvartalsmål på sex år.Peppe historia är både fängslade och inspirerande men framförallt får han åhörarna att verkligen komma till insikt om att det går att skapa resultat utöver det vanliga. Genom konkreta råd och tips hjälper han åhörarna att själva inse att det är ingen annan än vi själva som bestämmer hur framgångsrika vi vill bli och att de flesta mål går att nå.",
-      "signUpURL": ""
+      "signUpURL": "https://www.facebook.com/events/612615059536175/?notif_t=plan_user_invited&notif_id=1580202862872304"
     },
     {
       "title (Datummet)": "5th of February",
@@ -68,13 +68,26 @@
       "title (Datummet)": "11th of February",
       "data": "",
       "key": 8,
-      "name": "Combitech Lunch",
-      "speaker": "",
+      "name": "Lunchföreläsning med Combitech!",
+      "speaker": "Combitech",
       "startTime": "12:15",
       "endTime": "13:00",
       "language": "Swedish",
       "location": "TBA, E-huset",
-      "description": "TBA",
+      "description": "Combitech växer både organiskt och genom förvärv och vi har nästan 1900 kvalificerade konsulter på ett 30-tal platser i Sverige, Norge, Finland och Danmark. Vi erbjuder hög leveranskapacitet och ett brett utbud av spetskompetenser och koncept till kunder inom tillverkningsindustri, tjänstesektor, offentlig verksamhet och försvar. Är du intresserad av Data Analytics och AI? Combitech håller lunchföreläsning om just detta och bjuder på lunch och dryck till de 100 första som anmäler sig. Så kom dit så berättar vi mer!",
+      "signUpURL": ""
+    },
+    {
+      "title (Datummet)": "13th of February",
+      "data": "",
+      "key": 9,
+      "name": "Lunchföreläsning med Skatteverket",
+      "speaker": "Skatteverket",
+      "startTime": "12:15",
+      "endTime": "13:00",
+      "language": "Swedish",
+      "location": "TBA",
+      "description": "Välkommen till en lunchföreläsning med Skatteverket! ·Skatteverkets IT-verksamhet i Malmö kommer att rekrytera 70 personer ·Hur använder vi IT för att hitta gömda pengar globalt? ·Hur utvecklar vi applikationer som är 'cloud-native'?",
       "signUpURL": ""
     },
     {
