@@ -107,11 +107,6 @@ if(day13){
       div.appendChild(img)
 
 
- var h5Tag = document.createElement('h4')
-      h5Tag.innerText = compInfo['company']
-      div.appendChild(h5Tag)
-
-
       pTag = document.createElement('p')
       pTag.innerText = compInfo['description']
       div.appendChild(pTag)
