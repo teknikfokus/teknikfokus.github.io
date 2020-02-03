@@ -21,7 +21,7 @@
     <script src="Companies.js"></script>
 </head>
 
-    <body onLoad="printCompanies(true,true,'CS, EE, BME')">
+    <body onLoad="printCompanies(true,true,'CS, EE, BME'); enabled()">
 
       <nav class="navbar navbar-fixed-top navbar-dark-bg-inverse">
         <div class="container">
@@ -113,6 +113,11 @@
 
 
                 <script>
+                  
+                  function enabled(){
+                    document.getElementById("18th").checked = true;
+                    document.getElementById("19th").checked = true;
+                  }
 
 
                 function reset(){
