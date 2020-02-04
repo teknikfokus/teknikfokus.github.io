@@ -57,12 +57,12 @@
       "key": 7,
       "name": "Lund AI kväll",
       "speaker": "Lund AI",
-      "startTime": "TBA",
-      "endTime": "TBA",
+      "startTime": "18:00",
+      "endTime": "23:00",
       "language": "Swedish",
-      "location": "E-huset",
-      "description": "TBA",
-      "signUpURL": ""
+      "location": "iDét, E-huset",
+      "description": "Vad är artificiell intelligens? Enligt Wikipedia är AI “förmågan hos datorprogram och robotar att efterlikna människors och andra djurs naturliga intelligens, främst kognitiva funktioner såsom förmåga att lära sig saker av tidigare erfarenheter, förstå naturligt språk, lösa problem, planera en sekvens av handlingar och att generalisera.” Fina ord, jovars. Men vad betyder detta rent konkret? Och än bättre: varför är AI relevant för dig som student på LTH? Välkommen till en avslappnad studentpub i iDét under vilken du utöver svar på ovanstående frågor kommer få veta mer om AI:s historia och få flera exempel på hur AI används ute i den riktiga världen utanför universitetet. Eventet anordnas av Teknikfokus 2020 i samarbete med den ideella studentföreningen Lund AI Initiative.",
+      "signUpURL": "https://www.facebook.com/events/264738184489067/"
     },
     {
       "title (Datummet)": "11th of February",
@@ -73,9 +73,9 @@
       "startTime": "12:15",
       "endTime": "13:00",
       "language": "Swedish",
-      "location": "TBA, E-huset",
+      "location": "E:B, E-huset",
       "description": "Combitech växer både organiskt och genom förvärv och vi har nästan 1900 kvalificerade konsulter på ett 30-tal platser i Sverige, Norge, Finland och Danmark. Vi erbjuder hög leveranskapacitet och ett brett utbud av spetskompetenser och koncept till kunder inom tillverkningsindustri, tjänstesektor, offentlig verksamhet och försvar. Är du intresserad av Data Analytics och AI? Combitech håller lunchföreläsning om just detta och bjuder på lunch och dryck till de 100 första som anmäler sig. Så kom dit så berättar vi mer!",
-      "signUpURL": ""
+      "signUpURL": "https://forms.gle/8RaRtNymSn8pxaze7"
     },
     {
       "title (Datummet)": "13th of February",
@@ -96,10 +96,10 @@
       "key": 9,
       "name": "D-chip pub",
       "speaker": "",
-      "startTime": "TBA",
+      "startTime": "17:00",
       "endTime": "TBA",
       "language": "Swedish",
-      "location": "TBA",
+      "location": "iDét, E-huset",
       "description": "TBA",
       "signUpURL": ""
     }
