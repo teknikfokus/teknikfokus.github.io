@@ -66,14 +66,14 @@
     "company": "Sveriges Ingenjörer",
     "description": "Sveriges Ingenjörer välkomnar dig till vårt unika nätverk med 153 000 ingenjörsmedlemmar. Som medlem erbjuder vi dig stöd och verktyg med allt från cv- och LinkedIn-granskning, karriärcoachning och intervjuträning. Ta även del av landets bästa lönestatistik, digitaltidningen Ny Teknik, samt aktiviteter som hålls vid just ditt lärosäte. Dessutom har du möjlighet att teckna förmånliga försäkringar och du har tillgång till experthjälp om något skulle gå snett på sommar- eller extrajobbet. Välkommen att börja ditt liv som ingenjör med oss!",
     "logoName": "companyLogos/SverigesIngenjorer.png",
-    "Dep": "CS, ICT",
+    "Dep": "CS, EE, BME ICT",
     "Dag": 18
   },
       {
     "company": "Ingenjörer Utan Gränser",
     "description": "Through humanitarian engineering, we engage, inspire and unite people to build a sustainable future. Engineers Without Borders Sweden works to address challenges linked to the Sustainable Development Goals, both in Sweden and around the globe. Through improvements in education, equality, energy poverty and access to water and sanitation we strive to make a sustainable and long-term impact with our work, for local communities and the Earth as a whole.",
     "logoName": "companyLogos/iug.png",
-    "Dep": "CS, ICT",
+    "Dep": "CS, EE, BME, ICT",
     "Dag": 19
   },
     {
