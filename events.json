@@ -102,5 +102,18 @@
       "location": "iDét, E-huset",
       "description": "TBA",
       "signUpURL": ""
+    },
+    {
+      "title (Datummet)": "18th of February",
+      "data": "",
+      "key": 10,
+      "name": "Banquet",
+      "speaker": "",
+      "startTime": "18:00",
+      "endTime": "23:00",
+      "language": "Swedish",
+      "location": "Gasquesalen",
+      "description": "",
+      "signUpURL": ""
     }
   ]
