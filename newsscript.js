@@ -1,24 +1,20 @@
 function printNews() {
 
 
-  const CompanyList_DIV = document.getElementById('compact_company_list.js')
-
-
-
-
+  const NewsEvent_DIV = document.getElementById('compact_company_list.js')
     const BASE_DIV = document.getElementById('company_info_coming_from_Companies.js')
 
-    CompanyCards_12 = document.createElement('div')
+    NewsEvents = document.createElement('div')
     var div = document.createElement('div')
-    CompanyCards_12.appendChild(div)
-    BASE_DIV.appendChild(CompanyCards_12)
+    NewsEvents.appendChild(div)
+    BASE_DIV.appendChild(NewsEvents)
 
    fetch('https://www.teknikfokus.se/newsInfo.json')
    .then(res => res.json())
    .then(compInfo => {
     compInfo.reverse();
     BASE_DIV.style.textAlign = "left"
-    CompanyList_DIV.style.textAlign = "center"
+    NewsEvent_DIV.style.textAlign = "center"
 
       compInfo.forEach(compInfo => {
       if((compInfo['Header'] && compInfo['Date'] && compInfo['Container']) != null){
@@ -41,7 +37,7 @@ function printNews() {
       lineBreak = document.createElement('br')
       div.appendChild(lineBreak)
 
-      CompanyCards_12.appendChild(div)
+      NewsEvents.appendChild(div)
 
       }
     })
