@@ -3,7 +3,7 @@ window.onload = function () {
 
   const BASE_DIV = document.getElementById('event_infon')
 
-  fetch('https://www.teknikfokus.se/events.json')
+  fetch('../content/events.json')
   .then(res => res.json())
   .then(events => {
     

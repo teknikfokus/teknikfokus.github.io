@@ -9,7 +9,7 @@ window.onload = function () {
 function initiateFAQ() {
   const BASE_DIV = document.getElementById('faq_info_coming_from_FAQ.js')
   
-  fetch('https://www.teknikfokus.se/FAQ.json')
+  fetch('../content/FAQ.json')
   .then(res => res.json())
   .then(faqs => {
     //const faqs = JSON_FILE
@@ -35,7 +35,7 @@ function initiateFAQ() {
 function initiateFAQEng() {
   const BASE_DIV = document.getElementById('faq_info_coming_from_FAQeng.js')
 
-  fetch('https://www.teknikfokus.se/FAQ.json')
+  fetch('../content/FAQ.json')
   .then(res => res.json())
   .then(faqs => {
     //const faqs = JSON_FILE

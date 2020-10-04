@@ -9,7 +9,7 @@ function printNews() {
     NewsEvents.appendChild(div)
     BASE_DIV.appendChild(NewsEvents)
 
-   fetch('https://www.teknikfokus.se/newsInfo.json')
+   fetch('../content/newsInfo.json')
    .then(res => res.json())
    .then(compInfo => {
     compInfo.reverse();
