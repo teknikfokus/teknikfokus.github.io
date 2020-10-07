@@ -24,107 +24,61 @@
     padding: 30px 0;
 }
 
-.main > div:nth-child(2n) {
-    /*
-    background: #eee;
-    margin-left: -1000px;
-    margin-right: -1000px;
-    padding-left: 1000px;
-    padding-right: 1000px;
-    */
-}
-
+/* Carousel */
 .companies .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
     position: relative;
-    width: 100%;
-    max-width: 500px;
+    height: 160px;
     margin: 0 auto;
     white-space: nowrap;
     position: relative;
 
     margin-bottom: 50px;
     margin-top: 20px;
-}
-
-.companies .carousel:after {
-    content: "";
-    display: block;
-    padding-bottom: 30%;
-    /* background: blue; */
-}
-
-.companies .carousel .company .img-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.companies .carousel .company img {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    box-sizing: content-box;
 }
 
 .companies .carousel .company {
     display: inline-block;
+    position: relative;
+    flex-shrink: 0;
+    margin: -50px;
 
-    width: 30%;
-    height: 100%;
-    /* max-width: 30%; */
-
-    /* background: #444; */
-    position: absolute;
-    top: 50%;
+    width: 240px;
+    height: 120px;
     
-
-    transform: translate(-50%, -50%) scale(1);
-    transition: all 1s;
+    transform: scale(0.5);
+    transition-property: transform, opacity, margin;
+    transition-duration: 1s;
     opacity: 1;
     left: 0;
     cursor: normal;
+    opacity: 0.4;
+    z-index: 2;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
-.companies .carousel .company.enter {
-    transform: translate(-50%, -50%) scale(0.5);
+.companies .carousel .company.edge {
     opacity: 0;
-    left: -10%;
-    /* background: #fff; */
-    z-index: 1;
     
 }
-.companies .carousel .company.left {
-    transform: translate(-50%, -50%) scale(0.5);
-    opacity: 0.4;
-    left: 20%;
-    /* background: #888; */
-    z-index: 5;
-    cursor: pointer;
-}
+
 .companies .carousel .company.center {
-    transform: translate(-50%, -50%) scale(1);
+    transform: scale(1);
+    left: 0;
     opacity: 1;
-    left: 50%;
-    /* background: #444; */
-    z-index: 4;
-    
+    margin: 10px !important;
+    z-index: 10;
 }
-.companies .carousel .company.right {
-    transform: translate(-50%, -50%) scale(0.5);
-    opacity: 0.4;
-    left: 80%;
-    /* background: #888; */
-    z-index: 3;
-    cursor: pointer;
-    
-}
-.companies .carousel .company.exit {
-    transform: translate(-50%, -50%) scale(0.5);
-    opacity: 0;
-    left: 110%;
-    /* background: #fff; */
-    z-index: 2;
-    
+.companies .carousel .company.moving {
+    left: 140px;
+    transition-property: transform, opacity, margin, left;
 }
