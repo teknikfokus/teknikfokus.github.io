@@ -37,7 +37,8 @@
 }
 
 /* Logo */
-.logo, #navbar:not(.sticky) .navbar-toggler.collapsed ~ .logo{ 
+.logo.expand, 
+#navbar:not(.sticky) .navbar-toggler.collapsed ~ .logo.expand{ 
     position: absolute;
     top: 120px;
     left: calc(50% - 33vw);
@@ -52,7 +53,10 @@
     width: 100%;
 }
 
-#navbar.sticky .logo, #navbar .collapsing ~ .logo, #navbar .collapse.show ~ .logo {
+.logo:not(.expand), 
+#navbar.sticky .logo.expand, 
+#navbar .collapsing ~ .logo.expand, 
+#navbar .collapse.show ~ .logo.expand {
     position: absolute;
     top: 0px;
     left: 0px;
