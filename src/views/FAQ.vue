@@ -1,5 +1,5 @@
 <template>
-  <div class="faq">
+  <div id="faq">
     FAQ
   </div>
 </template>

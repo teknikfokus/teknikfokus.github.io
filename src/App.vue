@@ -16,4 +16,21 @@ export default {
 </script>
 
 <style>
+:root {
+    --primary: #51b0d2;
+    --primary-dark: #489ab8;
+
+    --secondary-color: #fff;
+    --accent-color: #000;
+
+    --background: #fff;
+
+    --footer-color: #445;
+}
+
+body {
+    background-color: var(--background);
+    font-family: Hind, sans-serif;
+}
+
 </style>

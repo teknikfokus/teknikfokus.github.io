@@ -1,30 +1,31 @@
 #navbar {
+    position: fixed;
     width: 100%;
+    box-sizing: border-box;
 
-    transition-property: background, box-shadow, padding, top,;
+    min-height: 90px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+
+    transition-property: background;
     transition-duration: 0.5s;
     z-index: 1000;
 
-    position: absolute;
-    background: rgba(0, 0, 0, 0.75);
-    top: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    min-height: 50px;
-    box-sizing: border-box;
+    background: black;
 }
 
 
-#navbar.sticky {
-    transition-property: background, box-shadow, padding;
-    position: fixed;
 
-    /* Following two attributes is to avoid the logo from "jumping down" */
-    padding-top: 215px; /* This needs to be equal to base padding-top - the new top value i.e. (15 - (-200))*/
-    top: -200px; /* This needs to be the same as the scroll cutoff in the js file */
-    
+@media (min-width: 768px) { 
+    #navbar {
+        background: transparent;
+    }
+}
+
+#navbar.sticky {
+    pointer-events: all;
     background: black;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 #navbar .navbar-toggler {
@@ -37,46 +38,37 @@
 }
 
 /* Logo */
-.logo.expand, 
-#navbar:not(.sticky) .navbar-toggler.collapsed ~ .logo.expand{ 
+.logo { 
     position: absolute;
-    top: 120px;
-    left: calc(50% - 33vw);
-    width: 66vw;
-    /* height: auto; */
-    z-index: 900;
-
-    transition: all 0.6s;
+    top: 0;
+    left: 0px;
+    width: 200px;
+    z-index: 1000;
 }
 
 .logo img {
     width: 100%;
 }
 
-.logo:not(.expand), 
-#navbar.sticky .logo.expand, 
-#navbar .collapsing ~ .logo.expand, 
-#navbar .collapse.show ~ .logo.expand {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
-    width: 200px;
-    transform: translate(0%, 0);
-
-    z-index: 1000;
-}
-
 
 /* Links */
 #navbar .nav-item .nav-link {
-    font-size: 1.2em;
+    display: inline-block;
+    font-size: 15px;
     color: white;
-    transition: color 0.2s;
+    transition: border 0.2s;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: 4px solid transparent;
 }
 
-#navbar .nav-item .nav-link:hover
+#navbar .nav-item .nav-link:hover,
+#navbar .nav-item .nav-link.router-link-exact-active
 {
-    color: var(--primary);
+    border-bottom: 4px solid white;
 }
 
+#navbar .nav-item .nav-link.router-link-exact-active {
+    pointer-events: none;
+}
