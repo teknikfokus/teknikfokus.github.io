@@ -5,7 +5,6 @@
       <div class="row">
         <div class="col d-none d-lg-block"></div>
         <div class="col col-lg-8">
-        
           <div id="faq-accordion">
             <div class="question" v-for="[index, question] of questions.entries()" :key="'header'+index">
               <i class="fas fa-question-circle mr-2"></i>
