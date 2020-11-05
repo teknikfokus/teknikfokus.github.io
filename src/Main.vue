@@ -82,7 +82,7 @@ export default {
   },
   computed: {
     parallaxBackground() {
-        let name ="indexbackground.jpg"
+        let name ="massa2020blur.jpg"
         var images = require.context('@/assets/images/', false, /(\.png)|(\.jpg)|(\.jpeg)$/)
         return images('./' + name);
     },
