@@ -31,8 +31,8 @@
     </nav>
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
         <div class="container text-center" v-if="$route.name=='Home'">
-            <h1>Teknikfokus 2021</h1>
-            <h3>Digital work fair</h3>
+            <h1>Digital work fair</h1>
+            <h3>17th of February</h3>
             <a href="#" class="btn link-button">Visit The Fair</a>
         </div>
         <div class="container text-center" v-else>
@@ -42,7 +42,7 @@
     <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
         <img :src="parallaxBackground" />
     </parallax>
-    <router-view/>
+    <router-view class="view"/>
     <Footer></Footer>
   </div>
 </template>
@@ -172,6 +172,10 @@ a:hover {
     /* height: 600px; */
     overflow: hidden;
     z-index: -1;
+}
+
+.view {
+    min-height: 40vh;
 }
 
 @media (min-width: 576px) { 
