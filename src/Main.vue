@@ -13,7 +13,7 @@
                 <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Fair</a>
+                <router-link class="nav-link" to="/fair">Fair</router-link>
             </li>
             <li class="nav-item">
                 <router-link class="nav-link" to="/events">Events</router-link>
@@ -33,7 +33,7 @@
         <div class="container text-center" v-if="$route.name=='Home'">
             <h1>Digital work fair</h1>
             <h3>17th of February</h3>
-            <a href="#" class="btn link-button">Visit The Fair</a>
+            <router-link to="/fair" class="btn link-button">Visit The Fair</router-link>
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.name}}</h1>

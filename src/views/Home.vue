@@ -8,7 +8,7 @@
       </div>
       <p>Due to the current situation regarding Covid-19, this year's Teknikfokus will be held completely online. Please visit the link below to register.</p>
       <div class="d-block w-100 text-center">
-        <a class="btn link-button"  href="#">Go to the Fair</a>
+        <router-link class="btn link-button"  to="/fair">Go to the Fair</router-link>
       </div>
     </div>
 
@@ -31,7 +31,7 @@
           <i class="fas fa-map-marker-alt fa-3x mb-2"></i>
           <div class="mb-3">Where?</div>
           <div>Completely Digital</div>
-          <a href="#">The Fair</a>
+          <router-link to="/fair">The Fair</router-link>
         </div>
       </div>
       <div class="row mt-4">

@@ -53,7 +53,7 @@ export default {
         },
         {
           "header": "Where will Teknikfokus be?",
-          "answer": "Teknikfokus will be completely digital this year due to the current circumstances regarding Covid-19. You can visit it <a href='#'>here</a>."
+          "answer": "Teknikfokus will be completely digital this year due to the current circumstances regarding Covid-19."
         },
         {
           "header": "What does the kontaktsamtal/student sessions mean?",
