@@ -62,7 +62,7 @@ export default {
           mail: "patrik@teknikfokus.se"
         },
         {
-          name: "Jimmie Szesnes",
+          name: "Jimmie Szentes",
           position: "Event Coordinator",
           imageUrl: "",
           linkedIn: "https://www.linkedin.com/in/jimmy-szentes-342b291ba/",

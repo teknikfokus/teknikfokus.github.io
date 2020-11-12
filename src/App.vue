@@ -8,9 +8,14 @@
 import Main from './Main.vue'
 
 export default {
-  name: 'Appp',
+  name: 'App',
   components: {
     Main
+  },
+  watch: {
+    '$route' (to) {
+      document.title = ((to.meta.title != '') ? `${to.meta.title} | ` : '') + ('Teknikfokus')
+    }
   }
 }
 </script>
