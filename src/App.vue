@@ -11,6 +11,11 @@ export default {
   name: 'Appp',
   components: {
     Main
+  },
+  watch: {
+    '$route' (to) {
+      document.title = ((to.meta.title != '') ? `${to.meta.title} | ` : '') + ('Teknikfokus')
+    }
   }
 }
 </script>
