@@ -93,7 +93,7 @@ export default {
           name: "Katia Svennarp",
           position: "Host Manager",
           imageUrl: "",
-          linkedIn: "",
+          linkedIn: "https://www.linkedin.com/in/katia-svennarp-a737071b9/",
           mail: "katia@teknikfokus.se"
         },
         {
