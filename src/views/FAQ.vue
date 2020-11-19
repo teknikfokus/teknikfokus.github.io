@@ -7,9 +7,9 @@
         <div class="col col-lg-8">
           <div id="faq-accordion">
             <div class="question" v-for="[index, question] of questions.entries()" :key="'header'+index">
-              <i class="fas fa-question-circle mr-2"></i>
               <div class="question-header" @mouseover="currentHover = index">
-                  <a data-toggle="collapse" :data-target="'#collapse'+index" aria-expanded="false" aria-controls="collapseTwo" v-html="question.header">
+                  <a data-toggle="collapse" :data-target="'#collapse'+index" aria-expanded="false" aria-controls="collapseTwo" 
+                      v-html="`<i class='fas fa-question-circle mr-2'></i>${question.header}`">
                   </a>
               </div>
               <div :id="'collapse'+index" class="collapse" :aria-labelledby="'header'+index" data-parent="#faq-accordion" >
