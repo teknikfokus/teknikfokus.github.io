@@ -31,6 +31,8 @@ export default {
 <style scoped>
 #footer {
   background: var(--footer-color);
+  position: absolute;
+  bottom: 0;
 }
 
 .social-media-icon {

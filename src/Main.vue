@@ -1,5 +1,5 @@
 <template>
-  <div id="main">
+  <div id="main" ref="main">
     <nav id="navbar" class="navbar navbar-expand-md navbar-dark" :class="{'sticky': scrolled}">
       <div class="container position-relative">
         <a class="navbar-brand" href="/"></a>
@@ -42,8 +42,8 @@
     <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
         <img :src="parallaxBackground" />
     </parallax>
-    <router-view class="view"/>
-    <Footer></Footer>
+    <router-view/>
+    <Footer id="footer" ref="footer"></Footer>
   </div>
 </template>
 
@@ -68,6 +68,9 @@ export default {
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll);
+  },
+  mounted() {
+      this.$refs.main.style.paddingBottom = this.$refs.footer.$el.offsetHeight + "px";
   },
   methods: {
     handleScroll() { 
@@ -106,9 +109,9 @@ export default {
   /* -moz-osx-font-smoothing: grayscale; */
   /* text-align: center; */
   /* color: #2c3e50; */
+  min-height: 100vh;
+  position: relative;
 }
-
-
 
 a {
     color: var(--primary);
@@ -172,10 +175,6 @@ a:hover {
     /* height: 600px; */
     overflow: hidden;
     z-index: -1;
-}
-
-.view {
-    min-height: 40vh;
 }
 
 @media (min-width: 576px) { 
