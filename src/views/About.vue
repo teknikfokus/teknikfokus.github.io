@@ -4,7 +4,7 @@
       <h2 class="text-center mb-4 text-capitalize font-weight-bold">The project group</h2>
       <div class="people-holder">
         <div class="person" v-for="person of people" :key="person.name">
-          <div class="img-wrapper" :style="{'background-image': `url(${((person.imageUrl == '') ? getImgUrl('placeholder-person.png') : person.imageUrl)})`}"></div>
+          <div class="img-wrapper" :style="{'background-image': `url(${((person.imageUrl == '') ? getImgUrl('@/placeholder-person.png') : getImgUrl(person.imageUrl))})`}"></div>
           <span class="name">{{person.name}}</span>
           <span class="position">{{person.position}}</span>
           <div class="icons">
@@ -29,28 +29,28 @@ export default {
         {
           name: "Emil Holm",
           position: "Project Manager",
-          imageUrl: "",
+          imageUrl: "@/Emil.jpg",
           linkedIn: "https://www.linkedin.com/in/emil-holm-101023155/",
           mail: "emil@teknikfokus.se"
         },
         {
           name: "Jonna Fahrman",
           position: "Project Manager",
-          imageUrl: "",
-          linkedIn: "www.linkedin.com/in/jonna-fahrman-3758a61b8",
+          imageUrl: "@/Jonna.jpg",
+          linkedIn: "https://www.linkedin.com/in/jonna-fahrman-3758a61b8",
           mail: "jonna@teknikfokus.se"
         },
         {
           name: "Mimmi Hansson",
           position: "Marketing Director",
-          imageUrl: "",
-          linkedIn: "http://www.linkedin.com/in/mimmihansson",
+          imageUrl: "@/Mimmi.jpg",
+          linkedIn: "https://www.linkedin.com/in/mimmihansson",
           mail: "mimmi@teknikfokus.se"
         },
         {
           name: "Ludvig Svedberg",
           position: "IT Manager, Website",
-          imageUrl: "",
+          imageUrl: "@/Ludvig.jpg",
           linkedIn: "https://www.linkedin.com/in/ludvigsvedberg/",
           mail: "ludvig@teknikfokus.se"
         },
@@ -64,14 +64,14 @@ export default {
         {
           name: "Jimmie Szentes",
           position: "Event Coordinator",
-          imageUrl: "",
+          imageUrl: "@/Jimmie.jpg",
           linkedIn: "https://www.linkedin.com/in/jimmy-szentes-342b291ba/",
           mail: "jimmie@teknikfokus.se"
         },
         {
           name: "Christoffer Fjällborg Rinaldo",
           position: "Business Developer",
-          imageUrl: "",
+          imageUrl: "@/Christoffer.jpg",
           linkedIn: "https://www.linkedin.com/in/christoffer-fjällborg-rinaldo-a910061bb",
           mail: "christoffer@teknikfokus.se"
         },
@@ -85,29 +85,29 @@ export default {
         {
           name: "Nelly Ostréus",
           position: "Business Developer",
-          imageUrl: "",
+          imageUrl: "@/Nelly.jpg",
           linkedIn: "www.linkedin.com/in/nellyostréus",
           mail: "nelly@teknikfokus.se"
         },
         {
           name: "Katia Svennarp",
           position: "Host Manager",
-          imageUrl: "",
+          imageUrl: "@/Katia.jpg",
           linkedIn: "https://www.linkedin.com/in/katia-svennarp-a737071b9/",
           mail: "katia@teknikfokus.se"
         },
         {
           name: "Alex Gustafsson",
           position: "Logistics Manager",
-          imageUrl: "",
+          imageUrl: "@/Alex.jpg",
           linkedIn: "",
           mail: "alex@teknikfokus.se"
         },
         {
           name: "Annie Börjesson",
           position: "Finance Manager",
-          imageUrl: "",
-          linkedIn: "http://linkedin.com/in/annie-börjesson-2400401bb",
+          imageUrl: "@/Annie.jpg",
+          linkedIn: "https://linkedin.com/in/annie-börjesson-2400401bb",
           mail: "annie@teknikfokus.se"
         }
       ]
@@ -115,7 +115,7 @@ export default {
   },
   methods: {
     getImgUrl(url) {
-      return require('../assets/images/'+url)
+      return (url.startsWith('@/') ? require('../assets/images/project_group/'+url.substring(2)) : url)
     }
   }
 }
@@ -145,16 +145,14 @@ export default {
   .person .img-wrapper {
     display: block;
     margin: auto;
-
     width: 250px;
     height: 250px;
+    margin-bottom: 20px;
     border-radius: 50%;
-
     
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    margin-bottom: 20px;
   }
 
   .person .name {
