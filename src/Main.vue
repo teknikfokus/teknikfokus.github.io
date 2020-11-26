@@ -64,7 +64,6 @@ export default {
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
-    console.log(this.$route)
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll);
