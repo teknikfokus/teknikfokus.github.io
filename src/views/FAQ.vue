@@ -6,17 +6,7 @@
         <div class="col d-none d-lg-block"></div>
         <div class="col col-lg-8">
           <div id="faq-accordion">
-            <div class="question" v-for="[index, question] of questions.entries()" :key="'header'+index">
-              <div class="question-header" @mouseover="currentHover = index">
-                  <a data-toggle="collapse" :data-target="'#collapse'+index" aria-expanded="false" aria-controls="collapseTwo" 
-                      v-html="`<i class='fas fa-question-circle mr-2'></i>${question.header}`">
-                  </a>
-              </div>
-              <div :id="'collapse'+index" class="collapse" :aria-labelledby="'header'+index" data-parent="#faq-accordion" >
-                <div class="question-body" v-html="question.answer">
-                </div>
-              </div>
-            </div>
+            <Question v-for="[index, question] of questions.entries()" :key="'header'+index" :info="question" :index="index"></Question>
           </div>
         </div>
         <div class="col d-none d-lg-block"></div>
@@ -26,10 +16,12 @@
 </template>
 
 <script>
+import Question from '../components/Question'
 
 export default {
   name: 'FAQ',
   components: {
+    Question
   },
   data() {
     return {
@@ -74,49 +66,4 @@ export default {
 </script>
 
 <style scoped>
-  .faq-accordion {
-
-  }
-
-  .faq-accordion ul {
-    /* padding-left: 0; */
-  }
-
-  .question {
-    /* list-style: none; */
-    padding: 0;
-  }
-
-  .question i {
-    font-size: 1em;
-  }
-
-  .question-header {
-    display: inline-block;
-    position: relative;
-
-    background: none;
-    cursor: pointer;
-    transition: padding 0.2s;
-
-    font-size: 1.2em;
-    font-weight: 600;
-  }
-
-  .question-header:hover {
-    text-decoration: none;;
-    padding-left: 5px;
-  }
-
-  .question-header a {
-    color: black;
-    width: 100%;
-    display: block;
-  }
-
-  .question-body {
-    padding-left: 20px;
-    color: #444;
-  }
-
 </style>
