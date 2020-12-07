@@ -24,10 +24,7 @@ export default {
 :root {
     --primary: #51b0d2;
     --primary-dark: #489ab8;
-
-    --secondary-color: #fff;
-    --accent-color: #000;
-
+    
     --background: #fff;
 
     --footer-color: #445;
