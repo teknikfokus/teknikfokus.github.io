@@ -22,29 +22,25 @@
     <div class="info">
       <h4>Useful Info</h4>
       <div class="row mt-5 mb-5">
-        <div class="col text-center">
+        <div class="col-6 col-md text-center">
           <i class="far fa-calendar-alt fa-3x mb-2"></i>
           <div class="mb-3">When?</div>
           <div>17th of February, 2021!</div>
         </div>
-        <div class="col text-center">
+        <div class="col-6 col-md text-center">
           <i class="fas fa-map-marker-alt fa-3x mb-2"></i>
           <div class="mb-3">Where?</div>
           <div>Completely Digital</div>
           <router-link to="/fair">The Fair</router-link>
         </div>
-      </div>
-      <div class="row mt-4">
-        <!-- <div class="col d-none  d-md-block"></div> -->
-        <div class="col text-center">      
+        <div class="col-6 col-md text-center">      
           <i class="fas fa-question-circle fa-3x mb-3"></i><br>
           <router-link class="btn link-button"  to="/faq">FAQ</router-link>
         </div>
-        <div class="col text-center">      
+        <div class="col-6 col-md text-center">      
           <i class="fas fa-users fa-3x mb-3"></i><br>
           <router-link class="btn link-button"  to="/about">The Team</router-link>
         </div>
-        <!-- <div class="col d-none d-md-block"></div> -->
       </div>
     </div>
   </div>
