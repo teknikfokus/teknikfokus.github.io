@@ -36,7 +36,7 @@ export default {
 #day {
     display: inline-block;
     position: relative;
-    width: 0;
+    width: 1px;
     flex-grow: 1;
     height: 150px;
     margin-left: -1px; /* For border */
@@ -45,7 +45,7 @@ export default {
     background: #eee;
 }
 
-#day:first-child { margin-left: 0; }
+#day:last-child { margin-right: -1px; }
 
 .date {
     position: absolute;

@@ -3,6 +3,7 @@
         <div class="content-wrapper" v-if="info !== undefined">
             <div class="banner" v-if="info.banner !== '' && info.banner !== undefined" :style="{'background-image': `url(${info.banner})`}"></div>
             <div class="title">{{info.title}}</div>
+            <div class="host" v-if="info.host && info.host.name !== ''">Hosted by {{info.host.name}}</div>
             <div class="time">{{startTime}}-{{endTime}}</div>
             <div class="description" v-html="info.description"></div>
 
@@ -12,7 +13,7 @@
             </div>
             <div class="buttons">
                 <button class="close" @click="$emit('close')">Close</button>
-                <button class="toggle" @click="$emit((info.signedUp ? 'withdraw' : 'register'))">{{info.signedUp ? "Withdraw" : "Sign up"}}</button>
+                <button class="toggle" v-if="info.bookable" @click="$emit((info.signedUp ? 'withdraw' : 'register'))">{{info.signedUp ? "Withdraw" : "Sign up"}}</button>
                 <!-- Toggle button above emits two different strings, instead of just 'toggle, to make sure user does what they see on the button. -->
             </div>
         </div>
@@ -102,6 +103,10 @@ export default {
     font-size: 1.2rem;
     color: var(--primary-dark);
     margin-bottom: 20px;
+}
+
+.host {
+    color: var(--primary-dark);
 }
 
 .spots {

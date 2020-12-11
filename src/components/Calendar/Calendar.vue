@@ -22,10 +22,7 @@ import Day from './Day';
 export default {
     name: "Question",
     props: {
-        events: {
-            type: Array,
-            default: () => []
-        }
+        events: Object
     },
     components: {
         Day
@@ -35,45 +32,92 @@ export default {
             weekdays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
             abbreviatedWeekdays: ["Mon", "Tue", "Wen", "Thu", "Fri", "Sat", "Sun"],
             daysInMonth: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
-            startingDay: 1, //Change this to the day of the month the first monday is
-            startingMonth: 2, // Change this to starting month
-            numberOfWeeks: 3, // Change this to whatever you need
             fairDate: {
                 day: 17,
                 month: 2
-            }
+            },
+            defaultStartingDate: new Date(2021, 0, 1)
         }
     },
     methods: {
         handleSelect(event) {
             this.$emit('select', event)
+        },
+        formatEvent(jvEvent) {
+            let eventStart = new Date(jvEvent.start_time*1000)
+            let eventEnd = new Date(jvEvent.end_time*1000)
+            return {
+                title: jvEvent.title || "",
+                description: jvEvent.description || "",
+                spots: {
+                    available: -1,
+                    max: jvEvent.max_attendess || -1
+                },
+                signedUp: false,
+                bookable: jvEvent.bookable,
+                banner: (jvEvent.banner) ? jvEvent.banner.image_uri || "" : "",
+                startTime: eventStart.getTime(),
+                endTime: eventEnd.getTime(),
+                date: {
+                    day: eventStart.getDate(),
+                    month: eventStart.getMonth()+1
+                },
+                time: {
+                    start: {
+                        hour: eventStart.getHours(),
+                        minute: eventStart.getMinutes()
+                    },
+                    end: {
+                        hour: eventEnd.getHours(),
+                        minute: eventEnd.getMinutes()
+                    }
+                },
+                host: (jvEvent.company) ? {
+                    name: jvEvent.company.name || ""
+                } : undefined
+            }
         }
     },
     computed: {
         weeks() {
-            console.log(this.events);
             const weeks = [];
+            let formattedEvents = this.formattedEvents
+            let startDate = this.defaultStartingDate
+            let numberOfWeeks = 3;
+            if (formattedEvents.length > 0 ) {
+                const millisecondsInDay = 86400000
+                let firstEventDate = new Date(formattedEvents[0].startTime)
+                let lastEventDate = new Date(formattedEvents[formattedEvents.length-1].endTime)
+                startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
+                let endDate = new Date(lastEventDate.getTime() + (7-lastEventDate.getDay())*millisecondsInDay + millisecondsInDay)
+                numberOfWeeks = Math.round((endDate.getTime()-startDate.getTime())/(7*millisecondsInDay))
+                
+            }
+
+            console.log(startDate);
+            console.log(numberOfWeeks);
             let date = {
-                day: this.startingDay,
-                month: this.startingMonth
+                day: startDate.getDate(),
+                month: startDate.getMonth()+1,
             }
             let incrementDate = () => {
                 date.day++;
                 if (date.day > this.daysInMonth[date.month-1]) {
                     date.day = 1;
-                    date.month++;
+                    date.month = (date.month+1)%12
                 }
             }/*
             let timeToInt = (time) => {
                 time.hour*100+time.minute;
             }*/
-            for (let weekIndex = 0; weekIndex < this.numberOfWeeks; weekIndex++) {
+            for (let weekIndex = 0; weekIndex < numberOfWeeks; weekIndex++) {
                 const week = {
                     days: [],
                     index: weekIndex
                 };
                 for (let dayIndex = 0; dayIndex < this.weekdays.length; dayIndex++) {
-                    const events = this.events.filter(e => (e.date.day == date.day && e.date.month == date.month))
+                    const events = formattedEvents.filter(e => (e.date.day == date.day && e.date.month == date.month))
+                    events.sort((a,b) => a.startTime-b.startTime)
                     week.days.push({
                         events: events,
                         date: {...date}
@@ -83,10 +127,20 @@ export default {
                 weeks.push(week)
             }
             return weeks;
+        },
+        formattedEvents() {
+            let events = []
+            for (let event of Object.values(this.events)) {
+                let formattedEvent = this.formatEvent(event)
+                events.push(formattedEvent)
+            }
+
+            return events
         }
     }
 }
 </script>
+
 
 <style scoped>
 #calendar {
