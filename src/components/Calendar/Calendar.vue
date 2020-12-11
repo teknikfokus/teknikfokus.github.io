@@ -36,7 +36,7 @@ export default {
                 day: 17,
                 month: 2
             },
-            defaultStartingDate: new Date(2021, 0, 1)
+            defaultStartingDate: new Date(2021, 1, 1)
         }
     },
     methods: {
@@ -82,17 +82,17 @@ export default {
         weeks() {
             const weeks = [];
             let formattedEvents = this.formattedEvents
-            let startDate = this.defaultStartingDate
+
+            const millisecondsInDay = 86400000
+            let firstEventDate = this.defaultStartingDate
             let numberOfWeeks = 3;
             if (formattedEvents.length > 0 ) {
-                const millisecondsInDay = 86400000
-                let firstEventDate = new Date(formattedEvents[0].startTime)
+                firstEventDate = new Date(formattedEvents[0].startTime)
                 let lastEventDate = new Date(formattedEvents[formattedEvents.length-1].endTime)
-                startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
                 let endDate = new Date(lastEventDate.getTime() + (7-lastEventDate.getDay())*millisecondsInDay + millisecondsInDay)
                 numberOfWeeks = Math.round((endDate.getTime()-startDate.getTime())/(7*millisecondsInDay))
-                
             }
+            let startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
 
             console.log(startDate);
             console.log(numberOfWeeks);
