@@ -11,7 +11,7 @@ export const Status = {
 }
 
 const api = axios.create({
-    baseURL: 'http://localhost:1000',
+    baseURL: 'https://cors-anywhere.herokuapp.com/https://dev.teknikfokus.se/v1/',
     headers: {
         'Content-Type': 'application/vnd.api+json',
     },
