@@ -34,6 +34,7 @@ const routes = [
   },
   {
     path: '/about',
+    alias: '/contact',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
     meta: {
@@ -43,9 +44,19 @@ const routes = [
   {
     path: '/fair',
     name: 'Fair',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
+    beforeEnter: () => location.href = "https://fair.teknikfokus.se/events",
+    // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
     meta: {
       title: 'Fair'
+    }
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    beforeEnter: () => location.href = "https://fair.teknikfokus.se/new-signup/start",
+    // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
+    meta: {
+      title: 'Register for Fair'
     }
   }
 ]
