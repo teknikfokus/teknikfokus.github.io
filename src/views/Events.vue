@@ -99,6 +99,10 @@ export default {
 #event-modal.show { opacity: 1; }
 
 
+#loader {
+  margin-top: 120px;
+}
+
 #calendar {
   opacity: 0;
   height: 0;
