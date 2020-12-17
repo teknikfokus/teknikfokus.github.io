@@ -56,42 +56,42 @@ export default {
         },
         {
           name: "Patrik Gyllvin",
-          position: "IT Manager, Back-end & Apps",
+          position: "IT Manager, Server",
           imageUrl: "",
           linkedIn: "https://linkedin.com/in/patrik-gyllvin-546aa0159",
           mail: "patrik@teknikfokus.se"
         },
         {
-          name: "Jimmie Szentes",
-          position: "Event Coordinator",
-          imageUrl: "@/Jimmie.jpg",
+          name: "Jimmy Szentes",
+          position: "Event Manager",
+          imageUrl: "@/Jimmy.jpg",
           linkedIn: "https://www.linkedin.com/in/jimmy-szentes-342b291ba/",
-          mail: "jimmie@teknikfokus.se"
+          mail: "jimmy@teknikfokus.se"
         },
         {
           name: "Christoffer Fjällborg Rinaldo",
-          position: "Business Developer",
+          position: "Business Manager",
           imageUrl: "@/Christoffer.jpg",
           linkedIn: "https://www.linkedin.com/in/christoffer-fjällborg-rinaldo-a910061bb",
           mail: "christoffer@teknikfokus.se"
         },
         {
           name: "Evelina Danielsson",
-          position: "Business Developer",
+          position: "Business Manager",
           imageUrl: "",
           linkedIn: "",
           mail: "evelina@teknikfokus.se"
         },
         {
           name: "Nelly Ostréus",
-          position: "Business Developer",
+          position: "Business Manager",
           imageUrl: "@/Nelly.jpg",
           linkedIn: "www.linkedin.com/in/nellyostréus",
           mail: "nelly@teknikfokus.se"
         },
         {
           name: "Katia Svennarp",
-          position: "Host Manager",
+          position: "Recruitment Manager",
           imageUrl: "@/Katia.jpg",
           linkedIn: "https://www.linkedin.com/in/katia-svennarp-a737071b9/",
           mail: "katia@teknikfokus.se"
