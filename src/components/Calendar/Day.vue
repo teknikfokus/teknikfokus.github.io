@@ -26,7 +26,7 @@ export default {
     },
     computed: {
         dateString() {
-            return this.info.date.day + '/' + this.info.date.month
+            return this.info.date.day + '/' + this.info.date.month + " - " + this.info.date.year
         }
     }
 }
