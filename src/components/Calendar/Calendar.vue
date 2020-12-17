@@ -85,26 +85,27 @@ export default {
 
             const millisecondsInDay = 86400000
             let firstEventDate = this.defaultStartingDate
+            let startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
             let numberOfWeeks = 3;
             if (formattedEvents.length > 0 ) {
                 firstEventDate = new Date(formattedEvents[0].startTime)
+                startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
                 let lastEventDate = new Date(formattedEvents[formattedEvents.length-1].endTime)
                 let endDate = new Date(lastEventDate.getTime() + (7-lastEventDate.getDay())*millisecondsInDay + millisecondsInDay)
                 numberOfWeeks = Math.round((endDate.getTime()-startDate.getTime())/(7*millisecondsInDay))
-            }
-            let startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
+            } 
 
-            console.log(startDate);
-            console.log(numberOfWeeks);
             let date = {
                 day: startDate.getDate(),
                 month: startDate.getMonth()+1,
+                year: startDate.getFullYear(),
             }
             let incrementDate = () => {
                 date.day++;
                 if (date.day > this.daysInMonth[date.month-1]) {
                     date.day = 1;
                     date.month = (date.month+1)%12
+                    if (date.month === 0) date.year++;
                 }
             }/*
             let timeToInt = (time) => {
