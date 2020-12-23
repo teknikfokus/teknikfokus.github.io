@@ -62,7 +62,7 @@ const routes = [
   {
     path: '/for-students',
     name: 'ForStudents',
-    component: () => import(/* webpackChunkName: "about" */ '../views/HowTo.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/ForStudents.vue'),
     meta: {
       title: 'How To Teknikfokus'
     }
