@@ -18,9 +18,10 @@
             <li class="nav-item">
                 <router-link class="nav-link" to="/events">Events</router-link>
             </li>
+            <!--
             <li class="nav-item">
                 <router-link class="nav-link" to="/for-students">For Students</router-link>
-            </li>
+            </li>-->
             <li class="nav-item">
                 <router-link class="nav-link" to="/for-companies">For Companies</router-link>
             </li>

@@ -8,7 +8,7 @@
       </div>
       <p>Due to the current situation regarding Covid-19, this year's Teknikfokus will be held completely online. Please visit the link below to register.</p>
       <div class="d-block w-100 text-center">
-        <router-link class="btn link-button text-capitalize mr-5"  to="/for-students">Information for students</router-link>
+        <!-- <router-link class="btn link-button text-capitalize mr-5"  to="/for-students">Information for students</router-link> -->
         <router-link class="btn link-button text-capitalize "  to="/register">Register for fair</router-link>
       </div>
     </div>
