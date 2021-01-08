@@ -58,6 +58,22 @@ const routes = [
     meta: {
       title: 'Register for Fair'
     }
+  },
+  {
+    path: '/for-students',
+    name: 'ForStudents',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ForStudents.vue'),
+    meta: {
+      title: 'How To Teknikfokus'
+    }
+  },
+  {
+    path: '/for-companies',
+    name: 'ForCompanies',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ForCompanies.vue'),
+    meta: {
+      title: 'For Companies'
+    }
   }
 ]
 

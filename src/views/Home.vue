@@ -8,17 +8,20 @@
       </div>
       <p>Due to the current situation regarding Covid-19, this year's Teknikfokus will be held completely online. Please visit the link below to register.</p>
       <div class="d-block w-100 text-center">
-        <router-link class="btn link-button"  to="/register">Register for fair</router-link>
+        <!-- <router-link class="btn link-button text-capitalize mr-5"  to="/for-students">Information for students</router-link> -->
+        <router-link class="btn link-button text-capitalize "  to="/register">Register for fair</router-link>
       </div>
     </div>
 
-    <!-- WAITING FOR BACKEND TO SERVE COMPANIES
     <div class="companies">
       <h4>Attending Companies</h4>
-      <CompanyCarousel></CompanyCarousel>
-      <div class="text-center"><router-link class="btn link-button"  to="/companies">Companies</router-link></div>
+      <!-- <CompanyCarousel></CompanyCarousel> -->
+            
+      <div class="d-block w-100 text-center">
+        <router-link class="btn link-button text-capitalize  mr-5"  to="/for-companies">For companies</router-link>
+        <router-link class="btn link-button text-capitalize "  to="/companies">Attending companies</router-link>
+      </div>
     </div>
-    -->
     <div class="info">
       <h4>Useful Info</h4>
       <div class="row mt-5 mb-5">
