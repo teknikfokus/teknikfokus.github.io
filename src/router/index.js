@@ -44,8 +44,8 @@ const routes = [
   {
     path: '/fair',
     name: 'Fair',
-    // beforeEnter: () => location.href = "https://fair.teknikfokus.se/events",
-    component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
+    beforeEnter: () => location.href = "https://fair.teknikfokus.se/events",
+    // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
     meta: {
       title: 'Fair'
     }
@@ -53,8 +53,8 @@ const routes = [
   {
     path: '/register',
     name: 'Register',
-    // beforeEnter: () => location.href = "https://fair.teknikfokus.se/new-signup/start",
-    component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
+    beforeEnter: () => location.href = "https://fair.teknikfokus.se/new-signup/start",
+    // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
     meta: {
       title: 'Register for Fair'
     }
