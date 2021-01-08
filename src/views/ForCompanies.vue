@@ -13,7 +13,7 @@
 
       <h4>Step 1: Registrating to participate in the fair</h4>
       <p>
-        There are two steps to register at the online platform used at Teknikfokus this year. 
+        If your company want to be a part of Teknikfokus 2021 but are still not registered, contact one of our business managers at email <a href="mailto:christoffer@teknikfokus.se">christoffer@teknikfokus.se</a>, <a href="mailto:evelina@teknikfokus.se">evelina@teknikfokus.se</a> or <a href="mailto:nelly@teknikfokus.se">nelly@teknikfokus.se</a> 
       </p>
 
       
@@ -83,6 +83,8 @@ h5 {
 
 .videos {
   margin-bottom: 40px;
+  max-width: 750px;
+  margin: auto;
 }
 
 .video {
@@ -91,7 +93,6 @@ h5 {
   position: relative; 
   padding-bottom: 56.25%; 
   height: 0;
-  /* max-width: 400px; */
 
   margin-bottom: 50px;
 }
