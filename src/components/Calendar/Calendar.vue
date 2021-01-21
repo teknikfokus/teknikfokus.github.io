@@ -20,7 +20,7 @@
 import Day from './Day';
 
 export default {
-    name: "Question",
+    name: "Calendar",
     props: {
         events: Object
     },
