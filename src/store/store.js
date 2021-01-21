@@ -3,17 +3,11 @@ import Vuex from 'vuex'
 import { jsonapiModule } from 'jsonapi-vuex'
 import axios from 'axios'
 
-export const Status = {
-  IDLE: 'idle',
-  LOADING: 'loading',
-  SUCCEEDED: 'succeeded',
-  FAILED: 'failed'
-}
 
 const api = axios.create({
     baseURL: 'http://dev.teknikfokus.se/v1/',
     headers: {
-        'Content-Type': 'application/vnd.api+json',
+        'Content-Type': 'application/vnd.api+json'
     },
 })
 
