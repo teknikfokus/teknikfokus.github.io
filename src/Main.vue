@@ -45,7 +45,7 @@
     <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
         <img :src="parallaxBackground" />
     </parallax>
-    <router-view/>
+    <router-view class="mb-5"/>
     <Footer id="footer" ref="footer"></Footer>
   </div>
 </template>
@@ -106,11 +106,6 @@ export default {
 
 <style>
 #main {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
-  /* text-align: center; */
-  /* color: #2c3e50; */
   min-height: 100vh;
   position: relative;
 }
