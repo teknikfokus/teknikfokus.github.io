@@ -18,10 +18,10 @@
             <li class="nav-item">
                 <router-link class="nav-link" to="/events">Events</router-link>
             </li>
-            <!--
+            <!-- 
             <li class="nav-item">
                 <router-link class="nav-link" to="/for-students">For Students</router-link>
-            </li>-->
+            </li> -->
             <li class="nav-item">
                 <router-link class="nav-link" to="/for-companies">For Companies</router-link>
             </li>
@@ -145,6 +145,7 @@ a:hover {
     left: 0;
     width: 100%;
     color: white;
+    text-shadow: 2px 2px 10px #000000ff;
 }
 
 .image-wrapper-text > div {
@@ -171,6 +172,7 @@ a:hover {
 .image-wrapper-text a {
     margin-top: 20px;
     text-transform: uppercase;
+    text-shadow: none;
 }
 
 

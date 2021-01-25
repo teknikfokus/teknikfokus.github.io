@@ -13,6 +13,7 @@
     z-index: 1000;
 
     background: black;
+    text-shadow: 2px 2px 10px #000000aa;
 }
 
 
@@ -44,6 +45,7 @@
     left: 0px;
     width: 200px;
     z-index: 1000;
+    filter: drop-shadow(2px 2px 3px #000000aa)
 }
 
 .logo img {
