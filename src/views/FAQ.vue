@@ -55,7 +55,7 @@ export default {
   },
   computed: {
     questions() {
-      return this.$store.getters['jv/get']('faq')
+      return this.$store.getters['jv/get']('faqs')
     },
   }
 }

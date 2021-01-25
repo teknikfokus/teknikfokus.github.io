@@ -11,14 +11,11 @@
         <router-link class="btn link-button"  to="/fair">Go to the Fair</router-link>
       </div>
     </div>
-
-    <!-- WAITING FOR BACKEND TO SERVE COMPANIES
     <div class="companies">
       <h4>Attending Companies</h4>
-      <CompanyCarousel></CompanyCarousel>
-      <div class="text-center"><router-link class="btn link-button"  to="/companies">Companies</router-link></div>
+      <CompanyCarousel />
+      <div class="text-center"><router-link class="btn link-button"  to="/companies">Full List of Companies</router-link></div>
     </div>
-    -->
     <div class="info">
       <h4>Useful Info</h4>
       <div class="row mt-5 mb-5">
@@ -51,12 +48,12 @@
 </template>
 
 <script>
-// import CompanyCarousel from '@/components/CompanyCarousel.vue'
+import CompanyCarousel from '@/components/CompanyCarousel.vue'
 
 export default {
   name: 'Home',
   components: {
-    // CompanyCarousel
+    CompanyCarousel
   }
 }
 </script>
