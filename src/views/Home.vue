@@ -12,15 +12,10 @@
         <router-link class="btn link-button text-capitalize "  to="/register">Register for fair</router-link>
       </div>
     </div>
-
     <div class="companies">
       <h4>Attending Companies</h4>
-      <!-- <CompanyCarousel></CompanyCarousel> -->
-            
-      <div class="d-block w-100 text-center">
-        <router-link class="btn link-button text-capitalize  mr-5"  to="/for-companies">For companies</router-link>
-        <router-link class="btn link-button text-capitalize "  to="/companies">Attending companies</router-link>
-      </div>
+      <CompanyCarousel />
+      <div class="text-center"><router-link class="btn link-button"  to="/companies">Full List of Companies</router-link></div>
     </div>
     <div class="info">
       <h4>Useful Info</h4>
@@ -50,12 +45,12 @@
 </template>
 
 <script>
-// import CompanyCarousel from '@/components/CompanyCarousel.vue'
+import CompanyCarousel from '@/components/CompanyCarousel.vue'
 
 export default {
   name: 'Home',
   components: {
-    // CompanyCarousel
+    CompanyCarousel
   }
 }
 </script>

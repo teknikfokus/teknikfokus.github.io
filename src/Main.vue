@@ -26,6 +26,9 @@
                 <router-link class="nav-link" to="/for-companies">For Companies</router-link>
             </li>
             <li class="nav-item">
+                <router-link class="nav-link" to="/companies">Companies</router-link>
+            </li>
+            <li class="nav-item">
                 <router-link class="nav-link" to="/FAQ">FAQ</router-link>
             </li>
             <li class="nav-item">
@@ -49,7 +52,7 @@
     <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
         <img :src="parallaxBackground" />
     </parallax>
-    <router-view/>
+    <router-view class="mb-5"/>
     <Footer id="footer" ref="footer"></Footer>
   </div>
 </template>
@@ -71,7 +74,6 @@ export default {
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
-    console.log(this.$route)
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll);
@@ -111,11 +113,6 @@ export default {
 
 <style>
 #main {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
-  /* text-align: center; */
-  /* color: #2c3e50; */
   min-height: 100vh;
   position: relative;
 }
@@ -206,10 +203,6 @@ a:hover {
 }
 
 @media (min-width: 992px) { 
-    .parallax-image {
-        /* height: 100vh !important; */
-    }
-
     .topbar .link{
         margin: 0 20px;
     }

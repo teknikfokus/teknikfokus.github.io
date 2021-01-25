@@ -3,25 +3,19 @@
     <div class="container mt-5">
       <h2 class="text-center mb-4 text-capitalize font-weight-bold">The project group</h2>
       <div class="people-holder">
-        <div class="person" v-for="person of people" :key="person.name">
-          <div class="img-wrapper" :style="{'background-image': `url(${((person.imageUrl == '') ? getImgUrl('@/placeholder-person.png') : getImgUrl(person.imageUrl))})`}"></div>
-          <span class="name">{{person.name}}</span>
-          <span class="position">{{person.position}}</span>
-          <div class="icons">
-            <a :href="person.linkedIn" v-if="person.linkedIn!=''"><i class="fab fa-linkedin-in"></i></a>
-            <a :href="'mailto:'+person.mail"><i class="far fa-envelope"></i></a>
-          </div>
-        </div>
+        <Person v-for="person of people" :info="person" :key="person.name"></Person>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Person from '../components/Person'
 
 export default {
   name: 'About',
   components: {
+    Person
   },
   data() {
     return {
@@ -112,11 +106,6 @@ export default {
         }
       ]
     }
-  },
-  methods: {
-    getImgUrl(url) {
-      return (url.startsWith('@/') ? require('../assets/images/project_group/'+url.substring(2)) : url)
-    }
   }
 }
 </script>
@@ -129,88 +118,5 @@ export default {
     flex-wrap: wrap;
     align-items: stretch;
     margin: 0 -20px;
-  }
-
-  .person {
-    display: inline-block;
-    position: relative;
-    flex-shrink: 0;
-    flex-grow: 0;
-    width: 300px;
-    margin: 20px;
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  .person .img-wrapper {
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-
-  .person .name {
-    display: block;
-    font-size: 1.2em;
-    margin-bottom: 0;
-  }
-
-  .person .position {
-    display: block;
-    color: gray;
-    margin-bottom: 10px;
-  }
-
-  .person .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-  }
-
-  .person .icons a {
-    margin: 0 10px;
-  }
-
-  @media (min-width: 576px) {
-    .person {
-      font-size: 14px;
-      width: 140px
-    }
-    .person .img-wrapper {
-      width: 135px;
-      height: 135px;
-      margin-bottom: 15px;
-    }
-  }
-
-  @media (min-width: 768px) { 
-    .person {
-      font-size: 16px;
-      width: 200px;
-      
-    }
-    .person .img-wrapper {
-      width: 180px;
-      height: 180px;
-    }
-  }
-
-  @media (min-width: 992px) { 
-    .person {
-      font-size: 16px;
-      width: 250px;
-      
-    }
-    .person .img-wrapper {
-      width: 220px;
-      height: 220px;
-    }
   }
 </style>
