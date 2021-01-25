@@ -19,6 +19,9 @@
                 <router-link class="nav-link" to="/events">Events</router-link>
             </li>
             <li class="nav-item">
+                <router-link class="nav-link" to="/companies">Companies</router-link>
+            </li>
+            <li class="nav-item">
                 <router-link class="nav-link" to="/FAQ">FAQ</router-link>
             </li>
             <li class="nav-item">
@@ -36,7 +39,7 @@
             <router-link to="/fair" class="btn link-button">Visit The Fair</router-link>
         </div>
         <div class="container text-center" v-else>
-            <h1>{{$route.name}}</h1>
+            <h1>{{$route.meta.title}}</h1>
         </div>
     </div>
     <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">

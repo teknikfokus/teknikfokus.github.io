@@ -46,8 +46,16 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
     meta: {
       title: 'Fair'
+    },
+  },
+  {
+    path: '/companies',
+    name: 'Companies',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Companies.vue'),
+    meta: {
+      title: 'Attending Companies'
     }
-  }
+  },
 ]
 
 const router = new VueRouter({
