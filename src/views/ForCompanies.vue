@@ -6,6 +6,30 @@
         At this page you will find all information relevant for companies about registering at Teknikfokus digital platform and how to make students visit your stall. There are also video tutorials on how to set up your stall. 
       </p>
 
+      <h3>Encourage the students to visit your stall </h3>
+      <p>
+        The most important thing is to show you opportunities and how the students can benefit from being a part of your company. Also make sure that you have an interesting presentation for students that visit the fair to explore and expand their knowledge about the job market
+      </p>
+
+      
+
+      <h5>Contact the students</h5>
+      <p>
+        During the fair, students will be able to contact companies via chat or a booked video meeting. However, do not forget that companies are able to contact students as well. It has shown to be highly appreciated by students when companies also initiate the contact. Use this opportunity to contact students you find interesting and achieve a busy stall.
+      </p>
+
+
+      <h5>Summer jobs, master thesis and internships</h5>
+      <p>
+        Many of our most active students visiting the fair are interested in working at your company during their studies or would love to do their master thesis at your company. If you have any jobs of any kind, make sure to register them at the plattform to make them easy for students to see!
+      </p>
+
+
+      <h5>Company giveaways</h5>
+      <p>
+        In connection to the fair, Teknikfous will help you distribute your merchandise and other physical giveaways to students visiting the fair. Make sure you tell your business contact if you have anything to give to the students. Even if you don't have any physical merchandise to give to the students, doing a lottery where the students can win digital prizes such as an opportunity to get their resumés reviewed or digital gift cards can entice the students to visit your company stall and start a chat.
+      </p>
+      
       <h3>Registration</h3>
       <p>
         There are two steps to register at the online platform used at Teknikfokus this year. 
@@ -31,31 +55,6 @@
         <div class="video"><iframe src="https://www.loom.com/embed/993b3cb8a0c240508221f3f89e4d710c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
         <div class="video"><iframe src="https://www.loom.com/embed/e1d6ce72f35f42959f44cc5460ea7ff1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
       </div>
-  
-
-      <h3>Encourage the students to visit your stall </h3>
-      <p>
-        The most important thing is to show you opportunities and how the students can benefit from being a part of your company. Also make sure that you have an interesting presentation for students that visit the fair to explore and expand their knowledge about the job market
-      </p>
-
-      
-
-      <h5>Contact the students</h5>
-      <p>
-        During the fair, students will be able to contact companies via chat or a booked video meeting. However, do not forget that companies are able to contact students as well. It has shown to be highly appreciated by students when companies also initiate the contact. Use this opportunity to contact students you find interesting and achieve a busy stall.
-      </p>
-
-
-      <h5>Summer jobs, master thesis and internships</h5>
-      <p>
-        Many of our most active students visiting the fair are interested in working at your company during their studies or would love to do their master thesis at your company. If you have any jobs of any kind, make sure to register them at the plattform to make them easy for students to see!
-      </p>
-
-
-      <h5>Company giveaways</h5>
-      <p>
-        In connection to the fair, Teknikfous will help you distribute your merchandise and other physical giveaways to students visiting the fair. Make sure you tell your business contact if you have anything to give to the students. Even if you don't have any physical merchandise to give to the students, doing a lottery where the students can win digital prizes such as an opportunity to get their resumés reviewed or digital gift cards can entice the students to visit your company stall and start a chat.
-      </p>
 
 
     </div>
