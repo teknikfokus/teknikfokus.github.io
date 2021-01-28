@@ -7,7 +7,7 @@
                                     info.logo._jv.links.image" :style="{'background-image': 'url('+endpoint+info.logo._jv.links.image+')'}">
             </div>
             <div class="name">{{info.name}}</div>
-            <div class="description" v-html="info.body"></div>
+            <div class="description" v-html="sanitizedBody"></div>
             <button class="close" @click="$emit('close')">Close</button>
         </div>
     </div>
@@ -24,6 +24,11 @@ export default {
     data() {
         return {
             endpoint
+        }
+    },
+    computed: {
+        sanitizedBody() {
+            return [...this.info.body].map(c => (c === '\n') ? '<br>' : c).join('')
         }
     }
 }
