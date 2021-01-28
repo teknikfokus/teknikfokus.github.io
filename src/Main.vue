@@ -40,7 +40,7 @@
     </nav>
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
         <div class="container text-center" v-if="$route.name=='Home'">
-            <h1>Digital work fair</h1>
+            <h1>Digital career fair</h1>
             <h3>17th of February</h3>
             <router-link to="/fair" class="btn link-button">Visit The Fair</router-link>
         </div>
