@@ -49,6 +49,7 @@ export default {
             return {
                 title: jvEvent.title || "",
                 description: jvEvent.description || "",
+                body: jvEvent.body || "",
                 spots: {
                     available: -1,
                     max: jvEvent.max_attendess || -1

@@ -1,11 +1,16 @@
 <template>
     <div id="event-modal">
         <div class="content-wrapper" v-if="info !== undefined">
-            <div class="banner" v-if="info.banner !== '' && info.banner !== undefined" :style="{'background-image': `url(${info.banner})`}"></div>
+            <div class="banner" v-if="info.banner !== '' && info.banner !== undefined" :style="{'background-image': `url(${endpoint + info.banner})`}"></div>
             <div class="title">{{info.title}}</div>
-            <div class="host" v-if="info.host && info.host.name !== ''">Hosted by {{info.host.name}}</div>
+            <div class="host" v-if="info.host && info.host.name !== ''">
+                Hosted by {{info.host.name}} 
+                <img class="host-logo"  :src="endpoint + info.logo._jv.links.image" 
+                v-if="info.host.logo && info.host.logo._jv && info.host.logo._jv.links && info.host.logo._jv.links.image">
+            </div>
             <div class="time">{{startTime}}-{{endTime}}</div>
-            <div class="description" v-html="info.description"></div>
+            <div class="description">{{info.description}}</div>
+            <div class="body" v-html="sanitizedBody"></div>
 
             <div class="spots" v-if="!info.signedUp && availableSpots != '-'" >
                 <!-- ICON OF EMPTY SEAT HERE --> 
@@ -22,11 +27,17 @@
 
 <script>
 import { Event } from '../types'
+import {endpoint} from '../store/store.js'
 
 export default {
     name: "EventModal",
     props: {
         info: Event
+    },
+    data() {
+        return {
+            endpoint
+        }
     },
     methods: {
         timeString(hour, minute) {
@@ -50,6 +61,9 @@ export default {
         maxSpots() {
             const spots = this.info.spots;
             return (spots.max < 0) ? '-' : spots.max;
+        },
+        sanitizedBody() {
+            return [...this.info.body].map(c => (c === '\n') ? '<br>' : c).join('')
         }
     }
 }
@@ -97,16 +111,23 @@ export default {
 
 .description {
     font-size: 1.2rem;
+    margin-bottom: 0.8rem;
 }
+
 
 .time {
     font-size: 1.2rem;
     color: var(--primary-dark);
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
 }
 
 .host {
     color: var(--primary-dark);
+}
+.host .host-logo {
+    position: relative;
+    top: -0.05rem;
+    height: 1.5rem;
 }
 
 .spots {
