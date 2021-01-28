@@ -3,9 +3,8 @@
         <Loader v-if="isLoading && !isError" />
         <transition-group name="list-complete" tag="div" v-if="!isLoading && !isError" :class="{'even': evenLength}">
             <div class="company list-item" v-for="(logo, index) in logos" :key="logo"
-                :style="{'background-image': `url('${endpoint+logo}')`}"
                 :class="{'center': (index == (logos.length-(evenLength ? 2 : 1))/2)}">
-                
+                <img :data-src="endpoint+logo" class="lazyload" />
             </div>
         </transition-group>
     </div>
@@ -15,6 +14,7 @@
 import { status } from 'jsonapi-vuex'
 import {endpoint} from '../store/store.js'
 import Loader from '../components/Loader'
+import 'lazysizes'
 
 export default {
     name: "CompanyCarousel",
@@ -127,10 +127,16 @@ export default {
     cursor: normal;
     opacity: 0.4;
     z-index: 2;
+}
 
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.company img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .company:first-child, .company:last-child {
