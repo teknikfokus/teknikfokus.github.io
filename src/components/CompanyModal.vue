@@ -37,9 +37,9 @@ export default {
 <style scoped>
 #company-modal {
     position: absolute;
-    top: 50%;
+    top: 500px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 
     max-width: 85%;
     width: 600px;
@@ -49,7 +49,7 @@ export default {
     border-radius: 20px;
     padding: 40px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    z-index: 2000;
+    z-index: 500;
     overflow: hidden;
 }
 

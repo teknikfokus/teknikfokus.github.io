@@ -133,7 +133,7 @@ export default {
   opacity: 0;
   transition: opacity 0.2s;
 
-  z-index: 1000;
+  z-index: 400;
   pointer-events: none;
 }
 .dark-backdrop.show { opacity: 0.2; }
