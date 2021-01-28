@@ -24,6 +24,7 @@ export default {
 :root {
     --primary: #51b0d2;
     --primary-dark: #489ab8;
+    --primary-darker: #3d839d;
     
     --background: #fff;
 
