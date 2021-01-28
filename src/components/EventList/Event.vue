@@ -3,7 +3,7 @@
         <div class="title">{{info.title}}</div>
         <div class="host" v-if="info.host && info.host.name !== ''">
             Hosted by {{info.host.name}} 
-            <img class="host-logo"  :src="endpoint + info.logo._jv.links.image" 
+            <img class="host-logo"  :src="endpoint + info.logo._jv.links.image" :alt="info.host.name + ' logo'"
             v-if="info.host.logo && info.host.logo._jv && info.host.logo._jv.links && info.host.logo._jv.links.image">
         </div>
         <div class="time">{{startTime}}-{{endTime}}</div>

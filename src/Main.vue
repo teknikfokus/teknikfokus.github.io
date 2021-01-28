@@ -35,7 +35,7 @@
             </li>
             </ul>
         </div>
-        <router-link class="logo" to="/"><img src="@/assets/images/logo_white_on_black.png" class="d-inline-block align-top" alt="" loading="lazy"></router-link>
+        <router-link class="logo" to="/"><img src="@/assets/images/logo_white_on_black.png" class="d-inline-block align-top" alt="Teknikfokus Logo" loading="lazy"></router-link>
       </div>
     </nav>
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
@@ -49,7 +49,7 @@
         </div>
     </div>
     <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
-        <img :src="parallaxBackground" />
+        <img :src="parallaxBackground" alt="Background image of a previous Teknikfokus fair"/>
     </parallax>
     <router-view class="mb-5"/>
     <Footer id="footer" ref="footer"></Footer>
