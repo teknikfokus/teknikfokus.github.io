@@ -1,7 +1,8 @@
 <template>
   <div id="events">
-    <div class="container pt-5">
-      <Calendar :events="events" :class="{'show': !isLoading && !isError}" @select="handleSelect"/>
+    <div class="container pt-5 pb-5">
+      <Calendar class="d-none d-lg-block" :events="formattedEvents" :class="{'show': !isLoading && !isError}" @select="handleSelect"/>
+      <EventList class="d-block d-lg-none" :events="formattedEvents" :class="{'show': !isLoading && !isError}"/>
       <Loader v-if="isLoading" />
       <ErrorMessage v-if="isError && !isLoading" text="Unable to load events, try again in a moment.<br>If the error persists, feel free to contact us." />
       <EventModal :info="selectedEvent" :class="{'show': showModal}" @close="handleClose" @register="handleRegister" @withdraw="handleWithdraw"/>
@@ -13,6 +14,7 @@
 <script>
 import { status } from 'jsonapi-vuex'
 import Calendar from '../components/Calendar/Calendar'
+import EventList from '../components/EventList/EventList'
 import EventModal from '../components/EventModal'
 import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
@@ -21,9 +23,10 @@ export default {
   name: 'Events',
   components: {
     Calendar,
+    EventList,
     EventModal,
     Loader,
-    ErrorMessage
+    ErrorMessage,
   },
   data() {
     return {
@@ -37,6 +40,41 @@ export default {
     this.reloadEvents()
   },
   methods: {
+    formatEvent(jvEvent) {
+        let eventStart = new Date(jvEvent.start_time*1000)
+        let eventEnd = new Date(jvEvent.end_time*1000)
+        return {
+            title: jvEvent.title || "",
+            description: jvEvent.description || "",
+            body: jvEvent.body || "",
+            spots: {
+                available: -1,
+                max: jvEvent.max_attendess || -1
+            },
+            signedUp: false,
+            bookable: jvEvent.bookable,
+            banner: (jvEvent.banner) ? jvEvent.banner.image_uri || "" : "",
+            startTime: eventStart.getTime(),
+            endTime: eventEnd.getTime(),
+            date: {
+                day: eventStart.getDate(),
+                month: eventStart.getMonth()+1
+            },
+            time: {
+                start: {
+                    hour: eventStart.getHours(),
+                    minute: eventStart.getMinutes()
+                },
+                end: {
+                    hour: eventEnd.getHours(),
+                    minute: eventEnd.getMinutes()
+                }
+            },
+            host: (jvEvent.company) ? {
+                name: jvEvent.company.name || ""
+            } : undefined
+        }
+    },
     reloadEvents() {
       this.isLoading = true;
       const onResponse = () => {
@@ -66,6 +104,15 @@ export default {
     events() {
       return this.$store.getters['jv/get']('events')
     },
+    formattedEvents() {
+        let events = []
+        for (let event of Object.values(this.events)) {
+            let formattedEvent = this.formatEvent(event)
+            events.push(formattedEvent)
+        }
+        
+        return events
+    }
   }
   
 }

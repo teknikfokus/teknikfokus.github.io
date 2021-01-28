@@ -22,7 +22,7 @@ import Day from './Day';
 export default {
     name: "Calendar",
     props: {
-        events: Object
+        events: Array
     },
     components: {
         Day
@@ -43,55 +43,19 @@ export default {
         handleSelect(event) {
             this.$emit('select', event)
         },
-        formatEvent(jvEvent) {
-            let eventStart = new Date(jvEvent.start_time*1000)
-            let eventEnd = new Date(jvEvent.end_time*1000)
-            return {
-                title: jvEvent.title || "",
-                description: jvEvent.description || "",
-                body: jvEvent.body || "",
-                spots: {
-                    available: -1,
-                    max: jvEvent.max_attendess || -1
-                },
-                signedUp: false,
-                bookable: jvEvent.bookable,
-                banner: (jvEvent.banner) ? jvEvent.banner.image_uri || "" : "",
-                startTime: eventStart.getTime(),
-                endTime: eventEnd.getTime(),
-                date: {
-                    day: eventStart.getDate(),
-                    month: eventStart.getMonth()+1
-                },
-                time: {
-                    start: {
-                        hour: eventStart.getHours(),
-                        minute: eventStart.getMinutes()
-                    },
-                    end: {
-                        hour: eventEnd.getHours(),
-                        minute: eventEnd.getMinutes()
-                    }
-                },
-                host: (jvEvent.company) ? {
-                    name: jvEvent.company.name || ""
-                } : undefined
-            }
-        }
     },
     computed: {
         weeks() {
             const weeks = [];
-            let formattedEvents = this.formattedEvents
 
             const millisecondsInDay = 86400000
             let firstEventDate = this.defaultStartingDate
             let startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
             let numberOfWeeks = 3;
-            if (formattedEvents.length > 0 ) {
-                firstEventDate = new Date(formattedEvents[0].startTime)
+            if (this.events.length > 0 ) {
+                firstEventDate = new Date(this.events[0].startTime)
                 startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
-                let lastEventDate = new Date(formattedEvents[formattedEvents.length-1].endTime)
+                let lastEventDate = new Date(this.events[this.events.length-1].endTime)
                 let endDate = new Date(lastEventDate.getTime() + (7-lastEventDate.getDay())*millisecondsInDay + millisecondsInDay)
                 numberOfWeeks = Math.round((endDate.getTime()-startDate.getTime())/(7*millisecondsInDay))
             } 
@@ -108,17 +72,15 @@ export default {
                     date.month = (date.month+1)%12
                     if (date.month === 0) date.year++;
                 }
-            }/*
-            let timeToInt = (time) => {
-                time.hour*100+time.minute;
-            }*/
+            }
+
             for (let weekIndex = 0; weekIndex < numberOfWeeks; weekIndex++) {
                 const week = {
                     days: [],
                     index: weekIndex
                 };
                 for (let dayIndex = 0; dayIndex < this.weekdays.length; dayIndex++) {
-                    const events = formattedEvents.filter(e => (e.date.day == date.day && e.date.month == date.month))
+                    const events = this.events.filter(e => (e.date.day == date.day && e.date.month == date.month))
                     events.sort((a,b) => a.startTime-b.startTime)
                     week.days.push({
                         events: events,
@@ -130,15 +92,6 @@ export default {
             }
             return weeks;
         },
-        formattedEvents() {
-            let events = []
-            for (let event of Object.values(this.events)) {
-                let formattedEvent = this.formatEvent(event)
-                events.push(formattedEvent)
-            }
-
-            return events
-        }
     }
 }
 </script>
