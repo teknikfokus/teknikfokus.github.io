@@ -38,8 +38,8 @@ export default {
     methods: {
         moveForward() {
             if (this.logos.length > 1) {
-                let last = this.logos.pop()
-                this.logos.unshift(last);
+                let first = this.logos.shift()
+                this.logos.push(first);
             }
         },
         reloadCompanies() {
@@ -69,11 +69,22 @@ export default {
             return this.$store.getters['jv/get']('companies')
         },
         stateLogos() {
-            if (!Object.values(this.companies) || Object.values(this.companies).length <= 0) {
+            if (!this.shuffledCompanies || this.shuffledCompanies.length <= 0) {
                 return []
             }
 
-            return Object.values(this.companies).map(c => (c && c.logo && c.logo._jv && c.logo._jv.links) ? c.logo._jv.links.image : undefined).filter(l => l !== undefined)
+            return this.shuffledCompanies.map(c => (c && c.logo && c.logo._jv && c.logo._jv.links) ? c.logo._jv.links.image : undefined).filter(l => l !== undefined)
+        },
+        filteredCompanies() {
+            return Object.values(this.companies).filter(company => company.days_attending && Object.values(company.days_attending).length > 0 && company.name.toLowerCase() !== 'teknikfokus')
+        },
+        shuffledCompanies() {
+            let shuffledArr = [...this.filteredCompanies]
+            for (let i = shuffledArr.length - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                [shuffledArr[i], shuffledArr[j]] = [shuffledArr[j], shuffledArr[i]];
+            }
+            return shuffledArr
         }
     }
 }

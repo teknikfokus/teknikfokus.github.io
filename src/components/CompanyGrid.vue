@@ -1,6 +1,6 @@
 <template>
   <div id="company-grid">
-    <button class="company" v-for="company of companies" :key="JSON.stringify(company)" @click="$emit('select', company)" tabindex="0">
+    <button class="company" v-for="company of sortedCompanies" :key="JSON.stringify(company)" @click="$emit('select', company)" tabindex="0">
       <div class="content">
         <div class="logo" v-if="company.logo && 
                                 company.logo._jv && 
@@ -26,6 +26,21 @@ export default {
         return {
             endpoint
         }
+    },
+    computed: {
+      sortedCompanies() {
+        return [...this.companies].sort((a, b) => {
+          // Teknikfokus should be first, rest alphabetically
+          if (a.name.toLowerCase() == 'teknikfokus') return 1;
+          if (a.name > b.name) {
+            return 1;
+          } 
+          if (b.name > a.name) {
+            return -1;
+          }
+          return 0;
+        })
+      }
     }
 }
 </script>

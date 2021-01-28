@@ -2,8 +2,8 @@
   <div id="companies">
     <div class="container pt-5 pb-5">
         <h2 class="text-capitalize text-center mb-4">Attending Companies</h2>
-        <CompanyGrid :companies="Object.values(companies)" v-if="!isLoading && !isError && Object.values(companies).length > 0" @select="selectCompany"/>
-        <ErrorMessage v-if="!isLoading && !isError && Object.values(companies).length <= 0" text="No frequently asked questions found." />
+        <CompanyGrid :companies="filteredCompanies" v-if="!isLoading && !isError && filteredCompanies.length > 0" @select="selectCompany"/>
+        <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
         <CompanyModal v-if="!isLoading && !isError" :class="{'show': showModal}" :info="selected" @close="closeModal()"/>
         <div class="dark-backdrop" v-if="!isLoading && !isError" :class="{'show': showModal}" @click="closeModal()"></div>
 
@@ -64,6 +64,9 @@ export default {
     companies() {
       return this.$store.getters['jv/get']('companies')
     },
+    filteredCompanies() {
+      return Object.values(this.companies).filter(company => company.days_attending && Object.values(company.days_attending).length > 0)
+    }
   }
 }
 </script>
