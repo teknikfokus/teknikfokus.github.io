@@ -28,7 +28,7 @@ export default {
     },
     computed: {
         sanitizedBody() {
-            return [...this.info.body].map(c => (c === '\n') ? '<br>' : c).join('')
+            return this.info.body ? [...this.info.body].map(c => (c === '\n') ? '<br>' : c).join('') : ""
         }
     }
 }

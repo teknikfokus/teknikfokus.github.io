@@ -31,7 +31,8 @@ export default {
       sortedCompanies() {
         return [...this.companies].sort((a, b) => {
           // Teknikfokus should be first, rest alphabetically
-          if (a.name.toLowerCase() == 'teknikfokus') return 1;
+          if (a.name.toLowerCase() === 'teknikfokus') return -1;
+          if (b.name.toLowerCase() === 'teknikfokus') return 1;
           if (a.name > b.name) {
             return 1;
           } 

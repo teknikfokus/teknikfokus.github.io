@@ -52,7 +52,6 @@ export default {
         .then(onResponse).catch(onResponse)
     },
     selectCompany(company) {
-      console.log(company)
       this.selected = company;
       this.showModal = true;
     },
