@@ -1,14 +1,13 @@
 <template>
-    <div id="event-modal">
+    <div id="event-modal" class="event-details">
         <div class="content-wrapper" v-if="info !== undefined">
             <div class="banner" v-if="info.banner !== '' && info.banner !== undefined" :style="{'background-image': `url(${endpoint + info.banner})`}"></div>
             <div class="title">{{info.title}}</div>
             <div class="host" v-if="info.host && info.host.name !== ''">
                 Hosted by {{info.host.name}} 
-                <img class="host-logo"  :src="endpoint + info.logo._jv.links.image" :alt="info.host.name + ' logo'"
-                v-if="info.host.logo && info.host.logo._jv && info.host.logo._jv.links && info.host.logo._jv.links.image">
+            <img class="host-logo" v-if="logoExists" :src="logoExists ? (endpoint + info.host.logo._jv.links.image) : ''" :alt="info.host.name + ' logo'">
             </div>
-            <div class="time">{{startTime}}-{{endTime}}</div>
+            <div class="time">{{date}} {{startTime}}-{{endTime}} </div>
             <div class="description">{{info.description}}</div>
             <div class="body" v-html="sanitizedBody"></div>
 
@@ -18,7 +17,7 @@
             </div>
             <div class="buttons">
                 <button class="close" @click="$emit('close')">Close</button>
-                <button class="toggle" v-if="info.bookable" @click="$emit((info.signedUp ? 'withdraw' : 'register'))">{{info.signedUp ? "Withdraw" : "Sign up"}}</button>
+                <!-- <button class="toggle" v-if="info.bookable" @click="$emit((info.signedUp ? 'withdraw' : 'register'))">{{info.signedUp ? "Withdraw" : "Sign up"}}</button> -->
                 <!-- Toggle button above emits two different strings, instead of just 'toggle, to make sure user does what they see on the button. -->
             </div>
         </div>
@@ -41,8 +40,8 @@ export default {
     },
     methods: {
         timeString(hour, minute) {
-            let stylized = (str) => {return ((str.length < 2) ? '0' : '') + str}
-            return (stylized(hour+'') + ":" + stylized(minute+''))
+            const stylized = (str) => {return (((str+'').length < 2) ? '0' : '') + str}
+            return `${stylized(hour)}:${stylized(minute)}`
         }
     },
     computed: {
@@ -54,6 +53,10 @@ export default {
             const end = this.info.time.end;
             return this.timeString(end.hour, end.minute)
         },
+        date() {
+            const stylized = (str) => {return (((str+'').length < 2) ? '0' : '') + str+''}
+            return `${stylized(this.info.date.day)}/${stylized(this.info.date.month)}`
+        },
         availableSpots() {
             const spots = this.info.spots;
             return (spots.available < 0) ? '-' : spots.available;
@@ -64,12 +67,15 @@ export default {
         },
         sanitizedBody() {
             return [...this.info.body].map(c => (c === '\n') ? '<br>' : c).join('')
-        }
+        },
+        logoExists() {
+            return this.info.host.logo && this.info.host.logo._jv && this.info.host.logo._jv.links && this.info.host.logo._jv.links.image
+        },
     }
 }
 </script>
 
-<style scoped>
+<style>
 #event-modal {
     position: absolute;
     top: 500px;
@@ -88,14 +94,14 @@ export default {
     overflow: hidden;
 }
 
-.content-wrapper {
+.event-details .content-wrapper {
     width: 100%;
     height: 100%;
     padding-bottom: 100px;
     position: relative;
 }
 
-.banner {
+.event-details .banner {
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,68 +110,72 @@ export default {
     margin-bottom: 15px;
 }
 
-.title {
-    font-size: 1.5rem;
+.event-details .title {
+    font-size: 1.6em;
     font-weight: 600;
 }
 
-.description {
-    font-size: 1.2rem;
+.event-details .description {
+    font-size: 1.2em;
     margin-bottom: 0.8rem;
 }
 
 
-.time {
-    font-size: 1.2rem;
+.event-details .time {
+    font-size: 1em;
     color: var(--primary-dark);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5em;
 }
 
-.host {
+.event-details .host {
     color: var(--primary-dark);
+    font-size: 1.2em;
 }
-.host .host-logo {
+.event-details .host .host-logo {
     position: relative;
-    top: -0.05rem;
-    height: 1.5rem;
+    top: -0.1em;
+    max-height: 1.4em;
+    max-width: 2em;
 }
 
-.spots {
+.event-details .spots {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 5px;
+    left: 20px;
     font-size: 1.3rem;
     font-weight: 600;
     padding: 10px;
 }
 
-.spots .few-left {
+.event-details .spots .few-left {
     font-size: 1.2em;
     font-weight: 700;
 }
 
-.buttons {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
+.event-details .buttons {
+    display: inline-flex;
     position: absolute;
-    bottom: 0;
+    justify-content: flex-end;
+
+    width: 50%;
+    bottom: 15px;
+    right: 30px;
 }
 
-.buttons button {
+.event-details .buttons button {
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 600;
     transition: color 0.2s, background 0.2s;
 }
 
-.buttons .close {
+.event-details .buttons .close {
     color: #333;
 }
 
-.buttons .close:hover { color: #000; }
+.event-details .buttons .close:hover { color: #000; }
 
-.buttons .toggle {
+.event-details .buttons .toggle {
     background: var(--primary);
     color: white;
     padding: 10px 20px;
@@ -173,5 +183,5 @@ export default {
     margin-left: 20px;
 }
 
-.buttons .toggle:hover { background: var(--primary-dark) };
+.event-details .buttons .toggle:hover { background: var(--primary-dark) };
 </style>       

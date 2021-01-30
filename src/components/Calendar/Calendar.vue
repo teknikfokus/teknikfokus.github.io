@@ -48,15 +48,14 @@ export default {
         weeks() {
             const weeks = [];
 
-            const millisecondsInDay = 86400000
-            let firstEventDate = this.defaultStartingDate
-            let startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
+            const millisecondsInDay = 86400000 //24*60*60*1000
+            let startDate = new Date(this.defaultStartingDate.getTime() - (this.defaultStartingDate.getDay()-1)*millisecondsInDay)
             let numberOfWeeks = 3;
             if (this.events.length > 0 ) {
-                firstEventDate = new Date(this.events[0].startTime)
-                startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay())*millisecondsInDay + millisecondsInDay)
+                let firstEventDate = new Date(this.events[0].startTime)
+                startDate = new Date(firstEventDate.getTime() - (firstEventDate.getDay()-1)*millisecondsInDay)
                 let lastEventDate = new Date(this.events[this.events.length-1].endTime)
-                let endDate = new Date(lastEventDate.getTime() + (7-lastEventDate.getDay())*millisecondsInDay + millisecondsInDay)
+                let endDate = new Date(lastEventDate.getTime() + (7-lastEventDate.getDay()+1)*millisecondsInDay)
                 numberOfWeeks = Math.round((endDate.getTime()-startDate.getTime())/(7*millisecondsInDay))
             } 
 

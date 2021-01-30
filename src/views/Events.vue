@@ -70,9 +70,7 @@ export default {
                     minute: eventEnd.getMinutes()
                 }
             },
-            host: (jvEvent.company) ? {
-                name: jvEvent.company.name || ""
-            } : undefined
+            host: (jvEvent.company)
         }
     },
     reloadEvents() {
@@ -110,8 +108,9 @@ export default {
             let formattedEvent = this.formatEvent(event)
             events.push(formattedEvent)
         }
-        
-        return events
+        return events.sort((a,b) => {
+          return a.startTime-b.startTime
+        })
     }
   }
   
