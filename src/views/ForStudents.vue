@@ -1,39 +1,39 @@
 <template>
   <div id="how-to">
     <div class="container pt-5">
-      <h3>Gå med på Teknikfokus med din LU-mail</h3>
+      <h3>Join Teknikfokus with your LU email</h3>
       <div class="paragraph">
-        Teknikfokus 2021 äger rum helt digitalt den 17 februari 2021 kl.10.00-16.00!
+        Teknikfokus 2021 will be completely digitally this year and takes place on February17th 2021 between 10.00-16.00!
         <br><br>
-        Mässan hittar du på fair.teknikfokus.se och för att vara med på mässan behöver du bara skapa en användare: klicka på Visa event > Registrera > Skapa en profil med LU studentkonto och gå igenom de snabba stegen för att skapa din profil! Du kan nu börja utforska de deltagande företagen! 
+        You can find the fair at fair.teknikfokus.se and to participate in the fair you only need to create a user profile: click on View event > Register > Sign up with LU student account and go through the quick steps to create your profile! You can now start exploring the profiles of the participating companies!
         <br><br>
-        <b>Registrera dig här</b>: <a href="https://fair.teknikfokus.se/sv/event/4728" target="_blank" class="btn link-button ml-3">Registrera</a>
+        <b>Register here</b>: <a href="https://fair.teknikfokus.se/sv/event/4728" target="_blank" class="btn link-button ml-3">Register</a>
       </div>
 
-      <h3>Vad kan jag göra på mässan?</h3>
+      <h3>What can I do at the fair?</h3>
       <div class="paragraph">
-        <span class="highlighted">Läsa om företagen</span> - I företagens montrar finns det möjlighet att läsa om företagets verksamhet och hur det är att vara anställd. Det visas också vilka jobb de har att erbjuda, och du kan boka in ett kontaktsamtal med video eller starta en chatt.
+        <span class="highlighted">Read about the companies</span> - In the company stalls, you can read about the company, what they are doing, what it is like to be an employee there and any jobs they're offering.. You can also chat with the company host or book an interview. 
         <br><br>
-        <span class="highlighted">Söka jobb</span> - För att se vilka jobb som finns att söka under mässan kan du antingen använda sidan jobb eller gå in på individuella företag som du är intresserad av för att se om de erbjuder några jobb som skulle passa dig. 
+        <span class="highlighted">Applying for a job</span> - To see which jobs are available to apply for during the fair, you can either use the jobs page or go to the stalls of individual companies that you are interested in to see if they offer any jobs that would suit you.
         <br><br>
-        <span class="highlighted">Chatta med företag</span> - Chatta kan du göra under mässan genom företagets monter. du kan även fortsätta påbörjade chattar efter mässan. Ställ specifika frågor om jobbtillfällen eller småprata med företagsrepresentanterna för att utforska och skapa kontakter, beroende på vad ditt mål på mässan är. Du kan ha flera chattar igång samtidigt, så om företagsrepresentanterna har mycket att göra så kan du börja chatta med någon annan så länge eller boka ett kontaktsamtal!
+        <span class="highlighted">Chat with companies</span> - You can chat with a company recruiter during the fair by visiting the company's stall. you can also continue chats started during the fair after it ends.. You can ask specific questions about job opportunities or chat with a company recruiter to network and make contacts, all depending on what your goal of the fair is. You can have several chats running at the same time, so if the company recruiter has a lot to do, you can start chatting with someone else in the meantime or book an interview!
         <br><br>
-        <span class="highlighted">Kontaktsamtal</span> - Ett kontaktsamtal är ett direktsamtal med en representant på ett företag då ni båda har avsatt tid speciellt för varandra och det behöver därför inte vara någon stress eller press på grund av kö! Kontaktsamtal kan bokas i företagets monter och du också tillgång till samtalet på samma ställe. När du har bokat ett kontaktsamtal kan du fortsätta utforska mässan i lugn och ro och komma tillbaka när det är din tur. Se till att din profil är så komplett som möjligt för att få en tid för kontaktsamtal!
+        <span class="highlighted">Interview</span> - An interview  is a videocall with a recruiter from a company when both of you have set aside time especially for each other and there is no  stress or pressure due to people waiting! You can sign up for an interview in the company stalls and you will also have join the call at the same place. Once you have booked an interview, you can continue to explore the fair in peace and quiet and come back when it's your turn. Make sure your profile is as complete as possible to get an interview!
         <br><br>
         <span class="quote"><span class="quote-text">“But have you completed your profile?” … “Immediately after I had saved my new complete profile I got in contact with several different companies.”</span><br>
         - Evelina
         </span>
       </div>
 
-      <h3>Tips!</h3>
+      <h3>But how do I gain the most of my time at the fair?</h3>
       <div class="paragraph">
-        Det finns olika sätt att förbereda sig för mässan. En av de viktigaste sakerna du kan göra för att få ut så mycket som möjligt av din upplevelse är att <span class="highlighted">skapa en stark profil</span>.  Ju mer info du har om dig själv desto större chans är det att ett <span class="highlighted">företag kontaktar dig</span>. Lägg gärna upp bild, CV, erfarenheter och kompetenser för att ge ett så komplett intryck som möjligt så att företagen vet att de ska kontakta just dig! 
+        There are several different ways to prepare for the fair. One of the most important things you can do to get the most out of your experience is to <span class="highlighted">create a strong profile</span>.  The more info you have about yourself, the greater the chance is that a <span class="highlighted">company will contact you</span>. Feel free to upload a photo, CV, work experience and skills to give an impression of yourself that is as  complete as possible so that the companies know that they should contact you!
         <br><br>
-        Läs igenom företagslistan på teknikfokus.se eller klicka runt på mässan i förväg och bekanta dig med företagen innan mässan så att du vet vilka som just du är intresserad av. 
+        Read the list of companies on teknikfokus.se or click around on the fair in advance to get to know the companies before the fair so that you know which ones you are interested in.
         <br><br>
-        Är det något företag du är extra intresserad av, förbered frågor så att du kan få ut så mycket som möjligt av ditt samtal! Om du inte har några frågor utan bara är nyfiken är det helt okej det med! Gå in och chatta med företag, de vill jättegärna prata med er! Våga ta kontakt! 
+        If there is a company you are particularly interested in, prepare questions so that you can get the most out of your conversation with them! If you have no questions but are just curious, that’s all right! Go in and chat with companies, they really want to talk to you! Don’t be scared to contact them!
         <br><br>
-        Pssst… Företagsrepresentanter kan starta ett videosamtal i en chatt. Om du tycker att det är mer givande att prata än att skriva så kan du fråga om de vill starta ett samtal.
+        Pssst… Company recruiters can start a video call in a chat. If you think it is more rewarding to talk than to write, you can always ask if they want to start a videocall.
       </div>
 
       <div class="paragraph quote-block">

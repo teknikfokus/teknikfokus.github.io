@@ -76,8 +76,12 @@ p {
   margin-bottom: 40px;
 }
 
-h5 {
-  color: #555;
+h3 {
+  color: var(--primary);
+}
+
+h5, h4 {
+  color: var(--primary-dark)
 }
 
 .videos {
