@@ -53,7 +53,7 @@ export default {
             },
             signedUp: false,
             bookable: jvEvent.bookable,
-            banner: (jvEvent.banner) ? jvEvent.banner.image_uri || "" : "",
+            banner: jvEvent.banner,
             startTime: eventStart.getTime(),
             endTime: eventEnd.getTime(),
             date: {

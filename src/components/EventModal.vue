@@ -1,7 +1,7 @@
 <template>
     <div id="event-modal" class="event-details">
         <div class="content-wrapper" v-if="info !== undefined">
-            <div class="banner" v-if="info.banner !== '' && info.banner !== undefined" :style="{'background-image': `url(${endpoint + info.banner})`}"></div>
+            <div class="banner" v-if="bannerExists" :style="{'background-image': `url(${endpoint + info.banner._jv.links.image})`}"></div>
             <div class="title">{{info.title}}</div>
             <div class="host" v-if="info.host && info.host.name !== ''">
                 Hosted by {{info.host.name}} 
@@ -70,6 +70,9 @@ export default {
         },
         logoExists() {
             return this.info.host.logo && this.info.host.logo._jv && this.info.host.logo._jv.links && this.info.host.logo._jv.links.image
+        },
+        bannerExists() {
+            return this.info.banner && this.info.banner._jv && this.info.banner._jv.links && this.info.banner._jv.links.image
         },
     }
 }
