@@ -5,35 +5,35 @@
       <div class="paragraph">
         Teknikfokus 2021 will be completely digitally this year and takes place on February17th 2021 between 10.00-16.00!
         <br><br>
-        You can find the fair at fair.teknikfokus.se and to participate in the fair you only need to create a user profile: click on View event > Register > Sign up with LU student account and go through the quick steps to create your profile! You can now start exploring the profiles of the participating companies!
+        You can find the fair at fair.teknikfokus.se and to participate in the fair you only need to create a user profile: click on View event> Register> Sign up with LU student account and go through the quick steps to create your profile! You can now start exploring the profiles of the participating companies!
         <br><br>
         <b>Register here</b>: <a href="https://fair.teknikfokus.se/sv/event/4728" target="_blank" class="btn link-button ml-3">Register</a>
       </div>
 
       <h3>What can I do at the fair?</h3>
       <div class="paragraph">
-        <span class="highlighted">Read about the companies</span> - In the company stalls, you can read about the company, what they are doing, what it is like to be an employee there and any jobs they're offering.. You can also chat with the company host or book an interview. 
+        <span class="highlighted">Read about the companies</span> - In the company stalls, you can read about the company, what they are doing, what it is like to be an employee there and any jobs they're offering. You can also chat with the company hosts or book an interview. 
         <br><br>
         <span class="highlighted">Applying for a job</span> - To see which jobs are available to apply for during the fair, you can either use the jobs page or go to the stalls of individual companies that you are interested in to see if they offer any jobs that would suit you.
         <br><br>
-        <span class="highlighted">Chat with companies</span> - You can chat with a company recruiter during the fair by visiting the company's stall. you can also continue chats started during the fair after it ends.. You can ask specific questions about job opportunities or chat with a company recruiter to network and make contacts, all depending on what your goal of the fair is. You can have several chats running at the same time, so if the company recruiter has a lot to do, you can start chatting with someone else in the meantime or book an interview!
+        <span class="highlighted">Chat with companies</span> - You can chat with a company recruiter during the fair by visiting the company's stall. You can also continue ongoing chats started during the fair, after the fair has ended. You can ask specific questions about job opportunities or chat with a recruiter to network and make contacts, all depending on what your goal of the fair is. You can have several chats running at the same time, so if the recruiter has a lot to do, you can start chatting with someone else in the meantime or book an interview!
         <br><br>
-        <span class="highlighted">Interview</span> - An interview  is a videocall with a recruiter from a company when both of you have set aside time especially for each other and there is no  stress or pressure due to people waiting! You can sign up for an interview in the company stalls and you will also have join the call at the same place. Once you have booked an interview, you can continue to explore the fair in peace and quiet and come back when it's your turn. Make sure your profile is as complete as possible to get an interview!
+        <span class="highlighted">Interview/Video call</span> - You can book a video call with a recruiter from a company where both of you have set aside time especially for each other and there is no stress or pressure due to people waiting! You can sign up for an interview in the company stall, and you will also join the call at the company stall. Once you have booked an interview, you can continue to explore the fair in peace and quiet and come back when it's your turn. Make sure your profile is as complete as possible to get an interview!
         <br><br>
-        <span class="quote"><span class="quote-text">“But have you completed your profile?” … “Immediately after I had saved my new complete profile I got in contact with several different companies.”</span><br>
+        <span class="quote"><span class="quote-text">"But have you completed your profile?" … “Immediately after I had saved my new complete profile I got in contact with several different companies.”</span><br>
         - Evelina
         </span>
       </div>
 
       <h3>But how do I gain the most of my time at the fair?</h3>
       <div class="paragraph">
-        There are several different ways to prepare for the fair. One of the most important things you can do to get the most out of your experience is to <span class="highlighted">create a strong profile</span>.  The more info you have about yourself, the greater the chance is that a <span class="highlighted">company will contact you</span>. Feel free to upload a photo, CV, work experience and skills to give an impression of yourself that is as  complete as possible so that the companies know that they should contact you!
+        There are several different ways to prepare for the fair. One of the most important things you can do to get the most out of your experience is to <span class="highlighted">create a strong profile</span>.  The more info you have about yourself, the greater the chance is that a <span class="highlighted">company will contact you</span>. Feel free to upload a photo, CV, personal presentational text, work experience and skills to give an impression of yourself that is as complete as possible. Then the companies will know that they should contact you!
         <br><br>
         Read the list of companies on teknikfokus.se or click around on the fair in advance to get to know the companies before the fair so that you know which ones you are interested in.
         <br><br>
-        If there is a company you are particularly interested in, prepare questions so that you can get the most out of your conversation with them! If you have no questions but are just curious, that’s all right! Go in and chat with companies, they really want to talk to you! Don’t be scared to contact them!
+        If there is a company that you are particularly interested in, prepare questions so that you can get the most out of your conversation with them! If you have no questions and are just curious, that’s all right! Go in and chat with companies, they really want to talk to you! Don’t be scared to contact them!
         <br><br>
-        Pssst… Company recruiters can start a video call in a chat. If you think it is more rewarding to talk than to write, you can always ask if they want to start a videocall.
+        Pssst… Company recruiters can start a video call in a chat. If you think it is more rewarding to talk than to write, you can always ask if they want to start a video call.
       </div>
 
       <div class="paragraph quote-block">
