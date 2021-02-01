@@ -105,7 +105,8 @@ export default {
 }
 
 .event-details .banner {
-    height: 200px;
+    max-height: 340px;
+    height: 50vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
