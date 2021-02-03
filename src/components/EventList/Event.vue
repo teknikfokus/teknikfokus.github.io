@@ -6,7 +6,7 @@
             Hosted by {{info.host.name}} 
             <img class="host-logo" v-if="logoExists" :src="logoExists ? (endpoint + info.host.logo._jv.links.image) : ''" :alt="info.host.name + ' logo'">
         </div>
-        <div class="time">{{date}} {{startTime}}-{{endTime}} </div>
+        <div class="time">{{dayString}} {{date}} {{startTime}}-{{endTime}} </div>
         <div class="description">{{info.description}}</div>
         <div class="body" v-html="sanitizedBody"></div>
 
@@ -64,6 +64,11 @@ export default {
         bannerExists() {
             return this.info.banner && this.info.banner._jv && this.info.banner._jv.links && this.info.banner._jv.links.image
         },
+        dayString() {
+            if (this.info.startTime === undefined) return '';
+            const names = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+            return names[(new Date(this.info.startTime).getDay()+6)%7];
+        }
     },
     methods: {
         timeString(hour, minute) {

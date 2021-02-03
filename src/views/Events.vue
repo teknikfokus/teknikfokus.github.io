@@ -1,6 +1,11 @@
 <template>
   <div id="events">
     <div class="container pt-5 pb-5">
+      <div class="todays-event" v-if="todaysEvents !== undefined && todaysEvents.length > 0">
+        <h1>Today's events</h1>
+        <Event v-for="todaysEvent in todaysEvents" :info="todaysEvent" :key="todaysEvent.title"/>
+        <h1>All events</h1>
+      </div>
       <Calendar class="d-none d-lg-block" :events="formattedEvents" :class="{'show': !isLoading && !isError}" @select="handleSelect"/>
       <EventList class="d-block d-lg-none" :events="formattedEvents" :class="{'show': !isLoading && !isError}"/>
       <Loader v-if="isLoading" />
@@ -18,6 +23,7 @@ import EventList from '../components/EventList/EventList'
 import EventModal from '../components/EventModal'
 import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
+import Event from '../components/EventList/Event'
 
 export default {
   name: 'Events',
@@ -27,6 +33,7 @@ export default {
     EventModal,
     Loader,
     ErrorMessage,
+    Event,
   },
   data() {
     return {
@@ -111,6 +118,11 @@ export default {
         return events.sort((a,b) => {
           return a.startTime-b.startTime
         })
+    },
+    todaysEvents() {
+      let currentDate = new Date();
+      return this.formattedEvents.filter(e => e.date.day == currentDate.getDate() && e.date.month == currentDate.getMonth()+1) 
+      // return this.formattedEvents.filter(e => e.date.day == currentDate.getDate() && e.date.month == currentDate.getMonth()) 
     }
   }
   
@@ -119,6 +131,15 @@ export default {
 
 
 <style scoped>
+
+h1 {
+  text-align: center;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
 .dark-backdrop {
   position: fixed;
   top: 0;

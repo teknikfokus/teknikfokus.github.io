@@ -1,6 +1,6 @@
 <template>
     <div id="event-list">
-        <div class="event" v-for="event in events" :key="event.title">
+        <div class="event" v-for="event in nonTodayEvents" :key="event.title+event.startTime">
             <Event :info="event" v-if="event !== undefined"/>
         </div>
     </div>
@@ -18,6 +18,10 @@ export default {
         events: Array
     },
     computed: {
+        nonTodayEvents() {
+            let currentDate = new Date();
+            return this.events.filter(e => e.date.day != currentDate.getDate() || e.date.month != currentDate.getMonth()+1) 
+        }
     },
 }
 </script>
