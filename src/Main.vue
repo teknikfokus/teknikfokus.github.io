@@ -12,9 +12,9 @@
             <li class="nav-item">
                 <router-link class="nav-link" to="/">Home</router-link>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <router-link class="nav-link" to="/fair">Fair</router-link>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <router-link class="nav-link" to="/events">Events</router-link>
             </li>
@@ -40,9 +40,9 @@
     </nav>
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
         <div class="container text-center" v-if="$route.name=='Home'">
-            <h1>Digital career fair</h1>
-            <h3>17th of February</h3>
-            <router-link to="/fair" class="btn link-button">Visit The Fair</router-link>
+            <h1>Career fair</h1>
+            <h3>16th & 17th of February</h3>
+            <!-- <router-link to="/fair" class="btn link-button">Visit The Fair</router-link> -->
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.meta.title}}</h1>

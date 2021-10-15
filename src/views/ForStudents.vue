@@ -1,7 +1,7 @@
 <template>
   <div id="how-to">
     <div class="container pt-5">
-      <h3>Join Teknikfokus with your LU email</h3>
+      <!-- <h3>Join Teknikfokus with your LU email</h3>
       <div class="paragraph">
         Teknikfokus 2021 will be completely digitally this year and takes place on February17th 2021 between 10.00-16.00!
         <br><br>
@@ -37,14 +37,14 @@
       </div>
 
       <div class="paragraph quote-block">
-        <!--
+        
         <div class="headshot-wrapper">
           <div class="headshot">
             <img src="@/assets/images/project_group/placeholder-person.png" alt="Image of Evelina Danielsson">
           </div>
           <div class="caption">Evelina Danielsson</div>
         </div>
-        -->
+       
         “A couple of months ago I attended ARKAD, a two-day long career fair arranged by TLTH. It was the first time that I attended a virtual career fair, so I did not know what to expect. I had registered and had an account ready for the fair, or so I thought.
         <br><br>
         The first day of the fair I visited some company stalls. It was nice to read about the companies and I could take my time to look through all the different openings that the companies offered. However, I did not come in contact with any of the company staff that were online.
@@ -52,8 +52,7 @@
         The second day, I met some of my classmates who told me that people from several companies had started chatting with them. I was surprised to hear that they got in contact with the companies when I didn’t! “But have you completed your profile?”, one of them asked me. Then it hit me, I was just a profile with nothing but name and some basic contact info. The companies could not see me, so no wonder why they did not write to me. I quickly added my resume, a profile picture, and wrote a small presentation about myself and what I was looking to achieve at the fair. Immediately after I had saved my new complete profile I got in contact with several different companies.
         <br><br>
         Teknikfokus is just around the corner and this time I have already started building my profile to make sure that I get the most out of the fair!”
-      </div>
-
+      </div> -->
     </div>
   </div>
 </template>

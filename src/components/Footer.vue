@@ -9,12 +9,12 @@
         <div class="row">
           <div class="col d-none d-lg-block"></div>
           <div class="text-center col-12 col-md-6 col-lg-4 contact-info mb-4">
-            <span>Emil Holm, Project manager</span><br>
-            <a href="mailto:emil@teknikfokus.se">emil@teknikfokus.se</a><br>
+            <span>Fredrik Hessner, Project manager</span><br>
+            <a href="mailto:fredrik@teknikfokus.se">fredrik@teknikfokus.se</a><br>
           </div>
           <div class="text-center col-12 col-md-6 col-lg-4 contact-info">
-            <span>Jonna Fahrman, Project manager</span><br>
-            <a href="mailto:jonna@teknikfokus.se">jonna@teknikfokus.se</a><br>
+            <span>Tove Hector, Project manager</span><br>
+            <a href="mailto:toveteknikfokus.se">tove@teknikfokus.se</a><br>
           </div>
           <div class="col d-none  d-lg-block"></div>
         </div>

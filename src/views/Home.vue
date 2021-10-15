@@ -6,11 +6,11 @@
       <div class="d-block w-100 text-center mb-4 mt-0">
         <router-link class="btn link-button"  to="/events">Events</router-link>
       </div>
-      <p>Due to the current situation regarding Covid-19, this year's Teknikfokus will be held completely online. Please visit the link below to register.</p>
-      <div class="d-block w-100 text-center">
-        <!-- <router-link class="btn link-button text-capitalize mr-5"  to="/for-students">Information for students</router-link> -->
+      <!-- <p>Due to the current situation regarding Covid-19, this year's Teknikfokus will be held completely online. Please visit the link below to register.</p> -->
+      <!-- <div class="d-block w-100 text-center">
+        <router-link class="btn link-button text-capitalize mr-5"  to="/for-students">Information for students</router-link>
         <router-link class="btn link-button text-capitalize "  to="/register">Register for fair</router-link>
-      </div>
+      </div> -->
     </div>
     <div class="companies">
       <h4>Attending Companies</h4>
@@ -23,7 +23,7 @@
         <div class="col-6 col-md text-center">
           <i class="far fa-calendar-alt fa-3x mb-2"></i>
           <div class="mb-3">When?</div>
-          <div>17th of February, 2021!</div>
+          <div>16th & 17th of February, 2021!</div>
         </div>
         <div class="col-6 col-md text-center">
           <i class="fas fa-map-marker-alt fa-3x mb-2"></i>
