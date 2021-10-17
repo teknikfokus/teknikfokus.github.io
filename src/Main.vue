@@ -35,7 +35,7 @@
             </li>
             </ul>
         </div>
-        <router-link class="logo" to="/"><img src="@/assets/images/logo_white_on_black.png" class="d-inline-block align-top" alt="Teknikfokus Logo" loading="lazy"></router-link>
+        <router-link class="logo" to="/"><img src="@/assets/images/Transparent new logo.png" class="d-inline-block align-top" alt="Teknikfokus Logo" loading="lazy"></router-link>
       </div>
     </nav>
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">

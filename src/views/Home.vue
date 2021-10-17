@@ -23,13 +23,13 @@
         <div class="col-6 col-md text-center">
           <i class="far fa-calendar-alt fa-3x mb-2"></i>
           <div class="mb-3">When?</div>
-          <div>16th & 17th of February, 2021!</div>
+          <div>16th & 17th of February, 2022!</div>
         </div>
         <div class="col-6 col-md text-center">
           <i class="fas fa-map-marker-alt fa-3x mb-2"></i>
           <div class="mb-3">Where?</div>
-          <div>Completely Digital</div>
-          <router-link to="/fair">The Fair</router-link>
+          <div><router-link to"https://goo.gl/maps/JSuPxT2zTouGQqPh9">Lobby in E-huset</a></div>
+          <!-- <router-link to="/fair">The Fair</router-link> -->
         </div>
         <div class="col-6 col-md text-center">      
           <i class="fas fa-question-circle fa-3x mb-3"></i><br>
