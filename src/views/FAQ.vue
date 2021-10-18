@@ -2,6 +2,13 @@
   <div id="faq">
     <div class="container pt-5 pb-5">
       <h2 class="text-capitalize text-center mb-4">Frequently asked questions</h2>
+      <div class="container pt-5">
+      <div class="row text-center mb-3">
+        <i class="d-block mx-auto fas fa-tools fa-3x"></i>
+      </div>
+      <div class="row text-center">
+        <p class="d-block mx-auto">This site is being set up</p>
+      </div>
       <div class="row">
         <div class="col d-none d-lg-block"></div>
         <div class="col col-lg-8" >

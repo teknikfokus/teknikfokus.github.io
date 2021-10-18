@@ -58,13 +58,21 @@ const routes = [
       title: 'Attending Companies'
     }
   },
+  // {
+  //   path: '/register',
+  //   name: 'Register',
+  //   beforeEnter: () => location.href = "https://fair.teknikfokus.se/new-signup/start",
+  //   // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
+  //   meta: {
+  //     title: 'Register for Fair'
+  //   }
+  // },
   {
     path: '/register',
     name: 'Register',
-    beforeEnter: () => location.href = "https://fair.teknikfokus.se/new-signup/start",
-    // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
+    component: () => import(/* webpackChunName: "register" */'../views/Register.vue'),
     meta: {
-      title: 'Register for Fair'
+      title: 'Register Your Company'
     }
   },
   {
