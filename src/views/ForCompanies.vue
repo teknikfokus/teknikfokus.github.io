@@ -1,6 +1,14 @@
 <template>
   <div id="for-companies">
+    <div class="container pt-5">
+      <div class="row text-center mb-3">
+        <i class="d-block mx-auto fas fa-tools fa-3x"></i>
+      </div>
+      <div class="row text-center">
+        <p class="d-block mx-auto">This site is being set up</p>
+      </div>
     <!-- <div class="container pt-5 mt-5">
+
       <h3>Teknikfokus 2021 is digital!</h3>
       <p>
         At this page you will find all information relevant for companies about registering at Teknikfokus digital platform and how to make students visit your stall. There are also video tutorials on how to set up your stall. 
@@ -58,6 +66,7 @@
 
 
     </div> -->
+    </div>
   </div>
 </template>
 

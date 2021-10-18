@@ -43,6 +43,7 @@
             <h1>Career fair</h1>
             <h3>16th & 17th of February</h3>
             <!-- <router-link to="/fair" class="btn link-button">Visit The Fair</router-link> -->
+            <router-link to="" class="btn link-button"></router-link>
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.meta.title}}</h1>

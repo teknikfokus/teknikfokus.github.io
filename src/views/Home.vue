@@ -28,7 +28,7 @@
         <div class="col-6 col-md text-center">
           <i class="fas fa-map-marker-alt fa-3x mb-2"></i>
           <div class="mb-3">Where?</div>
-          <div>The lobby in E-huset></div>
+          <div>The lobby in E-huset</div>
           <!-- <router-link to="/fair">The Fair</router-link> -->
         </div>
         <div class="col-6 col-md text-center">      

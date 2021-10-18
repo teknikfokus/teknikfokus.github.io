@@ -35,6 +35,7 @@ export default {
 body {
     background-color: var(--background);
     font-family: Hind, sans-serif;
+
 }
 
 </style>
