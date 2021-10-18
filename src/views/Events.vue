@@ -1,7 +1,13 @@
 <template>
   <div id="events">
     <div class="container pt-5 pb-5">
-      <div class="todays-event" v-if="todaysEvents !== undefined && todaysEvents.length > 0">
+      <div class="row text-center mb-3">
+        <i class="d-block mx-auto fas fa-tools fa-3x"></i>
+      </div>
+      <div class="row text-center">
+        <p class="d-block mx-auto">This site is being set up</p>
+      </div>
+      <!-- <div class="todays-event" v-if="todaysEvents !== undefined && todaysEvents.length > 0">
         <h1>Today's events</h1>
         <Event v-for="todaysEvent in todaysEvents" :info="todaysEvent" :key="todaysEvent.title"/>
         <h1>All events</h1>
@@ -11,7 +17,7 @@
       <Loader v-if="isLoading" />
       <ErrorMessage v-if="isError && !isLoading" text="Unable to load events, try again in a moment.<br>If the error persists, feel free to contact us." />
       <EventModal :info="selectedEvent" :class="{'show': showModal}" @close="handleClose" @register="handleRegister" @withdraw="handleWithdraw"/>
-      <div class="dark-backdrop" :class="{'show': showModal}" @click="handleClose"></div>
+      <div class="dark-backdrop" :class="{'show': showModal}" @click="handleClose"></div> -->
     </div>
   </div>
 </template>
