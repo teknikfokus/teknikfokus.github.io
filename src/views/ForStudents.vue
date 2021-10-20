@@ -80,6 +80,6 @@ h5, h4{
 .headshot-wrapper .caption {
   width: 100%;
   text-align: center;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
 }
 </style>
