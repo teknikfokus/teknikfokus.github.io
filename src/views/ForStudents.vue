@@ -1,5 +1,5 @@
 <template>
-  <div id="how-to">
+  <div id="for-companies">
     <div class="container pt-5">
       <div class="row text-center mb-3">
         <i class="d-block mx-auto fas fa-tools fa-3x"></i>
@@ -80,6 +80,6 @@ h5, h4{
 .headshot-wrapper .caption {
   width: 100%;
   text-align: center;
-  /* font-size: 0.9em; */
+  font-size: 0.9em;
 }
 </style>
