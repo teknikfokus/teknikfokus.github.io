@@ -23,77 +23,77 @@ export default {
         {
           name: "Fredrik Hessner",
           position: "Project Manager",
-          imageUrl: "",
+          imageUrl: "@/Fredrik.jpg",
           linkedIn: "https://www.linkedin.com/in/fredrik-hessner-090ab0162/",
           mail: "fredrik@teknikfokus.se"
         },
         {
           name: "Tove Hector",
           position: "Project Manager",
-          imageUrl: "",
+          imageUrl: "@/Tove.jpg",
           linkedIn: "",
           mail: "tove@teknikfokus.se"
         },
         {
           name: "André Roxhage",
           position: "Marketing Director",
-          imageUrl: "",
+          imageUrl: "@/Andre.jpg",
           linkedIn: "https://www.linkedin.com/in/andr%C3%A9-r-815b1a137/",
           mail: "andre@teknikfokus.se"
         },
         {
           name: "Björn Tenje Persson",
           position: "IT Manager",
-          imageUrl: "",
+          imageUrl: "@/Bjorn.jpg",
           linkedIn: "https://www.linkedin.com/in/bj%C3%B6rn-tenje-persson-06537b119/",
           mail: "bjorn@teknikfokus.se"
         },
         {
           name: "Joel Jensen",
           position: "IT Manager",
-          imageUrl: "",
+          imageUrl: "@/Joel.jpg",
           linkedIn: "https://www.linkedin.com/in/joel-jensen/",
           mail: "joel@teknikfokus.se"
         },
         {
           name: "Maria Svensson",
           position: "Event Manager",
-          imageUrl: "",
+          imageUrl: "@/Maria.jpg",
           linkedIn: "",
           mail: "maria@teknikfokus.se"
         },
         {
           name: "Oskar Hallberg",
           position: "Business Manager",
-          imageUrl: "",
+          imageUrl: "@/Oskar.jpg",
           linkedIn: "https://www.linkedin.com/in/oskar-hallberg-498b701b1/",
           mail: "oskar@teknikfokus.se"
         },
         {
           name: "Ludvig Eskilsson",
           position: "Business Manager",
-          imageUrl: "",
+          imageUrl: "@/Ludvig.jpg",
           linkedIn: "https://www.linkedin.com/in/ludvig-eskilsson-9ba12a115/",
           mail: "ludvig@teknikfokus.se"
         },
         {
           name: "Tilda Berglind",
           position: "Business Manager",
-          imageUrl: "",
+          imageUrl: "@/Tilda.jpg",
           linkedIn: "https://www.linkedin.com/in/tilda-berglind-b47329174",
           mail: "tilda@teknikfokus.se"
         },
         {
           name: "Nova Svensson",
           position: "Logistics Manager",
-          imageUrl: "",
+          imageUrl: "@/Nova.jpg",
           linkedIn: "https://www.linkedin.com/in/nova-svensson-442a941a8/",
           mail: "nova@teknikfokus.se"
         },
         {
           name: "Artina Sijarina",
           position: "Finance Manager",
-          imageUrl: "",
+          imageUrl: "@/Artina.jpg",
           linkedIn: "https://www.linkedin.com/in/artina-sijarina-486443186/",
           mail: "artina@teknikfokus.se"
         },
