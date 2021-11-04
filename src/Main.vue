@@ -49,22 +49,18 @@
             <h1>{{$route.meta.title}}</h1>
         </div>
     </div>
-    <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
-        <img :src="parallaxBackground" alt="Background image of a previous Teknikfokus fair"/>
-    </parallax>
+    <img :src="parallaxBackground" alt="Background image of a previous Teknikfokus fair"/>
     <router-view class="mb-5"/>
     <Footer id="footer" ref="footer"></Footer>
   </div>
 </template>
 
 <script>
-import Parallax from 'vue-parallaxy'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'Main',
   components: {
-      Parallax,
       Footer
   },
   data() {
