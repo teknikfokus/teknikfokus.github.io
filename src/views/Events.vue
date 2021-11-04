@@ -24,22 +24,22 @@
 
 <script>
 import { status } from 'jsonapi-vuex'
-import Calendar from '../components/Calendar/Calendar'
+/*import Calendar from '../components/Calendar/Calendar'
 import EventList from '../components/EventList/EventList'
 import EventModal from '../components/EventModal'
 import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
-import Event from '../components/EventList/Event'
+import Event from '../components/EventList/Event'*/
 
 export default {
   name: 'Events',
   components: {
-    Calendar,
+    /*Calendar,
     EventList,
     EventModal,
     Loader,
     ErrorMessage,
-    Event,
+    Event,*/
   },
   data() {
     return {

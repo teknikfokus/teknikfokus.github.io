@@ -21,18 +21,18 @@
 
 <script>
 import { status } from 'jsonapi-vuex'
-import CompanyGrid from '../components/CompanyGrid'
+/*import CompanyGrid from '../components/CompanyGrid'
 import CompanyModal from '../components/CompanyModal'
 import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
-
+*/
 export default {
   name: 'Companies',
   components: {
-    CompanyGrid,
+    /*CompanyGrid,
     CompanyModal,
     Loader,
-    ErrorMessage
+    ErrorMessage*/
   },
   data() {
     return {
