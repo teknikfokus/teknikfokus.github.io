@@ -1,25 +1,25 @@
 <template>
-    <div id="footer" class="w-100 pt-5 pb-3">
-      <div class="container py-4">
-        <div class="mx-auto d-block text-center mb-5">
-            <a class="social-media-icon" href="https://www.facebook.com/teknikfokus/"><i class="fab fa-facebook-f"></i></a>
-            <a class="social-media-icon" href="https://www.linkedin.com/company/teknikfokus/"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-media-icon" href="https://www.instagram.com/teknikfokus/"><i class="fab fa-instagram"></i></a>
+  <footer class="absolute w-full bottom-0 text-white bg-blue-primary">
+    <div class="max-w-xs mx-auto mt-5 mb-5 ">
+      <div class="grid grid-cols-3 ">
+        <a class="bg-white rounded-full h-x w-x flex items-center justify-center text-4xl mx-auto " href="https://www.facebook.com/teknikfokus"><i class="text-blue-primary fab fa-facebook-f "></i></a>
+        <a class="bg-white rounded-full h-x w-x flex items-center justify-center text-4xl mx-auto" href="https://www.linkedin.com/company/teknikfokus/"><i class="text-blue-primary fab fa-linkedin-in"></i></a>
+        <a class="bg-white rounded-full h-x w-x flex items-center justify-center text-4xl mx-auto" href="https://www.instagram.com/teknikfokus/"><i class="text-blue-primary fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="mx-auto max-w-6xl bg-blue-primary pb-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 text-center">
+        <div class="mx-auto">
+          <span class="font-bold">Fredrik Hessner, Project manager</span><br>
+          <a href="mailto:fredrik@teknikfokus.se">fredrik@teknikfokus.se</a>
         </div>
-        <div class="row">
-          <div class="col d-none d-lg-block"></div>
-          <div class="text-center col-12 col-md-6 col-lg-4 contact-info mb-4">
-            <span>Fredrik Hessner, Project manager</span><br>
-            <a href="mailto:fredrik@teknikfokus.se">fredrik@teknikfokus.se</a><br>
-          </div>
-          <div class="text-center col-12 col-md-6 col-lg-4 contact-info">
-            <span>Tove Hector, Project manager</span><br>
-            <a href="mailto:toveteknikfokus.se">tove@teknikfokus.se</a><br>
-          </div>
-          <div class="col d-none  d-lg-block"></div>
+        <div class="mx-auto">
+          <span class="font-bold"> Tove Hector, Project manager</span><br>
+          <a href="mailto:tove@teknikfokus.se">tove@teknikfokus.se</a>
         </div>
       </div>
     </div>
+  </footer>
 </template>
 
 <script>
@@ -27,36 +27,3 @@ export default {
     name: "Footer"
 }
 </script>
-
-<style scoped>
-#footer {
-  background: var(--footer-color);
-  position: absolute;
-  bottom: 0;
-}
-
-.social-media-icon {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: white;
-  color: var(--footer-color);
-  font-size: 30px;
-  text-align: center;
-  line-height: 56px;
-  box-sizing: border-box;
-  margin: 0 5px;
-  
-  transition: background 0.2s;
-}
-
-.social-media-icon:hover {
-  background: var(--primary);
-}
-
-.contact-info span {
-  color: white;
-  font-weight: bold;
-}
-</style>

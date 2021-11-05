@@ -12,9 +12,6 @@
             <li class="nav-item">
                 <router-link class="nav-link" to="/">Home</router-link>
             </li>
-            <!-- <li class="nav-item">
-                <router-link class="nav-link" to="/fair">Fair</router-link>
-            </li> -->
             <li class="nav-item">
                 <router-link class="nav-link" to="/events">Events</router-link>
             </li>
@@ -51,7 +48,7 @@
     </div>
     <img :src="parallaxBackground" alt="Background image of a previous Teknikfokus fair"/>
     <router-view class="mb-5"/>
-    <Footer id="footer" ref="footer"></Footer>
+    <Footer id="footer" ref="footer"></Footer>'
   </div>
 </template>
 
