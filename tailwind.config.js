@@ -11,10 +11,21 @@ module.exports = {
       },
       height: {
         x: '50px',
+        screen30: '30vh',
+        screen40: '40vh',
+        screen50: '50vh',
+        screen60: '60vh',
+        screen70: '70vh',
+        screen80: '80vh',
+        screen90: '90vh',
+        "1/10": '10%',
       },
       width: {
         x: '50px',
-      }
+      },
+      maxWidth: {
+        "xxs": '12rem',
+      },
     },
   },
   variants: {

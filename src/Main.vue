@@ -1,5 +1,5 @@
 <template>
-  <div id="main" ref="main">
+  <div class="" id="main" ref="main">
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" :class="{'sticky': scrolled}">
       <div class="container position-relative">
         <a class="navbar-brand" href="/"></a>
@@ -32,23 +32,26 @@
             </li>
             </ul>
         </div>
-        <!-- <router-link class="logo" to="/"><img src="@/assets/images/New logo.png" class="d-inline-block align-top" alt="Teknikfokus Logo" loading="lazy"></router-link> -->
       </div>
     </nav>
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
         <div class="container text-center" v-if="$route.name=='Home'">
             <h1>Career fair</h1>
             <h3>16th & 17th of February</h3>
-            <!-- <router-link to="/fair" class="btn link-button">Visit The Fair</router-link> -->
-            <router-link to="" class="btn link-button"></router-link>
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.meta.title}}</h1>
         </div>
     </div>
-    <img :src="parallaxBackground" alt="Background image of a previous Teknikfokus fair"/>
-    <router-view class="mb-5"/>
-    <Footer id="footer" ref="footer"></Footer>'
+    
+    <!-- Full screen image on home screen and 40 percent of view on the others. -->
+    <img v-if="$route.name=='Home'" class="w-full h-screen object-cover object-top" src="./assets/images/massa2020blur.jpg" alt="Background imageof a previous Teknikfokus fair"/>
+    <img v-else class="w-full h-screen40 object-cover object-top" src="./assets/images/massa2020blur.jpg" alt="Background imageof a previous Teknikfokus fair"/>
+    
+    <div class="container xl:px-48">
+        <router-view/>
+    </div>
+    <Footer id="footer" ref="footer"></Footer>
   </div>
 </template>
 
