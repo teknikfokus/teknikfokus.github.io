@@ -44,6 +44,9 @@ export default {
             seconds: 0,
         }
     },
+    beforeMount(){
+        this.calculateTime();
+    },
 
     watch: {
 
