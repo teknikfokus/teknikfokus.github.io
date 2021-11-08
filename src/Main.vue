@@ -34,14 +34,14 @@
         </div>
       </div>
     </nav>
-    <div class="py-32 hero-background bg-center bg-cover">
-        <div class="container text-center text-5xl text-white text-shadow-lg uppercase" v-if="$route.name=='Home'">
+    <div class="py-32 hero-background bg-center bg-cover text-center text-5xl text-white text-shadow-lg uppercase">
+        <div class="container" v-if="$route.name=='Home'">
             <h1 class="font-bold text-7xl">Career fair</h1>
             <h3 class="font-medium">16th &amp; 17th of February</h3>
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
         </div>
-        <div class="container text-center" v-else>
-            <h1>{{$route.meta.title}}</h1>
+        <div class="container" v-else>
+            <h1 class="font-bold">{{$route.meta.title}}</h1>
         </div>
     </div>
     
