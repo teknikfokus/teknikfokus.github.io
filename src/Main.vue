@@ -37,7 +37,7 @@
     <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
         <div class="container text-center" v-if="$route.name=='Home'">
             <h1>Career fair</h1>
-            <h3>16th & 17th of February</h3>
+            <h3>16th &amp; 17th of February</h3>
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.meta.title}}</h1>
