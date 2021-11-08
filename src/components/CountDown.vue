@@ -5,22 +5,22 @@
         </span>
         <div v-else>
             <span v-if="date(firstDate, 'end') > Date.now()">
-                Öppet fram till {{ clockTime(date(firstDate, 'end')) }} idag!
-                <span class="text-3xl text-gray-200 block mt-6">({{ clockTime(date(secondDate)) }} till {{ clockTime(date(secondDate, 'end')) }} imorgon)</span>
+                Open to {{ clockTime(date(firstDate, 'end')) }} today!
+                <span class="text-3xl text-gray-200 block mt-6">({{ clockTime(date(secondDate)) }} to {{ clockTime(date(secondDate, 'end')) }} tomorrow)</span>
             </span>
             <span v-else-if="date(secondDate) > Date.now()">
                 <span>
-                    Tack för {{ date(firstDate).getDay() == new Date().getDay() ? 'idag' : 'igår' }}!
+                    Thanks for {{ date(firstDate).getDay() == new Date().getDay() ? 'today' : 'yesterday' }}!
                 </span>
                 <span class="block mt-1 text-5xl text-gray-200">
-                    Vi öppnar {{ date(firstDate).getDay() == new Date().getDay() ? 'imorgon' : 'idag' }} igen {{ clockTime(date(secondDate)) }}
+                    We open {{ date(firstDate).getDay() == new Date().getDay() ? 'tomorrow' : 'today' }} again {{ clockTime(date(secondDate)) }}
                 </span>
             </span>
             <span v-else-if="date(secondDate, 'end') > Date.now()">
-                Sista dagen, öppet fram till {{ clockTime(date(secondDate, 'end')) }}!
+                Last day, open untill {{ clockTime(date(secondDate, 'end')) }}!
             </span>
             <span v-else-if="date(secondDate, 'end') < Date.now()">
-                Tack för detta året!
+                Thank you for this year!
             </span>
         </div>
     </div>
