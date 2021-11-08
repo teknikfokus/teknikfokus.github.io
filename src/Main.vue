@@ -34,20 +34,16 @@
         </div>
       </div>
     </nav>
-    <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
-        <div class="container text-center" v-if="$route.name=='Home'">
-            <h1>Career fair</h1>
-            <h3>16th &amp; 17th of February</h3>
+    <div class="py-32 hero-background bg-center bg-cover">
+        <div class="container text-center text-5xl text-white text-shadow-lg uppercase" v-if="$route.name=='Home'">
+            <h1 class="font-bold text-7xl">Career fair</h1>
+            <h3 class="font-medium">16th &amp; 17th of February</h3>
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.meta.title}}</h1>
         </div>
     </div>
-    
-    <!-- Full screen image on home screen and 40 percent of view on the others. -->
-    <img v-if="$route.name=='Home'" class="w-full h-screen object-cover object-top" src="./assets/images/massa2020blur.jpg" alt="Background imageof a previous Teknikfokus fair"/>
-    <img v-else class="w-full h-screen40 object-cover object-top" src="./assets/images/massa2020blur.jpg" alt="Background imageof a previous Teknikfokus fair"/>
     
     <div class="container xl:px-48">
         <router-view/>
@@ -165,6 +161,10 @@ a:hover {
 .link-button:hover {
     background: var(--primary-dark);
     color: var(--background);
+}
+
+.hero-background {
+    background-image: url('./assets/images/massa2020blur.jpg');
 }
 
 
