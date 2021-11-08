@@ -20,23 +20,23 @@
         </div>
         <div class="col d-none d-lg-block"></div>
       </div>
-    </div>
+    </div>-->
   </div>
   </div>
 </template>
 
 <script>
 import { status } from 'jsonapi-vuex'
-import Question from '../components/Question'
+/*import Question from '../components/Question'
 import Loader from '../components/Loader'
-import ErrorMessage from '../components/ErrorMessage'
+import ErrorMessage from '../components/ErrorMessage'*/
 
 export default {
   name: 'FAQ',
   components: {
-    Question,
+    /*Question,
     Loader,
-    ErrorMessage
+    ErrorMessage*/
   },
   data() {
     return {
