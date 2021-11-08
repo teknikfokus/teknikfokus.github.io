@@ -22,3 +22,21 @@ export const Event = {
     signedUp: Boolean,
     banner: String
 }
+
+export const OpenHours = {
+    date: {
+        day: Number,
+        month: Number,
+        year: Number,
+    },
+    time: {
+        start: {
+        hour: Number,
+        minute: Number
+        },
+        end: {
+        hour: Number,
+        minute: Number
+        }
+    },
+}

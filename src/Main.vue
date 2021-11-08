@@ -38,6 +38,7 @@
         <div class="container text-center" v-if="$route.name=='Home'">
             <h1>Career fair</h1>
             <h3>16th &amp; 17th of February</h3>
+            <CountDown :firstDate="firstDate" :secondDate="secondDate" />
         </div>
         <div class="container text-center" v-else>
             <h1>{{$route.meta.title}}</h1>
@@ -57,16 +58,48 @@
 
 <script>
 import Footer from './components/Footer.vue'
+import CountDown from './components/CountDown.vue'
 
 export default {
   name: 'Main',
   components: {
-      Footer
+        Footer,
+        CountDown,
   },
   data() {
-      return {
-          scrolled: false
-      }
+        return {
+            scrolled: false,
+            firstDate: {
+                date: {
+                    day: 16,
+                    month: 2,
+                    year: 2022,
+                },
+                time: {
+                    start: {
+                    hour: 9,
+                    },
+                    end: {
+                    hour: 16,
+                    }
+                }
+            },
+            secondDate: {
+                date: {
+                    day: 17,
+                    month: 2,
+                    year: 2022,
+                },
+                time: {
+                    start: {
+                    hour: 9,
+                    },
+                    end: {
+                    hour: 16,
+                    }
+                }
+            }
+        }
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
