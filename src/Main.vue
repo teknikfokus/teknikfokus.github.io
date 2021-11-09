@@ -37,7 +37,7 @@
     <div class="py-20 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
         <div class="container" v-if="$route.name=='Home'">
             <div class="max-w-xs mx-auto">
-                <img src="./assets/logo/New-logo-transparent.png" class="max-w-full" alt="Teknikfokus" />
+                <img src="./assets/logo/svg/logo-white-text.svg" class="max-w-full p-8" alt="Teknikfokus" />
             </div>
             <h1 class="font-bold md:text-3xl">Career fair</h1>
             <h3 class="normal-case font-medium">16th &amp; 17th OF FEBRUARY</h3>
@@ -147,7 +147,7 @@ export default {
 
 a {
     color: var(--primary);
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 a:hover {
