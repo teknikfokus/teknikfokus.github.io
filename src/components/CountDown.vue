@@ -1,6 +1,6 @@
 <template>
-    <div class="text-4xl md:text-6xl py-14">
-        <div v-if="timeLeft > 0" class="flex justify-center space-x-5" >
+    <div class="text-3xl md:text-5xl mt-10">
+        <div v-if="timeLeft > 0" class="mt-6 flex justify-center space-x-5" >
             <div>
                 <div class="leading-4">{{ days }}</div>
                 <span class="text-base md:text-xl ">{{ addPluralCharS(days, 'Day') }}</span>

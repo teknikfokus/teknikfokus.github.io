@@ -8,7 +8,7 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarLinks">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mx-auto text-shadow-lg">
             <li class="nav-item">
                 <router-link class="nav-link" to="/">Home</router-link>
             </li>
@@ -34,10 +34,13 @@
         </div>
       </div>
     </nav>
-    <div class="py-32 hero-background bg-center bg-cover text-center text-3xl md:text-5xl text-white text-shadow-lg uppercase">
+    <div class="py-20 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
         <div class="container" v-if="$route.name=='Home'">
-            <h1 class="font-bold md:text-7xl">Career fair</h1>
-            <h3 class="font-medium">16th &amp; 17th of February</h3>
+            <div class="max-w-xs mx-auto">
+                <img src="./assets/logo/New-logo-transparent.png" class="max-w-full" alt="Teknikfokus" />
+            </div>
+            <h1 class="font-bold md:text-3xl">Career fair</h1>
+            <h3 class="normal-case font-medium">16th &amp; 17th OF FEBRUARY</h3>
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
         </div>
         <div class="container" v-else>
