@@ -18,7 +18,7 @@
         <div class="col-6 col-md text-center">
           <i class="text-blue-primary far fa-calendar-alt fa-3x mb-2"></i>
           <div class="mb-3">When?</div>
-          <div>16th & 17th of February, 2022!</div>
+          <div>16th &amp; 17th of February, 2022!</div>
         </div>
         <div class="col-6 col-md text-center">
           <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
