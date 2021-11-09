@@ -3,11 +3,12 @@
     <div class="container pt-5 pb-5">
       <!-- <h2 class="text-capitalize text-center mb-4">Frequently asked questions</h2> -->
       <div class="row text-center mb-3">
-        <i class="d-block max-auto fas fa-tools fa-3x"></i>
+        <i class="d-block mx-auto fas fa-tools fa-3x"></i>
       </div>
       <div class="row text-center">
-        <p class="d-block mx-auto">This site is being set up</p>:v-for="item in items"
-      <div class="row">
+        <p class="d-block mx-auto">This site is being set up</p>
+      </div>
+      <!-- <div class="row">
         <div class="col d-none d-lg-block"></div>
         <div class="col col-lg-8" >
           <div id="faq-accordion" v-if="!isLoading && !isError">
@@ -19,23 +20,23 @@
         </div>
         <div class="col d-none d-lg-block"></div>
       </div>
-    </div>
+    </div>-->
   </div>
   </div>
 </template>
 
 <script>
 import { status } from 'jsonapi-vuex'
-import Question from '../components/Question'
+/*import Question from '../components/Question'
 import Loader from '../components/Loader'
-import ErrorMessage from '../components/ErrorMessage'
+import ErrorMessage from '../components/ErrorMessage'*/
 
 export default {
   name: 'FAQ',
   components: {
-    Question,
+    /*Question,
     Loader,
-    ErrorMessage
+    ErrorMessage*/
   },
   data() {
     return {

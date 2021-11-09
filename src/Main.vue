@@ -1,5 +1,5 @@
 <template>
-  <div id="main" ref="main">
+  <div class="" id="main" ref="main">
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" :class="{'sticky': scrolled}">
       <div class="container position-relative">
         <a class="navbar-brand" href="/"></a>
@@ -8,13 +8,10 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarLinks">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mx-auto text-shadow-lg">
             <li class="nav-item">
                 <router-link class="nav-link" to="/">Home</router-link>
             </li>
-            <!-- <li class="nav-item">
-                <router-link class="nav-link" to="/fair">Fair</router-link>
-            </li> -->
             <li class="nav-item">
                 <router-link class="nav-link" to="/events">Events</router-link>
             </li>
@@ -35,47 +32,78 @@
             </li>
             </ul>
         </div>
-        <!-- <router-link class="logo" to="/"><img src="@/assets/images/New logo.png" class="d-inline-block align-top" alt="Teknikfokus Logo" loading="lazy"></router-link> -->
       </div>
     </nav>
-    <div class="image-wrapper-text" :style="{'height': (parallaxImageHeight-10)+'vh'}">
-        <div class="container text-center" v-if="$route.name=='Home'">
-            <h1>Career fair</h1>
-            <h3>16th & 17th of February</h3>
-            <!-- <router-link to="/fair" class="btn link-button">Visit The Fair</router-link> -->
-            <router-link to="" class="btn link-button"></router-link>
+    <div class="py-20 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
+        <div class="container" v-if="$route.name=='Home'">
+            <div class="max-w-xs mx-auto">
+                <img src="./assets/logo/svg/logo-white-text.svg" class="max-w-full p-8" alt="Teknikfokus" />
+            </div>
+            <h1 class="font-bold md:text-3xl">Career fair</h1>
+            <h3 class="normal-case font-medium">16th &amp; 17th OF FEBRUARY</h3>
+            <CountDown :firstDate="firstDate" :secondDate="secondDate" />
         </div>
-        <div class="container text-center" v-else>
-            <h1>{{$route.meta.title}}</h1>
+        <div class="container" v-else>
+            <h1 class="font-bold">{{$route.meta.title}}</h1>
         </div>
     </div>
-    <parallax sectionClass="parallax-image" :sectionHeight="parallaxImageHeight" breakpoint="(min-width: 0px)" :speedFactor="0.2" direction="down">
-        <img :src="parallaxBackground" alt="Background image of a previous Teknikfokus fair"/>
-    </parallax>
-    <router-view class="mb-5"/>
+    
+    <div class="container xl:px-48">
+        <router-view/>
+    </div>
     <Footer id="footer" ref="footer"></Footer>
   </div>
 </template>
 
 <script>
-import Parallax from 'vue-parallaxy'
 import Footer from './components/Footer.vue'
+import CountDown from './components/CountDown.vue'
 
 export default {
   name: 'Main',
   components: {
-      Parallax,
-      Footer
+        Footer,
+        CountDown,
   },
   data() {
-      return {
-          scrolled: false
-      }
+        return {
+            scrolled: false,
+            firstDate: {
+                date: {
+                    day: 16,
+                    month: 2,
+                    year: 2022,
+                },
+                time: {
+                    start: {
+                    hour: 9,
+                    },
+                    end: {
+                    hour: 16,
+                    }
+                }
+            },
+            secondDate: {
+                date: {
+                    day: 17,
+                    month: 2,
+                    year: 2022,
+                },
+                time: {
+                    start: {
+                    hour: 9,
+                    },
+                    end: {
+                    hour: 16,
+                    }
+                }
+            }
+        }
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
   },
-  destroyed () {
+  unmounted () {
     window.removeEventListener('scroll', this.handleScroll);
   },
   mounted() {
@@ -119,7 +147,7 @@ export default {
 
 a {
     color: var(--primary);
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -136,6 +164,10 @@ a:hover {
 .link-button:hover {
     background: var(--primary-dark);
     color: var(--background);
+}
+
+.hero-background {
+    background-image: url('./assets/images/massa2020blur.jpg');
 }
 
 

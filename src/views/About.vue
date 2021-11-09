@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
       <h2 class="text-center mb-4 text-capitalize font-weight-bold">The project group</h2>
       <div class="people-holder">
         <Person v-for="person of people" :info="person" :key="person.name"></Person>
@@ -96,14 +96,14 @@ export default {
           imageUrl: "@/Artina.jpg",
           linkedIn: "https://www.linkedin.com/in/artina-sijarina-486443186/",
           mail: "artina@teknikfokus.se"
-        },
-        {
-          name: "",
-          position: "Recruitment Manager",
-          imageUrl: "",
-          linkedIn: "",
-          mail: "@teknikfokus.se"
         }
+        // {
+        //   name: "",
+        //   position: "Recruitment Manager",
+        //   imageUrl: "",
+        //   linkedIn: "",
+        //   mail: "@teknikfokus.se"
+        // }
       ]
     }
   }
