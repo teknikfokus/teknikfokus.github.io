@@ -34,9 +34,9 @@
         </div>
       </div>
     </nav>
-    <div class="py-32 hero-background bg-center bg-cover text-center text-5xl text-white text-shadow-lg uppercase">
+    <div class="py-32 hero-background bg-center bg-cover text-center text-3xl md:text-5xl text-white text-shadow-lg uppercase">
         <div class="container" v-if="$route.name=='Home'">
-            <h1 class="font-bold text-7xl">Career fair</h1>
+            <h1 class="font-bold md:text-7xl">Career fair</h1>
             <h3 class="font-medium">16th &amp; 17th of February</h3>
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
         </div>

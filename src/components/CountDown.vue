@@ -1,27 +1,43 @@
 <template>
-    <div class="text-6xl py-14">
-        <span v-if="timeLeft > 0">
-            {{ days }} : {{ hours }} : {{ minutes }} : {{ seconds }}
-        </span>
+    <div class="text-4xl md:text-6xl py-14">
+        <div v-if="timeLeft > 0" class="flex justify-center space-x-5" >
+            <div>
+                <div class="leading-4">{{ days }}</div>
+                <span class="text-base md:text-xl ">{{ addPluralCharS(days, 'Day') }}</span>
+            </div>
+            <div>
+                <div class="leading-4">{{ hours }}</div>
+                <span class="text-base md:text-xl ">{{ addPluralCharS(hours, 'Hour') }}</span>
+            </div>
+            <div>
+                <div class="leading-4">{{ minutes }}</div>
+                <span class="text-base md:text-xl ">{{ addPluralCharS(minutes, 'Minute') }}</span>
+            </div>
+            <div>
+                <div class="leading-4">{{ seconds }}</div>
+                <span class="text-base md:text-xl ">{{ addPluralCharS(seconds, 'Second') }}</span>
+            </div>
+
+        </div>
         <div v-else>
-            <span v-if="date(firstDate, 'end') > Date.now()">
+            <div v-if="date(firstDate, 'end') > Date.now()">
                 Open to {{ clockTime(date(firstDate, 'end')) }} today!
-                <span class="text-3xl text-gray-200 block mt-6">({{ clockTime(date(secondDate)) }} to {{ clockTime(date(secondDate, 'end')) }} tomorrow)</span>
-            </span>
-            <span v-else-if="date(secondDate) > Date.now()">
-                <span>
+                <div class="text-3xl text-gray-200 block mt-6">({{ clockTime(date(secondDate)) }} to {{ clockTime(date(secondDate, 'end')) }} tomorrow)</div>
+            </div>
+            <div v-else-if="date(secondDate) > Date.now()">
+                <div>
                     Thanks for {{ date(firstDate).getDay() == new Date().getDay() ? 'today' : 'yesterday' }}!
-                </span>
-                <span class="block mt-1 text-5xl text-gray-200">
+                </div>
+                <div class="block mt-1 text-5xl text-gray-200">
                     We open {{ date(firstDate).getDay() == new Date().getDay() ? 'tomorrow' : 'today' }} again {{ clockTime(date(secondDate)) }}
-                </span>
-            </span>
-            <span v-else-if="date(secondDate, 'end') > Date.now()">
+                </div>
+            </div>
+            <div v-else-if="date(secondDate, 'end') > Date.now()">
                 Last day, open untill {{ clockTime(date(secondDate, 'end')) }}!
-            </span>
-            <span v-else-if="date(secondDate, 'end') < Date.now()">
+            </div>
+            <div v-else-if="date(secondDate, 'end') < Date.now()">
                 Thank you for this year!
-            </span>
+            </div>
         </div>
     </div>
 </template>
@@ -93,6 +109,10 @@ export default {
 
         clockTime(date) {
             return this.addZero(date.getHours()) + ':' + this.addZero(date.getMinutes());
+        },
+
+        addPluralCharS(number, string) {
+            return number == 1 ? string : string + 's';
         }
     }
 }
