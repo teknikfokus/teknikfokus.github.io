@@ -10,7 +10,7 @@
                 <h3 class="text-3xl font-semibold text-center">18 000 SEK</h3>
                 <p class="mt-6">The full-day package includes:</p>
                 <ul class="mt-2 list-disc pl-6">
-                    <li>Showcase area of 6 m 2</li>
+                    <li>Showcase area of 6 m<sup>2</sup></li>
                     <li>A stand-up table</li>
                     <li>Parking tickets for our guest parking slots</li>
                     <li>Power outlets</li>
