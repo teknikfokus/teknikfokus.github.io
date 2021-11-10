@@ -1,12 +1,15 @@
 module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
+  mode: 'jit',
   theme: {
     extend: {
       colors: {
         primary: '#14273E',
         blue: {
-          primary: '#14273E',
+          "primary-lightest": '#516e9c',
+          "primary-light": '#223959',
+          "primary": '#14273E',
         },
       },
       height: {
