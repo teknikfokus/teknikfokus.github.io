@@ -48,7 +48,7 @@
         </div>
     </div>
     
-    <div class="container xl:px-48">
+    <div class="container xl:px-24">
         <router-view/>
     </div>
     <Footer id="footer" ref="footer"></Footer>
