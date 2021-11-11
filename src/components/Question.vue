@@ -1,64 +1,49 @@
 <template>
-    <div id="question">
-        <div class="header" @mouseover="currentHover = index">
-            <a data-toggle="collapse" :data-target="'#collapse'+index" aria-expanded="false" aria-controls="collapseTwo" 
-                v-html="`<i class='fas fa-question-circle mr-2'></i>${info.q_en}`">
-            </a>
-        </div>
-        <div :id="'collapse'+index" class="collapse" :aria-labelledby="'header'+index" data-parent="#faq-accordion" >
-            <div class="body" v-html="info.a_en"></div>
-        </div>
+    <div>
+        <Disclosure v-slot="{ open }">
+            <DisclosureButton class="py-4 px-2 flex justify-between items-center w-full text-left font-semibold focus:outline-none">
+                {{ info.question }}
+
+                <ChevronRightIcon class="w-5 h-5 text-gray-600" :class='open ? "transform rotate-90" : ""' />
+            </DisclosureButton>
+            <transition
+                enter-active-class="transition duration-100 ease-out"
+                enter-from-class="transform scale-95 opacity-0"
+                enter-to-class="transform scale-100 opacity-100"
+                leave-active-class="transition duration-75 ease-out"
+                leave-from-class="transform scale-100 opacity-100"
+                leave-to-class="transform scale-95 opacity-0"
+            >
+                <DisclosurePanel class="text-gray-500 px-2 py-4">
+                    {{ info.answer }}
+                </DisclosurePanel>
+            </transition>
+        </Disclosure>
     </div>
 </template>
 
 <script>
+import {
+    Disclosure,
+    DisclosureButton,
+    DisclosurePanel,
+} from '@headlessui/vue'
+import { ChevronRightIcon } from '@heroicons/vue/solid'
+
 export default {
+    components: { 
+        Disclosure,
+        DisclosureButton,
+        DisclosurePanel,
+        ChevronRightIcon,
+    },
     name: "Question",
     props: {
         info: {
-            a_en: String,
-            q_en: String
+            question: String,
+            answer: String,
         },
         index: Number
     }
 }
 </script>
-
-<style scoped>
-  #question {
-    /* list-style: none; */
-    padding: 0;
-  }
-
-   i {
-    font-size: 1em;
-  }
-
-  .header {
-    display: inline-block;
-    position: relative;
-
-    background: none;
-    cursor: pointer;
-    transition: padding 0.2s;
-
-    font-size: 1.2em;
-    font-weight: 600;
-  }
-
-  .header:hover {
-    text-decoration: none;;
-    padding-left: 5px;
-  }
-
-  .header a {
-    color: black;
-    width: 100%;
-    display: block;
-  }
-
-  .body {
-    padding-left: 20px;
-    color: #444;
-  }
-</style>
