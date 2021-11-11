@@ -14,7 +14,7 @@
                 leave-from-class="transform scale-100 opacity-100"
                 leave-to-class="transform scale-95 opacity-0"
             >
-                <DisclosurePanel class="text-gray-500 px-2 py-4">
+                <DisclosurePanel class="text-gray-500 px-2 pb-3 pt-1">
                     {{ info.answer }}
                 </DisclosurePanel>
             </transition>
