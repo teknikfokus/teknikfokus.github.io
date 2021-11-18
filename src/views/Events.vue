@@ -2,10 +2,13 @@
   <div id="events">
     <div class="container pt-5 pb-5">
       <div class="row text-center mb-3">
-        <i class="d-block mx-auto fas fa-tools fa-3x"></i>
+        <i class="text-blue-primary d-block mx-auto fas fa-tools fa-3x mx-auto"></i>
+      </div>
+      <div class="row text-center pb-1"> 
+        <p class="d-block mx-auto">This site is being set up.</p>
       </div>
       <div class="row text-center">
-        <p class="d-block mx-auto">This site is being set up</p>
+        <p class="d-block mx-auto"> For now you can check our <a class="text-blue-primary hover:no-underline" href="https://www.facebook.com/Teknikfokus/">Facebook page</a> for upcoming events.</p>
       </div>
       <!-- <div class="todays-event" v-if="todaysEvents !== undefined && todaysEvents.length > 0">
         <h1>Today's events</h1>
