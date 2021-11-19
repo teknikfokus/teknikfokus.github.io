@@ -7,32 +7,32 @@
       <div class="row text-center">
         <p class="d-block mx-auto">This site is being set up</p>
       </div>
-        <!-- <h2 class="text-capitalize text-center mb-4">Attending Companies</h2>
+        <h2 class="text-capitalize text-center mb-4">Attending Companies</h2>
         <CompanyGrid :companies="filteredCompanies" v-if="!isLoading && !isError && filteredCompanies.length > 0" @select="selectCompany"/>
         <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
         <CompanyModal v-if="!isLoading && !isError" :class="{'show': showModal}" :info="selected" @close="closeModal()"/>
         <div class="dark-backdrop" v-if="!isLoading && !isError" :class="{'show': showModal}" @click="closeModal()"></div>
 
         <Loader v-if="isLoading" />
-        <ErrorMessage v-if="isError && !isLoading" text="Unable to load companies, try again in a moment.<br>If the error persists, feel free to contact us." /> -->
+        <ErrorMessage v-if="isError && !isLoading" text="Unable to load companies, try again in a moment.<br>If the error persists, feel free to contact us." />
     </div>
   </div>
 </template>
 
 <script>
 import { status } from 'jsonapi-vuex'
-/*import CompanyGrid from '../components/CompanyGrid'
+import CompanyGrid from '../components/CompanyGrid'
 import CompanyModal from '../components/CompanyModal'
 import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
-*/
+
 export default {
   name: 'Companies',
   components: {
-    /*CompanyGrid,
+    CompanyGrid,
     CompanyModal,
     Loader,
-    ErrorMessage*/
+    ErrorMessage
   },
   data() {
     return {

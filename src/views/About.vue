@@ -97,13 +97,6 @@ export default {
           linkedIn: "https://www.linkedin.com/in/artina-sijarina-486443186/",
           mail: "artina@teknikfokus.se"
         }
-        // {
-        //   name: "",
-        //   position: "Recruitment Manager",
-        //   imageUrl: "",
-        //   linkedIn: "",
-        //   mail: "@teknikfokus.se"
-        // }
       ]
     }
   }
