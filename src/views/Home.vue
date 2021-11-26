@@ -21,9 +21,12 @@
                     <div>16th &amp; 17th of February, 2022!</div>
                 </div>
                 <div class="w-1/2">
-                    <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
+                  <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
+                  <a class="hover:text-blue-primary-light" href="https://goo.gl/maps/kU2kfAceWzGVAfy97">
                     <div class="mb-3">Where?</div>
                     <div>The lobby in E-huset</div>
+                    <div>Ole Römers väg 3,<br> 223 63 Lund</div>
+                  </a>
                 </div>
             </div>
             <div class="md:w-1/2 space-y-2">
