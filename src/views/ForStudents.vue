@@ -1,6 +1,5 @@
 <template>
-    <div class="mx-auto xl:flex py-10">
-      <div class="py-10 xl:py-0">
+    <div class="mx-auto px-1 xl:px-0 grid grid-cols-1 xl:grid-cols-2 xl:max-w-5xl xl:gap-10 py-5 space-y-10 xl:space-y-0">
         <div class="mx-auto max-w-xl bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
           <h4 class="text-2xl">Functionary</h4>
           <div class ="text-gray-200">
@@ -9,7 +8,6 @@
             <p class="mt-2"><a href="https://forms.gle/uHLUFTqWVD4WhQLL6">Apply to be a functionary here</a>!</p>
           </div>
         </div>
-      </div>
       
       <div class="mx-auto max-w-xl bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
         <h4 class="text-2xl">Coordinator</h4>
@@ -17,7 +15,6 @@
         <p>Do you think that it sounds fun to be a functionary but at the same time feel ready for some extra responsibilites?</p>
         <p>Then you should apply to be a coordinator instead. You will get the same benefits as a functionary but you will also develop skills which  are attractiv in the job market.</p>
         <p class="mt-2"><a href="https://forms.gle/972okUNiaDMqNmk37">Apply to be a coordinator here</a>!</p>
-        
       </div>
     </div>
   </div>
