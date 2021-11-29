@@ -1,12 +1,6 @@
 <template>
   <div id="companies">
     <div class="container pt-5 pb-5">
-      <div class="row text-center mb-3">
-        <i class="d-block mx-auto fas fa-tools fa-3x"></i>
-      </div>
-      <div class="row text-center">
-        <p class="d-block mx-auto">This site is being set up</p>
-      </div>
         <h2 class="text-capitalize text-center mb-4">Attending Companies</h2>
         <CompanyGrid :companies="filteredCompanies" v-if="!isLoading && !isError && filteredCompanies.length > 0" @select="selectCompany"/>
         <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
