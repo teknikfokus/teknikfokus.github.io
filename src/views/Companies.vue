@@ -1,7 +1,6 @@
 <template>
   <div id="companies">
     <div class="container pt-5 pb-5">
-        <h2 class="text-capitalize text-center mb-4">Attending Companies</h2>
         <CompanyGrid :companies="filteredCompanies" v-if="!isLoading && !isError && filteredCompanies.length > 0" @select="selectCompany"/>
         <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
         <!-- <CompanyModal v-if="!isLoading && !isError" :class="{'show': showModal}" :info="selected" @close="closeModal()"/>
