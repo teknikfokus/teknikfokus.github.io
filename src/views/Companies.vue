@@ -55,7 +55,7 @@ export default {
         }
       status
         .run(() => this.$store.dispatch('jv/get', 'companies'))
-        .then(onResponse).catch(onResponse)
+        .then(onResponse)
     },
     selectCompany(company) {
       this.selected = company;
