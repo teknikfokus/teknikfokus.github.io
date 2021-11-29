@@ -4,7 +4,7 @@
         <h2 class="text-capitalize text-center mb-4">Attending Companies</h2>
         <CompanyGrid :companies="filteredCompanies" v-if="!isLoading && !isError && filteredCompanies.length > 0" @select="selectCompany"/>
         <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
-        <CompanyModal v-if="!isLoading && !isError" :class="{'show': showModal}" :info="selected" @close="closeModal()"/>
+        <!-- <CompanyModal v-if="!isLoading && !isError" :class="{'show': showModal}" :info="selected" @close="closeModal()"/> -->
         <div class="dark-backdrop" v-if="!isLoading && !isError" :class="{'show': showModal}" @click="closeModal()"></div>
 
         <Loader v-if="isLoading" />
@@ -16,7 +16,7 @@
 <script>
 import { status } from 'jsonapi-vuex'
 import CompanyGrid from '../components/CompanyGrid'
-import CompanyModal from '../components/CompanyModal'
+//import CompanyModal from '../components/CompanyModal'
 import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
 
@@ -24,7 +24,7 @@ export default {
   name: 'Companies',
   components: {
     CompanyGrid,
-    CompanyModal,
+    //CompanyModal,
     Loader,
     ErrorMessage
   },

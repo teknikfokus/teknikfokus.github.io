@@ -40,22 +40,22 @@
       <div class="d-block w-100 text-center mb-4 mt-4">
         <router-link class="btn link-button"  to="/events">Events</router-link>
       </div>
-    </div>
+    </div> -->
     <div class="companies">
       <h4 class="text-2xl">Attending Companies</h4>
       <CompanyCarousel />
       <div class="text-center"><router-link class="btn link-button"  to="/companies">Full List of Companies</router-link></div>
-    </div>-->
+    </div>
   </div>
 </template>
 
 <script>
-//import CompanyCarousel from '@/components/CompanyCarousel.vue'
+import CompanyCarousel from '@/components/CompanyCarousel.vue'
 
 export default {
   name: 'Home',
   components: {
-    //CompanyCarousel
+    CompanyCarousel
   }
 }
 </script>
