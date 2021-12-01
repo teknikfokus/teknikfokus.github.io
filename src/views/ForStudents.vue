@@ -3,8 +3,10 @@
       <div class="mx-auto max-w-xl bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
         <h4 class="text-2xl">Student volunteer</h4>
         <div class ="text-gray-200">
-          <p class="pb-3">Do you want to get in touch companies and at the same time attend fun events and hang with wonderful people from the E- and D-section? Then you should apply to be a student volunteer at our job fair.</p>
-          <p class="pb-3">You will meet company representatives and together with other volunteers attend the very exclusive banquet for free! After the fair is over, there is also a thank you event to all the volunteers that has made Teknikfokus possible.</p>
+          <p class="pb-3">Do you want to get in contact with companies whilst still being able to enjoy fun activities, meet lovely people from the two guilds and have free breakfast and lunch during the two fairdays. Then the position of student volunteer is just the thing for you! </p>
+          <p class="pb-3">You will be able to meet the representatives of each company and also get to know other volunteers and coordinators from both the E- and the D-guild. After the fair is over there will also be an event as a thank you to all of the volunteers and coordinators that have helped making Teknikfokus happen</p>
+          <p class="pb-3">Registrations are open until the 15/12 just follow the link below, information about the different types of posts can be found in the application as well.</p>
+          
           <p><a class="hover:text-white" href="https://forms.gle/uHLUFTqWVD4WhQLL6">Apply to be a student volunteer here!</a></p>
         </div>
       </div>
@@ -12,8 +14,9 @@
       <div class="mx-auto max-w-xl bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
         <h4 class="text-2xl">Coordinator</h4>
         <div class="text-gray-200">
-        <p class="pb-3">Do you think that it sounds fun to be a student volunteer but at the same time feel ready for some extra responsibilites?</p>
-        <p class="pb-3">Then you should apply to be a coordinator instead. You will get the same benefits as a 3volunteer but you will also develop skills which  are attractiv in the job market.</p>
+        <p class="pb-3">Du you think the position of student volunteer sounds like fun but you also feel like you are ready for a bit more responsibility, then the position of coordinator is for you!</p>
+        <p class="pb-3">You will still be able to enjoy all the same perks as if you were a student volunteer whilst at the same time getting the opportunity to develop traits that will be highly valued later on when it’s time for you to start applying for jobs.</p>
+        <p class="pb-3">Registrations are open until the 15/12 just follow the link below, information about the different types of coordinators can be found in the application as well. </p>
         <p><a class="hover:text-white" href="https://forms.gle/972okUNiaDMqNmk37">Apply to be a coordinator here!</a></p>
       </div>
     </div>
