@@ -145,109 +145,10 @@ export default {
   position: relative;
 }
 
-a {
-    color: var(--primary);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--primary-dark);
-}
-
-
-.link-button {
-    background: var(--primary);
-    color: var(--background);
-    font-weight: bold;
-}
-
-.link-button:hover {
-    background: var(--primary-dark);
-    color: var(--background);
-}
-
 .hero-background {
     background-image: url('./assets/images/massa2020blur.jpg');
 }
 
-
-.image-wrapper-text {
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    width: 100%;
-    color: white;
-    text-shadow: 2px 2px 10px #000000ff;
-}
-
-.image-wrapper-text > div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.image-wrapper-text h1 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2em;
-    margin-bottom: 0;
-}
-
-.image-wrapper-text h3 {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: 600;
-}
-
-.image-wrapper-text a {
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-shadow: none;
-}
-
-
-.parallax-image{
-    position: relative;
-    /* height: 600px; */
-    overflow: hidden;
-    z-index: -1;
-}
-
-@media (min-width: 576px) { 
-    .image-wrapper-text h1 {
-        font-size: 3em;
-    }
-    .image-wrapper-text h3 {
-        font-size: 2em;
-    }
-    .image-wrapper-text a {
-        font-size: 1.5em;
-    }
-}
-
-@media (min-width: 768px) { 
-    .image-wrapper-text h1 {
-        font-size: 3.5em;
-    }
-    .image-wrapper-text h3 {
-        font-size: 2.5em;
-    }
-}
-
-@media (min-width: 992px) { 
-    .topbar .link{
-        margin: 0 20px;
-    }
-    
-    .image-wrapper-text h1 {
-        font-size: 4em;
-    }
-    .image-wrapper-text h3 {
-        font-size: 3em;
-    }
-}
 </style>
 
 
