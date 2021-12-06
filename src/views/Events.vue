@@ -10,7 +10,7 @@
       <div class="row text-center">
         <p class="d-block mx-auto"> For now you can check our <a class="text-blue-primary hover:no-underline" href="https://www.facebook.com/Teknikfokus/">Facebook page</a> for upcoming events.</p>
       </div>
-      <div class="todays-event" v-if="todaysEvents !== undefined && todaysEvents.length > 0">
+      <!-- <div class="todays-event" v-if="todaysEvents !== undefined && todaysEvents.length > 0">
         <h1>Today's events</h1>
         <Event v-for="todaysEvent in todaysEvents" :info="todaysEvent" :key="todaysEvent.title"/>
         <h1>All events</h1>
@@ -20,29 +20,29 @@
       <Loader v-if="isLoading" />
       <ErrorMessage v-if="isError && !isLoading" text="Unable to load events, try again in a moment.<br>If the error persists, feel free to contact us." />
       <EventModal :info="selectedEvent" :class="{'show': showModal}" @close="handleClose" @register="handleRegister" @withdraw="handleWithdraw"/>
-      <div class="dark-backdrop" :class="{'show': showModal}" @click="handleClose"></div>
+      <div class="dark-backdrop" :class="{'show': showModal}" @click="handleClose"></div> -->
     </div>
   </div>
 </template>
 
 <script>
-import { status } from 'jsonapi-vuex'
-import Calendar from '../components/Calendar/Calendar'
-import EventList from '../components/EventList/EventList'
-import EventModal from '../components/EventModal'
-import Loader from '../components/Loader'
-import ErrorMessage from '../components/ErrorMessage'
-import Event from '../components/EventList/Event'
+// import { status } from 'jsonapi-vuex'
+// import Calendar from '../components/Calendar/Calendar'
+// import EventList from '../components/EventList/EventList'
+// import EventModal from '../components/EventModal'
+// import Loader from '../components/Loader'
+// import ErrorMessage from '../components/ErrorMessage'
+// import Event from '../components/EventList/Event'
 
 export default {
   name: 'Events',
   components: {
-    Calendar,
-    EventList,
-    EventModal,
-    Loader,
-    ErrorMessage,
-    Event,
+    // Calendar,
+    // EventList,
+    // EventModal,
+    // Loader,
+    // ErrorMessage,
+    // Event,
   },
   data() {
     return {
