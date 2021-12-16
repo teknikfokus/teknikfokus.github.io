@@ -1,5 +1,11 @@
 <template>
-    <div class="mx-auto px-1 xl:px-0 grid grid-cols-1 xl:grid-cols-2 xl:max-w-5xl xl:gap-10 py-5 space-y-10 xl:space-y-0">
+    <div class="row text-center mb-3">
+        <i class="text-blue-primary d-block mx-auto fas fa-tools fa-3x mx-auto"></i>
+      </div>
+      <div class="row text-center pb-1"> 
+        <p class="d-block mx-auto">This site is being set up.</p>
+      </div>
+    <!-- <div class="mx-auto px-1 xl:px-0 grid grid-cols-1 xl:grid-cols-2 xl:max-w-5xl xl:gap-10 py-5 space-y-10 xl:space-y-0">
       <div class="mx-auto max-w-xl bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
         <h4 class="text-2xl">Student volunteer</h4>
         <div class ="text-gray-200">
@@ -20,7 +26,7 @@
         <p><a class="hover:text-white" href="https://forms.gle/972okUNiaDMqNmk37">Apply to be a coordinator here!</a></p>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
