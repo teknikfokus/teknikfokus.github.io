@@ -21,12 +21,20 @@
       </div>
     </div>
   </div>
+
+  <div>
+    <h3 class="text-center text-gray-800 text-3xl">Summer internship/Thesis project?</h3>
+    <p class="text-center text-gray-600 text-xl">Sign up here for the opportunity to connect with companies.</p>
+    <CognitoformsStudents />
+  </div>
 </template>
 
 <script>
+import CognitoformsStudents from '../components/CognitoformsStudents'
 export default {
   name: 'HowTo',
   components: {
+      CognitoformsStudents
   }
 }
 </script>
