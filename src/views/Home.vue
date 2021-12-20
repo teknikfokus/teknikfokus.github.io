@@ -31,7 +31,7 @@
             </div>
             <div class="md:w-1/2 space-y-2">
                 <h4 class="text-2xl">Teknikfokus</h4>
-                <p>Teknikfokus is a career fair arranged by students in the E and D-guilds at Lunds Tekniska Högskola.</p>
+                <p>Teknikfokus is a career fair arranged by students in the E and D-faculties at Lunds Tekniska Högskola.</p>
                 <p>The fair aims to connect students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering with companies in their fields of interest.</p>
                 <p>In addition to the fair we provide opportunities for lunch lectures, evening events and student sessions.</p>
             </div>

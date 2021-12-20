@@ -16,7 +16,7 @@ import ErrorMessage from '../components/ErrorMessage'
 const questions = [
             {
                 question: "What is Teknikfokus?",
-                answer: "Teknikfokus is a career fair arranged by the E- and D-guild at Lunds Tekniska Högskola. The fair is dedicated towards students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Our goal is to provide a platform where students and companies can network and build relations for the future, but also to inspire students in the fields of their future jobs. Do you have any questions about the fair? Contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se."
+                answer: "Teknikfokus is a career fair arranged by the E- and D-faculties at Lunds Tekniska Högskola. The fair is dedicated towards students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Our goal is to provide a platform where students and companies can network and build relations for the future, but also to inspire students in the fields of their future jobs. Do you have any questions about the fair? Contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se."
             },
             {
                 question: "When is Teknikfokus?",
@@ -24,15 +24,15 @@ const questions = [
             },
             {
                 question: "Who organizes Teknikfokus?",
-                answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-guilds at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se. You can read about everyone in the project group under ”About us”."
+                answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se. You can read about everyone in the project group under ”About us”."
             },
             {
                 question: "Which companies will be present at Teknikfokus?",
                 answer: "You can find all the companies attending by going to the Companies tab."
             },
             {
-                question: "What are students studying at the E- and D-guilds at LTH?",
-                answer: "Students at the E- and D- guilds are studying to get a Master of Science in Engineering at the four respective areas: Computer Science and Engineering Information and Communication Engineering Electrical Engineering Biomedical Engineering."
+                question: "What are students studying at the E- and D-faculties at LTH?",
+                answer: "Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science and Engineering Information and Communication Engineering Electrical Engineering Biomedical Engineering."
             },
             {
                 question: "Where will Teknikfokus be?",
@@ -48,7 +48,7 @@ const questions = [
             },
             {
                 question: "Have you been treated badly by a participant?",
-                answer: "If you or anyone you know has been treated badly during the fair we ask you to contact one of our project managers. If you are a student at LTH we recommend you to also contact your guilds likabehandlingsombud or trivselmästare. "
+                answer: "If you or anyone you know has been treated badly during the fair we ask you to contact one of our project managers. If you are a student at LTH we recommend you to also contact your faculties  likabehandlingsombud or trivselmästare. "
             }
       ];
 
