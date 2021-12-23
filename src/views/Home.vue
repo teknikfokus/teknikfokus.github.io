@@ -13,6 +13,11 @@
                 <img src="../assets/logo/svg/logo-white-no-text.svg" class="w-56 opacity-10 xl:opacity-50 absolute transform rotate-12 -right-8 -bottom-6" />
             </div>
         </div> -->
+        <div class="companies">
+            <h4 class="text-2xl">Attending Companies</h4>
+            <CompanyCarousel />
+            <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
+        </div>
         <div class="container md:flex md:flex-row-reverse items-center space-y-5 md:space-y-0">
             <div class="md:w-1/3 mx-auto flex space-x-4 text-center justify-center">
                 <div class="w-1/2">
@@ -41,11 +46,6 @@
         <router-link class="btn link-button"  to="/events">Events</router-link>
       </div>
     </div> -->
-    <div class="companies">
-      <h4 class="text-2xl">Attending Companies</h4>
-      <CompanyCarousel />
-      <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
-    </div>
   </div>
 </template>
 
