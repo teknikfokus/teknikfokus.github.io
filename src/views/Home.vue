@@ -14,7 +14,7 @@
             </div>
         </div> -->
         <div class="companies">
-            <h4 class="text-2xl">Attending Companies</h4>
+            <h4 class="text-center text-2xl">Attending Companies</h4>
             <CompanyCarousel />
             <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
         </div>
@@ -41,11 +41,6 @@
                 <p>In addition to the fair we provide opportunities for lunch lectures, evening events and student sessions.</p>
             </div>
         </div>
-    <!--<div class="about-summary">
-      <div class="d-block w-100 text-center mb-4 mt-4">
-        <router-link class="btn link-button"  to="/events">Events</router-link>
-      </div>
-    </div> -->
   </div>
 </template>
 
