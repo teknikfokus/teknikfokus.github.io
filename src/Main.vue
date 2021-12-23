@@ -48,7 +48,6 @@
                     v-for="item in this.nav" 
                     :key="item.name" 
                     :to="item.href"
-                    @click="close()"
                     >{{ item.name }}</router-link>
             </div>
         </div>
