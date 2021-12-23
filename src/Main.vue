@@ -41,10 +41,10 @@
 
     <div class="hidden md:block">
         <div class="fixed w-full top-0 py-3 transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-transparent']">
-        
+
             <div class="flex justify-center space-x-2">
                 <router-link 
-                    class="block p-2 font-medium text-gray-50 hover:text-white"
+                    class="block p-2 font-medium text-lg text-gray-50 hover:border-b-4 hover:text-white hover:no-underline"
                     v-for="item in this.nav" 
                     :key="item.name" 
                     :to="item.href"
