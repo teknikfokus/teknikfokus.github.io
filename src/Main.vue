@@ -1,39 +1,59 @@
 <template>
   <div class="" id="main" ref="main">
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" :class="{'sticky': scrolled}">
-      <div class="container position-relative">
-        <a class="navbar-brand" href="/"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarLinks">
-            <ul class="navbar-nav mx-auto text-shadow-lg">
-            <li class="nav-item">
-                <router-link class="nav-link" to="/">Home</router-link>
-            </li>
-            <!-- <li class="nav-item">
-                <router-link class="nav-link" to="/events">Events</router-link>
-            </li> -->
-            <li class="nav-item">
-                <router-link class="nav-link" to="/how-to-teknikfokus">For Students</router-link>
-            </li>
-            <!-- <li class="nav-item">
-                <router-link class="nav-link" to="/for-companies">For Companies</router-link>
-            </li> -->
-            <li class="nav-item">
-                <router-link class="nav-link" to="/companies">Companies</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="nav-link" to="/FAQ">FAQ</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="nav-link" to="/about">About Us</router-link>
-            </li>
-            </ul>
+    
+    <Popover class="relative md:hidden">
+    
+        <div class="w-full bg-blue-primary flex justify-end items-center">
+            <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
+                <MenuIcon class="w-8 h-8 text-white" />
+            </PopoverButton>
         </div>
-      </div>
-    </nav>
+
+        <transition
+            enter-active-class="transition duration-200 ease-out"
+            enter-from-class="translate-y-1 opacity-0"
+            enter-to-class="translate-y-0 opacity-100"
+            leave-active-class="transition duration-150 ease-in"
+            leave-from-class="translate-y-0 opacity-100"
+            leave-to-class="translate-y-1 opacity-0"
+        >
+            <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
+            <div class="w-full relative px-2 mt-3">
+                <PopoverButton class="absolute right-4 top-2">
+                    <XIcon class="w-5 h-5 text-blue-primary-light" />
+                </PopoverButton>
+
+                <div
+                    class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+                        <router-link 
+                            class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
+                            v-for="item in this.nav" 
+                            :key="item.name" 
+                            :to="item.href"
+                            @click="close()"
+                            >{{ item.name }}</router-link>
+                </div>
+            </div>
+
+            </PopoverPanel>
+        </transition>
+    </Popover>
+
+    <div class="hidden md:block">
+        <div class="fixed w-full top-0 py-3 transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-transparent']">
+        
+            <div class="flex justify-center space-x-2">
+                <router-link 
+                    class="block p-2 font-medium text-gray-50 hover:text-white"
+                    v-for="item in this.nav" 
+                    :key="item.name" 
+                    :to="item.href"
+                    @click="close()"
+                    >{{ item.name }}</router-link>
+            </div>
+        </div>
+    </div>
+
     <div class="py-20 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
         <div class="container" v-if="$route.name=='Home'">
             <div class="max-w-xs mx-auto">
@@ -58,12 +78,42 @@
 <script>
 import Footer from './components/Footer.vue'
 import CountDown from './components/CountDown.vue'
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+import { MenuIcon, XIcon } from '@heroicons/vue/outline'
+
+const nav = [
+    {
+        name: 'Home',
+        href: '/'
+    },
+    {
+        name: 'For Students',
+        href: '/how-to-teknikfokus'
+    },
+    {
+        name: 'Companies',
+        href: '/companies'
+    },
+    {
+        name: 'FAQ',
+        href: '/FAQ'
+    },
+    {
+        name: 'About Us',
+        href: '/about'
+    },
+];
 
 export default {
   name: 'Main',
   components: {
         Footer,
         CountDown,
+        Popover, 
+        PopoverButton, 
+        PopoverPanel,
+        MenuIcon,
+        XIcon,
   },
   data() {
         return {
@@ -100,6 +150,11 @@ export default {
             }
         }
   },
+  setup() {
+      return {
+          nav
+      }
+  },
   created () {
     window.addEventListener('scroll', this.handleScroll);
   },
@@ -135,7 +190,7 @@ export default {
         }
         return 30
     }
-  }
+  },
 }
 </script>
 
