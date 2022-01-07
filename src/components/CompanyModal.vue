@@ -72,11 +72,9 @@ export default {
     },
     methods: {
         reloadCompanies() {
-            console.log('reloading');
         this.isLoading = true;
         const onResponse = () => {
             const statuses = Object.values(status.status);
-            console.log(statuses.includes(0));
             this.isLoading= false
             this.isError = statuses[statuses.length-1] === -1
         }
