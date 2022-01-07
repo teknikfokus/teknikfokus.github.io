@@ -7,7 +7,7 @@
                                 company.logo._jv && 
                                 company.logo._jv.links &&
                                 company.logo._jv.links.image">
-          <!--<img :src="endpoint+company.logo._jv.links.image" :alt="company.name+' logo'"/>-->
+          <img :src="endpoint+company.logo._jv.links.image" :alt="company.name+' logo'"/>
         </div>
         <div class="name" v-else>{{company.name}}</div>
       </div>
