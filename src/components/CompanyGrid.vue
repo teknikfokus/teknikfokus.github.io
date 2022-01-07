@@ -1,16 +1,18 @@
 <template>
   <div id="company-grid">
-    <button class="company" v-for="company of sortedCompanies" :key="JSON.stringify(company)" @click="$emit('select', company)" tabindex="0">
+    <div class="company" v-for="company of sortedCompanies" :key="JSON.stringify(company)" tabindex="0">
+    <router-link :to="{ name: 'Company', params: { id: company._jv.id }}">
       <div class="content">
         <div class="logo" v-if="company.logo && 
                                 company.logo._jv && 
                                 company.logo._jv.links &&
                                 company.logo._jv.links.image">
-          <img :src="endpoint+company.logo._jv.links.image" :alt="company.name+' logo'"/>
+          <!--<img :src="endpoint+company.logo._jv.links.image" :alt="company.name+' logo'"/>-->
         </div>
         <div class="name" v-else>{{company.name}}</div>
       </div>
-    </button>
+    </router-link>
+    </div>
   </div>
 </template>
 
@@ -42,7 +44,7 @@ export default {
           return 0;
         })
       }
-    }
+    },
 }
 </script>
 

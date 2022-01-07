@@ -5,9 +5,9 @@
         <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
         <!-- <CompanyModal v-if="!isLoading && !isError" :class="{'show': showModal}" :info="selected" @close="closeModal()"/>
         <div class="dark-backdrop" v-if="!isLoading && !isError" :class="{'show': showModal}" @click="closeModal()"></div> -->
-
         <Loader v-if="isLoading" />
         <ErrorMessage v-if="isError && !isLoading" text="Unable to load companies, try again in a moment.<br>If the error persists, feel free to contact us." />
+        <router-view/>
     </div>
   </div>
 </template>
