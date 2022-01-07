@@ -16,7 +16,7 @@
                             {{company.name}}
                         </DialogTitle>
                         <div class="mt-2">
-                            <img class="w-20 h-20 block mx-auto"
+                            <img class="w-20 block mx-auto"
                                 v-if="company.logo && 
                                 company.logo._jv && 
                                 company.logo._jv.links &&
