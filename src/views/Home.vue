@@ -1,22 +1,35 @@
 <template>
   <div id="home" class="container py-5">
-        <!-- <div class="mx-auto">
-            <div class="bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
-                <h4 class="text-2xl">Get your company on the list before it is full</h4>
-                <div class="text-gray-200">
-                    <p class="mt-2">We are currently in the process of assigning spots to companies and they are limited.</p> 
-                    <p>Don't miss the chance to secure your spot for Teknikfokus 2022!</p>
-
-                    <p class="mt-2">Contact us at <a href="mailto:relations@teknikfokus.se" class="underline">relations@teknikfokus.se</a></p>
-                </div>
-
-                <img src="../assets/logo/svg/logo-white-no-text.svg" class="w-56 opacity-10 xl:opacity-50 absolute transform rotate-12 -right-8 -bottom-6" />
-            </div>
-        </div> -->
         <div class="companies">
             <h4 class="text-center text-2xl">Attending Companies</h4>
             <CompanyCarousel />
             <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
+        </div>
+        <div class="mx-auto">
+            <div class="bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
+                <h4 class="text-2xl">Summer internship/Thesis project?</h4>
+                <div class="text-gray-200">
+                    <p class="mt-2">Don't miss the opportunity to connect with companies.</p>
+
+                    <router-link class="mt-4 block" to="/how-to-teknikfokus">Apply here</router-link>
+                </div>
+
+                <img src="../assets/logo/svg/logo-white-no-text.svg" class="w-56 opacity-10 xl:opacity-50 absolute transform rotate-12 -right-8 -bottom-6" />
+            </div>
+        </div>
+        <div class="mx-auto">
+            <div class="text-center p-6 md:p-10 py-14 relative overflow-hidden">
+                <h4 class="text-2xl">Win an Apple Watch  Series 7</h4>
+                <div class="text-gray-800">
+                    <p class="mt-2">To see how you can participate in our contest, visit our Instagram <a class="underline" href="https://www.instagram.com/p/CWu8ahore_k/" target="_blank">here</a></p>
+
+                    <a href="https://www.instagram.com/p/CWu8ahore_k/" target="_blank">
+                        <img class="w-80 mx-auto mt-4 inline-block" src="../assets/images/apple-watch.png" />
+                    </a>
+                </div>
+
+                <img src="../assets/logo/svg/logo-white-no-text.svg" class="w-56 opacity-10 xl:opacity-50 absolute transform rotate-12 -right-8 -bottom-6" />
+            </div>
         </div>
         <div class="container md:flex md:flex-row-reverse items-center space-y-5 md:space-y-0">
             <div class="md:w-1/3 mx-auto flex space-x-4 text-center justify-center">
