@@ -1,10 +1,13 @@
 <template>
   <div id="home" class="container py-5">
         <div class="companies">
+          <h4 class="text-center text-2xl">Attending companies will be presented on the first of February!</h4>
+        </div>
+        <!-- <div class="companies">
             <h4 class="text-center text-2xl">Attending Companies</h4>
             <CompanyCarousel />
             <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
-        </div>
+        </div> -->
         <div class="mx-auto">
             <div class="bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
                 <h4 class="text-2xl">Summer internship/Thesis project?</h4>
@@ -58,12 +61,12 @@
 </template>
 
 <script>
-import CompanyCarousel from '@/components/CompanyCarousel.vue'
+// import CompanyCarousel from '@/components/CompanyCarousel.vue'
 
 export default {
   name: 'Home',
   components: {
-    CompanyCarousel
+    // CompanyCarousel
   }
 }
 </script>
