@@ -10,6 +10,7 @@
     <div>
         <h3 class="text-center text-gray-800 text-3xl">Summer internship/Thesis project?</h3>
         <p class="text-center text-gray-600 text-xl">Sign up here for the opportunity to connect with companies.</p>
+        <p class="text-center text-gray-400 text-xl">Applications will close on the 30th of January.</p>
         <CognitoformsStudents />
     </div>
   </div>
