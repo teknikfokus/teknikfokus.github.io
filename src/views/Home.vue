@@ -43,11 +43,8 @@
                 </div>
                 <div class="w-1/2">
                   <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
-                  <a class="hover:text-blue-primary-light" href="https://goo.gl/maps/kU2kfAceWzGVAfy97">
-                    <div class="mb-3">Where?</div>
-                    <div>The lobby in E-huset</div>
-                    <div>Ole Römers väg 3,<br> 223 63 Lund</div>
-                  </a>
+                  <div class="mb-3">Where</div>
+                  <div>The fair will take place online. Visit this website on the 16th &amp; 17th of February to attend!</div>
                 </div>
             </div>
             <div class="md:w-1/2 space-y-2">
