@@ -89,10 +89,10 @@ const nav = [
         name: 'For Students',
         href: '/how-to-teknikfokus'
     },
-    // {
-    //     name: 'Companies',
-    //     href: '/companies'
-    // },
+    {
+        name: 'Companies',
+        href: '/companies'
+    },
     {
         name: 'FAQ',
         href: '/FAQ'
