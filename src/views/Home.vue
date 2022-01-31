@@ -5,7 +5,6 @@
             <CompanyCarousel />
             <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
         </div>
-        </div>
         <div class="mx-auto">
             <div class="text-center p-6 md:p-10 py-14 relative overflow-hidden">
                 <h4 class="text-2xl">Win an Apple Watch  Series 7</h4>
