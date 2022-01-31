@@ -5,17 +5,6 @@
             <CompanyCarousel />
             <div class="text-center"><router-link class="font-bold px-3 py-2 rounded text-white bg-blue-primary hover:bg-blue-primary-lightest hover:no-underline" to="/companies">Full List of Companies</router-link></div>
         </div>
-        <div class="mx-auto">
-            <div class="bg-blue-primary rounded-xl shadow-lg text-white p-6 md:p-10 py-14 relative overflow-hidden">
-                <h4 class="text-2xl">Summer internship/Thesis project?</h4>
-                <div class="text-gray-200">
-                    <p class="mt-2">Don't miss the opportunity to connect with companies.</p>
-
-                    <router-link class="mt-4 block" to="/how-to-teknikfokus">Apply here</router-link>
-                </div>
-
-                <img src="../assets/logo/svg/logo-white-no-text.svg" class="w-56 opacity-10 xl:opacity-50 absolute transform rotate-12 -right-8 -bottom-6" />
-            </div>
         </div>
         <div class="mx-auto">
             <div class="text-center p-6 md:p-10 py-14 relative overflow-hidden">
