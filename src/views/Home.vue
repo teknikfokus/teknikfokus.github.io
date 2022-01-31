@@ -55,12 +55,12 @@
 </template>
 
 <script>
-// import CompanyCarousel from '@/components/CompanyCarousel.vue'
+import CompanyCarousel from '@/components/CompanyCarousel.vue'
 
 export default {
   name: 'Home',
   components: {
-    // CompanyCarousel
+    CompanyCarousel
   }
 }
 </script>
