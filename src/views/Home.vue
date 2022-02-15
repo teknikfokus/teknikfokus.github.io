@@ -29,7 +29,7 @@
                 <div class="w-1/2">
                   <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
                   <div class="mb-3">Where</div>
-                  <div>The fair will take place online. Visit this website on the 16th &amp; 17th of February to attend!</div>
+                  <div><a href="https://fair.teknikfokus.se/">fair.teknikfokus.se</a></div>
                 </div>
             </div>
             <div class="md:w-1/2 space-y-2">
