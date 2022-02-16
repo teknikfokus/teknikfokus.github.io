@@ -63,7 +63,7 @@
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
 
             <div class="mt-20 max-w-xs mx-auto grid sm:grid-cols-1 gap-6 px-4">
-                <a href="https://fair.teknikfokus.se/" class="relative block justify-center py-6 text-lg font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                <a href="https://fair.teknikfokus.se/companies" class="relative block justify-center py-6 text-lg font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                     To the fair
                 </a>
             </div>
@@ -131,10 +131,10 @@ export default {
                 },
                 time: {
                     start: {
-                    hour: 9,
+                    hour: 8,
                     },
                     end: {
-                    hour: 16,
+                    hour: 17,
                     }
                 }
             },
@@ -146,10 +146,10 @@ export default {
                 },
                 time: {
                     start: {
-                    hour: 9,
+                    hour: 8,
                     },
                     end: {
-                    hour: 16,
+                    hour: 17,
                     }
                 }
             }
