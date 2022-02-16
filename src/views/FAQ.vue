@@ -20,7 +20,7 @@ const questions = [
             },
             {
                 question: "When is Teknikfokus?",
-                answer: "The fair will take place between 10:00 and 16:00, the 16th & 17th of February."
+                answer: "The fair will take place between 08:00 and 17:00, the 16th & 17th of February. Check out the companies' profiles for more information."
             },
             {
                 question: "Who organizes Teknikfokus?",
@@ -36,7 +36,7 @@ const questions = [
             },
             {
                 question: "Where will Teknikfokus be?",
-                answer: "The lobby in E-huset."
+                answer: "Online, check to the main page to get redirected."
             },
             {
                 question: "What does the kontaktsamtal/student sessions mean?",
