@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div v-else-if="date(secondDate, 'end') > Date.now()">
-                Last day, open untill {{ clockTime(date(secondDate, 'end')) }}!
+                Last day, open until {{ clockTime(date(secondDate, 'end')) }}!
             </div>
             <div v-else-if="date(secondDate, 'end') < Date.now()">
                 Thank you for this year!
