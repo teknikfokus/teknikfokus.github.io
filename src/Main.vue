@@ -125,9 +125,9 @@ export default {
             scrolled: false,
             firstDate: {
                 date: {
-                    day: 16,
+                    day: 15,
                     month: 2,
-                    year: 2022,
+                    year: 2023,
                 },
                 time: {
                     start: {
@@ -140,9 +140,9 @@ export default {
             },
             secondDate: {
                 date: {
-                    day: 17,
+                    day: 16,
                     month: 2,
-                    year: 2022,
+                    year: 2023,
                 },
                 time: {
                     start: {

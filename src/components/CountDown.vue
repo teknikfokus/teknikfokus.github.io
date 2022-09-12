@@ -68,7 +68,7 @@ export default {
 
         timeLeft: {
             handler(value) {
-
+                //TODO will it dsync after some time check
                 if (value > 0) {
                     setTimeout(() => {
                         this.timeLeft -= 1000;

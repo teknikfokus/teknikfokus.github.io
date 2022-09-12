@@ -36,7 +36,7 @@ const questions = [
             },
             {
                 question: "Where will Teknikfokus be?",
-                answer: "Online, check to the main page to get redirected. TODO CHANGE!!!"
+                answer: "E-huset LTH Ole Römers väg 3."
             },
             {
                 question: "What does the kontaktsamtal/student sessions mean?",
