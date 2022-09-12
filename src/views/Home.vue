@@ -24,12 +24,12 @@
                 <div class="w-1/2">
                     <i class="text-blue-primary far fa-calendar-alt fa-3x mb-2"></i>
                     <div class="mb-3">When?</div>
-                    <div>16th &amp; 17th of February, 2022!</div>
+                    <div>15th &amp; 16th of February, 2023!</div>
                 </div>
                 <div class="w-1/2">
                   <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
-                  <div class="mb-3">Where</div>
-                  <div><a href="https://fair.teknikfokus.se/">fair.teknikfokus.se</a></div>
+                  <div class="mb-3">Where?</div>
+                  <p>E-huset LTH Ole Römers väg 3</p>
                 </div>
             </div>
             <div class="md:w-1/2 space-y-2">

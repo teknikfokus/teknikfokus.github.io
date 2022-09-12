@@ -36,7 +36,7 @@
                 Last day, open until {{ clockTime(date(secondDate, 'end')) }}!
             </div>
             <div v-else-if="date(secondDate, 'end') < Date.now()">
-                Thank you for this year!
+                See you at the fair!
             </div>
         </div>
     </div>

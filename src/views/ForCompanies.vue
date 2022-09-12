@@ -21,7 +21,7 @@
                     <li>Access to our fair lounge with coffee and fika</li>
                     <li>The ability to display and present your company on our website: teknikfokus.se</li>
                     <li>Attend in the fair's advertisement</li>
-                    <li>2 tickets to the Teknikfokus banquet which will take place on day 1 (the 16th).
+                    <li>TODO 2 tickets to the Teknikfokus banquet which will take place on day 1 (the 16th).
                         Another opportunity to mingle with the company hosts and the project group</li>
 
                 </ul>
@@ -35,7 +35,7 @@
     </div>
 </template>
 
-<script>
+<script>    
 
 export default {
   name: 'ForCompanies',

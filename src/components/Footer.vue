@@ -10,12 +10,12 @@
     <div class="mx-auto max-w-xl bg-blue-primary pb-5 text-base">
       <div class="grid grid-cols-1 sm:grid-cols-2 text-center">
         <div class="mx-auto my-6">
-          <span class="font-bold">Fredrik Hessner, Project manager</span><br>
-          <a class="text-white" href="mailto:fredrik@teknikfokus.se">fredrik@teknikfokus.se</a>
+          <span class="font-bold"> Leo Guldåker, Project manager</span><br>
+          <a class="text-white" href="mailto:leo@teknikfokus.se">leo@teknikfokus.se</a>
         </div>
         <div class="mx-auto my-6">
-          <span class="font-bold"> Tove Hector, Project manager</span><br>
-          <a class="text-white" href="mailto:tove@teknikfokus.se">tove@teknikfokus.se</a>
+          <span class="font-bold"> Yazan Al-Aswad, Project manager</span><br>
+          <a class="text-white" href="mailto:yazan@teknikfokus.se">yazan@teknikfokus.se</a>
         </div>
       </div>
     </div>
