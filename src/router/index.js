@@ -58,7 +58,7 @@ const routes = [
         props: true,
     }],
     meta: {
-      title: 'Attending Companies'
+      title: 'Attended previously'
     }
   },
   // {
@@ -76,14 +76,6 @@ const routes = [
     component: () => import(/* webpackChunName: "register" */'../views/Register.vue'),
     meta: {
       title: 'Register Your Company'
-    }
-  },
-  {
-    path: '/how-to-teknikfokus',
-    name: 'ForStudents',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ForStudents.vue'),
-    meta: {
-      title: 'How To Teknikfokus'
     }
   },
   {
