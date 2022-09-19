@@ -3,7 +3,7 @@
     <div class="container mt-5 mb-5">
       <h2 class="text-center mb-4 text-capitalize font-weight-bold">The project group</h2>
       <div class="people-holder">
-        <Person v-for="person of people" :info="person" :key="person.name"></Person>
+        <Person v-for="person of people" :info="person" :key="person.name" />
       </div>
     </div>
   </div>
@@ -24,8 +24,8 @@ export default {
           name: "Leo Guldåker",
           position: "Project Manager",
           imageUrl: "@/placeholder-person.png",
-          linkedIn: "leo@teknikfokus.se",
-          mail: ""
+          linkedIn: "",
+          mail: "leo@teknikfokus.se"
         },
         {
           name: "Yazan Al-Aswad",
