@@ -27,6 +27,34 @@
                 </ul>
             </div>
         </div>
+
+        <div class="xl:flex xl:items-center">
+            <div class="xl:w-1/2 xl:px-8 space-y-4">
+                <h3 class="text-xl font-semibold">What experties do the students have?</h3>
+                <p>We kindly refer to ......</p>
+            </div>
+            <div class="py-20 bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg">
+                <div class="mt-20 max-w-xl mx-auto grid sm:grid-cols-2 gap-6 px-4 md">
+                    <a href="https://www.lth.se/utbildning/datateknik300/kurser" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                        Datavetenskap
+                    </a>
+
+                    <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                        Informations- och kommunikationsteknik
+                    </a>
+
+                    <a href="https://www.lth.se/utbildning/elektroteknik/kurser/" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                        Elektroteknik
+                    </a>
+
+                    <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                        Medecin och Teknik
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
         <div class="text-center mt-20">
             <h3 class="text-2xl md:text-4xl font-bold">Other ideas on marketing<br/>your company through Teknikfokus?</h3>
             <p class="text-lg md:text-xl mt-4 text-gray-600">Contact <a href="mailto:events@teknikfokus.se">events@teknikfokus.se</a> and we can discuss your ideas further. <br />We look forward to your suggestions!</p>
