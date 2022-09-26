@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import OpenHours from '/src/types'
+import { OpenHours } from '../types.js';
 
 export default {
     name: "CountDown",
