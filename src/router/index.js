@@ -30,6 +30,14 @@ const routes = [
     }
   },
   {
+    path: '/forcompanies',
+    name: 'For Companies',
+    component: () => import(/* webpackChunkName: "faq" */ '../views/ForCompanies.vue'),
+    meta: {
+      title: 'For Companies'
+    }
+  },
+  {
     path: '/about',
     alias: '/contact',
     name: 'About',

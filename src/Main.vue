@@ -92,8 +92,12 @@ const nav = [
         href: '/'
     },
     {
-        name: 'Companies',
+        name: 'Companies', //ATTENDING COMPANBIES
         href: '/companies'
+    },
+    {
+        name: 'For Companies',
+        href: '/forcompanies'
     },
     {
         name: 'FAQ',
