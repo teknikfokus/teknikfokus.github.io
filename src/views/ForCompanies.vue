@@ -7,36 +7,38 @@
                 <p>To sign up, please contact: <a href="mailto:relations@teknikfokus.se" class="font-semibold">relations@teknikfokus.se</a></p>
             </div>
             <div class="mt-6 xl:mt-0 xl:w-1/2 p-6 xl:p-12 bg-blue-primary text-white rounded-xl shadow-lg">
-                <h3 class="text-3xl font-semibold text-center">18 000 SEK</h3>
+                <h3 class="text-3xl font-semibold text-center">- SEK</h3>
+                <h1 class="mt-6 font-semibold text-center">Note: Specifics will soon be visible</h1>
                 <p class="mt-6">The full-day package includes:</p>
                 <ul class="mt-2 list-disc pl-6">
-                    <li>Showcase area of 6 m<sup>2</sup></li>
+                    <li>Showcase area of _m<sup>2</sup></li>
                     <li>A stand-up table</li>
                     <li>Parking tickets for our guest parking slots</li>
                     <li>Power outlets</li>
                     <li>Internet connection</li>
                     <li>Wardrobe</li>
                     <li>A company host to help you upon arrival and during the fair</li>
-                    <li>Breakfast and lunch for your company representatives</li>
                     <li>Access to our fair lounge with coffee and fika</li>
                     <li>The ability to display and present your company on our website: teknikfokus.se</li>
-                    <li>Attend in the fair's advertisement</li>
-                    <li>TODO 2 tickets to the Teknikfokus banquet which will take place on day 1 (the 16th).
-                        Another opportunity to mingle with the company hosts and the project group</li>
-
+                    <li>Attendance in the fair's advertisement</li>
+                    <!--
+                        <li>Breakfast and lunch for your company representatives</li>
+                        <li>TODO 2 tickets to the Teknikfokus banquet which will take place on day 1 (the 16th).
+                            Another opportunity to mingle with the company hosts and the project group</li>
+                    -->
                 </ul>
             </div>
         </div>
 
         <div class="xl:flex xl:items-center">
             <div class="xl:w-1/2 xl:px-8 space-y-4">
-                <h3 class="text-xl font-semibold">What experties do the students have?</h3>
-                <p>We kindly refer to ......</p>
+                <h3 class="text-xl font-semibold">What do the different programmes specialize in?</h3>
+                <h2>We kindly refer to their programme pages</h2>
             </div>
             <div class="py-20 bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg">
                 <div class="mt-20 max-w-xl mx-auto grid sm:grid-cols-2 gap-6 px-4 md">
-                    <a href="https://www.lth.se/utbildning/datateknik300/kurser" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        Datavetenskap
+                    <a href="https://www.lth.se/utbildning/datateknik300/kurser" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                        Datateknik
                     </a>
 
                     <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
@@ -48,7 +50,7 @@
                     </a>
 
                     <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        Medecin och Teknik
+                        Medicin och Teknik
                     </a>
                 </div>
             </div>
