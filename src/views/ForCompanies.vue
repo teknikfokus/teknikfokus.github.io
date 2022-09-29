@@ -37,19 +37,19 @@
             </div>
             <div class="py-20 bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg">
                 <div class="mt-20 max-w-xl mx-auto grid sm:grid-cols-2 gap-6 px-4 md">
-                    <a href="https://www.lth.se/utbildning/datateknik300/kurser" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                    <a href="https://www.lth.se/utbildning/datateknik300/kurser"  target="_blank" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         Datateknik
                     </a>
 
-                    <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                    <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser"  target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         Informations- och kommunikationsteknik
                     </a>
 
-                    <a href="https://www.lth.se/utbildning/elektroteknik/kurser/" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                    <a href="https://www.lth.se/utbildning/elektroteknik/kurser/"  target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         Elektroteknik
                     </a>
 
-                    <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                    <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/"  target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         Medicin och Teknik
                     </a>
                 </div>
