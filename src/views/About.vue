@@ -54,7 +54,7 @@ export default {
           mail: "alex.chamoun@teknikfokus.se"
         },
         {
-          name: "Arvid Carp",
+          name: "Arvid Karp",
           position: "Logistics Manager",
           imageUrl: "@/placeholder-person.png",
           linkedIn: "",
