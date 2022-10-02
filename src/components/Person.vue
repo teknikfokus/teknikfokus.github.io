@@ -4,7 +4,7 @@
       <span class="name">{{info.name}}</span>
       <span class="position">{{info.position}}</span>
       <div class="icons">
-        <a :href="info.linkedIn" v-if="info.linkedIn!=''"><i class="fab fa-linkedin-in"></i></a>
+        <a :href="info.linkedIn" target="_blank" v-if="info.linkedIn!=''"><i class="fab fa-linkedin-in"></i></a>
         <a :href="'mailto:'+info.mail" v-if="info.mail!=''"><i class="far fa-envelope"></i></a>
       </div>
     </div>
