@@ -30,6 +30,14 @@ const routes = [
     }
   },
   {
+    path: '/forcompanies',
+    name: 'For Companies',
+    component: () => import(/* webpackChunkName: "faq" */ '../views/ForCompanies.vue'),
+    meta: {
+      title: 'For Companies'
+    }
+  },
+  {
     path: '/about',
     alias: '/contact',
     name: 'About',
@@ -49,7 +57,7 @@ const routes = [
   },
   {
     path: '/companies',
-    name: 'Companies',
+    name: 'Attending',
     component: () => import(/* webpackChunkName: "about" */ '../views/Companies.vue'),
     children: [{
         path: ':id',
@@ -58,7 +66,7 @@ const routes = [
         props: true,
     }],
     meta: {
-      title: 'Attending Companies'
+      title: 'Attended previously'
     }
   },
   // {
@@ -76,14 +84,6 @@ const routes = [
     component: () => import(/* webpackChunName: "register" */'../views/Register.vue'),
     meta: {
       title: 'Register Your Company'
-    }
-  },
-  {
-    path: '/how-to-teknikfokus',
-    name: 'ForStudents',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ForStudents.vue'),
-    meta: {
-      title: 'How To Teknikfokus'
     }
   },
   {

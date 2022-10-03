@@ -59,7 +59,7 @@
                 <img src="./assets/logo/svg/logo-white-text.svg" class="max-w-full p-8" alt="Teknikfokus" />
             </div>
             <h1 class="font-bold md:text-3xl">Career fair</h1>
-            <h3 class="normal-case font-medium">16th &amp; 17th OF FEBRUARY</h3>
+            <h3 class="normal-case font-medium">15th &amp; 16th OF FEBRUARY</h3>
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
 
             <div class="mt-20 max-w-xs mx-auto grid sm:grid-cols-1 gap-6 px-4">
@@ -92,12 +92,12 @@ const nav = [
         href: '/'
     },
     {
-        name: 'For Students',
-        href: '/how-to-teknikfokus'
+        name: 'Attending',
+        href: '/companies'
     },
     {
-        name: 'Companies',
-        href: '/companies'
+        name: 'For Companies',
+        href: '/forcompanies'
     },
     {
         name: 'FAQ',
@@ -125,9 +125,9 @@ export default {
             scrolled: false,
             firstDate: {
                 date: {
-                    day: 16,
+                    day: 15,
                     month: 2,
-                    year: 2022,
+                    year: 2023,
                 },
                 time: {
                     start: {
@@ -140,9 +140,9 @@ export default {
             },
             secondDate: {
                 date: {
-                    day: 17,
+                    day: 16,
                     month: 2,
-                    year: 2022,
+                    year: 2023,
                 },
                 time: {
                     start: {

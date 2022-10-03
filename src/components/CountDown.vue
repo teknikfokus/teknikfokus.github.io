@@ -36,14 +36,14 @@
                 Last day, open until {{ clockTime(date(secondDate, 'end')) }}!
             </div>
             <div v-else-if="date(secondDate, 'end') < Date.now()">
-                Thank you for this year!
+                See you at the fair!
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import OpenHours from '/src/types'
+import { OpenHours } from '../types.js';
 
 export default {
     name: "CountDown",
@@ -68,7 +68,7 @@ export default {
 
         timeLeft: {
             handler(value) {
-
+                //TODO will it dsync after some time check
                 if (value > 0) {
                     setTimeout(() => {
                         this.timeLeft -= 1000;
