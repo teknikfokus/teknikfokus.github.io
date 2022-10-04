@@ -23,8 +23,13 @@
             TODO
            -->
         </div>
-
+        
         <div id="Packages" class="py-6"></div>
+        <div>
+            <PackageDeal :info="currentPackage"></PackageDeal>
+        </div>
+
+
         <h1 class="mt-12 text-5xl text-center font-bold">Packages</h1>
         <div class="xl:flex xl:items-center mt-12">
             <div class="xl:w-1/2 xl:px-8 space-y-4">
@@ -97,11 +102,41 @@
 </template>
 
 <script>
-    
-
+import PackageDeal from '../components/PackageDeal'
+const packages = {
+    "full-day": {
+        packageName: "Full-day package",
+        price: "500 SEK",
+        perks: [
+            "Helo",
+            "gg"
+        ]
+    },
+    "two-day": {
+        packageName: "TWO DAY PACKAGE",
+        price: "4000 SEK",
+        perks: [
+            "some m2 thing",
+            "bibii thing"
+        ]
+    }
+}    
+var currentPackage = packages["full-day"]
 export default {
   name: 'ForCompanies',
   components: {
+    PackageDeal
+  },
+  setup(){
+    return {packages};
+  },
+  data(){
+    return {currentPackage};
+  },
+  methods: {
+    setPackage(key){
+        this.currentPackage = packages[key]
+    }
   }
 }
 </script>
