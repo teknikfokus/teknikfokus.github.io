@@ -59,13 +59,14 @@
                 <img src="./assets/logo/svg/logo-white-text.svg" class="max-w-full p-8" alt="Teknikfokus" />
             </div>
             <h1 class="font-bold md:text-3xl">Career fair</h1>
+            <h3 class="normal-case font-medium mt-4">BACK ON SITE</h3>
             <h3 class="normal-case font-medium">15th &amp; 16th OF FEBRUARY</h3>
             <CountDown :firstDate="firstDate" :secondDate="secondDate" />
 
             <div class="mt-20 max-w-xs mx-auto grid sm:grid-cols-1 gap-6 px-4">
-                <a href="https://fair.teknikfokus.se/companies" class="relative block justify-center py-6 text-lg font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                    To the fair
-                </a>
+                <router-link to="/forcompanies" class="relative block justify-center py-6 text-lg font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                    Read more
+                </router-link>
             </div>
         </div>
         <div class="container" v-else>
