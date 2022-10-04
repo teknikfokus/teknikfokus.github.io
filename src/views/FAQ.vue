@@ -4,14 +4,6 @@
             <div id="faq-accordion" class="divide-y-2 divide-gray-200">
                 <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
                 <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
-                
-                <a @click="setPackage('full-day')" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                    full-day
-                </a>
-                <a @click="setPackage('two-day')" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                    two-day
-                </a>
-                <PackageDeal :info="currPackage"></PackageDeal>
             </div>
         </div>
     </div>
@@ -48,30 +40,7 @@
 <script>
 
 import Question from '../components/Question'
-import PackageDeal from '../components/PackageDeal'
 import ErrorMessage from '../components/ErrorMessage'
-
-
-const packages = {
-    "full-day": {
-        packageName: "Full-day package",
-        price: "500 SEK",
-        perks: [
-            "Helo",
-            "gg"
-        ]
-    },
-    "two-day": {
-        packageName: "TWO DAY PACKAGE",
-        price: "4000 SEK",
-        perks: [
-            "some m2 thing",
-            "bibii thing"
-        ]
-    }
-}
-
-var currPackage = packages["full-day"]
 
 const questions = [
             {
@@ -116,28 +85,13 @@ export default {
   name: 'FAQ',
   components: {
     Question,
-    PackageDeal,
     ErrorMessage,
 },
   setup() {
     return {
       questions,
-      packages
     }
-  },
-  data() {
-        return {
-            currPackage,
-        };
-    },
-    methods: {
-        setPackage(key){
-            this.currPackage = packages[key]
-        },
-        say(message){
-            alert(message)
-        }
-    }
+  }
 }
 </script>
 
