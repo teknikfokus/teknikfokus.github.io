@@ -1,6 +1,32 @@
 <template>
-    <div id="for-companies" class="py-12">
-        <div class="xl:flex xl:items-center">
+    <div id="for-companies" class="py-12 scroll-smooth">
+        <div class="xl:flex space-x-0 text-2xl text-center justify-evenly font-semibold">
+            <a href="#About" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+                <div>About</div>
+            </a>
+            <a href="#Packages" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+                <div>Packages</div>
+            </a>
+            <a href="#FAQ" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+                <div>FAQ</div>
+            </a>
+            <a href="#How-to-apply" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+                <div>How to apply</div>
+            </a>
+        </div>
+        
+        <div id="About" class="py-6"></div>
+        <h1 class="mt-12 text-5xl text-center font-bold">About</h1>
+        <div class="xl:flex xl:items-center mt-12">
+            <h2>We are teknikfokus</h2>
+           <!--
+            TODO
+           -->
+        </div>
+
+        <div id="Packages" class="py-6"></div>
+        <h1 class="mt-12 text-5xl text-center font-bold">Packages</h1>
+        <div class="xl:flex xl:items-center mt-12">
             <div class="xl:w-1/2 xl:px-8 space-y-4">
                 <h3 class="text-xl font-semibold">How can you as a company take part?</h3>
                 <p>With our one-day package you are guaranteed a spot on one of the days of the fair. Please note that there are a limited number of spots at the fair, so make sure to sign up as early as possible.</p>
@@ -30,33 +56,38 @@
             </div>
         </div>
 
-        <div class="xl:flex xl:items-center">
+        <div id="FAQ" class="py-6"></div>
+        <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
+        <!--    TODO    -->
+        <div class="xl:flex xl:items-center mt-12">
             <div class="xl:w-1/2 xl:px-8 space-y-4">
                 <h3 class="text-xl font-semibold">What do the different programmes specialize in?</h3>
                 <h2>We kindly refer to their programme pages</h2>
             </div>
-            <div class="py-20 bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg">
+            <div class="mt-4 bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg">
                 <div class="mt-20 max-w-xl mx-auto grid sm:grid-cols-2 gap-6 px-4 md">
                     <a href="https://www.lth.se/utbildning/datateknik300/kurser"  target="_blank" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        Datateknik
+                        <div>Datateknik</div>
                     </a>
 
                     <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser"  target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        Informations- och kommunikationsteknik
+                        <div>Informations- och kommunikationsteknik</div>
                     </a>
 
                     <a href="https://www.lth.se/utbildning/elektroteknik/kurser/"  target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        Elektroteknik
+                        <div>Elektroteknik</div>
                     </a>
 
                     <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/"  target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        Medicin och Teknik
+                        <div>Medicin och Teknik</div>
                     </a>
                 </div>
             </div>
         </div>
 
-        
+        <div id="How-to-apply" class="py-6"></div>
+        <h1 class="mt-12 text-5xl text-center font-bold">How to apply</h1>
+        <!--    TODO    -->
         <div class="text-center mt-20">
             <h3 class="text-2xl md:text-4xl font-bold">Other ideas on marketing<br/>your company through Teknikfokus?</h3>
             <p class="text-lg md:text-xl mt-4 text-gray-600">Contact <a href="mailto:events@teknikfokus.se">events@teknikfokus.se</a> and we can discuss your ideas further. <br />We look forward to your suggestions!</p>
@@ -65,7 +96,8 @@
     </div>
 </template>
 
-<script>    
+<script>
+    
 
 export default {
   name: 'ForCompanies',

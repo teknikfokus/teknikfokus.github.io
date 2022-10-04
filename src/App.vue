@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <html id="app">
     <Main />
-  </div>
+  </html>
 </template>
 
 <script>
@@ -31,11 +31,13 @@ export default {
 
     --footer-color: #445;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--background);
     font-family: Hind, sans-serif;
-
 }
 
 </style>
