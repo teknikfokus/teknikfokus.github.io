@@ -26,7 +26,7 @@ export default {
         {
           name: "Leo Guldåker",
           position: "Project Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Leo.jpg",
           linkedIn: "https://www.linkedin.com/in/leo-guld%C3%A5ker-b058b2226/",
           mail: "leo@teknikfokus.se"
         },
@@ -42,77 +42,77 @@ export default {
         {
           name: "Alex Bringsarve",
           position: "Recruitment Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Alex-B.jpg",
           linkedIn: "https://www.linkedin.com/in/alex-bringsarve-0a68bb251/",
           mail: "alex.bringsarve@teknikfokus.se"
         },
         {
           name: "Alex Chamoun",
           position: "Business Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Alex-C.jpg",
           linkedIn: "https://www.linkedin.com/in/alex-chamoun-276b13208",
           mail: "alex.chamoun@teknikfokus.se"
         },
         {
           name: "Arvid Karp",
           position: "Logistics Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Arvid.jpg",
           linkedIn: "",
           mail: "arvid@teknikfokus.se"
         },
         {
           name: "David Bergh",
           position: "IT Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/David.jpg",
           linkedIn: "https://www.linkedin.com/in/david-bergh-5b1213187/",
           mail: "david@teknikfokus.se"
         },
         {
           name: "Edmond Mentori",
           position: "Event Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Edmond.jpg",
           linkedIn: "",
           mail: "edmond@teknikfokus.se"
         },
         {
           name: "Eira Blaho Mildton",
           position: "Business Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Eira.jpg",
           linkedIn: "https://www.linkedin.com/in/eira-blaho-mildton-33894119a/",
           mail: "eira@teknikfokus.se"
         },
         {
           name: "Erik Gustavsson",
           position: "Financial Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Erik.jpg",
           linkedIn: "https://www.linkedin.com/in/erik-gustavsson-1b4503215/",
           mail: "erik@teknikfokus.se"
         },
         {
           name: "Felix Vigren",
           position: "Event Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Felix.jpg",
           linkedIn: "https://www.linkedin.com/in/felix-vigren-a34202227",
           mail: "felix@teknikfokus.se"
         },
         {
           name: "Måns Bard Nilsson",
           position: "Marketing Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Måns.jpg",
           linkedIn: "https://www.linkedin.com/in/m%C3%A5ns-bard-nilsson-12a890232",
           mail: "mans@teknikfokus.se"
         },
         {
           name: "Pontus Sjöstedt",
           position: "IT Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Pontus.jpg",
           linkedIn: "",
           mail: "pontus@teknikfokus.se"
         },
         {
           name: "Theo Callmar",
           position: "Business Manager",
-          imageUrl: "@/placeholder-person.png",
+          imageUrl: "@/Theo.jpg",
           linkedIn: "",
           mail: "theo@teknikfokus.se"
         }
