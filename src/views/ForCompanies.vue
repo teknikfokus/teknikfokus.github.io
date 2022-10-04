@@ -29,6 +29,8 @@
         <div id="Packages" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">Packages</h1>
         <div class="mt-12">
+            <h1 @click="setPackage('two-day')">example two-day button</h1>
+            <h1 @click="setPackage('full-day')">example full-day button</h1>
             <PackageDeal :info="currentPackage"></PackageDeal>
         </div>
         <div class="xl:flex xl:items-center mt-16">
