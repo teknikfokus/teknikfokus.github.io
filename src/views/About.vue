@@ -57,7 +57,7 @@ export default {
           name: "Arvid Karp",
           position: "Logistics Manager",
           imageUrl: "@/Arvid.jpg",
-          linkedIn: "",
+          linkedIn: "https://www.linkedin.com/in/arvid-karp-263648240/",
           mail: "arvid@teknikfokus.se"
         },
         {
