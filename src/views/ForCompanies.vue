@@ -18,7 +18,7 @@
         <div id="About-us" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">About us</h1>
         <div class="xl:flex xl:items-center mt-12">
-            <h2>We are teknikfokus</h2>
+            <h2 class ="text-center">TeknikFokus is the largest carrier fair within Biomedical, ComputerScience, Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, you can be certain that you will meet the talent neccessary to raise your goal post.</h2>
            <!--
             TODO
            -->
@@ -50,12 +50,34 @@
             </div>
             </div>
         </div>
+        <div class="xl:flex xl:items-center">
+        <div class="xl:w-2/5">
+                <!-- Righty stuff -->
+                <div class="mt-6 xl:mt-0 p-6 xl:p-12">
+                    <h1 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h1>
+                    <h1 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h1>
+                    <h1 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h1>
+                    <h1 class="mt-6">-Maybe some contact link-</h1>
+                    <h1 class="px-6">-exampleMail@technofocus.cn-</h1>
+                    <h1 class="px-6">-exampleMail@area51.gov-</h1>
+                </div>
+            </div>
+            <div class="xl:w-3/5 align-center">
+                <!-- Lefty stuff -->
+                <div class="xl:flex mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
+                    <button @click="setEventPackage('Lunch Lecture')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
+                    <button @click="setEventPackage('Pub')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
+                    <button @click="setEventPackage('Student Sessions')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
+                </div>
+                <PackageDealWithText :info="currentEventPackage"></PackageDealWithText>
+            </div>
+        </div>
 
         <div id="FAQ" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
 
         <div id="faq" class="pt-5 pb-5">
-                <div class="max-w-5´10xl mx-auto" >
+                <div class="max-w-510xl mx-auto" >
                     <div id="faq-accordion" class="divide-y-2 divide-gray-200">
                         <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
                         <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
@@ -63,13 +85,7 @@
                 </div>
             </div>
         <!--    TODO    -->
-        <div class="xl:flex xl:items-center mt-12">
-            <div class="xl:w-1/2 xl:px-8 space-y-4">
-                <h3 class="text-xl font-semibold">What do the different programmes specialize in?</h3>
-                <h2>We kindly refer to their programme pages</h2>
-            </div>
-            <div class="xl:w-1/2 bg-center bg-cover text-center text-xl p-0 md:text-2xl text-white text-shadow-lg">
-                <div class="mt-20 mx-auto grid sm:grid-cols-2 gap-6 md">
+                <div class="mt-40 mx-auto grid sm:grid-cols-2 gap-6 md">
                     <a href="https://www.lth.se/utbildning/datateknik300/kurser" target="_blank" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         <div>Computer Science and Engineering</div>
                     </a>
@@ -86,8 +102,7 @@
                         <div>Biomedical Engineering</div>
                     </a>
                 </div>
-            </div>
-        </div>
+         
 
         <div id="How-to-apply" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">How to apply</h1>
@@ -102,6 +117,7 @@
 
 <script>
 import PackageDeal from '../components/PackageDeal'
+import PackageDealWithText from '../components/PackageDealWithText'
 import ErrorMessage from '../components/ErrorMessage'
 import Question from '../components/Question'
 const packages = {
@@ -140,30 +156,55 @@ const packages = {
     }
 }
 
+const eventPackages = {
+    "Lunch Lecture": {
+        packageName: "Lunch Lecture",
+        price: "14 000 kr plus 70 kr or 90 kr / attending studen",
+        text: ["At TeknikFokus we offer your company to arrange a lunch lecture. This is a splendid opportunity to present yourselves towards the students during 45 minutes. We offer up to 100 lunches, through the following two different levels of payment per attendee. Where 70 kr/attendee corresponds to a cold-food dish plus one (1) drink, and 90 kr/attendee corresponds to a hot-food dish plusone (1) drink.", "Lunch lectures usually are very popular among the students and will give you the exposure that you desire."],
+        perks: ["foo", "bar"]
+    },
+    "Pub": {
+        packageName: "Pub",
+        price: "20 000 kr plus costs for food sold during the event optional",
+        text: ["At TeknikFokus we offer your company to arrange a Pub. This is a splendid opportunity to present yourselves towards the students, possibly have some competition or have a chat and mingle around with the attendees.", "Pubs tend to be very popular among the students and will give you the opportunity to meet the students in a more relaxed atmosphere."],
+        perks: ["Private session with a very romantic lamp found in Edekvata", "Bob"]
+    },
+    "Student Sessions": {
+        packageName: "Student Sessions",
+        price: "One day - 7 000 kr     Two days - 12 000 kr",
+        text: ["During your visit at TeknikFokus we have the possibility to offer Student Sessions for your company. This is tailored for your company if you would like one-on-one discussions with students. In advance of the fair, students will register their interest and apply with relevant documents. Hence, your company selects those of whom you are interested on having a discussion with. Later, TeknikFokus will arrange rooms and schedules for these meetings, as well as informing the attending students.", "This provides the opportunity for a more personal meeting between both parties. Each session is scheduled for 30 minutes. Pricing above refers to one (1) meeting room."],
+        perks: ["FLYING SAUCERS AND STUFF"]
+    }
+}
+
 const questions = [
+            //{
+            //    question: "What is Teknikfokus?",
+            //    answer: "Teknikfokus is a career fair arranged by the E- and D-faculties at Lunds Tekniska Högskola. The fair is dedicated towards students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Our goal is to provide a platform where students and companies can network and build relations for the future, but also to inspire students in the fields of their future jobs. Do you have any questions about the fair? Contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se."
+            //},
             {
-                question: "What is Teknikfokus?",
-                answer: "Teknikfokus is a career fair arranged by the E- and D-faculties at Lunds Tekniska Högskola. The fair is dedicated towards students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Our goal is to provide a platform where students and companies can network and build relations for the future, but also to inspire students in the fields of their future jobs. Do you have any questions about the fair? Contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se."
+                question: "Why TeknikFokus?",
+                answer: "With LTH being one of the most prolific technical schools in the Nordics and considering how active D && E students are, makes TeknikFokus the perfect place for innovators to meet the exact talent and future employees they need."
             },
             {
                 question: "When is Teknikfokus?",
                 answer: "The fair will take place between 08:00 and 17:00, the 15th & 16th of February. Check out the companies' profiles for more information."
             },
             {
-                question: "Who organizes Teknikfokus?",
-                answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se. You can read about everyone in the project group under ”About us”."
+                question: "Where will Teknikfokus be?",
+                answer: "E-huset LTH Ole Römers väg 3."
             },
             {
-                question: "Which companies will be present at Teknikfokus?",
-                answer: "You can find all the companies attending by going to the Companies tab."
+                question: "Who will be attending?",
+                answer: "Bachelors, Masters and PhD-Students from the respective forementioned engineering programs, as well as 60 to 80 different companies within the relevant fields."
             },
             {
                 question: "What are students studying at the E- and D-faculties at LTH?",
-                answer: "Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science and Engineering Information and Communication Engineering Electrical Engineering Biomedical Engineering."
+                answer: "Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science, Engineering Information and Communication Engineering, Electrical Engineering and Biomedical Engineering."
             },
             {
-                question: "Where will Teknikfokus be?",
-                answer: "E-huset LTH Ole Römers väg 3."
+                question: "Who organizes Teknikfokus?",
+                answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se. You can read about everyone in the project group under ”About us”."
             },
             {
                 question: "What does the kontaktsamtal/student sessions mean?",
@@ -172,30 +213,34 @@ const questions = [
             {
                 question: "Who should you contact if you have questions about the companies?",
                 answer: "If you have questions about the companies attending Teknikfokus, contact one of our Business managers. Contact information can be found under ”About us”. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers."
-            },
-            {
-                question: "Have you been treated badly by a participant?",
-                answer: "If you or anyone you know has been treated badly during the fair we ask you to contact one of our project managers. If you are a student at LTH we recommend you to also contact your faculties  likabehandlingsombud or trivselmästare. "
-            }
+            }//,
+            //{
+            //    question: "Have you been treated badly by a participant?",
+            //    answer: "If you or anyone you know has been treated badly during the fair we ask you to contact one of our project managers. If you are a student at LTH we recommend you to also contact your faculties  likabehandlingsombud or trivselmästare. "
+            //}
       ];
 var currentPackage = packages["full-day"]
+var currentEventPackage = eventPackages["Lunch Lecture"]
 export default {
   name: 'ForCompanies',
   components: {
     PackageDeal,
     Question,
     ErrorMessage,
-    
+    PackageDealWithText,
   },
   setup(){
-    return {packages, questions};
+    return {packages, eventPackages,questions};
   },
   data(){
-    return {currentPackage};
+    return {currentPackage, currentEventPackage};
   },
   methods: {
     setPackage(key){
         this.currentPackage = packages[key]
+    },
+    setEventPackage(key){
+        this.currentEventPackage = eventPackages[key]
     }
   }
 }
