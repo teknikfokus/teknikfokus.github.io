@@ -1,16 +1,16 @@
 <template>
-    <div id="for-companies" class="py-12 scroll-smooth">
-        <div class="xl:flex space-x-0 text-2xl text-center justify-evenly font-semibold">
-            <a href="#About-us" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+    <div id="for-companies" class="py-4 scroll-smooth">
+        <div class="mx-auto grid sm:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
+            <a href="#About-us" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>About us</div>
             </a>
-            <a href="#Packages" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+            <a href="#Packages" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>Packages</div>
             </a>
-            <a href="#FAQ" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+            <a href="#FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>FAQ</div>
             </a>
-            <a href="#How-to-apply" class="bg-blue-primary text-white mx-2 p-8 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+            <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>How to apply</div>
             </a>
         </div>
