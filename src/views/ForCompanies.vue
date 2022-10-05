@@ -28,10 +28,20 @@
 
         <div id="Packages" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">Packages</h1>
-        <div class="mt-12">
-            <h1 @click="setPackage('two-day')">example two-day button</h1>
-            <h1 @click="setPackage('full-day')">example full-day button</h1>
-            <PackageDeal :info="currentPackage"></PackageDeal>
+        <div class="xl:flex xl:items-center">
+            <div class="xl:w-3/5">
+                <!-- Lefty stuff -->
+                <div class="xl:flex mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
+                    <button @click="setPackage('full-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Full day</button>
+                    <button @click="setPackage('two-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Two days</button>
+                    <button @click="setPackage('all-in')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All in</button>
+                </div>
+                <PackageDeal :info="currentPackage"></PackageDeal>
+            </div>
+            <div class="xl:w-2/5">
+                <!-- Righty stuff -->
+                <h1>Packages info</h1>
+            </div>
         </div>
         <div class="xl:flex xl:items-center mt-16">
             <div class="xl:w-1/2 xl:px-8 space-y-4">
@@ -108,18 +118,35 @@ import PackageDeal from '../components/PackageDeal'
 const packages = {
     "full-day": {
         packageName: "Full-day package",
-        price: "500 SEK",
+        price: "22 000 SEK",
         perks: [
-            "Helo",
-            "gg"
+            "Showcase area of 3x2 m²",
+            "A stand-up table",
+            "Power outlets",
+            "Internet connection",
+            "Wardrobe",
+            "Parking tickets for our guest parking slots",
+            "A company host to help you upon arrival and during the fair",
+            "Breakfast and lunch for your company representatives",
+            "Access to our fair lounge which will provide coffee and fika",
+            "2 tickets to the Teknikfokus banquet",
+            "Display and presentation of your company on teknikfokus.se",
+            "Attendance in the fair's advertisement"
         ]
     },
     "two-day": {
-        packageName: "TWO DAY PACKAGE",
-        price: "4000 SEK",
+        packageName: "Two days package",
+        price: "31 000 SEK",
         perks: [
-            "some m2 thing",
-            "bibii thing"
+            "All the perks from the Full-day package extended over 2 days",
+        ]
+    },
+    "all-in": {
+        packageName: "All in package",
+        price: "50 000 SEK",
+        perks: [
+            "All the perks from the Two days package",
+            "Some other stuff",
         ]
     }
 }    
