@@ -33,8 +33,8 @@ export default {
         {
           name: "Yazan Al-Aswad",
           position: "Project Manager",
-          imageUrl: "@/placeholder-person.png",
-          linkedIn: "",
+          imageUrl: "@/Yazan.jpg",
+          linkedIn: "https://www.linkedin.com/in/yazan-a-a2b58115b/",
           mail: "yazan@teknikfokus.se"
         }
       ],
@@ -106,14 +106,14 @@ export default {
           name: "Pontus Sjöstedt",
           position: "IT Manager",
           imageUrl: "@/Pontus.jpg",
-          linkedIn: "",
+          linkedIn: "https://www.linkedin.com/in/pontus-sj%C3%B6stedt-647b81232/",
           mail: "pontus@teknikfokus.se"
         },
         {
           name: "Theo Callmar",
           position: "Business Manager",
           imageUrl: "@/Theo.jpg",
-          linkedIn: "",
+          linkedIn: "https://www.linkedin.com/in/theo-callmar-3bbb71163/",
           mail: "theo@teknikfokus.se"
         }
       ]
