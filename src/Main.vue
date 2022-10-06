@@ -102,10 +102,6 @@ const nav = [
         href: '/forcompanies'
     },
     {
-        name: 'FAQ',
-        href: '/FAQ'
-    },
-    {
         name: 'About Us',
         href: '/about'
     },
@@ -214,4 +210,8 @@ export default {
 </style>
 
 
-<style scoped src="@/css/navbar.css"></style>
+<style scoped src="@/css/navbar.css">
+    .navbarDiv {
+        min-height: 150px;
+    }
+</style>
