@@ -54,9 +54,9 @@
                 <!-- Lefty stuff -->
                 <div class="mt-6 xl:mt-0 pr-8">
                     <h2 class="text-4xl font-bold text-center">Event Packages</h2>
-                    <h3 class="mt-6">For a more direct contact with our students, we offer you events relating to the career fair.</h3>
+                    <h3 class="mt-6">Event packages are great way for you and your company to increase your chances at finding the best talent we can offer.</h3>
                     <h3 class="mt-6">The pub and the lunch lecture takes place prior to the fair, while the student sessions will be held during the fair.</h3>
-                    <h3 class="mt-6">If you your own idea for an event you may contact <a href="mailto:logistics@teknikfokus.se">logistics@teknikfokus.se</a> and discuss the possibility of bring your idea to fruition using our special event package.</h3>
+                    <h3 class="mt-6">If you have your own idea for an event you may contact <a href="mailto:logistics@teknikfokus.se">logistics@teknikfokus.se</a> and discuss the possibility of bring your idea to fruition using our special event package.</h3>
                 </div>
             </div>
             <div class="xl:w-3/5 align-center">
@@ -88,7 +88,7 @@
         <!--    TODO    -->
         <div class="text-center mt-20">
             <h3 class="text-2xl md:text-4xl font-bold">Other ideas on marketing<br/>your company through Teknikfokus?</h3>
-            <p class="text-lg md:text-xl mt-4 text-gray-600">Contact <a href="mailto:events@teknikfokus.se">events@teknikfokus.se</a> and we can discuss your ideas further. <br />We look forward to your suggestions!</p>
+            <p class="text-lg md:text-xl mt-4 text-gray-600">Contact <a href="mailto:event@teknikfokus.se">event@teknikfokus.se</a> and we can discuss your ideas further. <br />We look forward to your suggestions!</p>
         </div>
 
     </div>
@@ -144,7 +144,7 @@ const eventPackages = {
     "Lunch Lecture": {
         packageName: "Lunch Lecture",
         price: "14 000 kr plus 70 kr or 90 kr / attending studen",
-        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects. Lunch Lectures at TeknikFokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are:70 kr/attendee for a cold meal & one (1) drinkor 90 kr/attendee for a warm meal & one (1) drink."],
+        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects.", "Lunch Lectures at TeknikFokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.", "We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are:70 kr/attendee for a cold meal & one (1) drinkor 90 kr/attendee for a warm meal & one (1) drink."],
         perks: ["Your choice of lecture up to 45 minutes in one of E-husets lecture halls.", "Food and drink for the students attending the lecture."]
     },
     "Pub": {
@@ -163,14 +163,14 @@ const eventPackages = {
         packageName: "Special Event",
         price: "Price: Negotiable",
         text: ["Do you have the perfect idea and would like to create something unique for our students?", "Would you perhaps like to host a workshop or an interactive product demonstration?", "Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
-        perks: ["Anything which your imagination can come up with( within our abilities)."]
+        perks: ["Anything within the bounds of your imagination(within our abilities)."]
     }
 }
 
 const questions = [
     {
         question: "Why Teknikfokus?",
-        answer: "What makes us stand out is not our banquette or lounges. What makes us stand out is our students. Here at E-huset*, we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest software engineers, embedded system architects, internet aficionados, cybersecurity professionals and other amazing specialists. We are the fair for those of you who want to reach new levels in the digital world. ",
+        answer: "What makes us stand out is not our banquette or lounges, it is our students. Here at E-huset*, we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, communications- and informational-technologies as well as other amazing specialists. This is the fair for those who want to reach new levels in the world of engineering.",
         id: 0
     },
     {
@@ -195,7 +195,7 @@ const questions = [
     },
     {
         question: "Who organizes Teknikfokus?",
-        answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, leo@teknikfokus.se or Yazan Al-Aswadi, yazan@teknikfokus.se. You can read about everyone in the project group under ”About us”.",
+        answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, leo@teknikfokus.se or Yazan Al-Aswad, yazan@teknikfokus.se. You can read about everyone in the project group under ”About us”.",
         id: 5
     },
     {
