@@ -37,6 +37,6 @@
 
 <style scoped>
 .relativeblock {
-    min-height: 600px;
+    min-height: 630px;
 }
 </style>
