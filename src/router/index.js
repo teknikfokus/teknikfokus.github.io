@@ -22,14 +22,6 @@ const routes = [
     }
   },
   {
-    path: '/faq',
-    name: 'FAQ',
-    component: () => import(/* webpackChunkName: "faq" */ '../views/FAQ.vue'),
-    meta: {
-      title: 'FAQ'
-    }
-  },
-  {
     path: '/forcompanies',
     name: 'For Companies',
     component: () => import(/* webpackChunkName: "faq" */ '../views/ForCompanies.vue'),
@@ -67,31 +59,6 @@ const routes = [
     }],
     meta: {
       title: 'Attended previously'
-    }
-  },
-  // {
-  //   path: '/register',
-  //   name: 'Register',
-  //   beforeEnter: () => location.href = "https://fair.teknikfokus.se/new-signup/start",
-  //   // component: () => import(/* webpackChunkName: "about" */ '../views/Fair.vue'),
-  //   meta: {
-  //     title: 'Register for Fair'
-  //   }
-  // },
-  {
-    path: '/register',
-    name: 'Register',
-    component: () => import(/* webpackChunName: "register" */'../views/Register.vue'),
-    meta: {
-      title: 'Register Your Company'
-    }
-  },
-  {
-    path: '/for-companies',
-    name: 'ForCompanies',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ForCompanies.vue'),
-    meta: {
-      title: 'For Companies'
     }
   }
 ]
