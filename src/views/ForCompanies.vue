@@ -83,10 +83,10 @@
         <div id="How-to-apply" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
         <div class="pt-12 align-center flex-1">
+            <h3 class="text-center">For any question or additional inquiries contact <a href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
             <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="720" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
-
         <div class="text-center mt-20">
             <h3 class="text-2xl md:text-4xl font-bold">Other ideas on marketing<br/>your company through Teknikfokus?</h3>
             <p class="text-lg md:text-xl mt-4 text-gray-600">Contact <a href="mailto:event@teknikfokus.se">event@teknikfokus.se</a> and we can discuss your ideas further. <br />We look forward to your suggestions!</p>
