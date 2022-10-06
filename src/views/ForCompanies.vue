@@ -4,8 +4,8 @@
             <a href="#About-us" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>About us</div>
             </a>
-            <a href="#Packages" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-                <div>Packages</div>
+            <a href="#Our-offers" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+                <div>Our offers</div>
             </a>
             <a href="#FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>FAQ</div>
@@ -18,53 +18,54 @@
         <div id="About-us" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">About us</h1>
         <div class="xl:flex xl:items-center mt-12">
-            <h2 class ="text-center">TeknikFokus is the largest carrier fair within Biomedical, ComputerScience, Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, you can be certain that you will meet the talent neccessary to raise your goal post.</h2>
+            <h2 class ="text-center text-lg">TeknikFokus is the largest carrier fair within Biomedical, ComputerScience, Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, you can be certain that you will meet the talent neccessary to raise your goal post.</h2>
            <!--
             TODO
            -->
         </div>
         
-
-
-        <div id="Packages" class="py-6"></div>
-        <h1 class="mt-12 text-5xl text-center font-bold">Packages</h1>
-        <div class="xl:flex xl:items-center">
+        <div id="Our-offers" class="py-6"></div>
+        <h1 class="mt-12 text-5xl text-center font-bold">Our offers</h1>
+        <div class="xl:flex flex-row-reverse xl:items-center">
+            <div class="xl:w-2/5 align-center">
+                <!-- Lefty stuff -->
+                <div class="xl:mt-0 pl-8 py-4 text-base">
+                    <h2 class="text-4xl font-bold text-center">Packages</h2>
+                    <h3 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h3>
+                    <h3 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h3>
+                    <h3 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h3>
+                    <h3 class="mt-6">-Maybe some contact link-</h3>
+                    <h3 class="px-6">-exampleMail@technofocus.cn-</h3>
+                    <h3 class="px-6">-exampleMail@area51.gov-</h3>
+                </div>
+            </div>
             <div class="xl:w-3/5">
                 <!-- Righty stuff -->
-                <div class="xl:flex mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
+                <div class="xl:flex mt-8 text-white text-lg font-semibold border-b-2 border-white border-solid">
                     <button @click="setPackage('full-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Full day</button>
                     <button @click="setPackage('two-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Two days</button>
                     <button @click="setPackage('all-in')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All in</button>
                 </div>
                 <PackageDeal :info="currentPackage"></PackageDeal>
             </div>
-            <div class="xl:w-2/5 align-center">
-                <!-- Lefty stuff -->
-            <div class="mt-6 xl:mt-0 p-6 xl:p-12">
-                <h1 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h1>
-                <h1 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h1>
-                <h1 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h1>
-                <h1 class="mt-6">-Maybe some contact link-</h1>
-                <h1 class="px-6">-exampleMail@technofocus.cn-</h1>
-                <h1 class="px-6">-exampleMail@area51.gov-</h1>
-            </div>
-            </div>
         </div>
-        <div class="xl:flex xl:items-center">
-        <div class="xl:w-2/5">
-                <!-- Righty stuff -->
-                <div class="mt-6 xl:mt-0 p-6 xl:p-12">
-                    <h1 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h1>
-                    <h1 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h1>
-                    <h1 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h1>
-                    <h1 class="mt-6">-Maybe some contact link-</h1>
-                    <h1 class="px-6">-exampleMail@technofocus.cn-</h1>
-                    <h1 class="px-6">-exampleMail@area51.gov-</h1>
+    
+        <div class="xl:flex xl:items-center mt-8">
+            <div class="xl:w-2/5">
+                <!-- Lefty stuff -->
+                <div class="mt-6 xl:mt-0 pr-8">
+                    <h2 class="text-4xl font-bold text-center">Addons</h2>
+                    <h3 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h3>
+                    <h3 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h3>
+                    <h3 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h3>
+                    <h3 class="mt-6">-Maybe some contact link-</h3>
+                    <h3 class="px-6">-exampleMail@technofocus.cn-</h3>
+                    <h3 class="px-6">-exampleMail@area51.gov-</h3>
                 </div>
             </div>
             <div class="xl:w-3/5 align-center">
-                <!-- Lefty stuff -->
-                <div class="xl:flex mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
+                <!-- Righty stuff -->
+                <div class="xl:flex justify-end mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
                     <button @click="setEventPackage('Lunch Lecture')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
                     <button @click="setEventPackage('Pub')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
                     <button @click="setEventPackage('Student Sessions')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
@@ -84,25 +85,6 @@
                     </div>
                 </div>
             </div>
-        <!--    TODO    -->
-                <div class="mt-40 mx-auto grid sm:grid-cols-2 gap-6 md">
-                    <a href="https://www.lth.se/utbildning/datateknik300/kurser" target="_blank" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        <div>Computer Science and Engineering</div>
-                    </a>
-
-                    <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        <div>Information and Communication Engineering</div>
-                    </a>
-
-                    <a href="https://www.lth.se/utbildning/elektroteknik/kurser/" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        <div>Electrical Engineering</div>
-                    </a>
-
-                    <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-                        <div>Biomedical Engineering</div>
-                    </a>
-                </div>
-         
 
         <div id="How-to-apply" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">How to apply</h1>
@@ -178,47 +160,47 @@ const eventPackages = {
 }
 
 const questions = [
-            //{
-            //    question: "What is Teknikfokus?",
-            //    answer: "Teknikfokus is a career fair arranged by the E- and D-faculties at Lunds Tekniska Högskola. The fair is dedicated towards students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Our goal is to provide a platform where students and companies can network and build relations for the future, but also to inspire students in the fields of their future jobs. Do you have any questions about the fair? Contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se."
-            //},
-            {
-                question: "Why TeknikFokus?",
-                answer: "With LTH being one of the most prolific technical schools in the Nordics and considering how active D && E students are, makes TeknikFokus the perfect place for innovators to meet the exact talent and future employees they need."
-            },
-            {
-                question: "When is Teknikfokus?",
-                answer: "The fair will take place between 08:00 and 17:00, the 15th & 16th of February. Check out the companies' profiles for more information."
-            },
-            {
-                question: "Where will Teknikfokus be?",
-                answer: "E-huset LTH Ole Römers väg 3."
-            },
-            {
-                question: "Who will be attending?",
-                answer: "Bachelors, Masters and PhD-Students from the respective forementioned engineering programs, as well as 60 to 80 different companies within the relevant fields."
-            },
-            {
-                question: "What are students studying at the E- and D-faculties at LTH?",
-                answer: "Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science, Engineering Information and Communication Engineering, Electrical Engineering and Biomedical Engineering."
-            },
-            {
-                question: "Who organizes Teknikfokus?",
-                answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Tove Hector, tove@teknikfokus.se or Fredrik Hessner, fredrik@teknikfokus.se. You can read about everyone in the project group under ”About us”."
-            },
-            {
-                question: "What does the kontaktsamtal/student sessions mean?",
-                answer: "Student Sessions provide companies a possibility to have a private sit down with students on the days of the fair, to talk about summer jobs, internships, exam work or future employment. Interested students can register at the company booth and a link to the student profile and their resume will be available to the company who will schedule a meeting. If you have questions about student sessions, contact one of our project managers. Contact information can be found under ”About us”."
-            },
-            {
-                question: "Who should you contact if you have questions about the companies?",
-                answer: "If you have questions about the companies attending Teknikfokus, contact one of our Business managers. Contact information can be found under ”About us”. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers."
-            }//,
-            //{
-            //    question: "Have you been treated badly by a participant?",
-            //    answer: "If you or anyone you know has been treated badly during the fair we ask you to contact one of our project managers. If you are a student at LTH we recommend you to also contact your faculties  likabehandlingsombud or trivselmästare. "
-            //}
-      ];
+    {
+        question: "Why Teknikfokus?",
+        answer: "With LTH being one of the most prolific technical schools in the Nordics and considering how active D && E students are, makes TeknikFokus the perfect place for innovators to meet the exact talent and future employees they need.",
+        id: 0
+    },
+    {
+        question: "When is Teknikfokus?",
+        answer: "The fair will take place between 08:00 and 17:00, the 15th & 16th of February.",
+        id: 1
+    },
+    {
+        question: "Where will Teknikfokus be?",
+        answer: "E-huset LTH Ole Römers väg 3.",
+        id: 2
+    },
+    {
+        question: "Who will be attending?",
+        answer: "Bachelors, Masters and PhD-Students from the respective forementioned engineering programs, as well as 60 to 80 different companies within the relevant fields.",
+        id: 3
+    },
+    {
+        question: "What are students studying at the E- and D-faculties at LTH?",
+        answer: "Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science, Engineering Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Click below to view the course syllabus for each programme.",
+        id: 4
+    },
+    {
+        question: "Who organizes Teknikfokus?",
+        answer: "Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, leo@teknikfokus.se or Yazan Al-Aswadi, yazan@teknikfokus.se. You can read about everyone in the project group under ”About us”.",
+        id: 5
+    },
+    {
+        question: "What does the kontaktsamtal/student sessions mean?",
+        answer: "Student Sessions provide companies a possibility to have a private sit down with students on the days of the fair, to talk about summer jobs, internships, exam work or future employment. Interested students can register at the company booth and a link to the student profile and their resume will be available to the company who will schedule a meeting. If you have questions about student sessions, contact one of our project managers. Contact information can be found under ”About us”.",
+        id: 6
+    },
+    {
+        question: "Who should you contact if you have questions about the companies?",
+        answer: "If you have questions as a company or regarding a company attending Teknikfokus, please contact us at relations@teknikfokus.se. Also, feel free to reach out to us using contact information under ”About us”. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers at projektledare@teknikfokus.se.",
+        id: 7
+    }
+];
 var currentPackage = packages["full-day"]
 var currentEventPackage = eventPackages["Lunch Lecture"]
 export default {

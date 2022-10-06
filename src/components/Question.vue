@@ -15,7 +15,27 @@
                 leave-to-class="transform scale-95 opacity-0"
             >
                 <DisclosurePanel class="text-gray-500 px-2 pb-3 pt-1">
-                    {{ info.answer }}
+                    <div>
+                        {{ info.answer }}
+                        <!-- Include programme info if question id == 4 -->
+                        <div v-if="info.id == 4" class="mt-8 mx-auto grid sm:grid-cols-2 gap-6 md">
+                            <a href="https://www.lth.se/utbildning/datateknik300/kurser" target="_blank" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                                <div>Computer Science and Engineering</div>
+                            </a>
+
+                            <a href="https://www.lth.se/utbildning/informations-och-kommunikationsteknik/kurser" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                                <div>Information and Communication Engineering</div>
+                            </a>
+
+                            <a href="https://www.lth.se/utbildning/elektroteknik/kurser/" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                                <div>Electrical Engineering</div>
+                            </a>
+
+                            <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
+                                <div>Biomedical Engineering</div>
+                            </a>
+                        </div>
+                    </div>
                 </DisclosurePanel>
             </transition>
         </Disclosure>
