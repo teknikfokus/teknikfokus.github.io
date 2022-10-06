@@ -11,7 +11,7 @@
                 <div>FAQ</div>
             </a>
             <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-                <div>How to apply</div>
+                <div>Application of interest</div>
             </a>
         </div>
         
@@ -32,13 +32,9 @@
             <div class="xl:w-2/5 align-center">
                 <!-- Lefty stuff -->
                 <div class="xl:mt-0 pl-8 py-4 text-base">
-                    <h2 class="text-4xl font-bold text-center">Packages</h2>
-                    <h3 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h3>
-                    <h3 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h3>
-                    <h3 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h3>
-                    <h3 class="mt-6">-Maybe some contact link-</h3>
-                    <h3 class="px-6">-exampleMail@technofocus.cn-</h3>
-                    <h3 class="px-6">-exampleMail@area51.gov-</h3>
+                    <h2 class="text-4xl font-bold text-center">Fair Packages</h2>
+                    <h3 class="mt-6">In order to atttend the fair one of our three packages must be purchased, with the option for complimentary add-ons.</h3>
+                    <h3 class="mt-6">If our add-ons do not cover your needs please contact <a href="mailto:events@teknikfokus.se">events@teknikfokus.se</a> for a custom tailored add-on</h3>
                 </div>
             </div>
             <div class="xl:w-3/5">
@@ -57,13 +53,10 @@
             <div class="xl:w-2/5">
                 <!-- Lefty stuff -->
                 <div class="mt-6 xl:mt-0 pr-8">
-                    <h2 class="text-4xl font-bold text-center">Addons</h2>
-                    <h3 class="mt-6">-For more information of the signup and the unicorns please visit someLink where Foo and bar are eating squirrels</h3>
-                    <h3 class="mt-6">There has been a giant mistake made regarding the candy bar there should have been candy and not credit</h3>
-                    <h3 class="mt-6">some pamphlet link - FOOO BAR BAR FOO</h3>
-                    <h3 class="mt-6">-Maybe some contact link-</h3>
-                    <h3 class="px-6">-exampleMail@technofocus.cn-</h3>
-                    <h3 class="px-6">-exampleMail@area51.gov-</h3>
+                    <h2 class="text-4xl font-bold text-center">Event Packages</h2>
+                    <h3 class="mt-6">For a more direct contact with our students, we offer you events relating to the career fair.</h3>
+                    <h3 class="mt-6">The pub and the lunch lecture takes place prior to the fair, while the student sessions will be held during the fair.</h3>
+                    <h3 class="mt-6">If you your own idea for an event you may contact <a href="mailto:logistics@teknikfokus.se">logistics@teknikfokus.se</a> and discuss the possibility of bring your idea to fruition using our special event package.</h3>
                 </div>
             </div>
             <div class="xl:w-3/5 align-center">
@@ -91,7 +84,7 @@
             </div>
 
         <div id="How-to-apply" class="py-6"></div>
-        <h1 class="mt-12 text-5xl text-center font-bold">How to apply</h1>
+        <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
         <!--    TODO    -->
         <div class="text-center mt-20">
             <h3 class="text-2xl md:text-4xl font-bold">Other ideas on marketing<br/>your company through Teknikfokus?</h3>
@@ -112,17 +105,17 @@ const packages = {
         price: "22 000 SEK",
         perks: [
             "Showcase area of 3x2 m²",
-            "A stand-up table",
+            "Attendance in the fair's advertisement",
+            "Display and presentation of your company on teknikfokus.se",
+            "A company host to help you upon arrival and during the fair",
+            "Breakfast and lunch for your company representatives",
+            "One Parking ticket for our guest parking slots",
+            "Access to our fair lounge which will provide coffee and fika",
+            "2 tickets to the Teknikfokus banquet",
+            "One bar table",
             "Power outlets",
             "Internet connection",
             "Wardrobe",
-            "Parking tickets for our guest parking slots",
-            "A company host to help you upon arrival and during the fair",
-            "Breakfast and lunch for your company representatives",
-            "Access to our fair lounge which will provide coffee and fika",
-            "2 tickets to the Teknikfokus banquet",
-            "Display and presentation of your company on teknikfokus.se",
-            "Attendance in the fair's advertisement"
         ]
     },
     "two-day": {
@@ -152,25 +145,25 @@ const eventPackages = {
         packageName: "Lunch Lecture",
         price: "14 000 kr plus 70 kr or 90 kr / attending studen",
         text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects. Lunch Lectures at TeknikFokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are:70 kr/attendee for a cold meal & one (1) drinkor 90 kr/attendee for a warm meal & one (1) drink."],
-        perks: ["foo", "bar"]
+        perks: ["Your choice of lecture up to 45 minutes in one of E-husets lecture halls.", "Food and drink for the students attending the lecture."]
     },
     "Pub": {
         packageName: "Pub",
         price: "20 000 kr plus costs for food sold during the event (optional)",
         text: ["At Teknikfokus we offer your company to host a Pub at one of our student spaces where food and drinks will be served by other students from the D or E guilds*. Here you have an excellent opportunity to mingle and present yourselves in a more personal manner. In addition to that, competitions and games can be held to increase the student involvement." ,"Pubs tend to be very popular among our students and will give you the opportunity to meet them in a more relaxed, cozy setting."],
-        perks: ["Private session with a very romantic lamp found in Edekvata", "Bob"]
+        perks: ["A pub held in E-huset", "Organization by our students"]
     },
     "Student Sessions": {
         packageName: "Student Sessions",
         price: "7000kr for one (1) day and 12 000 for two (2) days.",
-        text: ["Are you looking for Master’s thesis writers, summer workers, or, perhaps, a future colleague or collaborator?", "Student Sessions are the perfect platform for you to have one-on-one meetings, discussions or interviews with our students, where you can discuss anything from future employment to collaborative projects and other prospects. Prior to the fair, students register their interests in your company and apply with a CV and cover letter. You may thereafter handpick which students among the applicants you are interested in meeting. TeknikFokus will thereafter contact all the chosen students, schedule appointments and arrange rooms on your behalf. Each session is scheduled for 30-45 minutes. Pricing above refers to one (1) meeting room."],
-        perks: ["FLYING SAUCERS AND STUFF"]
+        text: ["Are you looking for Master’s thesis writers, summer workers, or, perhaps, a future colleague or collaborator?", "Student Sessions are the perfect platform for you to have one-on-one meetings, discussions or interviews with our students, where you can discuss anything from future employment to collaborative projects and other prospects." ,"Prior to the fair, students register their interests in your company and apply with a CV and cover letter. You may thereafter handpick which students among the applicants you are interested in meeting. TeknikFokus will thereafter contact all the chosen students, schedule appointments and arrange rooms on your behalf. Each session is scheduled for 30-45 minutes. Pricing above refers to one (1) meeting room."],
+        perks: ["Private room"]
     },
     "Special Event": {
         packageName: "Special Event",
         price: "Price: Negotiable",
-        text: ["Do you have the perfect idea and would like to create something unique for our students? Would you perhaps like to host a workshop or an interactive product demonstration? Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
-        perks: []
+        text: ["Do you have the perfect idea and would like to create something unique for our students?", "Would you perhaps like to host a workshop or an interactive product demonstration?", "Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
+        perks: ["Anything which your imagination can come up with( within our abilities)."]
     }
 }
 
