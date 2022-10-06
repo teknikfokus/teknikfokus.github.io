@@ -46,20 +46,6 @@ const routes = [
     meta: {
       title: 'Fair'
     },
-  },
-  {
-    path: '/companies',
-    name: 'Attending',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Companies.vue'),
-    children: [{
-        path: ':id',
-        name: 'Company',
-        component: () => import(/* webpackChunkName: "about" */ '../components/CompanyModal.vue'),
-        props: true,
-    }],
-    meta: {
-      title: 'Attended previously'
-    }
   }
 ]
 
