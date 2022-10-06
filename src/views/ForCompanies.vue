@@ -47,6 +47,7 @@
                     <button @click="setPackage('full-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Full day</button>
                     <button @click="setPackage('two-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Two days</button>
                     <button @click="setPackage('all-in')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All in</button>
+                    <button @click="setPackage('Addons')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Add-ons</button>
                 </div>
                 <PackageDeal :info="currentPackage"></PackageDeal>
             </div>
@@ -138,6 +139,11 @@ const packages = {
             "All the perks from the Two days package",
             "Some other stuff",
         ]
+    },
+    "Addons": {
+        packageName: "Add-ons",
+        price: "",
+        perks: ["Bar table 400kr/pc", "Bar chair 300 kr/pc", "TV 40\" 2800kr/pc", "TV 50\" 3400kr/pc"],
     }
 }
 
