@@ -162,7 +162,7 @@ const eventPackages = {
         packageName: "Student Sessions",
         price: "7000kr for one (1) day and 12 000 for two (2) days.",
         text: ["Are you looking for Master’s thesis writers, summer workers, or perhaps a future colleague or collaborator?", "Student Sessions is the perfect platform for you to have one-on-one meetings, discussions or interviews with our students, where you can discuss anything from future employment to collaborative projects and other prospects." ,"Prior to the fair, students register their interests in your company and apply with a CV and cover letter. You may thereafter handpick which students among the applicants you are interested in meeting. Teknikfokus will thereafter contact all the chosen students, schedule appointments and arrange rooms on your behalf. Each session is scheduled for 30-45 minutes. Pricing above refers to one (1) meeting room."],
-        perks: ["Private room"]
+        perks: ["Meeting room", "Student CVs", "Student personal letters"]
     },
     "Special Event": {
         packageName: "Special Event",
