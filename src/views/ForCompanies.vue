@@ -21,9 +21,6 @@
             <h2 class ="text-center text-lg">
                 Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, TeknikFokus strives to be at the forefront of building student-customer relations within the areas of our specialty. We are where talent meets opportunity. We are where the present meets the future.
             </h2>
-           <!--
-            TODO
-           -->
         </div>
         
         <div id="Our-offers" class="py-6"></div>
@@ -32,7 +29,7 @@
             <div class="xl:w-2/5 align-center">
                 <!-- Lefty stuff -->
                 <div class="xl:mt-0 pl-8 py-4 text-base">
-                    <h2 class="text-4xl font-bold text-center">Fair Packages</h2>
+                    <h2 class="text-4xl font-bold text-center">Exhibition Packages</h2>
                     <h3 class="mt-6">In order to atttend the fair one of our three packages must be purchased, with the option for complimentary add-ons.</h3>
                     <h3 class="mt-6">If our add-ons do not cover your needs please contact <a href="mailto:event@teknikfokus.se">event@teknikfokus.se</a> for a custom tailored add-on</h3>
                 </div>
@@ -40,9 +37,9 @@
             <div class="xl:w-3/5">
                 <!-- Righty stuff -->
                 <div class="xl:flex mt-8 text-white text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setPackage('full-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Full day</button>
-                    <button @click="setPackage('two-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Two days</button>
-                    <button @click="setPackage('all-in')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All in</button>
+                    <button @click="setPackage('1-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">1-day</button>
+                    <button @click="setPackage('2-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">2-day</button>
+                    <button @click="setPackage('all-in')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All-in</button>
                     <button @click="setPackage('Addons')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Add-ons</button>
                 </div>
                 <PackageDeal :info="currentPackage"></PackageDeal>
@@ -86,7 +83,7 @@
         <div id="How-to-apply" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
         <div class="pt-12 align-center flex-1">
-            <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="720" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="720" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
 
@@ -104,43 +101,47 @@ import PackageDealWithText from '../components/PackageDealWithText'
 import ErrorMessage from '../components/ErrorMessage'
 import Question from '../components/Question'
 const packages = {
-    "full-day": {
-        packageName: "Full-day package",
-        price: "22 000 SEK",
+    "1-day": {
+        packageName: "1-day package",
+        price: "21 000 SEK",
         perks: [
             "Showcase area of 3x2 m²",
             "Attendance in the fair's advertisement",
             "Display and presentation of your company on teknikfokus.se",
             "A company host to help you upon arrival and during the fair",
             "Breakfast and lunch for your company representatives",
-            "One Parking ticket for our guest parking slots",
             "Access to our fair lounge which will provide coffee and fika",
-            "2 tickets to the Teknikfokus banquet",
-            "One bar table",
+            "One (1) parking ticket for our guest parking slots",
+            "Two (2) tickets to the Teknikfokus banquet",
+            "One (1) bar table",
             "Power outlets",
             "Internet connection",
             "Wardrobe",
         ]
     },
-    "two-day": {
-        packageName: "Two days package",
+    "2-day": {
+        packageName: "2-day package",
         price: "31 000 SEK",
         perks: [
-            "All the perks from the Full-day package extended over 2 days",
+            "All the perks from the 1-day package extended over 2 days",
         ]
     },
     "all-in": {
-        packageName: "All in package",
+        packageName: "All-in package",
         price: "50 000 SEK",
         perks: [
-            "All the perks from the Two days package",
-            "Some other stuff",
+            "Two-day package",
+            "One (1) extra bar table",
+            "Two (2) bar chairs",
+            "One (1) 50\" TV",
+            "One (1) Lunch lecture",
+            "One (1) day of Student sessions",
         ]
     },
     "Addons": {
         packageName: "Add-ons",
         price: "",
-        perks: ["Bar table 400kr/pc", "Bar chair 300 kr/pc", "TV 40\" (including floor stand) 2800kr/pc", "TV 50\" (including floor stand) 3400kr/pc"],
+        perks: ["Bar table 400kr/pc", "Bar chair 300 kr/pc", "TV 40\" + including floor stand 2800kr/pc", "TV 50\" + including floor stand 3400kr/pc"],
     }
 }
 
@@ -213,7 +214,7 @@ const questions = [
         id: 7
     }
 ];
-var currentPackage = packages["full-day"]
+var currentPackage = packages["1-day"]
 var currentEventPackage = eventPackages["Lunch Lecture"]
 export default {
   name: 'ForCompanies',
