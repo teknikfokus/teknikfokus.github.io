@@ -71,7 +71,7 @@ export default {
           name: "Edmond Mentori",
           position: "Event Manager",
           imageUrl: "@/Edmond.jpg",
-          linkedIn: "",
+          linkedIn: "https://www.linkedin.com/in/edmondmentori/",
           mail: "edmond@teknikfokus.se"
         },
         {
