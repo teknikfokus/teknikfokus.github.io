@@ -82,9 +82,9 @@
 
         <div id="How-to-apply" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
-        <div class="pt-12 align-center flex-1">
-            <h3 class="text-center">For any question or additional inquiries contact <a href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
-            <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="720" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div class="pt-4 align-center flex-1">
+            <h3 class="text-center text-xl">For any questions or additional inquiries please contact <a href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
+            <iframe class="pt-4 max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="720" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
         <div class="text-center mt-20">
