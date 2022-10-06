@@ -18,7 +18,9 @@
         <div id="About-us" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">About us</h1>
         <div class="xl:flex xl:items-center mt-12">
-            <h2 class ="text-center text-lg">TeknikFokus is the largest carrier fair within Biomedical, ComputerScience, Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, you can be certain that you will meet the talent neccessary to raise your goal post.</h2>
+            <h2 class ="text-center text-lg">
+                Teknikfokus is the largest career fair within Biomedical, ComputerScience,Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, TeknikFokus strives to be at the forefront of building student-customer relations within the areas of our specialty. We are where talent meets opportunity. We are where the present meets the future.
+            </h2>
            <!--
             TODO
            -->
@@ -69,6 +71,7 @@
                     <button @click="setEventPackage('Lunch Lecture')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
                     <button @click="setEventPackage('Pub')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
                     <button @click="setEventPackage('Student Sessions')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
+                    <button @click="setEventPackage('Special Event')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Special Event</button>
                 </div>
                 <PackageDealWithText :info="currentEventPackage"></PackageDealWithText>
             </div>
@@ -142,27 +145,33 @@ const eventPackages = {
     "Lunch Lecture": {
         packageName: "Lunch Lecture",
         price: "14 000 kr plus 70 kr or 90 kr / attending studen",
-        text: ["At TeknikFokus we offer your company to arrange a lunch lecture. This is a splendid opportunity to present yourselves towards the students during 45 minutes. We offer up to 100 lunches, through the following two different levels of payment per attendee. Where 70 kr/attendee corresponds to a cold-food dish plus one (1) drink, and 90 kr/attendee corresponds to a hot-food dish plusone (1) drink.", "Lunch lectures usually are very popular among the students and will give you the exposure that you desire."],
+        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects. Lunch Lectures at TeknikFokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are:70 kr/attendee for a cold meal & one (1) drinkor 90 kr/attendee for a warm meal & one (1) drink."],
         perks: ["foo", "bar"]
     },
     "Pub": {
         packageName: "Pub",
-        price: "20 000 kr plus costs for food sold during the event optional",
-        text: ["At TeknikFokus we offer your company to arrange a Pub. This is a splendid opportunity to present yourselves towards the students, possibly have some competition or have a chat and mingle around with the attendees.", "Pubs tend to be very popular among the students and will give you the opportunity to meet the students in a more relaxed atmosphere."],
+        price: "20 000 kr plus costs for food sold during the event (optional)",
+        text: ["At Teknikfokus we offer your company to host a Pub at one of our student spaces where food and drinks will be served by other students from the D or E guilds*. Here you have an excellent opportunity to mingle and present yourselves in a more personal manner. In addition to that, competitions and games can be held to increase the student involvement." ,"Pubs tend to be very popular among our students and will give you the opportunity to meet them in a more relaxed, cozy setting."],
         perks: ["Private session with a very romantic lamp found in Edekvata", "Bob"]
     },
     "Student Sessions": {
         packageName: "Student Sessions",
-        price: "One day - 7 000 kr     Two days - 12 000 kr",
-        text: ["During your visit at TeknikFokus we have the possibility to offer Student Sessions for your company. This is tailored for your company if you would like one-on-one discussions with students. In advance of the fair, students will register their interest and apply with relevant documents. Hence, your company selects those of whom you are interested on having a discussion with. Later, TeknikFokus will arrange rooms and schedules for these meetings, as well as informing the attending students.", "This provides the opportunity for a more personal meeting between both parties. Each session is scheduled for 30 minutes. Pricing above refers to one (1) meeting room."],
+        price: "7000kr for one (1) day and 12 000 for two (2) days.",
+        text: ["Are you looking for Master’s thesis writers, summer workers, or, perhaps, a future colleague or collaborator?", "Student Sessions are the perfect platform for you to have one-on-one meetings, discussions or interviews with our students, where you can discuss anything from future employment to collaborative projects and other prospects. Prior to the fair, students register their interests in your company and apply with a CV and cover letter. You may thereafter handpick which students among the applicants you are interested in meeting. TeknikFokus will thereafter contact all the chosen students, schedule appointments and arrange rooms on your behalf. Each session is scheduled for 30-45 minutes. Pricing above refers to one (1) meeting room."],
         perks: ["FLYING SAUCERS AND STUFF"]
+    },
+    "Special Event": {
+        packageName: "Special Event",
+        price: "Price: Negotiable",
+        text: ["Do you have the perfect idea and would like to create something unique for our students? Would you perhaps like to host a workshop or an interactive product demonstration? Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
+        perks: []
     }
 }
 
 const questions = [
     {
         question: "Why Teknikfokus?",
-        answer: "With LTH being one of the most prolific technical schools in the Nordics and considering how active D && E students are, makes TeknikFokus the perfect place for innovators to meet the exact talent and future employees they need.",
+        answer: "What makes us stand out is not our banquette or lounges. What makes us stand out is our students. Here at E-huset*, we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest software engineers, embedded system architects, internet aficionados, cybersecurity professionals and other amazing specialists. We are the fair for those of you who want to reach new levels in the digital world. ",
         id: 0
     },
     {
