@@ -36,11 +36,11 @@
             </div>
             <div class="xl:w-3/5">
                 <!-- Righty stuff -->
-                <div class="xl:flex mt-8 text-white text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setPackage('1-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">1-day</button>
-                    <button @click="setPackage('2-day')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">2-day</button>
-                    <button @click="setPackage('all-in')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All-in</button>
-                    <button @click="setPackage('Addons')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Add-ons</button>
+                <div class="xl:flex mt-8 text-white text-sm sm:text-lg font-semibold border-b-2 border-white border-solid">
+                    <button @click="setPackage('1-day')" class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">1-day</button>
+                    <button @click="setPackage('2-day')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">2-day</button>
+                    <button @click="setPackage('all-in')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All-in</button>
+                    <button @click="setPackage('Addons')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Add-ons</button>
                 </div>
                 <PackageDeal :info="currentPackage"></PackageDeal>
             </div>
@@ -58,11 +58,11 @@
             </div>
             <div class="xl:w-3/5 align-center">
                 <!-- Righty stuff -->
-                <div class="xl:flex justify-end mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setEventPackage('Lunch Lecture')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
-                    <button @click="setEventPackage('Pub')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
-                    <button @click="setEventPackage('Student Sessions')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
-                    <button @click="setEventPackage('Special Event')" class="px-2 p-4 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Special Event</button>
+                <div class="mt-12 text-white text-sm sm:text-lg font-semibold border-b-2 border-white border-solid">
+                    <button @click="setEventPackage('Lunch Lecture')" class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
+                    <button @click="setEventPackage('Pub')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
+                    <button @click="setEventPackage('Student Sessions')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
+                    <button @click="setEventPackage('Special Event')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Special Event</button>
                 </div>
                 <PackageDealWithText :info="currentEventPackage"></PackageDealWithText>
             </div>
@@ -82,9 +82,9 @@
 
         <div id="How-to-apply" class="py-6"></div>
         <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
-        <div class="pt-4 align-center flex-1">
-            <h3 class="text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
-            <iframe class="pt-4 max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="720" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
+        <div class="pt-4 max-w-5xl h-700 mx-auto">
+            <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
         <div class="text-center mt-20">
