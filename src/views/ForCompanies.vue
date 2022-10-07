@@ -103,7 +103,7 @@ import Question from '../components/Question'
 const packages = {
     "1-day": {
         packageName: "1-day package",
-        price: "22 000 SEK",
+        price: "21 000 SEK",
         perks: [
             "Showcase area of 3x2 m²",
             "Attendance in the fair's advertisement",
@@ -121,7 +121,7 @@ const packages = {
     },
     "2-day": {
         packageName: "2-day package",
-        price: "32 000 SEK",
+        price: "31 000 SEK",
         perks: [
             "All the perks from the 1-day package extended over 2 days",
         ]
