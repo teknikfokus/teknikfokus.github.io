@@ -149,7 +149,7 @@ const eventPackages = {
     "Lunch Lecture": {
         packageName: "Lunch Lecture",
         price: "14 000 kr plus 70 kr or 90 kr / attending student",
-        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects.", "Lunch Lectures at Teknikfokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.", "We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are:70 kr/attendee for a cold meal & one (1) drinkor 90 kr/attendee for a warm meal & one (1) drink."],
+        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects.", "Lunch Lectures at Teknikfokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.", "We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are: 70 kr/attendee for a cold meal & one (1) drink or 90 kr/attendee for a warm meal & one (1) drink."],
         perks: ["Your choice of lecture up to 45 minutes in one of E-husets lecture halls.", "Food and drink for the students attending the lecture."]
     },
     "Pub": {
