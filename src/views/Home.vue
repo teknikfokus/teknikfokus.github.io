@@ -13,7 +13,9 @@
                 <div class="w-1/2">
                   <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>
                   <div class="mb-3">Where?</div>
+                  <a href="https://goo.gl/maps/SvAD9hk5H9JR7mnA9" target="_blank">
                   <p>E-huset LTH Ole Römers väg 3</p>
+                  </a>
                 </div>
             </div>
             <div class="md:w-1/2 space-y-2">
