@@ -37,10 +37,14 @@
             <div class="xl:w-3/5">
                 <!-- Righty stuff -->
                 <div class="xl:flex mt-8 text-white text-sm sm:text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setPackage('1-day')" class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">1-day</button>
-                    <button @click="setPackage('2-day')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">2-day</button>
-                    <button @click="setPackage('all-in')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All-in</button>
-                    <button @click="setPackage('Addons')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Add-ons</button>
+                    <button
+                        v-for="item in Object.values(this.packages)"
+                        :key="item.packageName"
+                        @click="setPackage(item.packageName)"
+                        class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
+                    >
+                        {{item.packageName}}
+                    </button>
                 </div>
                 <PackageDeal :info="currentPackage"></PackageDeal>
             </div>
@@ -59,10 +63,14 @@
             <div class="xl:w-3/5 align-center">
                 <!-- Righty stuff -->
                 <div class="mt-12 text-white text-sm sm:text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setEventPackage('Lunch Lecture')" class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
-                    <button @click="setEventPackage('Pub')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
-                    <button @click="setEventPackage('Student Sessions')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
-                    <button @click="setEventPackage('Special Event')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Special Event</button>
+                    <button
+                        v-for="item in Object.values(this.eventPackages)"
+                        :key="item.packageName"
+                        @click="setEventPackage(item.packageName)"
+                        class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
+                    >
+                        {{item.packageName}}
+                    </button>
                 </div>
                 <PackageDealWithText :info="currentEventPackage"></PackageDealWithText>
             </div>
@@ -102,7 +110,7 @@ import ErrorMessage from '../components/ErrorMessage'
 import Question from '../components/Question'
 const packages = {
     "1-day": {
-        packageName: "1-day package",
+        packageName: "1-day",
         price: "21 000 SEK",
         perks: [
             "Showcase area of 3x2 m²",
@@ -120,14 +128,14 @@ const packages = {
         ]
     },
     "2-day": {
-        packageName: "2-day package",
+        packageName: "2-day",
         price: "31 000 SEK",
         perks: [
             "All the perks from the 1-day package extended over 2 days",
         ]
     },
-    "all-in": {
-        packageName: "All-in package",
+    "All-in": {
+        packageName: "All-in",
         price: "50 000 SEK",
         perks: [
             "Two-day package",
@@ -139,7 +147,7 @@ const packages = {
         ]
     },
     "Addons": {
-        packageName: "Add-ons",
+        packageName: "Addons",
         price: "",
         perks: ["Bar table 400kr/pc", "Bar chair 300 kr/pc", "TV 40\" & floor stand 2800kr/pc", "TV 50\" & floor stand 3400kr/pc"],
     }
@@ -248,6 +256,7 @@ export default {
   },
   methods: {
     setPackage(key){
+        console.log('Package: ' + key)
         this.currentPackage = packages[key]
     },
     setEventPackage(key){
