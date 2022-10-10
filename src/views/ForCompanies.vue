@@ -168,7 +168,7 @@ const eventPackages = {
         packageName: "Special Event",
         price: "Price: Negotiable",
         text: ["Do you have the perfect idea and would like to create something unique for our students?", "Would you perhaps like to host a workshop or an interactive product demonstration?", "Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
-        perks: ["Anything within the bounds of your imagination (and within our abilities)."]
+        perks: ["Anything within the bounds of your imagination (and within our capabilities)."]
     }
 }
 
