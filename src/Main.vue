@@ -1,8 +1,7 @@
 <template>
-  <div class="" id="main" ref="main">
+  <div id="main" ref="main">
     
     <Popover class="relative md:hidden">
-    
         <div class="w-full bg-blue-primary flex justify-end items-center">
             <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
                 <MenuIcon class="w-8 h-8 text-white" />

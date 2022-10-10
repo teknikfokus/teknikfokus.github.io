@@ -27,21 +27,66 @@
         <h1 class="mt-12 text-5xl text-center font-bold">Our offers</h1>
         <div class="xl:flex flex-row-reverse xl:items-center">
             <div class="xl:w-2/5 align-center">
-                <!-- Lefty stuff -->
+                <!-- Righty stuff -->
                 <div class="xl:mt-0 pl-8 py-4 text-lg">
                     <h2 class="text-4xl font-bold text-center">Exhibition Packages</h2>
-                    <h3 class="mt-6">In order to atttend the fair one of our three packages must be purchased, with the option for complimentary add-ons.</h3>
+                    <h3 class="mt-6">In order to attend the fair one of our three packages must be purchased, with the option for complimentary add-ons.</h3>
                     <h3 class="mt-6">If our add-ons do not cover your needs please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for a custom tailored add-on</h3>
                 </div>
             </div>
             <div class="xl:w-3/5">
-                <!-- Righty stuff -->
-                <div class="xl:flex mt-8 text-white text-sm sm:text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setPackage('1-day')" class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">1-day</button>
-                    <button @click="setPackage('2-day')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">2-day</button>
-                    <button @click="setPackage('all-in')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">All-in</button>
-                    <button @click="setPackage('Addons')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Add-ons</button>
+                <!-- Lefty stuff -->
+                <div class="hidden md:block xl:flex mt-8 text-white text-lg font-semibold border-b-2 border-white border-solid">
+                    <!-- Shown for large devices -->
+                    <button
+                        v-for="item in Object.values(this.packages)"
+                        :key="item.packageName"
+                        @click="setPackage(item.packageName)"
+                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
+                    >
+                        {{item.packageName}}
+                    </button>
                 </div>
+
+                <Popover class="relative md:hidden">
+                    <!-- Shown for small devices -->
+                    <div class="w-20 bg-blue-primary flex rounded-t-lg justify-center border-b-2 border-white border-double">
+                        <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
+                            <MenuIcon class="w-8 h-8 text-white" />
+                        </PopoverButton>
+                    </div>
+
+                    <transition
+                        enter-active-class="transition duration-200 ease-out"
+                        enter-from-class="translate-y-1 opacity-0"
+                        enter-to-class="translate-y-0 opacity-100"
+                        leave-active-class="transition duration-150 ease-in"
+                        leave-from-class="translate-y-0 opacity-100"
+                        leave-to-class="translate-y-1 opacity-0"
+                    >
+                        <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
+                        <div class="w-full relative px-2 mt-3">
+                            <PopoverButton class="absolute right-4 top-2">
+                                <XIcon class="w-5 h-5 text-blue-primary-light" />
+                            </PopoverButton>
+
+                            <div
+                                class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+                                    <button
+                                        class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
+                                        v-for="item in Object.values(this.packages)" 
+                                        :key="item.packageName"
+                                        @click="{setPackage(item.packageName); close();}"
+                                    >
+                                        {{ item.packageName }}
+                                    </button>
+                            </div>
+                        </div>
+
+                        </PopoverPanel>
+                    </transition>
+                </Popover>
+
                 <PackageDeal :info="currentPackage"></PackageDeal>
             </div>
         </div>
@@ -58,12 +103,56 @@
             </div>
             <div class="xl:w-3/5 align-center">
                 <!-- Righty stuff -->
-                <div class="mt-12 text-white text-sm sm:text-lg font-semibold border-b-2 border-white border-solid">
-                    <button @click="setEventPackage('Lunch Lecture')" class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Lunch Lecture</button>
-                    <button @click="setEventPackage('Pub')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Pub</button>
-                    <button @click="setEventPackage('Student Sessions')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Student Sessions</button>
-                    <button @click="setEventPackage('Special Event')" class="p-2 bg-blue-primary rounded-t-xl border-l-2 border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold">Special Event</button>
+                <div class="hidden md:block mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
+                    <!-- Shown for large devices -->
+                    <button
+                        v-for="item in Object.values(this.eventPackages)"
+                        :key="item.packageName"
+                        @click="setEventPackage(item.packageName)"
+                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
+                    >
+                        {{item.packageName}}
+                    </button>
                 </div>
+                <Popover class="relative md:hidden mt-12">
+                    <!-- Shown for small devices -->
+                    <div class="w-20 bg-blue-primary flex rounded-t-lg justify-center border-b-2 border-white border-double">
+                        <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
+                            <MenuIcon class="w-8 h-8 text-white" />
+                        </PopoverButton>
+                    </div>
+
+                    <transition
+                        enter-active-class="transition duration-200 ease-out"
+                        enter-from-class="translate-y-1 opacity-0"
+                        enter-to-class="translate-y-0 opacity-100"
+                        leave-active-class="transition duration-150 ease-in"
+                        leave-from-class="translate-y-0 opacity-100"
+                        leave-to-class="translate-y-1 opacity-0"
+                    >
+                        <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
+                        <div class="w-full relative px-2 mt-3">
+                            <PopoverButton class="absolute right-4 top-2">
+                                <XIcon class="w-5 h-5 text-blue-primary-light" />
+                            </PopoverButton>
+
+                            <div
+                                class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+                                    <button
+                                        class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
+                                        v-for="item in Object.values(this.eventPackages)" 
+                                        :key="item.packageName"
+                                        @click="{setEventPackage(item.packageName); close();}"
+                                    >
+                                        {{ item.packageName }}
+                                    </button>
+                            </div>
+                        </div>
+
+                        </PopoverPanel>
+                    </transition>
+                </Popover>
+
                 <PackageDealWithText :info="currentEventPackage"></PackageDealWithText>
             </div>
         </div>
@@ -96,13 +185,15 @@
 </template>
 
 <script>
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 import PackageDeal from '../components/PackageDeal'
 import PackageDealWithText from '../components/PackageDealWithText'
 import ErrorMessage from '../components/ErrorMessage'
 import Question from '../components/Question'
 const packages = {
     "1-day": {
-        packageName: "1-day package",
+        packageName: "1-day",
         price: "21 000 SEK",
         perks: [
             "Showcase area of 3x2 m²",
@@ -120,14 +211,14 @@ const packages = {
         ]
     },
     "2-day": {
-        packageName: "2-day package",
+        packageName: "2-day",
         price: "31 000 SEK",
         perks: [
             "All the perks from the 1-day package extended over 2 days",
         ]
     },
-    "all-in": {
-        packageName: "All-in package",
+    "All-in": {
+        packageName: "All-in",
         price: "50 000 SEK",
         perks: [
             "Two-day package",
@@ -139,7 +230,7 @@ const packages = {
         ]
     },
     "Addons": {
-        packageName: "Add-ons",
+        packageName: "Addons",
         price: "",
         perks: ["Bar table 400kr/pc", "Bar chair 300 kr/pc", "TV 40\" & floor stand 2800kr/pc", "TV 50\" & floor stand 3400kr/pc"],
     }
@@ -232,6 +323,7 @@ const questions = [
 ];
 var currentPackage = packages["1-day"]
 var currentEventPackage = eventPackages["Lunch Lecture"]
+
 export default {
   name: 'ForCompanies',
   components: {
@@ -239,6 +331,11 @@ export default {
     Question,
     ErrorMessage,
     PackageDealWithText,
+    Popover,
+    PopoverButton,
+    PopoverPanel,
+    MenuIcon,
+    XIcon
   },
   setup(){
     return {packages, eventPackages,questions};
