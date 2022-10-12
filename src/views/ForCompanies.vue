@@ -96,7 +96,7 @@
                 <!-- Lefty stuff -->
                 <div class="mt-6 xl:mt-0 pr-8 text-lg">
                     <h2 class="text-4xl font-bold text-center">Event Packages</h2>
-                    <h3 class="mt-6">Event packages are great way for you and your company to increase your chances at finding the best talent we can offer.</h3>
+                    <h3 class="mt-6">Event packages are great ways for you and your company to increase your chances at finding the talents you seek.</h3>
                     <h3 class="mt-6">The pub and the lunch lecture takes place prior to the fair, while the student sessions will be held during the fair.</h3>
                     <h3 class="mt-6">If you have an idea for an event you may contact <a class="font-bold" href="mailto:event@teknikfokus.se">event@teknikfokus.se</a> and discuss the possibility of bringing your idea to life.</h3>
                 </div>
@@ -266,23 +266,19 @@ const eventPackages = {
 const questions = [
     {
         question: "Why Teknikfokus?",
-        answer: "<p>What makes us stand out is not our banquette or lounges, it is our students. Here at E-huset we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, communications- and informational-technologies as well as other amazing specialists. This is the fair for those who want to reach new levels in the world of engineering.</p>",
-        id: 0
+        answer: "<p>What makes us stand out is not our banquette or lounges, it is our students. Here at E-huset we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, communications- and informational-technologies as well as other amazing specialists. This is the fair for those who want to reach new levels in the world of engineering.</p>"
     },
     {
         question: "When is Teknikfokus?",
-        answer: "<p>The fair will take place between 08:00 and 17:00, the 15th & 16th of February.</p>",
-        id: 1
+        answer: "<p>The fair will take place between 09:00 and 16:30, the 15th & 16th of February.</p>"
     },
     {
         question: "Where will Teknikfokus take place?",
-        answer: '<iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.2498072316307!2d13.209636197891264!3d55.711069045083036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397ca158a6165%3A0x7f9339d3824e88ee!2sOle%20R%C3%B6mers%20v%C3%A4g%203%2C%20223%2063%20Lund!5e0!3m2!1ssv!2sse!4v1665410976182!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">E-huset LTH Ole Römers väg 3.</iframe>',
-        id: 2
+        answer: '<iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.2498072316307!2d13.209636197891264!3d55.711069045083036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397ca158a6165%3A0x7f9339d3824e88ee!2sOle%20R%C3%B6mers%20v%C3%A4g%203%2C%20223%2063%20Lund!5e0!3m2!1ssv!2sse!4v1665410976182!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">E-huset LTH Ole Römers väg 3.</iframe>'
     },
     {
         question: "Who will be attending?",
-        answer: "<p>Bachelors, Masters and PhD-Students from the respective forementioned engineering programs, as well as 60 to 80 different companies within the relevant fields.</p>",
-        id: 3
+        answer: "<p>Bachelors, Masters and PhD-Students from the respective forementioned engineering programs, as well as 60 to 80 different companies within the relevant fields.</p>"
     },
     {
         question: "What are students studying at the E- and D-faculties at LTH?",
@@ -302,23 +298,23 @@ const questions = [
                     <a href="https://www.lth.se/utbildning/medicin-och-teknik/kurser/" target="_blank" class="relative block justify-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         <p class="text-center">Biomedical Engineering</p>
                     </a>
-                </div>`,
-        id: 4
+                </div>`
     },
     {
         question: "Who organizes Teknikfokus?",
-        answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, <a class=\"font-bold\" href=\"mailto:leo@teknikfokus.se\">leo@teknikfokus.se</a> or Yazan Al-Aswad, <a class=\"font-bold\" href=\"mailto:yazan@teknikfokus.se\">yazan@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>.</p>",
-        id: 5
+        answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, <a class=\"font-bold\" href=\"mailto:leo@teknikfokus.se\">leo@teknikfokus.se</a> or Yazan Al-Aswad, <a class=\"font-bold\" href=\"mailto:yazan@teknikfokus.se\">yazan@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>.</p>"
     },
     {
         question: "What does the kontaktsamtal/student sessions mean?",
-        answer: "<p>Student Sessions provide companies a possibility to have a private sit down with students on the days of the fair, to talk about summer jobs, internships, exam work or future employment. Interested students can register at the company booth and a link to the student profile and their resume will be available to the company who will schedule a meeting. If you have questions about student sessions, contact one of our project managers. Contact information can be found under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>.</p>",
-        id: 6
+        answer: "<p>Student Sessions provide companies a possibility to have a private sit down with students on the days of the fair, to talk about summer jobs, internships, exam work or future employment. Interested students can register at the company booth and a link to the student profile and their resume will be available to the company who will schedule a meeting. If you have questions about student sessions, contact one of our project managers. Contact information can be found under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>.</p>"
+    },
+    {
+        question: "When should company representatives arrive?",
+        answer: '<p>As the fair will start at 09:00 it is recommended to arrive at 08:00 to setup your stand, but it is also possible to deliver any items the day before if needed. A company host will also be there to help during the fair.</p>'
     },
     {
         question: "Who should you contact if you have questions about the companies?",
-        answer: "<p>If you have questions as a company or regarding a company attending Teknikfokus, please contact us at <a class=\"font-bold\" href=\"mailto:relations@teknikfokus.se\">relations@teknikfokus.se</a>. Also, feel free to reach out to us using contact information under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers at <a class=\"font-bold\" href=\"mailto:projektledare@teknikfokus.se\">projektledare@teknikfokus.se</a>.</p>",
-        id: 7
+        answer: "<p>If you have questions as a company or regarding a company attending Teknikfokus, please contact us at <a class=\"font-bold\" href=\"mailto:relations@teknikfokus.se\">relations@teknikfokus.se</a>. Also, feel free to reach out to us using contact information under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers at <a class=\"font-bold\" href=\"mailto:projektledare@teknikfokus.se\">projektledare@teknikfokus.se</a>.</p>"
     }
 ];
 var currentPackage = packages["1-day"]
