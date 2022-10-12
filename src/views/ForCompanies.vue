@@ -42,7 +42,8 @@
                         v-for="item in Object.values(this.packages)"
                         :key="item.packageName"
                         @click="setPackage(item.packageName)"
-                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
+                        v-bind:class="{ 'bg-blue-primary-lightest': this.currentPackage.packageName === item.packageName }"
+                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-light focus:outline-none font-semibold"
                     >
                         {{item.packageName}}
                     </button>
@@ -65,13 +66,12 @@
                         leave-to-class="translate-y-1 opacity-0"
                     >
                         <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
-                        <div class="w-full relative px-2 mt-3">
-                            <PopoverButton class="absolute right-4 top-2">
-                                <XIcon class="w-5 h-5 text-blue-primary-light" />
-                            </PopoverButton>
+                            <div class="w-full relative px-2 mt-3">
+                                <PopoverButton class="absolute right-4 top-2">
+                                    <XIcon class="w-5 h-5 text-blue-primary-light" />
+                                </PopoverButton>
 
-                            <div
-                                class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+                                <div class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                     <button
                                         class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
                                         v-for="item in Object.values(this.packages)" 
@@ -80,8 +80,8 @@
                                     >
                                         {{ item.packageName }}
                                     </button>
+                                </div>
                             </div>
-                        </div>
 
                         </PopoverPanel>
                     </transition>
@@ -109,7 +109,8 @@
                         v-for="item in Object.values(this.eventPackages)"
                         :key="item.packageName"
                         @click="setEventPackage(item.packageName)"
-                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
+                        v-bind:class="{ 'bg-blue-primary-lightest': this.currentEventPackage.packageName === item.packageName }"
+                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-light focus:outline-none font-semibold"
                     >
                         {{item.packageName}}
                     </button>
