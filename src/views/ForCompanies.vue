@@ -1,8 +1,8 @@
 <template>
     <div id="for-companies" class="py-4 scroll-smooth">
         <div class="mx-auto grid sm:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
-            <a href="#About-us" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-                <div>About us</div>
+            <a href="#About-teknikfokus" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+                <div>About Teknikfokus</div>
             </a>
             <a href="#Our-offers" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
                 <div>Our offers</div>
@@ -15,11 +15,11 @@
             </a>
         </div>
         
-        <div id="About-us" class="py-6"></div>
-        <h1 class="mt-12 text-5xl text-center font-bold">About us</h1>
-        <div class="xl:flex xl:items-center mt-12">
-            <h2 class ="text-center text-lg">
-                Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas of our specialty. We are where talent meets opportunity. We are where the present meets the future.
+        <div id="About-teknikfokus" class="py-6"></div>
+        <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
+        <div class="xl:flex flex-col xl:items-center mt-12 text-center text-lg">
+            <h2>
+                Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. This year Teknikfokus will take place at LTH on the 15:th and 16:th of February. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas of our specialty. We are where talent meets opportunity. We are where the present meets the future.
             </h2>
         </div>
         
@@ -36,58 +36,19 @@
             </div>
             <div class="xl:w-3/5">
                 <!-- Lefty stuff -->
-                <div class="hidden md:block xl:flex mt-8 text-white text-lg font-semibold border-b-2 border-white border-solid">
-                    <!-- Shown for large devices -->
+                <div class="grid grid-cols-4 mt-8 text-white text-base md:text-lg font-semibold border-b-2 border-white border-solid">
                     <button
                         v-for="item in Object.values(this.packages)"
                         :key="item.packageName"
                         @click="setPackage(item.packageName)"
                         v-bind:class="{ 'bg-blue-primary-lightest': this.currentPackage.packageName === item.packageName }"
-                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-light focus:outline-none font-semibold"
+                        class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
                     >
                         {{item.packageName}}
                     </button>
                 </div>
 
-                <Popover class="relative md:hidden">
-                    <!-- Shown for small devices -->
-                    <div class="w-20 bg-blue-primary flex rounded-t-lg justify-center border-b-2 border-white border-double">
-                        <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
-                            <MenuIcon class="w-8 h-8 text-white" />
-                        </PopoverButton>
-                    </div>
-
-                    <transition
-                        enter-active-class="transition duration-200 ease-out"
-                        enter-from-class="translate-y-1 opacity-0"
-                        enter-to-class="translate-y-0 opacity-100"
-                        leave-active-class="transition duration-150 ease-in"
-                        leave-from-class="translate-y-0 opacity-100"
-                        leave-to-class="translate-y-1 opacity-0"
-                    >
-                        <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
-                            <div class="w-full relative px-2 mt-3">
-                                <PopoverButton class="absolute right-4 top-2">
-                                    <XIcon class="w-5 h-5 text-blue-primary-light" />
-                                </PopoverButton>
-
-                                <div class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                                    <button
-                                        class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
-                                        v-for="item in Object.values(this.packages)" 
-                                        :key="item.packageName"
-                                        @click="{setPackage(item.packageName); close();}"
-                                    >
-                                        {{ item.packageName }}
-                                    </button>
-                                </div>
-                            </div>
-
-                        </PopoverPanel>
-                    </transition>
-                </Popover>
-
-                <PackageDeal :info="currentPackage"></PackageDeal>
+                <PackageDeal :info="currentPackage" />
             </div>
         </div>
     
@@ -96,65 +57,26 @@
                 <!-- Lefty stuff -->
                 <div class="mt-6 xl:mt-0 pr-8 text-lg">
                     <h2 class="text-4xl font-bold text-center">Event Packages</h2>
-                    <h3 class="mt-6">Event packages are great ways for you and your company to increase your chances at finding the talents you seek.</h3>
+                    <h3 class="mt-6">An event package is a great way for you and your company to increase your chances at finding the talents you seek.</h3>
                     <h3 class="mt-6">The pub and the lunch lecture takes place prior to the fair, while the student sessions will be held during the fair.</h3>
                     <h3 class="mt-6">If you have an idea for an event you may contact <a class="font-bold" href="mailto:event@teknikfokus.se">event@teknikfokus.se</a> and discuss the possibility of bringing your idea to life.</h3>
                 </div>
             </div>
             <div class="xl:w-3/5 align-center">
                 <!-- Righty stuff -->
-                <div class="hidden md:block mt-12 text-white text-lg font-semibold border-b-2 border-white border-solid">
-                    <!-- Shown for large devices -->
+                <div class="grid grid-cols-4 mt-12 text-white text-base md:text-lg font-semibold border-b-2 border-white border-solid">
                     <button
                         v-for="item in Object.values(this.eventPackages)"
                         :key="item.packageName"
                         @click="setEventPackage(item.packageName)"
-                        v-bind:class="{ 'bg-blue-primary-lightest': this.currentEventPackage.packageName === item.packageName }"
-                        class="p-4 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-light focus:outline-none font-semibold"
+                        v-bind:class="{'bg-blue-primary-lightest': this.currentEventPackage.packageName === item.packageName }"
+                        class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
                     >
                         {{item.packageName}}
                     </button>
                 </div>
-                <Popover class="relative md:hidden mt-12">
-                    <!-- Shown for small devices -->
-                    <div class="w-20 bg-blue-primary flex rounded-t-lg justify-center border-b-2 border-white border-double">
-                        <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
-                            <MenuIcon class="w-8 h-8 text-white" />
-                        </PopoverButton>
-                    </div>
 
-                    <transition
-                        enter-active-class="transition duration-200 ease-out"
-                        enter-from-class="translate-y-1 opacity-0"
-                        enter-to-class="translate-y-0 opacity-100"
-                        leave-active-class="transition duration-150 ease-in"
-                        leave-from-class="translate-y-0 opacity-100"
-                        leave-to-class="translate-y-1 opacity-0"
-                    >
-                        <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
-                        <div class="w-full relative px-2 mt-3">
-                            <PopoverButton class="absolute right-4 top-2">
-                                <XIcon class="w-5 h-5 text-blue-primary-light" />
-                            </PopoverButton>
-
-                            <div
-                                class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                                    <button
-                                        class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
-                                        v-for="item in Object.values(this.eventPackages)" 
-                                        :key="item.packageName"
-                                        @click="{setEventPackage(item.packageName); close();}"
-                                    >
-                                        {{ item.packageName }}
-                                    </button>
-                            </div>
-                        </div>
-
-                        </PopoverPanel>
-                    </transition>
-                </Popover>
-
-                <PackageDealWithText :info="currentEventPackage"></PackageDealWithText>
+                <PackageDealWithText :info="currentEventPackage" />
             </div>
         </div>
 
@@ -241,25 +163,25 @@ const eventPackages = {
     "Lunch Lecture": {
         packageName: "Lunch Lecture",
         price: "14 000 kr plus 70 kr or 90 kr / attending student",
-        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects.", "Lunch Lectures at Teknikfokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.", "We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance.  The prices for the offered lunches are: 70 kr/attendee for a cold meal & one (1) drink or 90 kr/attendee for a warm meal & one (1) drink."],
-        perks: ["Your choice of lecture up to 45 minutes in one of E-husets lecture halls.", "Food and drink for the students attending the lecture."]
+        text: ["A Lunch Lecture is a perfect opportunity for you to display your most recent technologies, your work environment or your most interesting projects.", "Lunch Lectures at Teknikfokus are known for their high level of attendance and positive reception by students, and will help you become a more prominent attendee during the fair.", "We strongly recommend that you also offer our dear students a complimentary lunch, as it has proven to significantly increase attendance. The prices for the offered lunches are: 70 kr/attendee for a cold meal & one (1) drink or 90 kr/attendee for a warm meal & one (1) drink."],
+        perks: ["Your choice of lecture up to 45 minutes in one of E-husets lecture halls."]
     },
     "Pub": {
         packageName: "Pub",
         price: "20 000 kr plus costs for food sold during the event (optional)",
-        text: ["At Teknikfokus we offer your company to host a Pub at one of our student spaces where food and drinks will be served by other students from the D or E guilds*. Here you have an excellent opportunity to mingle and present yourselves in a more personal manner. In addition to that, competitions and games can be held to increase the student involvement." ,"Pubs tend to be very popular among our students and will give you the opportunity to meet them in a more relaxed, cozy setting."],
+        text: ["At Teknikfokus we offer your company to host a Pub at one of our student spaces where food and drinks will be served by other students from the D or E guilds. Here you have an excellent opportunity to mingle and present yourselves in a more personal manner. In addition to that, competitions and games can be held to increase the student involvement." ,"Pubs tend to be very popular among our students and will give you the opportunity to meet them in a more relaxed, cozy setting."],
         perks: ["A pub held in E-huset", "Organized by our students"]
     },
     "Student Sessions": {
         packageName: "Student Sessions",
         price: "7000kr for one (1) day and 12 000 for two (2) days.",
-        text: ["Are you looking for Master’s thesis writers, summer workers, or perhaps a future colleague or collaborator?", "Student Sessions is the perfect platform for you to have one-on-one meetings, discussions or interviews with our students, where you can discuss anything from future employment to collaborative projects and other prospects." ,"Prior to the fair, students register their interests in your company and apply with a CV and cover letter. You may thereafter handpick which students among the applicants you are interested in meeting. Teknikfokus will thereafter contact all the chosen students, schedule appointments and arrange rooms on your behalf. Each session is scheduled for 30-45 minutes. Pricing above refers to one (1) meeting room."],
+        text: ["Are you looking for Master’s thesis writers, summer workers, or perhaps a future colleague or collaborator?", "Student Session is the perfect platform for you to have one-on-one meetings, discussions or interviews with students, where you can discuss anything from future employment to collaborative projects and other prospects." ,"Prior to the fair, students register their interests in your company and apply with a CV and cover letter. You may thereafter handpick which students among the applicants you are interested in meeting. Teknikfokus will then contact all the chosen students, schedule appointments and arrange rooms on your behalf. Each session is scheduled for 30-45 minutes. Pricing above refers to one (1) meeting room."],
         perks: ["Meeting room", "Student CVs", "Student personal letters"]
     },
     "Special Event": {
         packageName: "Special Event",
         price: "Price: Negotiable",
-        text: ["Do you have the perfect idea and would like to create something unique for our students?", "Would you perhaps like to host a workshop or an interactive product demonstration?", "Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
+        text: ["Do you <a>test</a> have the perfect idea and would like to create something unique for our students?", "Would you perhaps like to host a workshop or an interactive product demonstration?", "Do not hesitate to contact us at event@teknikfokus.se and let us know what you’re thinking! We are open to all ideas and will do our best to help you create an event that stands out!"],
         perks: ["Anything within the bounds of your imagination (and within our capabilities)."]
     }
 }
@@ -283,7 +205,7 @@ const questions = [
     },
     {
         question: "What are students studying at the E- and D-faculties at LTH?",
-        answer: `<p>Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science, Engineering Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Click below to view the course syllabus for each programme.</p> <div v-if="info.id == 4" class="mt-8 mx-auto grid sm:grid-cols-2 gap-6 md">
+        answer: `<p>Students at the E- and D- faculties are studying to get a Master of Science in Engineering at the four respective areas: Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering. Click below to view the course syllabus for each programme.</p> <div v-if="info.id == 4" class="mt-8 mx-auto grid sm:grid-cols-2 gap-6 md">
                     <a href="https://www.lth.se/utbildning/datateknik300/kurser" target="_blank" class="relative block justify-center align-center py-6 px-6 text-lg md:text-2x1 font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
                         <p class="text-center">Computer Science and Engineering</p>
                     </a>
