@@ -1,6 +1,6 @@
 <template>
   <div id="for-companies" class="py-4 scroll-smooth">
-    <div class="mx-auto grid sm:grid-cols-3 gap-4 md text-2xl text-center font-semibold">
+    <div class="mx-auto grid sm:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
       <a href="#About-teknikfokus" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
         <div>About Teknikfokus</div>
       </a>
@@ -71,31 +71,76 @@ import Question from '../components/Question'
 const jobs = [
     {
       question: "Company Host",
-      answer: "<p>text explaining company host</p>"
+      answer: `
+          <p>Do you want to get the opportunity to network with 1-2 of the companies attending Teknikfokus 2023? Then you should apply for Company Host!</p>
+          <br>
+          <p>During the fair you will have responsibility for 1-2 companies. Your foremost tasks will be to ensure that the company representatives gets all the information needed prior to the fair, help with setting up their booths as well as being helpful if the company needs anyhing or are unsure about anything during the fair.</p>
+        `
     },
     {
       question: "Night Watch",
-      answer: "<p>Jar Jar Binks is a sith Lord</p>"
+      answer: `
+          <p>Are you a nightowl who likes free food? Then you should apply for Night Watch!</p>
+          <br>
+          <p>During the night the companies personal belongings and other stuff will be kept in the E-House. For the companies to feel confident in leaving their belongings we will need Night Watchers who make sure that nothing disappears. During the night you will be able to order food which Teknikfokus will pay for and you will be able to spend the time doing what you feel like as long as the companies belongings are supervised by you.</p>
+        `
     },
     {
-      question: "Garderob/Lounge/FrukostVärd(TODO FIX NAME)",
-      answer: "<p>TODO</p>"
+      question: "Info Desk",
+      answer: `
+        <p>Are you social and would like to help by answering all types of questions about the fair while being the face for Teknikfokus? Then you should apply for Info Desk!</p>
+        <br>
+        <p>This is one of the fairs most social posts. During the fair companies, hosts and visitors will be able to go to you for any questions regarding the fair. Companies will also be able to come to the info desk to borrow various items such as tools, which will then need to be returned.</p>
+      `
     },
     {
-      question: "Electricity/Internet(TODO FIX NAME)",
-      answer: "<p>Data X Electricity elctric boogalo edition</p>"
+      question: "Wardrobe/Lounge/Breakfast Host",
+      answer: `
+        <p>Are you passionate about service and would like to have a more varied role during Teknikfokus 2023? Then you should apply for Wardrobe/Lounge/Breakfast Host!</p>
+        <br>
+        <p>During the fair you will help with several diferent aspects. You will for example be helping with taking care of peoples outerwear when arriving to the fair. Youy will also be making sure that the lounge looks nice and that there is coffee and other things available to create a cozy and comfortable environment where company representatives can relax. A perfect opportunity to get to know them!</p>
+        <p>You will also be making sure that there is breakfast available in the lounge during the morning for both hosts and company representatives.</p>
+      `
     },
     {
-      question: "Shuttle Host(TODO FIX NAME)",
-      answer: "<p>TODO</p>"
+      question: "Electricity/Internet Host",
+      answer: `
+        <p>Are you the one assisting when anything technical fails? Then you should apply for Electricity/Internet Host!</p>
+        <br>
+        <p>During the fair you will make sure the companies have internet, electricity and other cables necessary. If anything related to electricity/internet is failing during the fair it is you the companies will come to for help.</p>
+      `
     },
     {
-      question: "Photographer(TODO FIX NAME)",
-      answer: "<p>TODO</p>"
+      question: "Lunch Host",
+      answer: `
+        <p>Do you love making food and meeting new people? Then you should apply for Lunch Host!</p>
+        <br>
+        <p>During the fair your main task will be to make food for the lunches for hosts and company representatives as well as organize food for the lunch lectures. During the lunch a large portion of the attendees of the fair will be there, so you will get the chance to meet a lot of people! A big plus is if you have prior experience of making food for a large amount of people.</p>
+      `
     },
     {
-      question: "Kontaktsamtal Koordinator(TODO FIX NAME)",
-      answer: "<p>TODO</p>"
+      question: "Shuttle Host",
+      answer: `
+        <p>Do you know the streets of Malmö & Lund and would like to have the chance to connect with company representatives during a nice car ride? Then you should apply for Shuttle Host!</p>
+        <br>
+        <p>Your task will be to pick up and deliver company representatives who are attending Teknikfokus. The ride will be a great opportunity to meet and network with the representatives you are driving! As you most likely will operate in Lund and Malmö it is preferable if you know the streets of Lund and Malmö somewhat. To be a Shuttle Host during Teknikfokus 2023 it is required to have a driver's license and drive safely.</p>
+      `
+    },
+    {
+      question: "Photographer",
+      answer: `
+        <p>Are you passionate about taking great pictures and want to show how awesome Teknikfokus 2023 will be? Then you should apply for Photographer!</p>
+        <br>
+        <p>As photograper during Teknikfokus you will take pictures of the fair, the banquet, events and other things related to the fair. The pictures will then be used for Teknikfokus 2023 but also for following years. It is plus to have prior experience of photography.</p>
+      `
+    },
+    {
+      question: "Student Session Coordinator",
+      answer: `
+        <p>Do you want to be the person who makes sure the right student is matched with the right company for Student Sessions during Teknikfokus 2023? Then you should apply for Student Session Coordinator!</p>
+        <br>
+        <p>This role is only a coordinator role because there will be more responsibility required for you then for a host. Before the fair the students will send in their CV which the companies will then be able to view and pick which students they would like to meet during a student sessions. To make this happen a Student Session Coordinator is needed to keep track of our student portal and make sure that the right students are matched with the right companies. You will also help the company representatives and students to find the right rooms during the fair.</p>
+      `
     },
   ];
 
