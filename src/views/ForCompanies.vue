@@ -93,7 +93,7 @@
     </div>
 
     <div id="How-to-apply" class="py-6"></div>
-    <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
+    <h1 class="mt-12 text-5xl text-center font-bold">Application of interest</h1>
     <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
     <div class="pt-4 max-w-5xl h-700 mx-auto">
       <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
