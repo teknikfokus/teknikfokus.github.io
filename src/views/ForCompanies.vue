@@ -94,10 +94,7 @@
 
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Aplication of interest</h1>
-    <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
-    <div class="pt-4 max-w-5xl h-700 mx-auto">
-      <iframe class="max-w-3xl mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc2Sg-olyVL_JETCbBIAqEJUxbUr_ZU_HFu5jAmMaQZzVw00Q/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
+    <h3 class="pt-4 text-center text-xl">The application of interest has now closed as of monday 7/11. If you still want to apply to Teknikfokus 2023 please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
   </div>
 </template>
 
@@ -191,7 +188,7 @@
     },
     {
       question: "Where will Teknikfokus take place?",
-      answer: '<iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.2498072316307!2d13.209636197891264!3d55.711069045083036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397ca158a6165%3A0x7f9339d3824e88ee!2sOle%20R%C3%B6mers%20v%C3%A4g%203%2C%20223%2063%20Lund!5e0!3m2!1ssv!2sse!4v1665410976182!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">E-huset LTH Ole Römers väg 3.</iframe>'
+      answer: '<iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.2498072316307!2d13.209636197891264!3d55.711069045083036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397ca158a6165%3A0x7f9339d3824e88ee!2sOle%20R%C3%B6mers%20v%C3%A4g%203%2C%20223%2063%20Lund!5e0!3m2!1ssv!2sse!4v1665410976182!5m2!1ssv!2sse" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">E-huset LTH Ole Römers väg 3.</iframe>'
     },
     {
       question: "Who will be attending?",
