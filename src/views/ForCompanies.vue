@@ -1,6 +1,6 @@
 <template>
   <div id="for-companies" class="py-4 scroll-smooth">
-    <div class="mx-auto grid sm:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
+    <div class="mx-auto grid md:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
       <a href="#About-teknikfokus" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
         <div>About Teknikfokus</div>
       </a>
