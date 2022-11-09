@@ -73,7 +73,9 @@
       answer: `
           <p>Are you a nightowl who likes free food? Then you should apply for Night Watch!</p>
           <br>
-          <p>During the night the personal belongings of the companies and other stuff will be kept in the E-House. For the companies to feel confident in leaving their belongings we will need Night Watchers who make sure that nothing disappears. During the night you will be able to order food which Teknikfokus will pay for and you will be able to spend the time doing what you feel like as long as the companies belongings are supervised by you.</p>
+          <p>During the night the personal belongings of the companies and other stuff will be kept in the E-House. For the companies to feel confident in leaving their belongings we will need Night Watches who make sure that nothing disappears.</p>
+          <br>
+          <p>Unfortunately there is a possibility that this will clash with the time of the Teknikfokus Banquet. Instead you will be able to order food and buy snacks/soft drinks during the night that Teknikfokus will pay for. You will also be able to spend the time doing whatever you feel like as long as the companies' belongings are supervised by you.</p>
         `
     },
     {
