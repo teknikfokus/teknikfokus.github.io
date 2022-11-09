@@ -1,0 +1,194 @@
+<template>
+  <div id="for-companies" class="py-4 scroll-smooth">
+    <div class="mx-auto grid md:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
+      <a href="#About-teknikfokus" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+        <div>About Teknikfokus</div>
+      </a>
+      <a href="#Descriptions" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+        <div>Host Descriptions</div>
+      </a>
+      <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+        <div>Apply for Host</div>
+      </a>
+      <a href="#FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+        <div>FAQ</div>
+      </a>
+    </div>
+
+    <div id="About-teknikfokus" class="py-6"></div>
+    <div class="mx-auto text-lg">
+      <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
+      <h2 class="mt-12 text-center">
+        Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 15:th and 16:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
+      </h2>
+      <h2 class="mt-4 text-center">
+        Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, free of charge. So make sure to apply as Host and have fun while attending Teknikfokus 2023!
+      </h2>
+    </div>
+
+    <div id="Descriptions" class="py-6"></div>
+    <h1 class="mt-12 text-5xl text-center font-bold">Host Descriptions</h1>
+    <div class="pt-5 pb-5">
+      <div class="max-w-510xl mx-auto" >
+        <div id="faq-accordion" class="divide-y-2 divide-gray-200">
+          <Question v-for="(question, index) in jobs" :key="index" :info="question" :index="index"></Question>
+          <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
+        </div>
+      </div>
+    </div>
+
+    <div id="How-to-apply" class="py-6"></div>
+    <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>
+    <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
+    <div class="pt-4 max-w-5xl h-700 mx-auto">
+      <iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://docs.google.com/forms/d/e/1FAIpQLSdp6eWNkCvD-14nRp5shKeSuzMV1pI78jmycoNp5SwML5lUKg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+    <div id="FAQ" class="py-6"></div>
+    <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
+    <div id="faq" class="pt-5 pb-5">
+      <div class="max-w-510xl mx-auto" >
+        <div id="faq-accordion" class="divide-y-2 divide-gray-200">
+          <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
+          <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  import Question from '../components/Question'
+  const jobs = [
+    {
+      question: "Company Host",
+      answer: `
+          <p>Do you want to get the opportunity to network with 1-2 of the companies attending Teknikfokus 2023? Then you should apply for Company Host!</p>
+          <br>
+          <p>During the fair you will have responsibility for 1-2 companies. Your foremost tasks will be to ensure that the company representatives get all the information needed prior to the fair, help with setting up their booths as well as being helpful if the company needs anyhing or are unsure about anything during the fair.</p>
+        `
+    },
+    {
+      question: "Night Watch",
+      answer: `
+          <p>Are you a nightowl who likes free food? Then you should apply for Night Watch!</p>
+          <br>
+          <p>During the night the personal belongings of the companies and other stuff will be kept in the E-House. For the companies to feel confident in leaving their belongings we will need Night Watches who make sure that nothing disappears.</p>
+          <br>
+          <p>Unfortunately there is a possibility that this will clash with the time of the Teknikfokus Banquet. Instead you will be able to order food and buy snacks/soft drinks during the night that Teknikfokus will pay for. You will also be able to spend the time doing whatever you feel like as long as the companies' belongings are supervised by you.</p>
+        `
+    },
+    {
+      question: "Info Desk",
+      answer: `
+        <p>Are you social and would like to help by answering all types of questions about the fair while being the face for Teknikfokus? Then you should apply for Info Desk!</p>
+        <br>
+        <p>This is one of the most social posts of the fair. During the fair companies, hosts and visitors will be able to go to you for any questions regarding the fair. Companies will also be able to come to the info desk to borrow various items such as tools, which will then need to be returned.</p>
+      `
+    },
+    {
+      question: "Wardrobe/Lounge/Breakfast Host",
+      answer: `
+        <p>Are you passionate about service and would like to have a more varied role during Teknikfokus 2023? Then you should apply for Wardrobe/Lounge/Breakfast Host!</p>
+        <br>
+        <p>During the fair you will help with several diferent aspects. You will for example be helping with taking care of the company representatives’ outerwear when arriving to the fair. You will also be making sure that the lounge looks nice and that there is coffee and other things available to create a cozy and comfortable environment where company representatives can relax. A perfect opportunity to get to know them!</p>
+        <p>You will also be making sure that there is breakfast available in the lounge during the morning for both hosts and company representatives.</p>
+      `
+    },
+    {
+      question: "Electricity/Internet Host",
+      answer: `
+        <p>Are you the one assisting when anything technical fails? Then you should apply for Electricity/Internet Host!</p>
+        <br>
+        <p>During the fair you will make sure the companies have internet, electricity and other cables necessary. If anything related to electricity/internet is failing during the fair it is you the companies will come to for help.</p>
+      `
+    },
+    {
+      question: "Lunch Host",
+      answer: `
+        <p>Do you love making food and meeting new people? Then you should apply for Lunch Host!</p>
+        <br>
+        <p>During the fair your main task will be to make food for the lunches for hosts and company representatives as well as organize food for the lunch lectures. During the lunch a large portion of the attendees of the fair will be there, so you will get the chance to meet a lot of people! A big plus is if you have prior experience of making food for a large amount of people.</p>
+      `
+    },
+    {
+      question: "Shuttle Host",
+      answer: `
+        <p>Do you know the streets of Malmö & Lund and would like to have the chance to connect with company representatives during a nice car ride? Then you should apply for Shuttle Host!</p>
+        <br>
+        <p>Your task will be to pick up and deliver company representatives who are attending Teknikfokus. The ride will be a great opportunity to meet and network with the representatives you are driving! As you most likely will operate in Lund and Malmö it is preferable if you know the streets of Lund and Malmö somewhat. To be a Shuttle Host during Teknikfokus 2023 it is required to have a driver’s license and drive safely.</p>
+      `
+    },
+    {
+      question: "Photographer",
+      answer: `
+        <p>Are you passionate about taking great pictures and want to show how awesome Teknikfokus 2023 will be? Then you should apply for Photographer!</p>
+        <br>
+        <p>As photograper during Teknikfokus you will take pictures of the fair, the Teknikfokus Banquet, events and other things related to the fair. The pictures will then be used for Teknikfokus 2023 but also for following years. It is plus to have prior experience of photography.</p>
+      `
+    },
+    {
+      question: "Student Session Coordinator",
+      answer: `
+        <p>Do you want to be the person who makes sure the right student is matched with the right company for Student Sessions during Teknikfokus 2023? Then you should apply for Student Session Coordinator!</p>
+        <br>
+        <p>This role is only a coordinator role because there will be more responsibility required for you then for a host. Before the fair the students will send in their CV which the companies will then be able to view and pick which students they would like to meet during a student sessions. To make this happen a Student Session Coordinator is needed to keep track of our student portal and make sure that the right students are matched with the right companies. You will also help the company representatives and students to find the right rooms during the fair.</p>
+      `
+    },
+  ];
+
+  const questions = [
+    {
+      question: "What do you do as a host at Teknikfokus?",
+      answer: `
+        <p>Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. Each year the fair helps several students to get in contact with different companies within our area of specialization and the fair is also good for the E and D-faculties. This year Teknikfokus is finally back on site here at E-huset. The fair will take place the 15th & 16th of February and to make this fair a reality we will need the help of hosts!</p>
+        <br>
+        <p>To make the fair function as intended we will need hosts in many different roles. We will need hosts that can answer all kinds of qustions about the fair in the info desk, we will need hosts that welcome the companies, and we will need hosts that prepare the food for the company representatives and hosts. These were only a couple of the roles that are available for the fair. There is something for everyone, so apply to be a host for Teknikfokus, together we will make Teknikfokus 2023 possible!</p>
+      `
+    },
+    {
+      question: "What do I get for working at Teknikfokus?",
+      answer: `
+        <p>As a host at Teknikfokus you will get an exclusive patch to your ouvve, you will get free fika and lunch during the fair, and you will get in closer contact with the company representatives from companies both here in Lund and from other places.</p>
+        <br>
+        <p>As a host you will also be able to attend events before the fair, a thank you party after the fair, and get a ticket to the Teknikfokus Banquet for free!
+        </p>
+      `
+    },
+    {
+      question: "What is the Teknikfokus Banquet, and when is it?",
+      answer: `
+      <p>The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes for all the company representatives and hosts that have been engaged in Teknikfokus. Delicious food is promised and all the hosts that have been engaged at Teknikfokus will get a free ticket to the Teknikfokus Banquet. Date and location are in the process of being decided but will be sometime close to or during the fair days.</p>
+      <br>
+      <p>More info to come!</p>
+      `
+    },
+    {
+      question: "What is a coordinator?",
+      answer: `
+        <p>A coordinator will work just as any host during the fair, but they will also have more resposibility. This is because the coordinators will be responsible for a group of hosts during the fair and more responsibility will then be required to make the fair function as intended. If the hosts have any questions, their coordinator is the one they should make first contact with. The coordinators will thus function a bit like a team leader which will give you valuable experience!</p>
+      `
+    },
+    {
+      question: "How much work is expected of a host?",
+      answer: `
+        <p>Overall there is not a lot of work as a host during Teknikfokus since most of the work will be done during the two fair days. However, the work intensity can vary depending on what kind of host you are. Some hosts will work during longer periods of time, but at the same time a little calmer, for example the night watch, while some will work for a shorter period of time but more intensively, for example the lunch host. While you are expected to be able to work both days during the fair, you will of course not have to be at your post the entire time.</p>
+      `
+    },
+    {
+      question: "Who gets to apply for host at Teknikfokus?",
+      answer: `
+        <p>All students from the E and D-faculties are welcome to apply to be a host!</p>
+      `
+    }
+  ];
+  export default {
+    name: 'ForStudents',
+    components: {
+      Question
+    },
+    setup() {
+      return {jobs, questions}
+    }
+  }
+</script>

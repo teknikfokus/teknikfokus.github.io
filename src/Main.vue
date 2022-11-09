@@ -62,11 +62,6 @@
         <h3 class="normal-case font-medium">15th &amp; 16th OF FEBRUARY</h3>
         <CountDown :firstDate="firstDate" :secondDate="secondDate" />
 
-        <div class="mt-12 max-w-xs mx-auto grid sm:grid-cols-1 gap-6 px-4">
-          <router-link to="/forcompanies" class="relative block justify-center py-6 text-lg font-medium rounded-md text-white bg-blue-primary hover:bg-blue-primary-lightest focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-primary-light">
-            Read more
-          </router-link>
-        </div>
       </div>
       <div class="container" v-else>
         <h1 class="font-bold">{{$route.meta.title}}</h1>
@@ -90,6 +85,10 @@ const nav = [
   {
     name: 'Home',
     href: '/'
+  },
+  {
+    name: 'For Students',
+    href: '/forstudents'
   },
   {
     name: 'For Companies',

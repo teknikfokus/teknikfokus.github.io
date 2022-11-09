@@ -22,6 +22,14 @@ const routes = [
     }
   },
   {
+    path: '/forstudents',
+    name: 'For Students',
+    component: () => import(/* webpackChunkName: "faq" */ '../views/ForStudents.vue'),
+    meta: {
+      title: 'For Students'
+    }
+  },
+  {
     path: '/forcompanies',
     name: 'For Companies',
     component: () => import(/* webpackChunkName: "faq" */ '../views/ForCompanies.vue'),
