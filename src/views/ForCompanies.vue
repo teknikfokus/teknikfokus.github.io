@@ -19,7 +19,7 @@
     <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
     <div class="xl:flex flex-col xl:items-center mt-12 text-center text-lg">
       <h2>
-        Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics and will take place at LTH on the 15:th and 16:th of February, 2023. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas of our specialty. We are where talent meets opportunity. We are where the present meets the future.
+        Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics and will take place at LTH on the 15:th and 16:th of February, 2023. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas of our speciality. We are where talent meets opportunity. We are where the present meets the future.
       </h2>
     </div>
       
