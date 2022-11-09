@@ -143,9 +143,7 @@
       answer: `
         <p>Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. Each year the fair helps several students to get in contact with different companies within our area of specialization and the fair is also good for the E and D-faculties. This year Teknikfokus is finally back on site here at E-huset. The fair will take place the 15th & 16th of February and to make this fair a reality we will need the help of hosts!</p>
         <br>
-        <p>To make the fair function as intended we will need hosts in many different roles. We will need hosts that can answer all kinds of qustions about the fair in the infodisk, we will need hosts that welcome the companies, and we will need hosts that prepare the food for the company representatives and hosts. These were only a couple of the roles that are available for the fair. To see the rest, and also get a better description of the roles, see the section down below. There is something for everyone, so apply to be a host for Teknikfokus, together we will make Teknikfokus 2023 possible!</p>
-        <br>
-        <p>If you have any further questions, don’t hesitate to contact the head of recruitments at <a class="font-bold" href="mailto:alex.bringsarve@teknikfokus.se">alex.bringsarve@teknikfokus.se</a>.</p>
+        <p>To make the fair function as intended we will need hosts in many different roles. We will need hosts that can answer all kinds of qustions about the fair in the info desk, we will need hosts that welcome the companies, and we will need hosts that prepare the food for the company representatives and hosts. These were only a couple of the roles that are available for the fair. There is something for everyone, so apply to be a host for Teknikfokus, together we will make Teknikfokus 2023 possible!</p>
       `
     },
     {
