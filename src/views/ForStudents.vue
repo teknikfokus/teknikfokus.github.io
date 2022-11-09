@@ -22,7 +22,7 @@
         Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 15:th and 16:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
       </h2>
       <h2 class="mt-4 text-center">
-        Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet. So make sure to apply as Host and have fun while attending Teknikfokus 2023!
+        Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, free of charge. So make sure to apply as Host and have fun while attending Teknikfokus 2023!
       </h2>
     </div>
 
