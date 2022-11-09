@@ -54,17 +54,6 @@
         </div>
       </div>
     </div>
-
-    <div id="Student-session" class="py-6 content-center"></div>
-    <div class="flex flex-col mx-auto text-lg">
-      <h1 class="mt-12 text-5xl text-center font-bold">Student Sessions</h1>
-      <h2 class="mt-12 text-center">
-        A Student Session is a chance for companies to get to know you personally. Prior to the fair CV:s will be gathered from students who would like participate and discuss future opportunities with attending companies. Attending companies may then ask for a personal meeting with students they find particularly interesting in a meeting room at E-huset. Please apply below if you want to participate in the Student Sessions.
-      </h2>
-      <button class="mt-6 mx-auto bg-blue-primary text-white text-xl font-bold p-8 rounded-xl shadow-lg hover:bg-blue-primary-lightest">
-        🫱‍🫲 Apply for Student Sessions 🫱‍🫲
-      </button>
-    </div>
   </div>
 </template>
 
@@ -92,7 +81,7 @@
       answer: `
         <p>Are you social and would like to help by answering all types of questions about the fair while being the face for Teknikfokus? Then you should apply for Info Desk!</p>
         <br>
-        <p>This is one of the fairs most social posts. During the fair companies, hosts and visitors will be able to go to you for any questions regarding the fair. Companies will also be able to come to the info desk to borrow various items such as tools, which will then need to be returned.</p>
+        <p>This is one of the most social posts of the fair. During the fair companies, hosts and visitors will be able to go to you for any questions regarding the fair. Companies will also be able to come to the info desk to borrow various items such as tools, which will then need to be returned.</p>
       `
     },
     {
