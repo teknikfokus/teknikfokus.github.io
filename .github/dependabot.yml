@@ -1,13 +1,21 @@
 version: 2
 updates:
+  # Maintain dependencies for npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
-    # Raise pull requests for version updates
-    # to npm against the `dev` branch
     target-branch: "dev"
-    # Labels on pull requests for version updates only
     labels:
       - "npm dependencies"
+  
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    target-branch: "dev"
+    labels:
+      - "github-actions dependencies"
