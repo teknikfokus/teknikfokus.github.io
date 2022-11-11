@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    # Raise pull requests for version updates
+    # to npm against the `dev` branch
+    target-branch: "dev"
+    # Labels on pull requests for version updates only
+    labels:
+      - "npm dependencies"
