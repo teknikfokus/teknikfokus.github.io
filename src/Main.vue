@@ -1,6 +1,5 @@
 <template>
   <div id="main" ref="main">
-    
     <Popover class="relative md:hidden">
       <div class="w-full bg-blue-primary flex justify-end items-center">
         <PopoverButton class="outline-none focus:ring-0 focus:outline-none py-2 px-2">
@@ -17,36 +16,66 @@
         leave-to-class="translate-y-1 opacity-0"
       >
         <PopoverPanel class="absolute top-0 left-0 z-10 w-full" v-slot="{ close }">
-        <div class="w-full relative px-2 mt-3">
-          <PopoverButton class="absolute right-4 top-2">
-            <XIcon class="w-5 h-5 text-blue-primary-light" />
-          </PopoverButton>
+          <div class="w-full relative px-2 mt-3">
+            <PopoverButton class="absolute right-4 top-2">
+              <XIcon class="w-5 h-5 text-blue-primary-light" />
+            </PopoverButton>
 
-          <div
-            class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+            <div class="bg-white p-3 space-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
               <router-link 
                 class="block p-2 font-medium text-gray-900 hover:bg-blue-50 rounded-md"
                 v-for="item in this.nav" 
                 :key="item.name" 
                 :to="item.href"
                 @click="close()"
-                >{{ item.name }}</router-link>
+              >
+                {{ item.name }}
+              </router-link>
+            </div>
           </div>
-        </div>
-
         </PopoverPanel>
       </transition>
     </Popover>
 
+    <!-- Shown on larger screens -->
     <div class="hidden md:block">
       <div class="fixed w-full top-0 py-3 transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-transparent']">
         <div class="flex justify-center space-x-2">
-          <router-link 
-            class="block p-2 font-medium text-lg text-gray-50 hover:border-b-4 hover:text-white hover:no-underline"
-            v-for="item in this.nav" 
-            :key="item.name" 
+          <router-link
+            class="block p-2 font-medium text-lg text-gray-50 hover:text-white hover:no-underline"
+            @mouseleave="this.show_menu = null"
+            v-for="item in this.nav"
+            @mouseenter="this.show_menu = item"
+            :key="item.name"
             :to="item.href"
-            >{{ item.name }}</router-link>
+          >
+            {{ item.name }}
+
+            <!-- Sub-header which appears on hover -->
+            <div
+              v-if="item.sub_items.length != 0 && show_menu != null && show_menu.name == item.name"
+              class="absolute w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+              role="menu"
+              aria-orientation="vertical"
+              aria-labelledby="menu-button"
+              tabindex="-1"
+            >
+              <div class="py-1 text-center" role="none">
+                <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+                <a
+                  class="text-gray-700 align-center block px-4 py-2 text-sm"
+                  tabindex="-1"
+                  href="#Our-offers"
+                  v-for="subheader in show_menu.sub_items"
+                  :id="subheader.name"
+                  :key="subheader.name"
+                  @click="this.show_menu = null"
+                >
+                  {{ subheader.name }}
+              </a>
+              </div>
+            </div>
+          </router-link>
         </div>
       </div>
     </div>
@@ -61,8 +90,8 @@
         <h3 class="normal-case font-medium mt-2">BACK ON SITE</h3>
         <h3 class="normal-case font-medium">15th &amp; 16th OF FEBRUARY</h3>
         <CountDown :firstDate="firstDate" :secondDate="secondDate" />
-
       </div>
+      
       <div class="container" v-else>
         <h1 class="font-bold">{{$route.meta.title}}</h1>
       </div>
@@ -84,19 +113,57 @@ import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 const nav = [
   {
     name: 'Home',
-    href: '/'
+    href: '/',
+    sub_items: []
   },
   {
     name: 'For Students',
-    href: '/forstudents'
+    href: '/forstudents',
+    sub_items: [
+      {
+        name: 'About Teknikfokus',
+        href: '#About-teknikfokus'
+      },
+      {
+        name: 'Host Descriptions',
+        href: '#Descriptions'
+      },
+      {
+        name: 'Apply for Host',
+        href: '#How-to-apply'
+      },
+      {
+        name: 'FAQ',
+        href: '#FAQ'
+      },
+    ],
   },
   {
     name: 'For Companies',
-    href: '/forcompanies'
+    href: '/forcompanies',
+    sub_items: [
+      {
+        name: 'About Teknikfokus',
+        href: '#About-teknikfokus'
+      },
+      {
+        name: 'Our offers',
+        href: '#Our-offers'
+      },
+      {
+        name: 'FAQ',
+        href: '#FAQ'
+      },
+      {
+        name: 'Application of interest',
+        href: '#How-to-apply'
+      },
+    ],
   },
   {
     name: 'About Us',
-    href: '/about'
+    href: '/about',
+    sub_items: []
   },
 ];
 
@@ -114,6 +181,7 @@ export default {
   data() {
     return {
       scrolled: false,
+      show_menu: null,
       firstDate: {
         date: {
           day: 15,
@@ -143,7 +211,7 @@ export default {
             hour: 17,
           }
         }
-      }
+      },
     }
   },
   setup() {
