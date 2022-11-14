@@ -122,7 +122,7 @@ export default {
         },
         time: {
           start: {
-            hour: 8,
+            hour: 9,
           },
           end: {
             hour: 17,
