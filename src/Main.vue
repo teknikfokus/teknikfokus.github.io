@@ -38,10 +38,10 @@
     </Popover>
 
     <!-- Shown on larger screens -->
-    <div class="hidden md:block fixed w-full top-0 py-3 transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-transparent']">
+    <div class="hidden md:block fixed w-full top-0 border-b-2 border-gray-trans transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-blue-primary-trans']">
       <div class="flex justify-center">
         <router-link
-          class="block p-2 font-medium text-lg text-gray-50 hover:text-white hover:no-underline"
+          class="block w-48 text-center py-6 mx-2 font-medium text-lg text-gray-50 hover:text-blue-primary hover:bg-gray-50 hover:no-underline"
           @mouseleave="this.show_menu = null"
           v-for="item in this.nav"
           @mouseenter="this.show_menu = item"
@@ -54,16 +54,15 @@
           <!-- Sub-header which appears on hover -->
           <div
             v-if="item.sub_items.length != 0 && show_menu != null && show_menu.name == item.name"
-            class="absolute w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            class="absolute w-48 rounded-b-md mt-6 bg-gray-50 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
             tabindex="-1"
           >
             <div class="py-1 text-center" role="none">
-              <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
               <router-link 
-                class="text-gray-700 align-center block px-4 py-2 text-sm"
+                class="text-blue-primary align-center block px-4 py-2 text-sm"
                 tabindex="-1"
                 v-for="subheader in show_menu.sub_items" 
                 :id="subheader.name"
@@ -275,15 +274,14 @@ export default {
 </script>
 
 <style>
-#main {
-  min-height: 100vh;
-  position: relative;
-}
+  #main {
+    min-height: 100vh;
+    position: relative;
+  }
 
-.hero-background {
-  background-image: url('./assets/images/massa2020blur.jpg');
-}
-
+  .hero-background {
+    background-image: url('./assets/images/massa2020blur.jpg');
+  }
 </style>
 
 
