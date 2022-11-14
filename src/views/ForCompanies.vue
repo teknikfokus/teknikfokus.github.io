@@ -94,7 +94,7 @@
 
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Application of interest</h1>
-    <h3 class="pt-4 text-center text-xl">The application of interest has now closed as of monday 7/11. If you still want to apply to Teknikfokus 2023 please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
+    <h3 class="pt-4 text-center text-xl">The final application is now open and will be sent to companies which have shown interest. If you want to apply to Teknikfokus 2023 please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
   </div>
 </template>
 
