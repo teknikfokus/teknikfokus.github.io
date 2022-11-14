@@ -10,7 +10,7 @@
       <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
         <div>Apply for Host</div>
       </a>
-      <a href="#FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+      <a href="#Students-FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
         <div>FAQ</div>
       </a>
     </div>
@@ -30,7 +30,7 @@
     <h1 class="mt-12 text-5xl text-center font-bold">Host Descriptions</h1>
     <div class="pt-5 pb-5">
       <div class="max-w-510xl mx-auto" >
-        <div id="faq-accordion" class="divide-y-2 divide-gray-200">
+        <div id="students-faq-accordion" class="divide-y-2 divide-gray-200">
           <Question v-for="(question, index) in jobs" :key="index" :info="question" :index="index"></Question>
           <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
         </div>
@@ -44,11 +44,11 @@
       <iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://docs.google.com/forms/d/e/1FAIpQLSdp6eWNkCvD-14nRp5shKeSuzMV1pI78jmycoNp5SwML5lUKg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 
-    <div id="FAQ" class="py-6"></div>
+    <div id="Students-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
-    <div id="faq" class="pt-5 pb-5">
+    <div id="students-faq" class="pt-5 pb-5">
       <div class="max-w-510xl mx-auto" >
-        <div id="faq-accordion" class="divide-y-2 divide-gray-200">
+        <div id="students-faq-accordion" class="divide-y-2 divide-gray-200">
           <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
           <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
         </div>
@@ -189,6 +189,21 @@
     },
     setup() {
       return {jobs, questions}
+    },
+    mounted() {
+      this.init_page();
+    },
+    methods: {
+      init_page() {
+        if(window.location.hash) {
+          // Fragment exists
+          let id = window.location.hash.substring(1);
+          let element = document.getElementById(id);
+          if(element) {
+            element.scrollIntoView();
+          }
+        }
+      }
     }
   }
 </script>

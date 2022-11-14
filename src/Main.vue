@@ -38,45 +38,44 @@
     </Popover>
 
     <!-- Shown on larger screens -->
-    <div class="hidden md:block">
-      <div class="fixed w-full top-0 py-3 transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-transparent']">
-        <div class="flex justify-center space-x-2">
-          <router-link
-            class="block p-2 font-medium text-lg text-gray-50 hover:text-white hover:no-underline"
-            @mouseleave="this.show_menu = null"
-            v-for="item in this.nav"
-            @mouseenter="this.show_menu = item"
-            :key="item.name"
-            :to="item.href"
-          >
-            {{ item.name }}
+    <div class="hidden md:block fixed w-full top-0 py-3 transition-colors z-20" :class="[this.scrolled ? 'bg-blue-primary' : 'bg-transparent']">
+      <div class="flex justify-center">
+        <router-link
+          class="block p-2 font-medium text-lg text-gray-50 hover:text-white hover:no-underline"
+          @mouseleave="this.show_menu = null"
+          v-for="item in this.nav"
+          @mouseenter="this.show_menu = item"
+          :key="item.name"
+          :to="item.href"
+          @click="scroll_to(item.href, this.current_anchor)"
+        >
+          {{ item.name }}
 
-            <!-- Sub-header which appears on hover -->
-            <div
-              v-if="item.sub_items.length != 0 && show_menu != null && show_menu.name == item.name"
-              class="absolute w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-              role="menu"
-              aria-orientation="vertical"
-              aria-labelledby="menu-button"
-              tabindex="-1"
-            >
-              <div class="py-1 text-center" role="none">
-                <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-                <a
-                  class="text-gray-700 align-center block px-4 py-2 text-sm"
-                  tabindex="-1"
-                  href="#Our-offers"
-                  v-for="subheader in show_menu.sub_items"
-                  :id="subheader.name"
-                  :key="subheader.name"
-                  @click="this.show_menu = null"
-                >
-                  {{ subheader.name }}
-              </a>
-              </div>
+          <!-- Sub-header which appears on hover -->
+          <div
+            v-if="item.sub_items.length != 0 && show_menu != null && show_menu.name == item.name"
+            class="absolute w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            role="menu"
+            aria-orientation="vertical"
+            aria-labelledby="menu-button"
+            tabindex="-1"
+          >
+            <div class="py-1 text-center" role="none">
+              <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+              <router-link 
+                class="text-gray-700 align-center block px-4 py-2 text-sm"
+                tabindex="-1"
+                v-for="subheader in show_menu.sub_items" 
+                :id="subheader.name"
+                :key="subheader.name"
+                :to="{ path: item.href, hash: subheader.href }"
+                @click="this.current_anchor = subheader.href"
+              >
+                {{ subheader.name }}
+              </router-link>
             </div>
-          </router-link>
-        </div>
+          </div>
+        </router-link>
       </div>
     </div>
 
@@ -134,7 +133,7 @@ const nav = [
       },
       {
         name: 'FAQ',
-        href: '#FAQ'
+        href: '#Students-FAQ'
       },
     ],
   },
@@ -152,7 +151,7 @@ const nav = [
       },
       {
         name: 'FAQ',
-        href: '#FAQ'
+        href: '#Companies-FAQ'
       },
       {
         name: 'Application of interest',
@@ -237,6 +236,23 @@ export default {
       } else if (this.scrolled && scroll <= 75) {
         this.scrolled = false;
       }
+    },
+    scroll_to(page, hash) {
+      window.console.log ("page, hash: " + page + ", " + hash);
+      if(hash == null) {
+        window.scrollTo(0, 0);
+        return;
+      }
+
+      let path = this.$route.path;
+      let id = hash.substring(1);
+      let element = document.getElementById(id);
+
+      if(path == page && element) {
+        element.scrollIntoView();
+        this.show_menu = null;
+      }
+      this.current_anchor = null;
     }
   },
   computed: {

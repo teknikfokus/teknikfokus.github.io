@@ -7,7 +7,7 @@
       <a href="#Our-offers" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
         <div>Our offers</div>
       </a>
-      <a href="#FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
+      <a href="#Companies-FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
         <div>FAQ</div>
       </a>
       <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
@@ -80,12 +80,12 @@
       </div>
     </div>
 
-    <div id="FAQ" class="py-6"></div>
+    <div id="Companies-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
 
-    <div id="faq" class="pt-5 pb-5">
+    <div id="companies-faq" class="pt-5 pb-5">
       <div class="max-w-510xl mx-auto" >
-        <div id="faq-accordion" class="divide-y-2 divide-gray-200">
+        <div id="companies-faq-accordion" class="divide-y-2 divide-gray-200">
           <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
           <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
         </div>
