@@ -1,20 +1,5 @@
 <template>
   <div id="for-companies" class="py-4 scroll-smooth">
-    <div class="mx-auto grid md:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
-      <a href="#About-teknikfokus" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>About Teknikfokus</div>
-      </a>
-      <a href="#Descriptions" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>Host Descriptions</div>
-      </a>
-      <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>Apply for Host</div>
-      </a>
-      <a href="#Students-FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>FAQ</div>
-      </a>
-    </div>
-
     <div id="About-teknikfokus" class="py-6"></div>
     <div class="mx-auto text-lg">
       <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
@@ -59,6 +44,8 @@
 
 <script>
   import Question from '../components/Question'
+  import scroll_to_hash from '../router/scroll_to_hash'
+
   const jobs = [
     {
       question: "Company Host",
@@ -191,19 +178,7 @@
       return {jobs, questions}
     },
     mounted() {
-      this.init_page();
-    },
-    methods: {
-      init_page() {
-        if(window.location.hash) {
-          // Fragment exists
-          let id = window.location.hash.substring(1);
-          let element = document.getElementById(id);
-          if(element) {
-            element.scrollIntoView();
-          }
-        }
-      }
+      scroll_to_hash();
     }
   }
 </script>
