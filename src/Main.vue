@@ -149,12 +149,12 @@ const nav = [
         href: '#Our-offers'
       },
       {
-        name: 'FAQ',
-        href: '#Companies-FAQ'
+        name: 'Application',
+        href: '#How-to-apply'
       },
       {
-        name: 'Application of interest',
-        href: '#How-to-apply'
+        name: 'FAQ',
+        href: '#Companies-FAQ'
       },
     ],
   },
@@ -249,8 +249,8 @@ export default {
 
       if(path == page && element) {
         element.scrollIntoView();
-        this.show_menu = null;
       }
+      this.show_menu = null;
       this.current_anchor = null;
     }
   },
