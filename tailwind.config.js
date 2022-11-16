@@ -10,7 +10,11 @@ module.exports = {
           "primary-lightest": '#516e9c',
           "primary-light": '#223959',
           "primary": '#14273E',
+          "primary-trans": 'rgba(20, 39, 62, 0.4)',
         },
+        gray: {
+          "trans": 'rgba(229, 231, 235, 0.6)'
+        }
       },
       height: {
         x: '50px',

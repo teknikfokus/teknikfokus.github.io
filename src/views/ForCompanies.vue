@@ -1,20 +1,5 @@
 <template>
   <div id="for-companies" class="py-4 scroll-smooth">
-    <div class="mx-auto grid md:grid-cols-4 gap-4 md text-2xl text-center font-semibold">
-      <a href="#About-teknikfokus" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>About Teknikfokus</div>
-      </a>
-      <a href="#Our-offers" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>Our offers</div>
-      </a>
-      <a href="#FAQ" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>FAQ</div>
-      </a>
-      <a href="#How-to-apply" class="bg-blue-primary text-white p-6 rounded-xl shadow-lg flex-1 hover:bg-blue-primary-lightest">
-        <div>Application of interest</div>
-      </a>
-    </div>
-      
     <div id="About-teknikfokus" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
     <div class="xl:flex flex-col xl:items-center mt-12 text-center text-lg">
@@ -80,12 +65,12 @@
       </div>
     </div>
 
-    <div id="FAQ" class="py-6"></div>
+    <div id="Companies-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
 
-    <div id="faq" class="pt-5 pb-5">
+    <div id="companies-faq" class="pt-5 pb-5">
       <div class="max-w-510xl mx-auto" >
-        <div id="faq-accordion" class="divide-y-2 divide-gray-200">
+        <div id="companies-faq-accordion" class="divide-y-2 divide-gray-200">
           <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
           <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
         </div>
@@ -101,10 +86,12 @@
 <script>
   import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
   import { MenuIcon, XIcon } from '@heroicons/vue/outline'
+  import scroll_to_hash from '../router/scroll_to_hash'
   import PackageDeal from '../components/PackageDeal'
   import PackageDealWithText from '../components/PackageDealWithText'
   import ErrorMessage from '../components/ErrorMessage'
   import Question from '../components/Question'
+
   const packages = {
     "1-day": {
       packageName: "1-day",
@@ -253,11 +240,14 @@
       MenuIcon,
       XIcon
     },
-    setup(){
+    setup() {
       return {packages, eventPackages,questions};
     },
-    data(){
+    data() {
       return {currentPackage, currentEventPackage};
+    },
+    mounted() {
+      scroll_to_hash();
     },
     methods: {
       setPackage(key){
