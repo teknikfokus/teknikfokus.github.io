@@ -38,7 +38,7 @@
     </Popover>
 
     <!-- Shown on larger screens -->
-    <div class="hidden md:block fixed w-full top-0 border-b-2 border-transparent transition-colors z-20" :class="[this.scrolled ? ['bg-blue-primary', 'border-gray-400'] : 'bg-blue-primary-trans']">
+    <div class="hidden md:block fixed w-full top-0 border-b-2 border-transparent transition-colors z-20" :class="[this.scrolled ? ['bg-blue-primary', 'border-gray-400'] : 'bg-transparent']">
       <div class="flex justify-center">
         <router-link
           class="block w-48 text-center py-6 mx-2 font-medium text-lg text-gray-50 hover:text-blue-primary hover:bg-gray-50 hover:no-underline"
