@@ -67,7 +67,9 @@
 
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
-    <h3 class="pt-4 text-center text-xl">The final application is now open. Contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> to apply or to get more information.</h3>
+    <h3 class="pt-4 text-center text-xl">The final application is now open and will stay open until <text class="underline">December 22</text>.
+    <br>
+    Contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> to apply or to get more information.</h3>
 
     <div id="Companies-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
