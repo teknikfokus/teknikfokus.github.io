@@ -237,7 +237,6 @@ export default {
       }
     },
     scroll_to(page, hash) {
-      window.console.log ("page, hash: " + page + ", " + hash);
       if(hash == null) {
         window.scrollTo(0, 0);
         return;
