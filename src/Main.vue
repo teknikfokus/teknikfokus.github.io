@@ -115,11 +115,6 @@ const nav = [
     sub_items: []
   },
   {
-    name: 'Companies',
-    href: '/companies',
-    sub_items: []
-  },
-  {
     name: 'For Students',
     href: '/forstudents',
     sub_items: [
