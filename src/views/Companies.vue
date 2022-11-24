@@ -63,6 +63,7 @@ export default {
       return this.$store.getters['jv/get']('companies')
     },
     filteredCompanies() {
+      window.console.log(Object.values(this.companies))
       return Object.values(this.companies).filter(company => company.days_attending && Object.values(company.days_attending).length > 0)
     }
   }
