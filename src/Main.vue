@@ -38,7 +38,7 @@
     </Popover>
 
     <!-- Shown on larger screens -->
-    <div class="hidden md:block fixed w-full top-0 border-b-2 border-transparent transition-colors z-20" :class="[this.scrolled ? ['bg-blue-primary', 'border-gray-400'] : 'bg-blue-primary-trans']">
+    <div class="hidden md:block fixed w-full top-0 border-b-2 border-transparent transition-colors z-20" :class="[this.scrolled ? ['bg-blue-primary', 'border-gray-400'] : 'bg-transparent']">
       <div class="flex justify-center">
         <router-link
           class="block w-48 text-center py-6 mx-2 font-medium text-lg text-gray-50 hover:text-blue-primary hover:bg-gray-50 hover:no-underline"
@@ -140,6 +140,25 @@ const nav = [
         href: '#Students-FAQ'
       },
     ],
+    href: '/forstudents',
+    sub_items: [
+      {
+        name: 'About Teknikfokus',
+        href: '#About-teknikfokus'
+      },
+      {
+        name: 'Host Descriptions',
+        href: '#Descriptions'
+      },
+      {
+        name: 'Apply for Host',
+        href: '#How-to-apply'
+      },
+      {
+        name: 'FAQ',
+        href: '#Students-FAQ'
+      },
+    ],
   },
   {
     name: 'For Companies',
@@ -154,12 +173,12 @@ const nav = [
         href: '#Our-offers'
       },
       {
-        name: 'FAQ',
-        href: '#Companies-FAQ'
+        name: 'Application',
+        href: '#How-to-apply'
       },
       {
-        name: 'Application of interest',
-        href: '#How-to-apply'
+        name: 'FAQ',
+        href: '#Companies-FAQ'
       },
     ],
   },
@@ -193,7 +212,7 @@ export default {
         },
         time: {
           start: {
-            hour: 8,
+            hour: 9,
           },
           end: {
             hour: 17,
@@ -242,7 +261,6 @@ export default {
       }
     },
     scroll_to(page, hash) {
-      window.console.log ("page, hash: " + page + ", " + hash);
       if(hash == null) {
         window.scrollTo(0, 0);
         return;
@@ -254,8 +272,8 @@ export default {
 
       if(path == page && element) {
         element.scrollIntoView();
-        this.show_menu = null;
       }
+      this.show_menu = null;
       this.current_anchor = null;
     }
   },

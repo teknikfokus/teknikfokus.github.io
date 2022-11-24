@@ -65,9 +65,14 @@
       </div>
     </div>
 
+    <div id="How-to-apply" class="py-6"></div>
+    <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
+    <h3 class="pt-4 text-center text-xl">The final application is now open and will stay open until <text class="underline">December 20th</text>.
+    <br>
+    Contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> to apply or to get more information.</h3>
+
     <div id="Companies-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
-
     <div id="companies-faq" class="pt-5 pb-5">
       <div class="max-w-510xl mx-auto" >
         <div id="companies-faq-accordion" class="divide-y-2 divide-gray-200">
@@ -76,10 +81,6 @@
         </div>
       </div>
     </div>
-
-    <div id="How-to-apply" class="py-6"></div>
-    <h1 class="mt-12 text-5xl text-center font-bold">Application of interest</h1>
-    <h3 class="pt-4 text-center text-xl">The application of interest has now closed as of monday 7/11. If you still want to apply to Teknikfokus 2023 please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
   </div>
 </template>
 
