@@ -10,7 +10,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.4",
     "@heroicons/vue": "^1.0.5",
-    "autoprefixer": "^9.8.8",
+    "autoprefixer": "^10.4.13",
     "axios": "^1.2.0",
     "core-js": "^3.8.3",
     "jsonapi-vuex": "^5.10.0",
