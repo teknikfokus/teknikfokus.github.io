@@ -24,7 +24,7 @@
 
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>
-    <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>.</h3>
+    <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:hosts@teknikfokus.se">hosts@teknikfokus.se</a>.</h3>
     <div class="pt-4 max-w-5xl h-700 mx-auto">
       <iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://docs.google.com/forms/d/e/1FAIpQLSdp6eWNkCvD-14nRp5shKeSuzMV1pI78jmycoNp5SwML5lUKg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
@@ -91,11 +91,11 @@
       `
     },
     {
-      question: "Lunch Host",
+      question: "Lunch/Food Host",
       answer: `
-        <p>Do you love making food and meeting new people? Then you should apply for Lunch Host!</p>
+        <p>Do you love making food and meeting new people? Then you should definitely apply for Lunch/Food Host!</p>
         <br>
-        <p>During the fair your main task will be to make food for the lunches for hosts and company representatives as well as organize food for the lunch lectures. During the lunch a large portion of the attendees of the fair will be there, so you will get the chance to meet a lot of people! A big plus is if you have prior experience of making food for a large amount of people.</p>
+        <p>Your main task during the fair will be to make food for the lunches for hosts and company representatives. During lunch a large portion of the attendees of the fair will be there, so you will get the chance to meet a lot of people! Teknikfokus will also be hosting a couple of lunch lectures and company pubs outside of the fair days that we will need help to prepare the food for. These events will take place during January and February but the dates are not yet decided. For this role it is a big plus if you have prior experience of making food for a large number of people, BUT it is definitely not a requirement!</p>
       `
     },
     {
