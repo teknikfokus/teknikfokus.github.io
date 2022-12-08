@@ -168,7 +168,7 @@
   const questions = [
     {
       question: "Why Teknikfokus?",
-      answer: "<p>What makes us stand out is not our banquette or lounges, it is our students. Here at E-huset we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, communications- and informational-technologies as well as other amazing specialists. This is the fair for those who want to reach new levels in the world of engineering.</p>"
+      answer: "<p>What makes us stand out is not our banquet or lounges, it is our students. Here at E-huset we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, communications- and informational-technologies as well as other amazing specialists. This is the fair for those who want to reach new levels in the world of engineering.</p>"
     },
     {
       question: "When is Teknikfokus?",
@@ -218,7 +218,11 @@
     },
     {
       question: "When and where is the banquet?",
-      answer: '<p>We are still in the process of arranging the banquet, but we will put up information as soon as we have a confirmed date and place.</p>'
+      answer: `
+        <p>The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes for all the company representatives and hosts that have been engaged in Teknikfokus.</p>
+        <br>
+        <p>The banquet will be held February 15th in Gasquesalen at Sölvegatan 22B, Lund. We have not yet determined at what time the doors will open, but more information is to come!</p>
+      `
     },
     {
       question: "Who should you contact if you have questions about the companies?",
