@@ -168,7 +168,7 @@
   const questions = [
     {
       question: "Why Teknikfokus?",
-      answer: "<p>What makes us stand out is not our banquet or lounges, it is our students. Here at E-huset we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, communications- and informational-technologies as well as other amazing specialists. This is the fair for those who want to reach new levels in the world of engineering.</p>"
+      answer: "<p>What makes us stand out is not our banquet or lounges, it is our students. Here at E-huset we pride ourselves in our desire to learn, our desire to specialize and our desire to develop and create. This is the place for you to meet the future’s brightest engineers in software, biomedicine, electronics, computer science, information and communication technologies as well as other amazing specialities. This is the fair for those who want to reach new levels in the world of engineering.</p>"
     },
     {
       question: "When is Teknikfokus?",
