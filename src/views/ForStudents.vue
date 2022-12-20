@@ -145,9 +145,9 @@
     {
       question: "What is the Teknikfokus Banquet, and when is it?",
       answer: `
-      <p>The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes for all the company representatives and hosts that have been engaged in Teknikfokus. Delicious food is promised and all the hosts that have been engaged at Teknikfokus will get a free ticket to the Teknikfokus Banquet. Date and location are in the process of being decided but will be sometime close to or during the fair days.</p>
+      <p>The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes for all the company representatives and hosts that have been engaged in Teknikfokus. Delicious food is promised and all the hosts that have been engaged at Teknikfokus will get a free ticket to the Teknikfokus Banquet.</p>
       <br>
-      <p>More info to come!</p>
+      <p>The banquet will be held February 15th in Gasquesalen at Sölvegatan 22B, Lund. We have not yet determined at what time the doors will open, but more information is to come!</p>
       `
     },
     {
