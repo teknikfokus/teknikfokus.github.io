@@ -69,7 +69,7 @@
     <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
     <h3 class="pt-4 text-center text-xl">Due to a persistent interest, the application of attendance has been extended and will be open until the <text class="underline">14th of January</text>.
     <br>
-    Contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> to apply or to get more information.</h3>
+    Any new applications after the 22nd of December are not guaranteed. Please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for further information or to apply.</h3>
 
     <div id="Companies-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
