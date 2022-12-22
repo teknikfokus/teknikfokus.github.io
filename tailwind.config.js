@@ -10,10 +10,10 @@ module.exports = {
           "primary-lightest": '#516e9c',
           "primary-light": '#223959',
           "primary": '#14273E',
-          "primary-trans": 'rgba(20, 39, 62, 0.4)',
+          "primary-trans": 'rgba(20, 39, 62, 0.7)',
         },
         gray: {
-          "trans": 'rgba(229, 231, 235, 0.6)'
+          "trans": 'rgba(156, 163, 175, 0.4)'
         }
       },
       height: {
