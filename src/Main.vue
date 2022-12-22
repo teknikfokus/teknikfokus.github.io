@@ -38,7 +38,7 @@
     </Popover>
 
     <!-- Shown on larger screens -->
-    <div class="hidden md:block fixed w-full top-0 border-b-2 border-gray-trans transition-colors z-20" :class="[this.scrolled ? ['bg-blue-primary', 'border-gray-400'] : 'bg-blue-primary-trans']">
+    <div class="hidden md:block fixed w-full top-0 border-b-2 bg-blue-primary border-gray-400">
       <div class="flex justify-center">
         <router-link
           class="block w-48 text-center py-6 mx-2 font-medium text-lg text-gray-50 hover:text-blue-primary hover:bg-gray-50 hover:no-underline"
@@ -78,7 +78,7 @@
       </div>
     </div>
 
-    <div class="py-20 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
+    <div class="py-32 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
       <div class="container" v-if="$route.name=='Home'">
         <div class="max-w-xs mx-auto">
           <img src="./assets/logo/svg/logo-white-text.svg" class="max-w-full p-8" alt="Teknikfokus" />
@@ -255,7 +255,7 @@ export default {
   },
   computed: {
     parallaxBackground() {
-      let name ="massa2020blur.jpg"
+      let name ="massa2020blurcut.png"
       var images = require.context('@/assets/images/', false, /(\.png)|(\.jpg)|(\.jpeg)$/)
       return images('./' + name);
     },
@@ -279,7 +279,8 @@ export default {
   }
 
   .hero-background {
-    background-image: url('./assets/images/massa2020blur.jpg');
+    background-image: url('./assets/images/massa2020blurcut.png');
+    background-position: bottom;
   }
 </style>
 
