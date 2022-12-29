@@ -1,14 +1,32 @@
 <template>
-  <div id="for-companies" class="py-4 scroll-smooth">
+  <div id="for-companies" class="scroll-smooth">
     <div id="About-teknikfokus" class="py-6"></div>
-    <div class="mx-auto text-lg">
-      <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
-      <h2 class="mt-12 text-center">
-        Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 15:th and 16:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
-      </h2>
-      <h2 class="mt-4 text-center">
-        Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, free of charge. So make sure to apply as Host and have fun while attending Teknikfokus 2023!
-      </h2>
+    <h1 class="my-12 text-5xl text-center font-bold">About Teknikfokus</h1>
+    <div class="flex-row xl:flex xl:items-center">
+      <!-- Lefty stuff -->
+      <div class="align-center xl:w-2/5">
+        <div class="py-4 text-lg xl:pr-8">
+          <h1 class="text-4xl font-bold text-center">What is Teknikfokus?</h1>
+          <h2 class="mt-6">
+            Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 15:th and 16:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
+          </h2>
+          <br>
+          <h2>
+            Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, free of charge. So make sure to apply as Host and have fun while attending Teknikfokus 2023!
+          </h2>
+          <br>
+          <h2>
+            See you at the fair!
+          </h2>
+        </div>
+      </div>
+
+      <!-- Righty stuff -->
+      <div class="hidden xl:grid xl:w-3/5">
+        <div class="max-w-full mx-auto xl:visible">
+          <img src="../assets/images/massa2.jpg" class="max-w-full" alt="Group of attendees" />
+        </div>
+      </div>
     </div>
 
     <div id="Descriptions" class="py-6"></div>
