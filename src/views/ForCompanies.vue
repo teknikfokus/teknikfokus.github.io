@@ -1,12 +1,34 @@
 <template>
-  <div id="for-companies" class="py-4 scroll-smooth">
+  <div id="for-companies" class="scroll-smooth">
     <div id="About-teknikfokus" class="py-6"></div>
-    <h1 class="mt-12 text-5xl text-center font-bold">About Teknikfokus</h1>
-    <div class="xl:flex flex-col xl:items-center mt-12 text-center text-lg">
-      <h2>
-        Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics and will take place at LTH on the 15:th and 16:th of February, 2023. With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas of our speciality. We are where talent meets opportunity. We are where the present meets the future.
-      </h2>
+    <h1 class="my-12 text-5xl text-center font-bold">About Teknikfokus</h1>
+    <div class="flex-row xl:flex xl:items-center">
+      <div class="align-center xl:w-2/5">
+        <!-- Lefty stuff -->
+        <div class="py-4 text-lg xl:pr-8">
+          <h1 class="text-4xl font-bold text-center">What is Teknikfokus?</h1>
+          <h2 class="mt-6">
+            Teknikfokus is the largest career fair within Biomedical Engineering, Computer Science and Communication Engineering, Electrical Engineering and Information Technology Engineering in the Nordics. The fair will take place at LTH during the 15th and 16th of February 2023.
+          </h2>
+          <br>
+          <h2>
+            With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000 students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas of our speciality.
+          </h2>
+          <br>
+          <h2>
+            See you at the fair!
+          </h2>
+        </div>
+      </div>
+
+      <div class="hidden xl:grid xl:w-3/5">
+        <!-- Righty stuff -->
+        <div class="max-w-full mx-auto xl:visible">
+          <img src="../assets/images/massa1.jpg" class="max-w-full" alt="Group of attendees" />
+        </div>
+      </div>
     </div>
+
       
     <div id="Our-offers" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Our offers</h1>
@@ -206,11 +228,11 @@
     },
     {
       question: "Who organizes Teknikfokus?",
-      answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, <a class=\"font-bold\" href=\"mailto:leo@teknikfokus.se\">leo@teknikfokus.se</a> or Yazan Al-Aswad, <a class=\"font-bold\" href=\"mailto:yazan@teknikfokus.se\">yazan@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>.</p>"
+      answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, <a class=\"font-bold\" href=\"mailto:leo@teknikfokus.se\">leo@teknikfokus.se</a> or Yazan Al-Aswad, <a class=\"font-bold\" href=\"mailto:yazan@teknikfokus.se\">yazan@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>.</p>"
     },
     {
       question: "What does the kontaktsamtal/student sessions mean?",
-      answer: "<p>Student Sessions provide companies a possibility to have a private sit down with students on the days of the fair, to talk about summer jobs, internships, exam work or future employment. Interested students can register at the company booth and a link to the student profile and their resume will be available to the company who will schedule a meeting. If you have questions about student sessions, contact one of our project managers. Contact information can be found under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>.</p>"
+      answer: "<p>Student Sessions provide companies a possibility to have a private sit down with students on the days of the fair, to talk about summer jobs, internships, exam work or future employment. Interested students can register at the company booth and a link to the student profile and their resume will be available to the company who will schedule a meeting. If you have questions about student sessions, contact one of our project managers. Contact information can be found under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>.</p>"
     },
     {
       question: "When should company representatives arrive?",
@@ -226,7 +248,7 @@
     },
     {
       question: "Who should you contact if you have questions about the companies?",
-      answer: "<p>If you have questions as a company or regarding a company attending Teknikfokus, please contact us at <a class=\"font-bold\" href=\"mailto:relations@teknikfokus.se\">relations@teknikfokus.se</a>. Also, feel free to reach out to us using contact information under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about>About us</a>. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers at <a class=\"font-bold\" href=\"mailto:projektledare@teknikfokus.se\">projektledare@teknikfokus.se</a>.</p>"
+      answer: "<p>If you have questions as a company or regarding a company attending Teknikfokus, please contact us at <a class=\"font-bold\" href=\"mailto:relations@teknikfokus.se\">relations@teknikfokus.se</a>. Also, feel free to reach out to us using contact information under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>. If you have comments about the companies invited, or feel that a company doesn’t represent Teknikfokus in a good way, contact one of our project managers at <a class=\"font-bold\" href=\"mailto:projektledare@teknikfokus.se\">projektledare@teknikfokus.se</a>.</p>"
     }
   ];
   var currentPackage = packages["1-day"]

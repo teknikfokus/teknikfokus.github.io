@@ -1,7 +1,7 @@
 <template>
-  <div id="about">
-    <div class="container mt-5 mb-5">
-      <h1 class="header font-medium text-center mb-4 font-weight-bold">The project group</h1>
+  <div id="about" class="scroll-smooth">
+    <div id="About-teknikfokus" class="py-6">
+      <h1 class="my-12 text-5xl text-center font-bold">Project Group 2023</h1>
       <div class="people-holder">
         <Person v-for="person of projectManagers" :info="person" :key="person.name" />
       </div>
@@ -130,10 +130,5 @@ export default {
     flex-wrap: wrap;
     align-items: stretch;
     margin: 0 -20px;
-  }
-  .header {
-    font-weight: bold;
-    color: #000;
-    font-size: 40px;
   }
 </style>
