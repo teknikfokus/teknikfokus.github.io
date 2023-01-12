@@ -95,7 +95,7 @@
       </div>
     </div>
     
-    <div class="container xl:px-24">
+    <div class="content container xl:px-24">
       <router-view/>
     </div>
     <Footer id="footer" ref="footer"></Footer>
@@ -280,6 +280,10 @@ export default {
 
   .hero-background {
     background-image: url('./assets/images/massa2020blur.jpg');
+  }
+  
+  .content {
+    min-height: calc(100vh - 800px);
   }
 </style>
 
