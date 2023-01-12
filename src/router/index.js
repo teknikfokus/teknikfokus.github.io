@@ -22,8 +22,8 @@ const routes = [
     }
   },
   {
-    path: '/companies',
-    name: 'Companies',
+    path: '/attending',
+    name: 'Attending',
     component: () => import(/* webpackChunkName: "faq" */ '../views/Companies.vue'),
     children: [{
       path: ':id',
@@ -32,7 +32,7 @@ const routes = [
       props: true,
     }],
     meta: {
-      title: 'Companies'
+      title: 'Attending Companies'
     }
   },
   {

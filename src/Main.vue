@@ -115,6 +115,11 @@ const nav = [
     sub_items: []
   },
   {
+    name: 'Attending',
+    href: '/attending',
+    sub_items: []
+  },
+  {
     name: 'For Students',
     href: '/forstudents',
     sub_items: [
