@@ -1,7 +1,7 @@
 import Vuex from 'vuex'
 import { jsonapiModule } from 'jsonapi-vuex'
 import axios from 'axios'
-export const endpoint = "https://dev.teknikfokus.se/"
+export const endpoint = "https://api.teknikfokus.se/"
 
 const api = axios.create({
   baseURL: endpoint,
