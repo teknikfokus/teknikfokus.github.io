@@ -15,9 +15,9 @@
             Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, free of charge. So make sure to apply as Host and have fun while attending Teknikfokus 2023!
           </h2>
           <br>
-          <h2>
-            See you at the fair!
-          </h2>
+          <h2>Also, don't forget to apply for <a target="_blank" class="font-bold" href="https://www.teknikfokus.se/sessions">Student Sessions</a> to have a personal meeting discussing future employment or other opportunities with your favourite companies!</h2>
+          <br>
+          <h2>See you at the fair!</h2>
         </div>
       </div>
 
