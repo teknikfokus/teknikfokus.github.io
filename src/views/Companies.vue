@@ -9,6 +9,10 @@
         <ErrorMessage v-if="isError && !isLoading" text="Unable to load companies, try again in a moment.<br>If the error persists, feel free to contact us." />
         <router-view/>
     </div>
+
+    <div class="filler xl:px-24">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -85,6 +89,10 @@ export default {
 
   z-index: 400;
   pointer-events: none;
+}
+
+.filler {
+  min-height: calc(100vh - 600px);
 }
 
 .dark-backdrop.show { opacity: 0.2; }
