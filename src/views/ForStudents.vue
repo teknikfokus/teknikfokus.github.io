@@ -44,7 +44,7 @@
     <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>
     <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:hosts@teknikfokus.se">hosts@teknikfokus.se</a>.</h3>
     <div class="pt-4 max-w-5xl h-700 mx-auto">
-      <iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://docs.google.com/forms/d/e/1FAIpQLSdp6eWNkCvD-14nRp5shKeSuzMV1pI78jmycoNp5SwML5lUKg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://docs.google.com/forms/d/e/1FAIpQLSf70sr6P94FphlLMlwPlCb6EPFxAi16Pd8js7gzVGJqqMz4SQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 
     <div id="Students-FAQ" class="py-6"></div>
