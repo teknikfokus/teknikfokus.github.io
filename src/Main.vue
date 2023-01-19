@@ -292,10 +292,6 @@ export default {
     background-image: url('./assets/images/massa2020blurcut.png');
     background-position: bottom;
   }
-  
-  .content {
-    min-height: calc(100vh - 800px);
-  }
 </style>
 
 
