@@ -1,5 +1,6 @@
 <template>
   <footer class="absolute w-100 justify-center text-white bg-blue-primary py-8">
+
     <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 grid-flow-row gap-2 px-4">
 
       <div class="col-span-1 w-32 m-auto">
@@ -38,13 +39,21 @@
           </div>
         </div>
       </div>
-
-      <div class="m-auto">
-        <h1 class="text-xl font-bold underline text-center">Social Media</h1>
-        <div class="grid grid-cols-3 gap-5 pt-4 h-100">
-          <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.facebook.com/teknikfokus" target="_blank"><i class="text-blue-primary fab fa-facebook-f "></i></a>
-          <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.linkedin.com/company/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-linkedin-in"></i></a>
-          <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.instagram.com/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-instagram"></i></a>
+      
+      <div class="grid grid-cols-2">
+        <div class="m-auto">
+          <h1 class="text-xl font-bold underline text-center">Social Media</h1>
+          <div class="grid grid-cols-3 gap-5 pt-4 h-100">
+            <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.facebook.com/teknikfokus" target="_blank"><i class="text-blue-primary fab fa-facebook-f "></i></a>
+            <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.linkedin.com/company/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-linkedin-in"></i></a>
+            <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.instagram.com/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="m-auto">
+          <h1 class="text-xl font-bold underline" href="https://www.iternio.com/" target="_blank">Shuttle Provider</h1>
+          <div class="gap-5 pt-4 h-100">
+            <img class="h-x px-4" src="@/assets/logo/svg/companies/Iternio.png" alt="Iternio Logo"/>
+          </div>
         </div>
       </div>
 
