@@ -1,13 +1,19 @@
 <template>
   <footer class="absolute w-100 justify-center text-white bg-blue-primary py-8">
 
-    <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 grid-flow-row gap-2 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-7 lg:grid-cols-8 grid-flow-row gap-2 px-4">
 
-      <div class="col-span-1 w-32 m-auto">
-        <img class="pt-2" src="@/assets/logo/svg/white-logo-white-text.svg" alt="Teknikfokus logo"/>
+      <div class="flex flex-col xl:flex-row mx-auto col-span-2">
+        <img class="mx-auto w-32" src="@/assets/logo/svg/white-logo-white-text.svg" alt="Teknikfokus logo"/>
+        <div class="w-0 my-1 mx-12 border-2 border-white hidden xl:grid"></div>
+        <div class="h-0 px-1 mt-3 mb-2 border-2 border-white grid xl:hidden"></div>
+        <div class="flex flex-col justify-center text-center">
+          <a class="mx-auto text-xl font-bold underline" href="https://www.iternio.com/" target="_blank">Shuttle Provider</a>
+          <img class="pt-3 w-24 mx-auto" src="@/assets/logo/svg/companies/Iternio.png" alt="Iternio Logo"/>
+        </div>
       </div>
 
-      <div class="mx-auto text-base md:col-span-2 lg:col-span-3">
+      <div class="mx-auto text-base md:col-span-3 lg:col-span-4">
         <h1 class="text-xl font-bold underline text-center">Contact us</h1>
         <div class="grid grid-cols-1 xl:grid-cols-2">
           <div>
@@ -40,19 +46,13 @@
         </div>
       </div>
       
-      <div class="grid grid-cols-2">
-        <div class="m-auto">
+      <div class="col-span-2">
+        <div class="m-auto px-8 2xl:px-16">
           <h1 class="text-xl font-bold underline text-center">Social Media</h1>
           <div class="grid grid-cols-3 gap-5 pt-4 h-100">
-            <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.facebook.com/teknikfokus" target="_blank"><i class="text-blue-primary fab fa-facebook-f "></i></a>
-            <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.linkedin.com/company/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-linkedin-in"></i></a>
-            <a class="h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.instagram.com/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-instagram"></i></a>
-          </div>
-        </div>
-        <div class="m-auto">
-          <h1 class="text-xl font-bold underline" href="https://www.iternio.com/" target="_blank">Shuttle Provider</h1>
-          <div class="gap-5 pt-4 h-100">
-            <img class="h-x px-4" src="@/assets/logo/svg/companies/Iternio.png" alt="Iternio Logo"/>
+            <a class="mx-auto h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.facebook.com/teknikfokus" target="_blank"><i class="text-blue-primary fab fa-facebook-f "></i></a>
+            <a class="mx-auto h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.linkedin.com/company/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-linkedin-in"></i></a>
+            <a class="mx-auto h-x w-x bg-[#ffffff] hover:bg-blue-primary-lightest transition-colors rounded-full flex items-center justify-center text-4xl hover:no-underline" href="https://www.instagram.com/teknikfokus/" target="_blank"><i class="text-blue-primary fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
