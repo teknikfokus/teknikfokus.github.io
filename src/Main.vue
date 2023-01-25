@@ -115,7 +115,7 @@ const nav = [
     sub_items: []
   },
   {
-    name: 'Attending',
+    name: 'Attending Companies',
     href: '/attending',
     sub_items: [],
   },

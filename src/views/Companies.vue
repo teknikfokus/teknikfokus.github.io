@@ -20,7 +20,7 @@ import Loader from '../components/Loader'
 import ErrorMessage from '../components/ErrorMessage'
 
 export default {
-  name: 'Attending',
+  name: 'Attending Companies',
   components: {
     CompanyGrid,
     //CompanyModal,
