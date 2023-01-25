@@ -23,7 +23,7 @@ const routes = [
   },
   {
     path: '/attending',
-    name: 'Attending',
+    name: 'Attending Companies',
     component: () => import(/* webpackChunkName: "faq" */ '../views/Companies.vue'),
     children: [{
       path: ':id',
