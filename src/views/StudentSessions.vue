@@ -7,7 +7,7 @@
     </h2>
     <br>
     <h2 class="text-center font-bold">
-      Press the button to go to our Student Sessions portal!
+      Application will close the 31/1!
     </h2>
     <a class="my-16 mx-auto text-white text-xl font-bold bg-blue-primary p-8 rounded-xl shadow-lg hover:bg-blue-primary-lightest" href="https://teknikfokus.karriardag.se/" target="_blank">
       <p class="no-underline">🫱‍🫲 Apply 🫱‍🫲</p>

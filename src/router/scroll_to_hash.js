@@ -1,3 +1,6 @@
+/**
+ * Scrolls to an element with the same id as the hash given in URL.
+ */
 function scroll_to_hash() {
   if(window.location.hash) {
     /* URL with hash exists */
