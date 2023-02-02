@@ -69,6 +69,15 @@ const routes = [
     }
   },
   {
+    path: '/host',
+    alias: '/hosts',
+    name: 'Host',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Host.vue'),
+    meta: {
+      title: 'Host'
+    }
+  },
+  {
     path: '/fair',
     name: 'Fair',
     beforeEnter: () => location.href = "https://fair.teknikfokus.se/sv/event/4728",
