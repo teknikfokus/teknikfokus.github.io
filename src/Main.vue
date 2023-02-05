@@ -128,14 +128,6 @@ const nav = [
         href: '#About-teknikfokus'
       },
       {
-        name: 'Host Descriptions',
-        href: '#Descriptions'
-      },
-      {
-        name: 'Apply for Host',
-        href: '#How-to-apply'
-      },
-      {
         name: 'FAQ',
         href: '#Students-FAQ'
       },

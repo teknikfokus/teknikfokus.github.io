@@ -29,24 +29,7 @@
       </div>
     </div>
 
-    <div id="Descriptions" class="py-6"></div>
-    <h1 class="mt-12 text-5xl text-center font-bold">Host Descriptions</h1>
-    <div class="pt-5 pb-5">
-      <div class="max-w-510xl mx-auto" >
-        <div id="students-faq-accordion" class="divide-y-2 divide-gray-200">
-          <Question v-for="(question, index) in jobs" :key="index" :info="question" :index="index"></Question>
-          <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
-        </div>
-      </div>
-    </div>
-
-    <div id="How-to-apply" class="py-6"></div>
-    <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>
-    <h3 class="pt-4 text-center text-xl">For any questions or additional inquiries please contact <a class="font-bold" href="mailto:hosts@teknikfokus.se">hosts@teknikfokus.se</a>.</h3>
-    <div class="pt-4 max-w-5xl h-700 mx-auto">
-      <iframe class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" src="https://docs.google.com/forms/d/e/1FAIpQLSf70sr6P94FphlLMlwPlCb6EPFxAi16Pd8js7gzVGJqqMz4SQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-
+    
     <div id="Students-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
     <div id="students-faq" class="pt-5 pb-5">
@@ -144,20 +127,17 @@
 
   const questions = [
     {
-      question: "What do you do as a host at Teknikfokus?",
+      question: "Why should I attend Teknikfokus?",
       answer: `
-        <p>Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. Each year the fair helps several students to get in contact with different companies within our area of specialization and the fair is also good for the E and D-faculties. This year Teknikfokus is finally back on site here at E-huset. The fair will take place the 15th & 16th of February and to make this fair a reality we will need the help of hosts!</p>
+        <p>Teknikfokus is the largest career fair within Biomedical, Computer Science, Communication, Electrical and Information technologies engineering in the Nordics. Each year the fair helps several students to get in contact with different companies within our area of specialization and the fair is also good for the E and D-faculties. This year Teknikfokus is finally back on site here at E-huset.</p>
         <br>
-        <p>To make the fair function as intended we will need hosts in many different roles. We will need hosts that can answer all kinds of qustions about the fair in the info desk, we will need hosts that welcome the companies, and we will need hosts that prepare the food for the company representatives and hosts. These were only a couple of the roles that are available for the fair. There is something for everyone, so apply to be a host for Teknikfokus, together we will make Teknikfokus 2023 possible!</p>
+        <p>This is the perfect opportunity to interact with your future employees!</p>
       `
     },
     {
-      question: "What do I get for working at Teknikfokus?",
+      question: "Which companies are attending?",
       answer: `
-        <p>As a host at Teknikfokus you will get an exclusive patch to your ouvve, you will get free fika and lunch during the fair, and you will get in closer contact with the company representatives from companies both here in Lund and from other places.</p>
-        <br>
-        <p>As a host you will also be able to attend events before the fair, a thank you party after the fair, and get a ticket to the Teknikfokus Banquet for free!
-        </p>
+        <p>The "Attending Companies" page shows present companies along with more specific company provided general information.</p>
       `
     },
     {
@@ -169,21 +149,9 @@
       `
     },
     {
-      question: "What is a coordinator?",
+      question: "Where do I apply for host at Teknikfokus?",
       answer: `
-        <p>A coordinator will work just as any host during the fair, but they will also have more resposibility. This is because the coordinators will be responsible for a group of hosts during the fair and more responsibility will then be required to make the fair function as intended. If the hosts have any questions, their coordinator is the one they should make first contact with. The coordinators will thus function a bit like a team leader which will give you valuable experience!</p>
-      `
-    },
-    {
-      question: "How much work is expected of a host?",
-      answer: `
-        <p>Overall there is not a lot of work as a host during Teknikfokus since most of the work will be done during the two fair days. However, the work intensity can vary depending on what kind of host you are. Some hosts will work during longer periods of time, but at the same time a little calmer, for example the night watch, while some will work for a shorter period of time but more intensively, for example the lunch host. While you are expected to be able to work both days during the fair, you will of course not have to be at your post the entire time.</p>
-      `
-    },
-    {
-      question: "Who gets to apply for host at Teknikfokus?",
-      answer: `
-        <p>All students from the E and D-faculties are welcome to apply to be a host!</p>
+        <p>We are no longer accepting new host application for this years Teknikfokus. Make sure to not miss it next year!</p>
       `
     }
   ];
