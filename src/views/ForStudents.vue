@@ -12,12 +12,13 @@
           </h2>
           <br>
           <h2>
-            Along with the event there will also be lunch lectures, pubs and student sessions happening all around E-huset.
-          </h2>
-          <br>
-          <h2>Don't forget to apply for <a target="_blank" class="font-bold" href="https://www.teknikfokus.se/sessions">Student Sessions</a> to have a personal meeting discussing future employment or other opportunities with your favourite companies!</h2>
+            Along with the fair there will also be lunch lectures, pubs and student sessions happening all around E-huset. Follow the links below to read more about participating in Student Sessions and applying for Host.</h2>
           <br>
           <h2>See you at the fair!</h2>
+          <div class="mx-auto grid sm:grid-cols-1 gap-4 pt-4 md">
+            <cool-button text="Host Application" href="https://www.teknikfokus.se/host"/>
+            <cool-button text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
+          </div>
         </div>
       </div>
 
@@ -43,8 +44,9 @@
 </template>
 
 <script>
-  import Question from '../components/Question'
-  import scroll_to_hash from '../router/scroll_to_hash'
+  import Question from '../components/Question';
+  import CoolButton from '../components/CoolButton.vue';
+  import scroll_to_hash from '../router/scroll_to_hash';
 
   const questions = [
     {
@@ -71,7 +73,8 @@
   export default {
     name: 'ForStudents',
     components: {
-      Question
+      Question,
+      CoolButton
     },
     setup() {
       return {questions}
