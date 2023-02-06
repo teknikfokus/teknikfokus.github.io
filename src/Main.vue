@@ -134,16 +134,6 @@ const nav = [
     ],
   },
   {
-    name: 'Student Sessions',
-    href: '/sessions',
-    sub_items: [
-      {
-        name: 'About',
-        href: '#About-sessions'
-      }
-    ],
-  },
-  {
     name: 'For Companies',
     href: '/forcompanies',
     sub_items: [
