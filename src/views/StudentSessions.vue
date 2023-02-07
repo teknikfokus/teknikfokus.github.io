@@ -1,17 +1,14 @@
 <template>
-  <div id="Student-session" class="py-6 content-center"></div>
-  <div class="flex flex-col mx-auto text-lg">
+  <div id="Student-session" class="scroll-smooth"></div>
+  <div class="flex flex-col mx-auto text-lg py-6">
     <h1 class="mt-12 text-5xl text-center font-bold">About</h1>
-    <h2 class="pt-5 text-center">
+    <p class="pt-5 text-center text-xl">
       A Student Session is a personal meeting with the company of your choice, and a chance for companies to get to know you. Prior to the fair students may upload CV:s and select which companies they would like to discuss future opportunities with. Companies may then ask for a personal meeting with students they find particularly interesting. The meetings will take place in group rooms at the first and second floors of E-huset during the days of the fair. Further information regarding the time of your meeting will be sent via email once all companies have selected their students to meet.
-    </h2>
+    </p>
     <br>
-    <h2 class="text-center font-bold">
-      Application will close the 31/1!
-    </h2>
-    <a class="my-16 mx-auto text-white text-xl font-bold bg-blue-primary p-8 rounded-xl shadow-lg hover:bg-blue-primary-lightest" href="https://teknikfokus.karriardag.se/" target="_blank">
-      <p class="no-underline">🫱‍🫲 Apply 🫱‍🫲</p>
-    </a>
+    <p class="text-center text-xl">
+      Application for Student Sessions 2023 is closed as of the 31/1. For any questions or additional inquiries please contact <a class="font-bold" href="mailto:it@teknikfokus.se">it@teknikfokus.se</a>.
+    </p>
 
     <div class="filler xl:px-24">
       <router-view/>

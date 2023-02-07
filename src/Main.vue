@@ -95,7 +95,7 @@
       </div>
     </div>
     
-    <div class="content container xl:px-24">
+    <div class="content container xl:px-24" :class="{'min-h-[60vh]' : $route.name!=='Home' }">
       <router-view/>
     </div>
     <Footer id="footer" ref="footer"></Footer>
