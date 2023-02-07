@@ -142,10 +142,6 @@ const nav = [
         href: '#About-teknikfokus'
       },
       {
-        name: 'Our offers',
-        href: '#Our-offers'
-      },
-      {
         name: 'Application',
         href: '#How-to-apply'
       },
