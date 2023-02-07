@@ -58,6 +58,7 @@
   import Question from '../components/Question';
   import CoolButton from '../components/CoolButton.vue';
   import CoolButton2 from '../components/CoolButton2.vue';
+  import ErrorMessage from '../components/ErrorMessage'
   import scroll_to_hash from '../router/scroll_to_hash';
 
   const questions = [
@@ -89,6 +90,7 @@
     name: 'ForStudents',
     components: {
       Question,
+      ErrorMessage,
       CoolButton,
       CoolButton2
     },
