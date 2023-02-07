@@ -29,69 +29,13 @@
       </div>
     </div>
 
-      
-    <div id="Our-offers" class="py-6"></div>
-    <h1 class="mt-12 text-5xl text-center font-bold">Our offers</h1>
-    <div class="xl:flex flex-row-reverse xl:items-center">
-      <div class="xl:w-2/5 align-center">
-        <!-- Righty stuff -->
-        <div class="xl:mt-0 pl-8 py-4 text-lg">
-          <h2 class="text-4xl font-bold text-center">Exhibition Packages</h2>
-          <h3 class="mt-6">In order to attend the fair one of our three packages must be purchased, with the option for complimentary add-ons.</h3>
-          <h3 class="mt-6">If our add-ons do not cover your needs please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for a custom tailored add-on</h3>
-        </div>
-      </div>
-      <div class="xl:w-3/5">
-        <!-- Lefty stuff -->
-        <div class="grid grid-cols-4 mt-8 text-white text-base md:text-lg font-semibold border-b-2 border-white border-solid">
-          <button
-            v-for="item in Object.values(this.packages)"
-            :key="item.packageName"
-            @click="setPackage(item.packageName)"
-            v-bind:class="{ 'bg-blue-primary-lightest': this.currentPackage.packageName === item.packageName }"
-            class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
-          >
-            {{item.packageName}}
-          </button>
-        </div>
-
-        <PackageDeal :info="currentPackage" />
-      </div>
-    </div>
-  
-    <div class="xl:flex xl:items-center mt-8">
-      <div class="xl:w-2/5">
-        <!-- Lefty stuff -->
-        <div class="mt-6 xl:mt-0 pr-8 text-lg">
-          <h2 class="text-4xl font-bold text-center">Event Packages</h2>
-          <h3 class="mt-6">An event package is a great way for you and your company to increase your chances at finding the talents you seek.</h3>
-          <h3 class="mt-6">The pub and the lunch lecture takes place prior to the fair, while the student sessions will be held during the fair.</h3>
-          <h3 class="mt-6">If you have an idea for an event you may contact <a class="font-bold" href="mailto:event@teknikfokus.se">event@teknikfokus.se</a> and discuss the possibility of bringing your idea to life.</h3>
-        </div>
-      </div>
-      <div class="xl:w-3/5 align-center">
-        <!-- Righty stuff -->
-        <div class="grid grid-cols-4 mt-8 text-white text-base md:text-lg font-semibold border-b-2 border-white border-solid">
-          <button
-            v-for="item in Object.values(this.eventPackages)"
-            :key="item.packageName"
-            @click="setEventPackage(item.packageName)"
-            v-bind:class="{'bg-blue-primary-lightest': this.currentEventPackage.packageName === item.packageName }"
-            class="p-2 bg-blue-primary rounded-t-xl border-r-2 border-white border-solid hover:bg-blue-primary-lightest focus:outline-none font-semibold"
-          >
-            {{item.packageName}}
-          </button>
-        </div>
-
-        <PackageDealWithText :info="currentEventPackage" />
-      </div>
-    </div>
-
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
-    <h3 class="pt-4 text-center text-xl">Due to a persistent interest, the application of attendance has been extended and will be open until the <text class="underline">14th of January</text>.
-    <br>
-    Any new applications after the 22nd of December are not guaranteed. Please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for further information or to apply.</h3>
+    <h3 class="pt-4 text-center text-xl">
+      Application for Teknikfokus 2023 has closed as of the 14th of January.
+      <br>
+      Please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for further information or to apply for Teknikfokus 2024.
+    </h3>
 
     <div id="Companies-FAQ" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">FAQ</h1>
