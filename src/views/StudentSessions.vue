@@ -7,7 +7,11 @@
     </p>
     <br>
     <p class="text-center text-lg">
-      Application for Student Sessions 2023 is closed as of the 31/1. For any questions or additional inquiries please contact <a class="font-bold" href="mailto:it@teknikfokus.se">it@teknikfokus.se</a>.
+      Application for Student Sessions 2023 is closed as of the 31/1. The students who have been accepted by their company are now able to book a time with their chosen company at <a class="font-bold" target="_blank" href="https://teknikfokus.karriardag.se/">teknikfokus.karriardag.se</a>. Emails have also been sent out to all of these students. 
+    </p>
+    <br>
+    <p class="text-center text-lg">
+      For any questions or additional inquiries please contact <a class="font-bold" href="mailto:it@teknikfokus.se">it@teknikfokus.se</a>.
     </p>
 
     <div class="filler xl:px-24">
