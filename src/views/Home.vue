@@ -28,7 +28,7 @@
       <div class="md:w-2/5 space-y-2 px-4">
         <h4 class="text-2xl">Fair Map</h4>
         <p>The map displays where all the exhibitors will have their booths at E-huset. The main entrance of E-huset is located at the leftmost part of the map. </p>
-        <p>The list of exhibitors display where and when they will attend. For example, Lunicore will be at area 3 the 15th while Hello World! will be at area 3 the 16th. Exhibitors which will attend for both days are indicated by an empty right column, such as Arm.</p>
+        <p>The list of exhibitors display where and when they will attend. For example, Lunicore will be at area 3 the 15th while Hello World! will be at area 3 the 16th. Exhibitors who will attend during both days are indicated by an empty right column, such as Arm.</p>
       </div>
 
       <div class="md:w-3/5 mx-auto px-4">
