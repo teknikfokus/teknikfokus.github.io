@@ -2,7 +2,7 @@
   <div id="host" class="scroll-smooth">
     <div id="About-hosts" class="py-6"></div>
     <h1 class="my-12 text-5xl text-center font-bold">About Hosts</h1>
-    <h3 class="text-lg text-center">To make the fair function as intended we will need hosts who can help with setting things up for the fair, we will need hosts that can answer all kinds of questions about the fair in the info desk and we will need hosts that welcome the companies as company hosts. There are many more things roles that hosts can have and there is something for everyone. You can find the descriptions for all the roles below. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, merch and other festivities. So apply to be a host for Teknikfokus, together we will make Teknikfokus 2023 possible!</h3>
+    <h3 class="text-lg text-center">To make the fair function as intended we will need hosts who can help with setting things up for the fair, we will need hosts that can answer all kinds of questions about the fair in the info desk and we will need hosts that welcome the companies as company hosts. There are many more things roles that hosts can have and there is something for everyone. You can find the descriptions for all the roles for Teknikfokus 2023 below. Those who take part as Hosts will receive many benefits such as attending the Teknikfokus Banquet, merch and other festivities. So apply to be a host for Teknikfokus, together we will make Teknikfokus possible!</h3>
   
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>

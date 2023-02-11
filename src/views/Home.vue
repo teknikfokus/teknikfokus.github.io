@@ -16,11 +16,23 @@
           </a>
         </div>
       </div>
-      <div class="md:w-1/2 space-y-2">
+      <div class="md:w-1/2 space-y-2 px-4">
         <h4 class="text-2xl">Teknikfokus</h4>
         <p>Teknikfokus is a career fair arranged by students in the E and D-faculties at Lunds Tekniska Högskola.</p>
         <p>The fair aims to connect students who study Computer Science and Engineering, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering with companies in their fields of interest.</p>
         <p>In addition to the fair we provide opportunities for lunch lectures, evening events and student sessions.</p>
+      </div>
+    </div>
+    
+    <div class="container mt-8 md:flex md:flex-row-reverse items-center space-y-5">
+      <div class="md:w-2/5 space-y-2 px-4">
+        <h4 class="text-2xl">Fair Map</h4>
+        <p>The map displays where all the exhibitors will have their booths at E-huset. The main entrance of E-huset is located at the leftmost part of the map. </p>
+        <p>The list of exhibitors display where and when they will attend. For example, Lunicore will be at area 3 the 15th while Hello World! will be at area 3 the 16th. Exhibitors which will attend for both days are indicated by an empty right column, such as Arm.</p>
+      </div>
+
+      <div class="md:w-3/5 mx-auto px-4">
+        <img src="../assets/images/map.png" class="mx-auto max-h-[70vh]" alt="Map" />
       </div>
     </div>
   </div>
