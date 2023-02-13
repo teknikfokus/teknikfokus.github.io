@@ -26,14 +26,9 @@
         </thead>
         <tbody class="text-gray-700 text-center">
           <tr>
-            <td class="px-2 pt-2">Sandvine</td>
+            <td class="px-2 pt-2">Acconeer</td>
             <td class="px-2 pt-2">15th</td>
-            <td class="px-2 pt-2">Knuth</td>
-          </tr>
-          <tr>
-            <td class="px-2">Acconeer</td>
-            <td class="px-2">15th</td>
-            <td class="px-2">Rayleigh</td>
+            <td class="px-2 pt-2">Rayleigh</td>
           </tr>
           <tr>
             <td class="px-2">Electrolux Professional AB</td>
@@ -51,19 +46,24 @@
             <td class="px-2">Boole</td>
           </tr>
           <tr>
-            <td class="px-2 pb-2">Arm</td>
-            <td class="px-2 pb-2">15th</td>
-            <td class="px-2 pb-2">Erlang</td>
+            <td class="px-2">Arm</td>
+            <td class="px-2">15th</td>
+            <td class="px-2">Erlang</td>
           </tr>
           <tr>
-            <td class="border-b-2 border-white"></td>
-            <td class="border-b-2 border-white"></td>
-            <td class="border-b-2 border-white"></td>
+            <td class="pb-2 border-b-2 border-white"></td>
+            <td class="pb-2 border-b-2 border-white"></td>
+            <td class="pb-2 border-b-2 border-white"></td>
           </tr>
           <tr>
-            <td class="px-2 pt-2">Sandvine</td>
-            <td class="px-2 pt-2">16th</td>
-            <td class="px-2 pt-2">Knuth</td>
+            <td class="py-2 px-2">Sandvine</td>
+            <td class="py-2 px-2">15th & 16th</td>
+            <td class="py-2 px-2">Knuth</td>
+          </tr>
+          <tr>
+            <td class="pt-2 border-t-2 border-white"></td>
+            <td class="pt-2 border-t-2 border-white"></td>
+            <td class="pt-2 border-t-2 border-white"></td>
           </tr>
           <tr>
             <td class="px-2">Robert Bosch Lund AB</td>
