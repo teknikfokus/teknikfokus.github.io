@@ -184,7 +184,8 @@ export default {
             hour: 9,
           },
           end: {
-            hour: 17,
+            hour: 16,
+            minute: 30,
           }
         }
       },
@@ -196,10 +197,11 @@ export default {
         },
         time: {
           start: {
-            hour: 8,
+            hour: 9,
           },
           end: {
-            hour: 17,
+            hour: 16,
+            minute: 30,
           }
         }
       },
