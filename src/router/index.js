@@ -22,6 +22,14 @@ const routes = [
     }
   },
   {
+    path: '/map',
+    name: 'Map',
+    component: () => import(/* webpackChunkName: "events" */ '../views/MapPage.vue'),
+    meta: {
+      title: 'Map'
+    }
+  },
+  {
     path: '/attending',
     name: 'Attending Companies',
     component: () => import(/* webpackChunkName: "faq" */ '../views/Companies.vue'),
@@ -85,7 +93,7 @@ const routes = [
     meta: {
       title: 'Fair'
     },
-  }
+  },
 ]
 
 const router = createRouter({
