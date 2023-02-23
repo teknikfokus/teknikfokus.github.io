@@ -85,8 +85,6 @@
         </div>
         <h1 class="font-bold md:text-3xl">Career fair</h1>
         <h2 class="text-2xl italic font-normal mt-2">Where the present meets the future</h2>
-        <h3 class="normal-case font-medium mt-2">BACK ON SITE</h3>
-        <h3 class="normal-case font-medium">15th &amp; 16th OF FEBRUARY</h3>
         <CountDown :firstDate="firstDate" :secondDate="secondDate" />
       </div>
       
