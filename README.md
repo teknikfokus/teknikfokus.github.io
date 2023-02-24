@@ -17,3 +17,6 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Push to production
+Accept a pull request from branch `dev` into `deploy` which will trigger [this workflow](.github/workflows/deploy.yml).
