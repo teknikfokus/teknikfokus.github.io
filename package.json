@@ -11,7 +11,7 @@
     "@headlessui/vue": "^1.7.10",
     "@heroicons/vue": "^1.0.6",
     "autoprefixer": "^9.8.8",
-    "axios": "^1.3.3",
+    "axios": "^1.4.0",
     "core-js": "^3.28.0",
     "jsonapi-vuex": "^5.10.0",
     "lazysizes": "^5.3.0",
