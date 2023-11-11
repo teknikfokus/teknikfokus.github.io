@@ -7,7 +7,7 @@
     </p>
     <br>
     <p class="text-center text-lg">
-      Application for Student Sessions 2023 is closed as of the 31/1. The students who have been accepted by their company are now able to book a time with their chosen company at <a class="font-bold" target="_blank" href="https://teknikfokus.karriardag.se/">teknikfokus.karriardag.se</a>. This booking will close the <strong>13/2 at 18:59</strong>. Emails have also been sent out to all of the affected students. 
+      Applications for student sessions are coming soon!
     </p>
     <br>
     <p class="text-center text-lg">
