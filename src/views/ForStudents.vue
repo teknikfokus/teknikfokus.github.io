@@ -8,15 +8,17 @@
         <div class="py-4 text-lg xl:pr-8">
           <h1 class="text-4xl font-bold text-center">What is Teknikfokus?</h1>
           <h2 class="mt-6">
-            Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 15:th and 16:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
+            Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and 14:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
           </h2>
           <br>
           <h2>
             Along with the fair there will also be lunch lectures, pubs and student sessions happening all around E-huset. Follow the links below to read more about participating in Student Sessions and applying for Host.</h2>
           <br>
           <h2>See you at the fair!</h2>
+            
+          <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2>
 
-          <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
+          <!-- <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
             <div class="py-2 hidden xl:grid">
               <cool-button class="" text="Host Application" href="https://www.teknikfokus.se/host"/>
             </div>
@@ -29,7 +31,7 @@
             <div class="py-2 grid xl:hidden">
               <cool-button2 text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -64,11 +66,11 @@
   const questions = [
     {
       question: "Who organizes Teknikfokus?",
-      answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, <a class=\"font-bold\" href=\"mailto:leo@teknikfokus.se\">leo@teknikfokus.se</a> or Yazan Al-Aswad, <a class=\"font-bold\" href=\"mailto:yazan@teknikfokus.se\">yazan@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>.</p>"
+      answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Samuel Högfeldt, <a class=\"font-bold\" href=\"mailto:samuel@teknikfokus.se\">samuel@teknikfokus.se</a> or Alen Mahmutovic, <a class=\"font-bold\" href=\"mailto:alen@teknikfokus.se\">alen@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>.</p>"
     },
     {
       question: "When is Teknikfokus?",
-      answer: "<p>The fair will take place between 09:00 and 16:30, the 15th & 16th of February.</p>"
+      answer: "<p>The fair will take place between 09:00 and 16:30, the 13th & 14th of February.</p>"
     },
     {
       question: "Where will Teknikfokus take place?",
