@@ -173,9 +173,9 @@ export default {
       show_menu: null,
       firstDate: {
         date: {
-          day: 15,
+          day: 13,
           month: 2,
-          year: 2023,
+          year: 2024,
         },
         time: {
           start: {
@@ -189,9 +189,9 @@ export default {
       },
       secondDate: {
         date: {
-          day: 16,
+          day: 14,
           month: 2,
-          year: 2023,
+          year: 2024,
         },
         time: {
           start: {

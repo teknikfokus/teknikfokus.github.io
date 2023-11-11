@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="scroll-smooth">
     <div id="About-teknikfokus" class="py-6">
-      <h1 class="my-12 text-5xl text-center font-bold">Project Group 2023</h1>
+      <h1 class="my-12 text-5xl text-center font-bold">Project Group 2024</h1>
       <div class="people-holder">
         <Person v-for="person of projectManagers" :info="person" :key="person.name" />
       </div>
@@ -24,98 +24,102 @@ export default {
     return {
       projectManagers: [
         {
-          name: "Leo Guldåker",
+          name: "Samuel Högfeldt",
           position: "Project Manager",
           imageUrl: "@/Leo.jpg",
-          linkedIn: "https://www.linkedin.com/in/leo-guld%C3%A5ker-b058b2226/",
-          mail: "leo@teknikfokus.se"
+          linkedIn: "https://se.linkedin.com/in/samuel-högfeldt-958958225",
+          mail: "samuel@teknikfokus.se"
         },
         {
-          name: "Yazan Al-Aswad",
+          name: "Alen Mahmutovic",
           position: "Project Manager",
           imageUrl: "@/Yazan.jpg",
-          linkedIn: "https://www.linkedin.com/in/yazan-a-a2b58115b/",
-          mail: "yazan@teknikfokus.se"
+         linkedIn: "https://www.linkedin.com/in/alen-mahmutovic-264807257/",
+          mail: "alen@teknikfokus.se"
         }
       ],
       pg: [
         {
-          name: "Alex Bringsarve",
+          name: "Cristiana Adelina Onufriciuc",
           position: "Recruitment Manager",
           imageUrl: "@/Alex-B.jpg",
-          linkedIn: "https://www.linkedin.com/in/alex-bringsarve-0a68bb251/",
-          mail: "alex.bringsarve@teknikfokus.se"
+        linkedIn: "https://www.linkedin.com/in/cristiana-adelina-onufriciuc-3465b520b/",
+          mail: "cristiana@teknikfokus.se"
         },
+
         {
-          name: "Alex Chamoun",
-          position: "Business Manager",
-          imageUrl: "@/Alex-C.jpg",
-          linkedIn: "https://www.linkedin.com/in/alex-chamoun-276b13208",
-          mail: "alex.chamoun@teknikfokus.se"
-        },
-        {
-          name: "Arvid Karp",
+          name: "Yara Zaghmout",
           position: "Logistics Manager",
           imageUrl: "@/Arvid.jpg",
-          linkedIn: "https://www.linkedin.com/in/arvid-karp-263648240/",
+          linkedIn: "https://www.linkedin.com/in/yara-zaghmout-37324029a/",
+          mail: "yara@teknikfokus.se"
+        },
+        {
+          name: "Jonathan Martin-Lööf",
+          position: "Logistics Manager",
+          imageUrl: "@/Arvid.jpg",
+          linkedIn: "https://www.linkedin.com/in/jonathan-martin-löf-98587a299/",
+          mail: "jonathan@teknikfokus.se"
+        },
+        
+        {
+          name: "Danny Tang",
+          position: "Event Manager",
+          imageUrl: "@/Edmond.jpg",
+          linkedIn: "https://www.linkedin.com/in/danny-tang-b383a7228/?originalSubdomain=se",
+          mail: "danny@teknikfokus.se"
+        },
+        {
+          name: "Arvid Nygren",
+          position: "Business Manager",
+          imageUrl: "@/Eira.jpg",
+          linkedIn: "https://www.linkedin.com/in/arvid-nygren-b049591a2/",
           mail: "arvid@teknikfokus.se"
         },
         {
-          name: "David Bergh",
-          position: "IT Manager",
-          imageUrl: "@/David.jpg",
-          linkedIn: "https://www.linkedin.com/in/david-bergh-5b1213187/",
-          mail: "david@teknikfokus.se"
-        },
-        {
-          name: "Edmond Mentori",
-          position: "Event Manager",
-          imageUrl: "@/Edmond.jpg",
-          linkedIn: "https://www.linkedin.com/in/edmondmentori/",
-          mail: "edmond@teknikfokus.se"
-        },
-        {
-          name: "Eira Blaho Mildton",
-          position: "Business Manager",
-          imageUrl: "@/Eira.jpg",
-          linkedIn: "https://www.linkedin.com/in/eira-blaho-mildton-33894119a/",
-          mail: "eira@teknikfokus.se"
-        },
-        {
-          name: "Erik Gustavsson",
-          position: "Financial Manager",
-          imageUrl: "@/Erik.jpg",
-          linkedIn: "https://www.linkedin.com/in/erik-gustavsson-1b4503215/",
-          mail: "erik@teknikfokus.se"
-        },
-        {
-          name: "Felix Vigren",
-          position: "Event Manager",
-          imageUrl: "@/Felix.jpg",
-          linkedIn: "https://www.linkedin.com/in/felix-vigren-a34202227",
-          mail: "felix@teknikfokus.se"
-        },
-        {
-          name: "Måns Bard Nilsson",
-          position: "Marketing Manager",
-          imageUrl: "@/Måns.jpg",
-          linkedIn: "https://www.linkedin.com/in/m%C3%A5ns-bard-nilsson-12a890232",
-          mail: "mans@teknikfokus.se"
-        },
-        {
-          name: "Pontus Sjöstedt",
-          position: "IT Manager",
-          imageUrl: "@/Pontus.jpg",
-          linkedIn: "https://www.linkedin.com/in/pontus-sj%C3%B6stedt-647b81232/",
-          mail: "pontus@teknikfokus.se"
-        },
-        {
-          name: "Theo Callmar",
+          name: "Felicia Huynh",
           position: "Business Manager",
           imageUrl: "@/Theo.jpg",
-          linkedIn: "https://www.linkedin.com/in/theo-callmar-3bbb71163/",
-          mail: "theo@teknikfokus.se"
+          linkedIn: "https://www.linkedin.com/in/felicia-huynh-83339a206/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          mail: "felicia@teknikfokus.se"
+        },
+        {
+          name: "Sara Reimers",
+          position: "Business Manager",
+          imageUrl: "@/Theo.jpg",
+          linkedIn: "http://linkedin.com/in/sara-reimers-b9545a1a3",
+          mail: "sara@teknikfokus.se"
+        },
+        {
+          name: "Tristan Farkas",
+          position: "Business Manager",
+          imageUrl: "@/Theo.jpg",
+          linkedIn: "http://linkedin.com/in/sara-reimers-b9545a1a3",
+          mail: "sara@teknikfokus.se"
+        },
+
+        {
+          name: "Olivia Bjursten",
+          position: "Marketing Manager",
+          imageUrl: "@/Måns.jpg",
+          linkedIn: "https://www.linkedin.com/in/olivia-bjursten/",
+          mail: "olivia@teknikfokus.se"
+        },
+        {
+          name: "Noor Mustafa",
+          position: "IT Manager",
+          imageUrl: "@/Pontus.jpg",
+          linkedIn: "https://www.linkedin.com/in/noor-e-mustafa-173122262/",
+          mail: "noor@teknikfokus.se"
+        },
+        {
+          name: "Daniel Adu-Gyan	",
+          position: "IT Manager",
+          imageUrl: "@/David.jpg",
+          linkedIn: "https://www.linkedin.com/in/daniel-adugyan/",
+          mail: "daniel@teknikfokus.se"
         }
+
       ]
     }
   }

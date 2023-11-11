@@ -6,7 +6,7 @@
           <i class="text-blue-primary far fa-calendar-alt fa-3x mb-2"></i>
           <div class="mb-3">When?</div>
           <div>09:00-16:30,</div>
-          <div>15th &amp; 16th of February, 2023!</div>
+          <div>13th &amp; 14th of February, 2024!</div>
         </div>
         <div class="w-1/2">
           <i class="text-blue-primary fas fa-map-marker-alt fa-3x mb-2"></i>

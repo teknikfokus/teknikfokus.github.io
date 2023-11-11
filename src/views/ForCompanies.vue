@@ -8,7 +8,7 @@
         <div class="py-4 text-lg xl:pr-8">
           <h1 class="text-4xl font-bold text-center">What is Teknikfokus?</h1>
           <h2 class="mt-6">
-            Teknikfokus is the largest career fair within Biomedical Engineering, Computer Science and Communication Engineering, Electrical Engineering and Information Technology Engineering in the Nordics. The fair will take place at LTH during the 15th and 16th of February 2023.
+            Teknikfokus is the largest career fair within Biomedical Engineering, Computer Science and Communication Engineering, Electrical Engineering and Information Technology Engineering in the Nordics. The fair will take place at LTH during the 13th and 14th of February 2024.
           </h2>
           <br>
           <h2>
@@ -32,8 +32,9 @@
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
     <h3 class="pt-4 text-center text-xl">
-      Application for Teknikfokus 2023 has closed as of the 14th of January.
+      We would love for your company to attend Teknikfokus 2024!
       <br>
+      Please fill this <a class="font-bold" href={FORM_LINK}>form of Interest </a> or contact
       Please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for further information or to apply for Teknikfokus 2024.
     </h3>
 
@@ -138,7 +139,7 @@
     },
     {
       question: "When is Teknikfokus?",
-      answer: "<p>The fair will take place between 09:00 and 16:30, the 15th & 16th of February.</p>"
+      answer: "<p>The fair will take place between 09:00 and 16:30, the 13th & 14th of February.</p>"
     },
     {
       question: "Where will Teknikfokus take place?",
@@ -175,7 +176,7 @@
     },
     {
       question: "Who organizes Teknikfokus?",
-      answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Leo Guldåker, <a class=\"font-bold\" href=\"mailto:leo@teknikfokus.se\">leo@teknikfokus.se</a> or Yazan Al-Aswad, <a class=\"font-bold\" href=\"mailto:yazan@teknikfokus.se\">yazan@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>.</p>"
+      answer: "<p>Teknikfokus is arranged by a project group consisting of students from the four programs at the E- and D-faculties  at LTH, who in parallel with their studies prepare the fair and all our events. The goal is to have a fair where everyone feels welcome, and where all attendees feel satisfied with the fair. In addition, the fair would never be able to take place if it wasn’t for all the students that volunteer at the fair. If you have any questions regarding the project group or our volunteers you can contact our project leaders, Samuel Högfeldt, <a class=\"font-bold\" href=\"mailto:@teknikfokus.se\">samuel@teknikfokus.se</a> or Alen Mahmutovic, <a class=\"font-bold\" href=\"mailto:alen@teknikfokus.se\">alen@teknikfokus.se</a>. You can read about everyone in the project group under <a class=\"font-bold\" target=\"_blank\" href=https://www.teknikfokus.se/about#PG>About us</a>.</p>"
     },
     {
       question: "What does the kontaktsamtal/student sessions mean?",
