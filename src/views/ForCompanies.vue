@@ -32,10 +32,10 @@
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
     <h3 class="pt-4 text-center text-xl">
-      We would love for your company to attend Teknikfokus 2024!
+      It would be our pleasure to have your company at Teknikfokus 2024!
       <br>
-      Please fill this <a class="font-bold" href={FORM_LINK}>form of Interest </a> or contact
-      Please contact <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a> for further information or to apply for Teknikfokus 2024.
+       Apply through this <a class="font-bold" href="https://forms.gle/SeHL9dKvoGmH2dQj6">form of Interest </a> or contact
+      <a class="font-bold" href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>
     </h3>
 
     <div id="Companies-FAQ" class="py-6"></div>
