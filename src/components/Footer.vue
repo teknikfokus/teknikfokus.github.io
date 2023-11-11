@@ -7,11 +7,11 @@
         <img class="mx-auto w-32" src="@/assets/logo/svg/white-logo-white-text.svg" alt="Teknikfokus logo"/>
         <div class="w-0 my-1 mx-12 border-2 border-white hidden xl:grid"></div>
         <div class="h-0 px-1 mt-3 mb-2 border-2 border-white grid xl:hidden"></div>
-        <div class="flex flex-col justify-center text-center">
+        <!-- <div class="flex flex-col justify-center text-center"> -->
           <!-- Removing Iternio temporarily, will add back if we end up working with them this year again -->
           <!-- <a class="mx-auto text-xl font-bold underline" href="https://www.iternio.com/" target="_blank">Shuttle Provider</a> -->
           <!-- <img class="pt-3 w-24 mx-auto" src="@/assets/logo/svg/companies/Iternio.png" alt="Iternio Logo"/> -->
-        </div>
+        <!-- </div> -->
       </div>
 
       <div class="mx-auto text-base md:col-span-3 lg:col-span-4">
