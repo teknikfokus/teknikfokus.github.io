@@ -1,12 +1,13 @@
 <template>
   <div id="companies">
-    <div class="container py-5">
+    <a class="text-3xl text-center font-bold">Companies will be announced soon!</a>
+    <!-- <div class="container py-5">
       <CompanyGrid :companies="filteredCompanies" v-if="!isLoading && !isError && filteredCompanies.length > 0" @select="selectCompany"/>
       <ErrorMessage v-if="!isLoading && !isError && filteredCompanies.length <= 0" text="No companies found." />
       <Loader v-if="isLoading" />
       <ErrorMessage v-if="isError && !isLoading" text="Unable to load companies, try again in a moment.<br>If the error persists, feel free to contact us." />
       <router-view/>
-    </div>
+    </div> -->
   </div>
 </template>
 
