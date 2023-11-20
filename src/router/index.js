@@ -29,20 +29,20 @@ const routes = [
       title: 'Map'
     }
   },
-  {
-    path: '/attending',
-    name: 'Attending Companies',
-    component: () => import(/* webpackChunkName: "faq" */ '../views/Companies.vue'),
-    children: [{
-      path: ':id',
-      name: 'Company',
-      component: () => import(/* webpackChunkName: "about" */ '../components/CompanyModal.vue'),
-      props: true,
-    }],
-    meta: {
-      title: 'Attending Companies'
-    }
-  },
+  // {
+  //   path: '/attending',
+  //   name: 'Attending Companies',
+  //   component: () => import(/* webpackChunkName: "faq" */ '../views/Companies.vue'),
+  //   children: [{
+  //     path: ':id',
+  //     name: 'Company',
+  //     component: () => import(/* webpackChunkName: "about" */ '../components/CompanyModal.vue'),
+  //     props: true,
+  //   }],
+  //   meta: {
+  //     title: 'Attending Companies'
+  //   }
+  // },
   {
     path: '/forstudents',
     name: 'For Students',
