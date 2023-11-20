@@ -191,7 +191,7 @@
       answer: `
         <p>The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes for all the company representatives and hosts that have been engaged in Teknikfokus.</p>
         <br>
-        <p>The banquet will be held February 15th in Gasquesalen at Sölvegatan 22B, Lund. We have not yet determined at what time the doors will open, but more information is to come!</p>
+        <p>The banquet will be held February 13th at AF-Borgen, Sandgatan 2, 223 50 Lund. We have not yet determined at what time the doors will open, but more information is to come!</p>
       `
     },
     {
