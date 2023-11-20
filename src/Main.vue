@@ -112,11 +112,11 @@ const nav = [
     href: '/',
     sub_items: []
   },
-  {
-    name: 'Attending Companies',
-    href: '/attending',
-    sub_items: [],
-  },
+  // {
+  //   name: 'Attending Companies',
+  //   href: '/attending',
+  //   sub_items: [],
+  // },
   {
     name: 'For Students',
     href: '/forstudents',
