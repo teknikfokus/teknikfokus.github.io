@@ -1,10 +1,10 @@
 <template>
   <div id="person">
-    <!-- <div class="img-wrapper" :style="{'background-image': `url(${((info.imageUrl == '') ? getImgUrl('@/placeholder-person.png') : getImgUrl(info.imageUrl))})`}"></div> -->
+    <div class="img-wrapper" :style="{'background-image': `url(${((info.imageUrl == '') ? getImgUrl('@/placeholder-person.png') : getImgUrl(info.imageUrl))})`}"></div>
      <!-- denna div ska tas bort när bilder är klara o ersätts med den ovan  -->
-    <div class="img-wrapper">
+    <!-- <div class="img-wrapper">
  <i class="fa-solid fa-user icon"></i>
-    </div>
+    </div> -->
 
     <span class="name">{{info.name}}</span>
     <span class="position">{{info.position}}</span>
@@ -30,18 +30,18 @@ export default {
   },
 
   
-  // methods: {
-  //   getImgUrl(url) {
-  //     return (url.startsWith('@/') ? require('../assets/images/project_group/'+url.substring(2)) : url)
-  //   }
-  // }
+  methods: {
+    getImgUrl(url) {
+      return (url.startsWith('@/') ? require('../assets/images/project_group/'+url.substring(2)) : url)
+    }
+  }
 
   // denna metoden ska tas bort när bilder är klara och ersätts med den ovan 
-  methods: {
-getImgUrl(url) {
-  return (url.startsWith('@/') ? require('../assets/images/project_group/'+url.substring(2)) : url)
-}
-}
+//   methods: {
+// getImgUrl(url) {
+//   return (url.startsWith('@/') ? require('../assets/images/project_group/'+url.substring(2)) : url)
+// }
+// }
 
 }
 </script>
@@ -130,11 +130,11 @@ getImgUrl(url) {
   }
 }
 /* här har jag la till css for icons , de ska tas bort när bilder for gurppen är klara */
-.icon {
-font-size: 130px;  /* Adjust this value based on your preference */
-color: #14273E;  /* Adjust this color based on your preference */
+/* .icon {
+font-size: 130px;  
+color: #14273E;  
 vertical-align: middle;
-}
+} */
 
 
 

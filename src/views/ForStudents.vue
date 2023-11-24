@@ -16,11 +16,11 @@
           <br>
           <h2>See you at the fair!</h2>
             
-          <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2>
+          <!-- <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2> -->
 
-          <!-- <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
+           <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
             <div class="py-2 hidden xl:grid">
-              <cool-button class="" text="Host Application" href="https://www.teknikfokus.se/host"/>
+              <cool-button text="Host Application" href="https://www.teknikfokus.se/host"/>
             </div>
             <div class="py-2 grid xl:hidden">
               <cool-button2 text="Host Application" href="https://www.teknikfokus.se/host"/>
@@ -31,7 +31,7 @@
             <div class="py-2 grid xl:hidden">
               <cool-button2 text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
             </div>
-          </div> -->
+          </div> 
         </div>
       </div>
 
