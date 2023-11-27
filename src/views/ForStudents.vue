@@ -25,12 +25,12 @@
             <div class="py-2 grid xl:hidden">
               <cool-button2 text="Host Application" href="https://www.teknikfokus.se/host"/>
             </div>
-            <div class="py-2 hidden xl:grid">
+            <!-- <div class="py-2 hidden xl:grid">
               <cool-button text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
             </div>
             <div class="py-2 grid xl:hidden">
               <cool-button2 text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
-            </div>
+            </div> -->
           </div> 
         </div>
       </div>
