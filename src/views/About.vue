@@ -94,8 +94,8 @@ export default {
           name: "Tristan Farkas",
           position: "Financial Manager",
           imageUrl: "@/tristan.jpg",
-          linkedIn: "http://linkedin.com/in/sara-reimers-b9545a1a3",
-          mail: "sara@teknikfokus.se"
+          linkedIn: "https://www.linkedin.com/in/tristan-farkas-8921a71a3/",
+          mail: "tristan@teknikfokus.se"
         },
 
         {
