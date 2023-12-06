@@ -1,29 +1,27 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
-    <div id="About-teknikfokus" class="py-6  "></div>
-    <h1  class="text-5xl text-center py-20 font-bold bg-blue-primary-lightest  ">About Teknikfokus</h1>
+    <div id="About-teknikfokus" class="    py-20 bg-blue-primary  ">
+    <h1  class="text-5xl text-left  text-animate   container  content   text-white  font-bold bg-blue-primary ">For Students </h1>
+  </div>
 
 
 
+ 
 
-
-
-
-
-    <div class="  bg-gray-trans flex-row xl:flex xl:items-center "> 
+    <div class=" student-background bg-gray-trans flex-row xl:flex xl:items-center "> 
 
       <div class="flex content container xl:px-24">
       <div class="align-center xl:w-1/2 ">
         <div class=" p-10 text-lg xl:pr-8 ">
-          <h1 class="text-4xl font-bold text-center">What is Teknikfokus?</h1>
-          <h2 class="mt-6 ">
+          <h1 class="text-4xl text-white  text-left   font-bold  text-animate ">What is Teknikfokus?</h1>
+          <h2 class="mt-6 text-white  text-animate  ">
             Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and 14:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
           </h2>
           <br>
-          <h2>
+          <h2 class="mt-6 text-white   text-animate ">
             Along with the fair there will also be lunch lectures, pubs and student sessions happening all around E-huset. Follow the links below to read more about participating in Student Sessions and applying for Host.</h2>
           <br>
-          <h2>See you at the fair!</h2>
+          <h2 class="mt-6 text-white   text-animate ">See you at the fair!</h2>
             
           <!-- <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2> -->
 <!-- 
@@ -45,11 +43,11 @@
       </div>
 
       <!-- Righty stuff -->
-      <div class="hidden xl:grid xl:w-1/2 p-10">
+      <!-- <div class="hidden xl:grid xl:w-1/2 p-10">
         <div class="max-w-full mx-auto xl:visible">
           <img src="../assets/images/massa2.jpg" class="max-w-full" alt="Group of attendees" />
         </div>
-      </div>
+      </div> -->
     </div>
 
 
@@ -63,7 +61,7 @@
 <div class="flex content container  xl:px-24">
 <div class="align-center   xl:w-1/2 ">
   <div class=" p-10 text-lg xl:pr-8 ">
-    <h1 class="text-5xl font-sans md:font-serif  text-white text-center  ">We had fun, come and join us.</h1>
+    <h1 class="text-5xl font-sans md:font-serif  text-white text-left   ">We had fun, come and join us.</h1>
     <h2 class="mt-4  text-white ">
       Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with setting things up for the fair and with answering all kinds of questions about the fair in the info desk. We will also need company host that ensure that the companies feel welcome.     </h2>
     <br>
@@ -165,3 +163,32 @@
     }
   }
 </script>
+
+<style scoped>
+  .student-background {
+    background-image: url('../assets/images/massa2020blur.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+  
+  }
+
+
+
+  @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.text-animate {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+</style>

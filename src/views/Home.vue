@@ -7,7 +7,7 @@
       
   
       <div class=" m-20">  <CountDown :firstDate="firstDate" :secondDate="secondDate" /></div>
-       <div class="container    my-12 flex " >
+       <div class="container   my-12 flex " >
        
        <div class=" text-left  px-5 m-1 w-1/2  flex-1"> 
          <div class="max-w-xs"> 
