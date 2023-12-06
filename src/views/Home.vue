@@ -129,7 +129,7 @@
   }
   
   .hero-background {
-    background-image: url('../assets/images/massa2020blur_large.jpg');
+    background-image: url('../assets/images/tek3.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
