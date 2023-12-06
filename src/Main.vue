@@ -38,6 +38,7 @@
     </Popover>
 
     <!-- Shown on larger screens -->
+    <div v-if="$route.name !== 'Home'"> 
     <div class="hidden md:block fixed w-full top-0 border-b-2 z-20 bg-blue-primary border-gray-400">
       <div class="flex justify-center">
         <router-link
@@ -52,7 +53,7 @@
           {{ item.name }}
 
           <!-- Sub-header which appears on hover -->
-          <div
+          <!-- <div
             v-if="item.sub_items.length != 0 && show_menu != null && show_menu.name == item.name"
             class="absolute w-48 rounded-b-md mt-6 bg-gray-50 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
             role="menu"
@@ -73,12 +74,14 @@
                 {{ subheader.name }}
               </router-link>
             </div>
-          </div>
+          </div> -->
         </router-link>
       </div>
     </div>
+  </div>
 
-    <div class="py-32 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
+
+    <!-- <div class="py-32 hero-background bg-center bg-cover text-center text-xl md:text-2xl text-white text-shadow-lg uppercase">
       <div class="container" v-if="$route.name=='Home'">
         <div class="max-w-xs mx-auto">
           <img src="./assets/logo/svg/logo-white-text.svg" class="max-w-full p-8" alt="Teknikfokus" />
@@ -91,12 +94,17 @@
       <div class="container" v-else>
         <h1 class="font-bold">{{$route.meta.title}}</h1>
       </div>
-    </div>
+    </div> -->
     
-    <div class="content container xl:px-24" :class="{'min-h-[60vh]' : $route.name!=='Home' }">
+<!--         
+    <div class="content container xl:px-24" :class="{'min-h-[60vh]' : $route.name !=='Home' }">
       <router-view/>
     </div>
-    <Footer id="footer" ref="footer"></Footer>
+     -->
+    <div  :class="{'min-h-[60vh]' : $route.name !=='Home' }">
+      <router-view/>
+    </div>
+    <Footer v-if="!isHomePage" id="footer" ref="footer"></Footer>
   </div>
 </template>
 
@@ -216,9 +224,9 @@ export default {
   unmounted () {
     window.removeEventListener('scroll', this.handleScroll);
   },
-  mounted() {
-    this.$refs.main.style.paddingBottom = this.$refs.footer.$el.offsetHeight + "px";
-  },
+  // mounted() {
+  //   this.$refs.main.style.paddingBottom = this.$refs.footer.$el.offsetHeight + "px";
+  // },
   methods: {
     handleScroll() { 
       let scroll = window.scrollY
@@ -246,12 +254,17 @@ export default {
       this.current_anchor = null;
     }
   },
+ 
   computed: {
     parallaxBackground() {
       let name ="massa2020blurcut.png"
       var images = require.context('@/assets/images/', false, /(\.png)|(\.jpg)|(\.jpeg)$/)
       return images('./' + name);
     },
+    isHomePage(){
+      return this.$route.name === 'Home';
+    },
+    
     parallaxImageHeight() {
       if (this.$route.name == 'Home') {
         if (window.innerWidth >= 992) {
@@ -262,6 +275,7 @@ export default {
       return 30
     }
   },
+
 }
 </script>
 
@@ -271,10 +285,10 @@ export default {
     position: relative;
   }
 
-  .hero-background {
+  /* .hero-background {
     background-image: url('./assets/images/massa2020blurcut.png');
     background-position: bottom;
-  }
+  } */
 </style>
 
 
