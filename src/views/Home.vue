@@ -7,9 +7,9 @@
       
   
       <div class=" m-20">  <CountDown :firstDate="firstDate" :secondDate="secondDate" /></div>
-       <div class="container   my-12 flex " >
+       <div class="container    my-12 flex " >
        
-       <div class=" text-left  px-5 w-1/2  flex-1"> 
+       <div class=" text-left  px-5 m-1 w-1/2  flex-1"> 
          <div class="max-w-xs"> 
            <img src="../assets/logo/svg/white-logo-white-text.svg" class="max-w-full " alt="Teknikfokus" />
          </div>
@@ -19,9 +19,9 @@
        </div>
    
        
-       <div class="   w-1/2 flex-4 "> 
+       <div class="    w-1/2 flex-4 "> 
    
-         <h1 class="font-bold md:text-6xl ">Next fair</h1>
+         <h1 class="font-bold md:text-6xl    ">Next fair</h1>
          <h2  class=" text-2xl italic font-normal  p-2"> 15th &amp; 16th of February, 2024!</h2>
          <h3 class="text-2xl italic font-normal  p-2">09:00-16:30</h3>
          <h2 class="text-2xl italic font-normal  p-2">   E-huset LTH Ole Römers väg 3 Lund</h2>
@@ -32,7 +32,7 @@
           </div>
 
    
-
+<div class="content   container py-5"> 
       <button class=" responsive-button  bg-white  text-black font-normal m-6 py-2 px-4 rounded-full focus:outline-none" @click="goToForStudents">
         For Students
       </button> 
@@ -42,7 +42,7 @@
         For Companies
       </button>
 
-   
+    </div>
          
          
        </div>
