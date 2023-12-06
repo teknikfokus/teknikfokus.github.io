@@ -9,7 +9,7 @@
       <div class=" m-20">  <CountDown :firstDate="firstDate" :secondDate="secondDate" /></div>
        <div class="container   my-12 flex " >
        
-       <div class=" text-left  px-3 w-1/2  flex-1"> 
+       <div class=" text-left  px-5 w-1/2  flex-1"> 
          <div class="max-w-xs"> 
            <img src="../assets/logo/svg/white-logo-white-text.svg" class="max-w-full " alt="Teknikfokus" />
          </div>

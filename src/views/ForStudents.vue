@@ -1,7 +1,7 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
-    <div id="About-teknikfokus" class="py-6 bg-gray-trans "></div>
-    <h1  class="text-5xl text-center py-20 font-bold bg-gray-trans ">About Teknikfokus</h1>
+    <div id="About-teknikfokus" class="py-6  "></div>
+    <h1  class="text-5xl text-center py-20 font-bold bg-blue-primary-lightest  ">About Teknikfokus</h1>
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-    <div class="   bg-gray-trans flex-row xl:flex xl:items-center "> 
+    <div class="  bg-gray-trans flex-row xl:flex xl:items-center "> 
 
       <div class="flex content container xl:px-24">
       <div class="align-center xl:w-1/2 ">
