@@ -129,7 +129,7 @@
   }
   
   .hero-background {
-    background-image: url('../assets/images/tek3.jpg');
+    background-image: url('../assets/images/tek33.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -191,23 +191,5 @@
   </style>
   
   
-  <!-- <style scoped>
-  #home {
-    height: 100vh;
-    position: relative;
-    
-  
-  }
-  
-  .hero-background {
-  
-    background-image: url('../assets/images/massa2020blurcut.png');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    
-  }
-  
-  </style> -->
-  
+
   
