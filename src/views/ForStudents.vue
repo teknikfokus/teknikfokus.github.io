@@ -1,27 +1,45 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
-    <div id="About-teknikfokus" class="    py-20 bg-blue-primary  ">
-    <h1  class="text-5xl text-left  text-animate   container  content   text-white  font-bold bg-blue-primary ">For Students </h1>
-  </div>
+        <!-- <h1  class="text-4xl text-left p-12 text-animate  xl:px-24 container  content border-2  text-white  font-bold bg-blue-primary ">For Students </h1>
+   -->
+  
+<div id="About-teknikfokus" class=" py-20 bg-blue-primary   ">
+
+        <div class="flex content container   xl:px-24">
+                <div class="align-center xl:w-1/2 ">
+                  <div class=" p-10 text-lg xl:pr-8 ">
+                    <h1 class="text-4xl text-white  text-left   font-bold hidMe ">For Student</h1>
+                  </div>
+                </div>
 
 
+          </div>
+</div>
 
- 
+
+<!-- 
+<div class="flex content container  xl:px-24">
+<div class="align-center   xl:w-1/2 ">
+  <div class=" p-10 text-lg xl:pr-8 ">
+    <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We had fun, come and join us.</h1>
+    <h2 class="mt-4  text-white hidMe">
+      Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with setting things up for the fair and with answering all kinds of questions about the fair in the info desk. We will also need company host that ensure that the companies feel welcome.     </h2>
+    <br> -->
 
     <div class=" student-background bg-gray-trans flex-row xl:flex xl:items-center "> 
 
       <div class="flex content container xl:px-24">
       <div class="align-center xl:w-1/2 ">
         <div class=" p-10 text-lg xl:pr-8 ">
-          <h1 class="text-4xl text-white  text-left   font-bold  text-animate ">What is Teknikfokus?</h1>
-          <h2 class="mt-6 text-white  text-animate  ">
+          <h1 class="text-4xl text-white  text-left   font-sans md:font-serif hidMe ">What is Teknikfokus?</h1>
+          <h2 class="mt-4 text-white  hidMe ">
             Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and 14:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance to get in contact with future employers through summer jobs, master’s theses and much more.
           </h2>
           <br>
-          <h2 class="mt-6 text-white   text-animate ">
+          <h2 class="mt-4 text-white hidMe  ">
             Along with the fair there will also be lunch lectures, pubs and student sessions happening all around E-huset. Follow the links below to read more about participating in Student Sessions and applying for Host.</h2>
           <br>
-          <h2 class="mt-6 text-white   text-animate ">See you at the fair!</h2>
+          <h2 class="mt-4 text-white  hidMe ">See you at the fair!</h2>
             
           <!-- <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2> -->
 <!-- 
@@ -43,11 +61,11 @@
       </div>
 
       <!-- Righty stuff -->
-      <!-- <div class="hidden xl:grid xl:w-1/2 p-10">
+       <!-- <div class="hidden xl:grid xl:w-1/2 p-10">
         <div class="max-w-full mx-auto xl:visible">
           <img src="../assets/images/massa2.jpg" class="max-w-full" alt="Group of attendees" />
         </div>
-      </div> -->
+      </div>  -->
     </div>
 
 
@@ -61,8 +79,8 @@
 <div class="flex content container  xl:px-24">
 <div class="align-center   xl:w-1/2 ">
   <div class=" p-10 text-lg xl:pr-8 ">
-    <h1 class="text-5xl font-sans md:font-serif  text-white text-left   ">We had fun, come and join us.</h1>
-    <h2 class="mt-4  text-white ">
+    <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We had fun, come and join us.</h1>
+    <h2 class="mt-4  text-white hidMe">
       Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with setting things up for the fair and with answering all kinds of questions about the fair in the info desk. We will also need company host that ensure that the companies feel welcome.     </h2>
     <br>
 
@@ -70,7 +88,7 @@
       
     <!-- <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2> -->
 
-     <div class="flex flex-col pt-8  md center xl:w-96 xl:align-left">
+     <div class="flex flex-col pt-8  md center xl:w-96 xl:align-left hidMe  ">
       <div class="py-2  hidden xl:grid">
         <cool-button text="Host Application" href="https://www.teknikfokus.se/host"/>
       </div>
@@ -88,8 +106,8 @@
 </div>
 
 <!-- Righty stuff -->
-<div class="hidden xl:grid  xl:w-1/2 ">
-  <div class="max-w-full mx-auto xl:visible p-9">
+<div class="hidden xl:grid  xl:w-1/2  hidMe ">
+  <div class="max-w-full mx-auto xl:visible py-11">
     <img src="../assets/images/fun.jpg" class="max-w-full" alt="Group of attendees" />
  
   </div>
@@ -103,10 +121,10 @@
 </div>
 
     <!-- <div id="Students-FAQ" class="py-6"></div> -->
-    <h1 class=" text-5xl text-center font-bold bg-gray-trans">FAQ</h1>
+    <h1 class=" text-5xl text-center font-bold bg-gray-trans p-5  ">FAQ</h1>
     <div id="students-faq" class="pt-5 pb-5 bg-gray-trans">
-      <div class="max-w-510xl mx-auto" >
-        <div id="students-faq-accordion" class="divide-y-2 divide-gray-200">
+      <div class="max-w-510xl mx-auto hidMe" >
+        <div id="students-faq-accordion" class="divide-y-2 content container divide-gray-200 ">
           <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
           <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
         </div>
@@ -159,9 +177,26 @@
       return {questions}
     },
     mounted() {
-      scroll_to_hash();
-    }
+    scroll_to_hash();
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('showMe');
+        } 
+      });
+    }, {
+      rootMargin: '0px',
+      threshold: 0.1
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidMe');
+    hiddenElements.forEach((el) => observer.observe(el));
   }
+  }
+
+
+
 </script>
 
 <style scoped>
@@ -170,25 +205,22 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 80vh;
+    min-height: 70vh;
+   
   
   }
 
-
-
-  @keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-20%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+  .hidMe {
+  transform: translateX(-30%);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
-.text-animate {
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+.showMe {
+  transform: translateX(0);
+  opacity: 1;
 }
+
+
 
 </style>

@@ -1,4 +1,6 @@
 <template>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <div class="text-3xl md:text-5xl mt-10">
         <div v-if="timeLeft > 0" class="mt-6 flex justify-center space-x-5" >
             <div>
@@ -121,4 +123,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
