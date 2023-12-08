@@ -10,13 +10,13 @@
       <CountDown :firstDate="firstDate" :secondDate="secondDate" />
 
 
-      <div class=" my-20 container  flex  ">
+      <div class=" my-20    xl:px-0 container  flex  ">
 
 
 
-        <div class=" xl:w-1/2  flex-1  flex-col items-center justify-center    ">
+        <div class=" xl:w-1/2  container   xl:px-0  flex-1 flex-col items-center justify-center    ">
 
-          <div class="  flex  flex-col  items-center  justify-center py-2 ">
+          <div class=" container  flex flex-col   items-center  justify-center py-2 ">
             <div class="xl:w-1/2  ">
               <img src="../assets/logo/svg/white-logo-white-text.svg" class="max-w-full " alt="Teknikfokus" />
             </div>
@@ -40,13 +40,13 @@
 
 
 
-        <div class="  xl:w-1/2   flex-1  flex-col items-center justify-center    ">
+        <div class="  xl:w-1/2   flex-1   container flex  flex-col items-center justify-center    ">
 
-          <h1 class=" font-bold  text-5xl  ">Next fair</h1>
+          <h1 class=" font-normal   text-5xl py-2 ">Next fair</h1>
           <h2 class="text-1xl font-normal py-2"> 15th &amp; 16th of February, 2024!</h2>
           <h2 class="text-1xl font-normal   py-2">09:00-16:30</h2>
           <h2 class="text-1xl font-normal  py-2"> E-huset LTH Ole Römers väg 3 Lund</h2>
-          <div class=" py-2 social-icons">
+          <div class=" py-2 container  social-icons">
             <a href="https://www.linkedin.com/company/teknikfokus/" target="_blank"
               class="fa fa-linkedin p-2 no-underline hover:no-underline focus:no-underline active:no-underline"></a>
             <a href="https://www.instagram.com/teknikfokus/" target="_blank"
@@ -56,7 +56,7 @@
           </div>
 
 
-          <div class="  container  py-2">
+          <div class=" content  container  py-2">
             <button
               class=" responsive-button  bg-white  text-black font-normal  py-2 px-4 rounded-full focus:outline-none"
               @click="goToForStudents">
@@ -64,7 +64,7 @@
             </button>
 
 
-            <button class=" responsive-button bg-white  text-black font-normal py-2 px-4 rounded-full focus:outline-none"
+            <button class=" responsive-button bg-white  text-black font-normal py-2 px-3 rounded-full focus:outline-none"
               @click="goToForCompany">
               For Companies
             </button>
