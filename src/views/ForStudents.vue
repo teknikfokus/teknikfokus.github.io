@@ -129,9 +129,10 @@
     <!-- <div id="Students-FAQ" class="py-6"></div> -->
     <h1 class=" text-5xl text-center font-bold bg-gray-trans p-5  ">FAQ</h1>
     <div id="students-faq" class="pt-5 pb-5 bg-gray-trans">
-      <div class="max-w-510xl mx-auto hidMe">
+      <div class="max-w-510xl mx-auto  ">
         <div id="students-faq-accordion" class="divide-y-2 content container divide-gray-200 ">
-          <Question v-for="(question, index) in questions" :key="index" :info="question" :index="index"></Question>
+          <Question class="hidMe " v-for="(question, index) in questions" :key="index" :info="question" :index="index">
+          </Question>
           <ErrorMessage v-if="questions <= 0" text="No frequently asked questions found." />
         </div>
       </div>
