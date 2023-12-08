@@ -8,7 +8,7 @@
       <div class="flex content container   xl:px-24">
         <div class="align-center xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-4xl text-white  text-left   font-bold hidMe ">For Student</h1>
+            <h1 class="text-4xl text-white  text-left   font-bold hidMe ">For Students</h1>
           </div>
         </div>
 
@@ -31,7 +31,7 @@
       <div class="flex content container xl:px-24">
         <div class="align-center xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-4xl text-white  text-left   font-sans md:font-serif hidMe ">What is Teknikfokus?</h1>
+            <h1 class="text-4xl text-white  text-left hidMe ">What is Teknikfokus?</h1>
             <h2 class="mt-4 text-white  hidMe ">
               Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and
               14:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance
@@ -83,11 +83,12 @@
       <div class="flex content container  xl:px-24">
         <div class="align-center   xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We had fun, come and join us.</h1>
+            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We have fun, come and join us.</h1>
             <h2 class="mt-4  text-white hidMe">
-              Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with
-              setting things up for the fair and with answering all kinds of questions about the fair in the info desk. We
-              will also need company host that ensure that the companies feel welcome. </h2>
+              Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with everything from
+              setting up the fair to answering all kinds of questions in the info desk and hosting the companies to make sure they
+              feel welcome. If you want to be a part of the team, don’t hesitate to apply!
+             </h2>
             <br>
 
 
