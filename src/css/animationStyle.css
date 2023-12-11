@@ -1,0 +1,23 @@
+.student-background {
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70vh;
+  
+  
+  }
+
+  
+  
+  
+  .hidMe {
+    transform: translateX(-30%);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+  }
+  
+  .showMe {
+    transform: translateX(0);
+    opacity: 1;
+  }

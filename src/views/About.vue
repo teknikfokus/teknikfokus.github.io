@@ -1,12 +1,18 @@
 <template>
   <div id="about" class="scroll-smooth">
-    <div id="About-teknikfokus" class="py-6">
-      <h1 class="my-12 text-5xl text-center font-bold">Project Group 2024</h1>
-      <div class="people-holder">
-        <Person v-for="person of projectManagers" :info="person" :key="person.name" />
+    <UnderNav title="About Us" />
+    <div class=" student-background bg-gray-trans flex-row xl:flex xl:items-center   "> </div>
+
+    <div id="About-teknikfokus" class="py-6 bg-gray-trans">
+      <h1 class="my-12 text-5xl text-center font-bold ">Project Group 2024</h1>
+      <div class="people-holder  ">
+        <Person class="hidMe" v-for="person of projectManagers" :info="person" :key="person.name" />
       </div>
-      <div class="people-holder">
-        <Person v-for="person of pg" :info="person" :key="person.name" />
+      <div class="flex content container xl:px-24  ">
+        <div class="people-holder   ">
+          <Person class="hidMe" v-for="person of pg" :info="person" :key="person.name" />
+        </div>
+
       </div>
     </div>
   </div>
@@ -14,12 +20,16 @@
 
 <script>
 import Person from '../components/Person'
+import observerMixin from '../components//observerMixin.js';
+import UnderNav from '../components/UnderNav.vue'
 
 export default {
   name: 'About',
   components: {
-    Person
+    Person,
+    UnderNav
   },
+  mixins: [observerMixin],
   data() {
     return {
       projectManagers: [
@@ -34,7 +44,7 @@ export default {
           name: "Alen Mahmutovic",
           position: "Project Manager",
           imageUrl: "@/alen.jpg",
-         linkedIn: "https://www.linkedin.com/in/alen-mahmutovic-264807257/",
+          linkedIn: "https://www.linkedin.com/in/alen-mahmutovic-264807257/",
           mail: "alen@teknikfokus.se"
         }
       ],
@@ -43,7 +53,7 @@ export default {
           name: "Cristiana Adelina Onufriciuc",
           position: "Recruitment Manager",
           imageUrl: "@/cristiana.jpg",
-        linkedIn: "https://www.linkedin.com/in/cristiana-adelina-onufriciuc-3465b520b/",
+          linkedIn: "https://www.linkedin.com/in/cristiana-adelina-onufriciuc-3465b520b/",
           mail: "cristiana@teknikfokus.se"
         },
 
@@ -61,7 +71,7 @@ export default {
           linkedIn: "https://www.linkedin.com/in/jonathan-martin-löf-98587a299/",
           mail: "jonathan@teknikfokus.se"
         },
-        
+
         {
           name: "Danny Tang",
           position: "Event Manager",
@@ -123,16 +133,50 @@ export default {
       ]
     }
   }
+
 }
 </script>
 
 <style scoped>
-  .people-holder {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;  
-    flex-wrap: wrap;
-    align-items: stretch;
-    margin: 0 -20px;
+@import '/src/css/animationStyle.css';
+
+.student-background {
+  background-image: url('../assets/images/pg2024.JPG');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 70vh;
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .student-background {
+
+    background-size: 100% auto;
+
+    background-attachment: scroll;
+
+    min-height: 40vh;
+
+
   }
+}
+
+.people-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 0 -20px;
+
+}
 </style>
