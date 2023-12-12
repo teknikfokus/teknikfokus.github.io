@@ -164,7 +164,7 @@ export default {
 
     background-attachment: scroll;
 
-    min-height: 40vh;
+    min-height: 30vh;
 
 
   }

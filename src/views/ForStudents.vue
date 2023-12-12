@@ -1,48 +1,32 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
-    <!-- <h1  class="text-4xl text-left p-12 text-animate  xl:px-24 container  content border-2  text-white  font-bold bg-blue-primary ">For Students </h1>
-   -->
+
     <UnderNav title="For Student" />
 
 
 
 
 
-    <div class=" student-background bg-gray-trans flex-row xl:flex xl:items-center ">
+    <div class=" student-background  bg-gray-trans flex-row xl:flex xl:items-center ">
 
-      <div class="flex content container xl:px-24">
+      <div class="flex content container  xl:px-24">
         <div class="align-center xl:w-1/2 ">
-          <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-4xl text-white  text-left hidMe ">What is Teknikfokus?</h1>
-            <h2 class="mt-4 text-white  hidMe ">
+          <div class=" p-10 text-lg xl:pr-8  drop-shadow-md  ">
+            <h1 class="text-4xl text-white  text-left hidMe drop-shadow-md ">What is Teknikfokus?</h1>
+            <h2 class="mt-4  text-white  hidMe drop-shadow-md">
               Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and
               14:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance
               to get in contact with future employers through summer jobs, master’s theses and much more.
             </h2>
             <br>
-            <h2 class="mt-4 text-white hidMe  ">
+            <h2 class="mt-4 text-white hidMe drop-shadow-md ">
               Along with the fair there will also be lunch lectures, pubs and student sessions happening all around
               E-huset. Follow the links below to read more about participating in Student Sessions and applying for Host.
             </h2>
             <br>
-            <h2 class="mt-4 text-white  hidMe ">See you at the fair!</h2>
+            <h2 class="mt-4 text-white  hidMe drop-shadow-md ">See you at the fair!</h2>
 
-            <!-- <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2> -->
-            <!-- 
-           <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
-            <div class="py-2 hidden xl:grid">
-              <cool-button text="Host Application" href="https://www.teknikfokus.se/host"/>
-            </div>
-            <div class="py-2 grid xl:hidden">
-              <cool-button2 text="Host Application" href="https://www.teknikfokus.se/host"/>
-            </div>
-             <div class="py-2 hidden xl:grid">
-              <cool-button text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
-            </div>
-            <div class="py-2 grid xl:hidden">
-              <cool-button2 text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
-            </div> 
-          </div>  -->
+
           </div>
         </div>
 
@@ -55,12 +39,15 @@
     </div>
 
 
+
+
     <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center ">
 
       <div class="flex content container  xl:px-24">
         <div class="align-center   xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We have fun, come and join us.</h1>
+            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We have fun, come and
+              join us.</h1>
             <h2 class="mt-4  text-white hidMe">
               Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with
               everything from
@@ -196,25 +183,4 @@ export default {
 
 
 }
-
-/* .student-background {
-  background-image: url('../assets/images/massa2020blur.jpg');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 70vh;
-
-
-}
-
-.hidMe {
-  transform: translateX(-30%);
-  opacity: 0;
-  transition: transform 1s ease-out, opacity 1s ease-out;
-}
-
-.showMe {
-  transform: translateX(0);
-  opacity: 1;
-} */
 </style>

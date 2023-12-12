@@ -1,7 +1,6 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
-    <!-- <div id="About-teknikfokus" class="py-6"></div>
-    <h1 class="my-12 text-5xl text-center font-bold">About Teknikfokus</h1> -->
+
 
 
 
@@ -11,38 +10,23 @@
 
       <div class="flex content container xl:px-24   ">
         <div class="align-center xl:w-1/2 ">
-          <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-4xl text-white  text-left hidMe ">What is Teknikfokus?</h1>
-            <h2 class="mt-4 text-white  hidMe ">
+          <div class=" p-10 text-lg xl:pr-8 drop-shadow-md  ">
+            <h1 class="text-4xl text-white drop-shadow-md text-left hidMe ">What is Teknikfokus?</h1>
+            <h2 class="mt-4 text-white drop-shadow-md hidMe ">
               Teknikfokus is the largest career fair within Biomedical Engineering, Computer Science and Communication
               Engineering, Electrical Engineering and Information Technology Engineering in the Nordics. The fair will
               take place at LTH during the 13th and 14th of February 2024.
             </h2>
             <br>
-            <h2 class="mt-4 text-white hidMe  ">
+            <h2 class="mt-4 text-white hidMe  drop-shadow-md ">
               With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000
               students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas
               of our speciality.
             </h2>
             <br>
-            <h2 class="mt-4 text-white  hidMe ">See you at the fair!</h2>
+            <h2 class="mt-4 text-white  hidMe drop-shadow-md ">See you at the fair!</h2>
 
-            <!-- <h2 class="text-4xl font-bold text-center m-2">Host Application is opening soon!</h2> -->
-            <!-- 
-           <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
-            <div class="py-2 hidden xl:grid">
-              <cool-button text="Host Application" href="https://www.teknikfokus.se/host"/>
-            </div>
-            <div class="py-2 grid xl:hidden">
-              <cool-button2 text="Host Application" href="https://www.teknikfokus.se/host"/>
-            </div>
-             <div class="py-2 hidden xl:grid">
-              <cool-button text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
-            </div>
-            <div class="py-2 grid xl:hidden">
-              <cool-button2 text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
-            </div> 
-          </div>  -->
+
           </div>
         </div>
 
@@ -59,8 +43,8 @@
       <div class=" flex-row xl:flex xl:items-center  flex content container  xl:px-24">
         <div class="align-center xl:w-1/2">
           <!-- Lefty stuff -->
-          <div class=" text-lg xl:pr-8 ">
-            <h1 class="text-4xl text-white  text-left hidMe ">Join Us at Teknikfokus 2024</h1>
+          <div class="p-10 text-lg xl:pr-8 ">
+            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">Join Us at Teknikfokus 2024</h1>
             <h2 class="mt-4 text-white  hidMe ">
               Embrace this opportunity to be at the forefront of innovation and talent acquisition. We are excited to see
               how your company will inspire and lead in this dynamic environment. For more information and to register
