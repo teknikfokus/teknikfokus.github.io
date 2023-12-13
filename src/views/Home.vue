@@ -43,7 +43,7 @@
         <div class="  xl:w-1/2   flex-1   container flex  flex-col items-center justify-center    ">
 
           <h1 class=" font-normal   text-5xl py-2 ">Next fair</h1>
-          <h2 class="text-1xl font-normal py-2"> 15th &amp; 16th of February, 2024!</h2>
+          <h2 class="text-1xl font-normal py-2"> 13th &amp; 14th of February, 2024!</h2>
           <h2 class="text-1xl font-normal   py-2">09:00-16:30</h2>
           <h2 class="text-1xl font-normal  py-2"> E-huset LTH, Ole Römers väg 3, Lund</h2>
           <div class=" py-2 container  social-icons">
