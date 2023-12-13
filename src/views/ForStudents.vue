@@ -177,7 +177,7 @@ export default {
 @import '/src/css/animationStyle.css';
 
 .student-background {
-  background-image: url('../assets/images/massa2020blur.jpg');
+  background-image: url('../assets/images/newbgmassa20.jpg');
 
 
 
