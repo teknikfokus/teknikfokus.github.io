@@ -248,8 +248,8 @@ export default {
   },
   computed: {
     parallaxBackground() {
-      let name ="massa2020blurcut.png"
-      var images = require.context('@/assets/images/', false, /(\.png)|(\.jpg)|(\.jpeg)$/)
+      let name ="massa2020blurcut.webp"
+      var images = require.context('@/assets/images/', false, /(\.png)|(\.webp)|(\.jpg)|(\.jpeg)$/)
       return images('./' + name);
     },
     parallaxImageHeight() {
@@ -272,7 +272,7 @@ export default {
   }
 
   .hero-background {
-    background-image: url('./assets/images/massa2020blurcut.png');
+    background-image: url('./assets/images/massa2020blurcut.webp');
     background-position: bottom;
   }
 </style>
