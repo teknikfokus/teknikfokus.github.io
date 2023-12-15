@@ -5,9 +5,13 @@
 
 
 
+    <!-- <div class="student-background"></div> -->
+
+    <!-- <BackgroundComponent /> -->
+    <BackgroundComponent customClass="student-background" />
 
 
-    <div class=" student-background  bg-gray-trans flex-row xl:flex xl:items-center ">
+    <div class="  flex-row xl:flex xl:items-center ">
 
       <div class="flex content container  xl:px-24">
         <div class="align-center xl:w-1/2 ">
@@ -46,7 +50,7 @@
       <div class="flex content container  xl:px-24">
         <div class="align-center   xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">We have fun, come and
+            <h1 class=" text-5xl font-sans md:font-serif  text-white text-left hidMe ">We have fun, come and
               join us.</h1>
             <h2 class="mt-4  text-white hidMe">
               Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with
@@ -89,8 +93,8 @@
     </div>
 
     <!-- <div id="Students-FAQ" class="py-6"></div> -->
-    <h1 class=" text-5xl text-center font-bold bg-gray-trans p-5  ">FAQ</h1>
-    <div id="students-faq" class="pt-5 pb-5 bg-gray-trans">
+    <h1 class=" text-5xl text-center font-bold bg-gray-normal p-5  ">FAQ</h1>
+    <div id="students-faq" class="pt-5 pb-5 bg-gray-normal">
       <div class="max-w-510xl mx-auto  ">
         <div id="students-faq-accordion" class="divide-y-2 content container xl:px-24  divide-gray-200 ">
           <Question class="hidMe  " v-for="(question, index) in questions" :key="index" :info="question" :index="index">
@@ -109,7 +113,9 @@ import CoolButton2 from '../components/CoolButton2.vue';
 import ErrorMessage from '../components/ErrorMessage'
 import scroll_to_hash from '../router/scroll_to_hash';
 import observerMixin from '../components//observerMixin.js';
-import UnderNav from '../components/UnderNav.vue'
+import UnderNav from '../components/UnderNav.vue';
+import BackgroundComponent from '../components/BackgroundComponent.vue';
+
 
 const questions = [
   {
@@ -143,7 +149,8 @@ export default {
     ErrorMessage,
     CoolButton,
     CoolButton2,
-    UnderNav
+    UnderNav,
+    BackgroundComponent
 
   },
   setup() {
@@ -179,7 +186,15 @@ export default {
 .student-background {
   background-image: url('../assets/images/newbgmassa20.jpg');
 
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
+  background-position: center;
+  background-size: cover;
+  z-index: -1; */
 
 
 }

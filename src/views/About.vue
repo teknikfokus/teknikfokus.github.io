@@ -146,7 +146,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 
-  background-attachment: fixed;
+  background-attachment: scroll;
   width: 100%;
   min-height: 70vh;
 

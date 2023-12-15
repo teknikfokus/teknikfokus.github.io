@@ -13,7 +13,9 @@ module.exports = {
           "primary-trans": 'rgba(20, 39, 62, 0.7)',
         },
         gray: {
-          "trans": 'rgba(156, 163, 175, 0.4)'
+          "trans": 'rgba(156, 163, 175, 0.4)',
+          "normal": '#D8DADF',
+          
         }
       },
       height: {

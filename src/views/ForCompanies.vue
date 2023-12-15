@@ -5,13 +5,14 @@
 
 
     <UnderNav title="For Companies" />
-
-    <div class=" student-background flex-row xl:flex xl:items-center ">
+    <BackgroundComponent customClass="student-background" />
+    <div class=" flex-row xl:flex xl:items-center ">
 
       <div class="flex content container xl:px-24   ">
         <div class="align-center xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 drop-shadow-md  ">
-            <h1 class="text-4xl text-white drop-shadow-md text-left hidMe ">What is Teknikfokus?</h1>
+            <h1 class=" text-white drop-shadow-md  text-4xl   text-left hidMe ">What is
+              Teknikfokus?</h1>
             <h2 class="mt-4 text-white drop-shadow-md hidMe ">
               Teknikfokus is the largest career fair within Biomedical Engineering, Computer Science and Communication
               Engineering, Electrical Engineering and Information Technology Engineering in the Nordics. The fair will
@@ -86,8 +87,8 @@
     </h3> -->
 
     <div id="Companies-FAQ" class=""></div>
-    <h1 class=" text-5xl text-center font-bold bg-gray-trans p-5 ">FAQ</h1>
-    <div id="companies-faq" class="pt-5 pb-5 bg-gray-trans">
+    <h1 class=" text-5xl text-center font-bold bg-gray-normal p-5 ">FAQ</h1>
+    <div id="companies-faq" class="pt-5 pb-5 bg-gray-normal">
       <div class="max-w-510xl mx-auto">
         <div id="companies-faq-accordion" class="divide-y-2 content container xl:px-24  divide-gray-200">
           <Question class="hidMe  " v-for="(question, index) in questions" :key="index" :info="question" :index="index">
@@ -109,6 +110,7 @@ import ErrorMessage from '../components/ErrorMessage'
 import Question from '../components/Question'
 import UnderNav from '../components/UnderNav.vue'
 import observerMixin from '../components//observerMixin.js';
+import BackgroundComponent from '../components/BackgroundComponent.vue';
 
 
 const packages = {
@@ -265,7 +267,8 @@ export default {
     PopoverPanel,
     MenuIcon,
     XIcon,
-    UnderNav
+    UnderNav,
+    BackgroundComponent
 
   },
   setup() {
@@ -292,7 +295,7 @@ export default {
 @import '/src/css/animationStyle.css';
 
 .student-background {
-  background-image: url('../assets/images/newbgmassa20.jpg');
+  background-image: url('../assets/images/v3.jpg');
 
 
 
