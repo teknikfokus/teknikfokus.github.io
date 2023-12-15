@@ -6,26 +6,26 @@
 
     <UnderNav title="For Companies" />
     <BackgroundComponent customClass="student-background" />
-    <div class=" flex-row xl:flex xl:items-center ">
+    <div class=" flex-row xl:flex xl:items-center bg-blackTrans-trans  ">
 
-      <div class="flex content container xl:px-24   ">
+      <div class="flex content container xl:px-24  py-20  ">
         <div class="align-center xl:w-1/2 ">
-          <div class=" p-10 text-lg xl:pr-8 drop-shadow-md  ">
-            <h1 class=" text-white drop-shadow-md  text-4xl   text-left hidMe ">What is
+          <div class=" p-10 text-lg xl:pr-8 ">
+            <h1 class=" text-white drop-shadow-md  text-4xl   text-left hidMe uppercase">What is
               Teknikfokus?</h1>
-            <h2 class="mt-4 text-white drop-shadow-md hidMe ">
+            <h2 class="mt-4 text-white  hidMe ">
               Teknikfokus is the largest career fair within Biomedical Engineering, Computer Science and Communication
               Engineering, Electrical Engineering and Information Technology Engineering in the Nordics. The fair will
               take place at LTH during the 13th and 14th of February 2024.
             </h2>
-            <br>
-            <h2 class="mt-4 text-white hidMe  drop-shadow-md ">
+
+            <h2 class="mt-4 text-white hidMe   ">
               With a yearly participation rate of 60 to 80 companies, and a collective student population of over 1000
               students, Teknikfokus strives to be at the forefront of building student-customer relations within the areas
               of our speciality.
             </h2>
-            <br>
-            <h2 class="mt-4 text-white  hidMe drop-shadow-md ">See you at the fair!</h2>
+
+            <h2 class="mt-4 text-white  hidMe  ">See you at the fair!</h2>
 
 
           </div>
@@ -45,7 +45,8 @@
         <div class="align-center xl:w-1/2">
           <!-- Lefty stuff -->
           <div class="p-10 text-lg xl:pr-8 ">
-            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe ">Join Us at Teknikfokus 2024</h1>
+            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe uppercase ">Join Us at Teknikfokus
+              2024</h1>
             <h2 class="mt-4 text-white  hidMe ">
               Embrace this opportunity to be at the forefront of innovation and talent acquisition. We are excited to see
               how your company will inspire and lead in this dynamic environment. For more information and to register
@@ -54,12 +55,12 @@
               </a>form or contact us at <a class="font-bold underline text-dark-blue"
                 href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a>
             </h2>
-            <br>
+
             <h2 class="mt-4 text-white  hidMe ">
               We look forward to welcoming you to an event that promises to be as transformative for your company as it
               will be for the aspiring professionals attending. Let's shape the future together at Teknikfokus 2024!
             </h2>
-            <br>
+
             <h2 class="mt-4 text-white  hidMe ">
               See you at the fair!
             </h2>

@@ -1,7 +1,7 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
 
-    <UnderNav title="For Student" />
+    <UnderNav title="FOR STUDENT" />
 
 
 
@@ -11,24 +11,25 @@
     <BackgroundComponent customClass="student-background" />
 
 
-    <div class="  flex-row xl:flex xl:items-center ">
+    <div class="  flex-row xl:flex xl:items-center  bg-blackTrans-trans ">
 
-      <div class="flex content container  xl:px-24">
+      <div class="flex content container   py-20 xl:px-24">
         <div class="align-center xl:w-1/2 ">
-          <div class=" p-10 text-lg xl:pr-8  drop-shadow-md  ">
-            <h1 class="text-4xl text-white  text-left hidMe drop-shadow-md ">What is Teknikfokus?</h1>
-            <h2 class="mt-4  text-white  hidMe drop-shadow-md">
+          <div class=" p-10 text-lg xl:pr-8     ">
+            <h1 class="text-4xl  text-white  text-left  uppercase hidMe  ">What is Teknikfokus?
+            </h1>
+            <h2 class="mt-4  text-white  hidMe  ">
               Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and
               14:th of February ~70 companies will be at E-huset to present what they are all about. This is your chance
               to get in contact with future employers through summer jobs, master’s theses and much more.
             </h2>
-            <br>
-            <h2 class="mt-4 text-white hidMe drop-shadow-md ">
+
+            <h2 class="mt-4 text-white hidMe  ">
               Along with the fair there will also be lunch lectures, pubs and student sessions happening all around
               E-huset. Follow the links below to read more about participating in Student Sessions and applying for Host.
             </h2>
-            <br>
-            <h2 class="mt-4 text-white  hidMe drop-shadow-md ">See you at the fair!</h2>
+
+            <h2 class="mt-4 text-white  hidMe  ">See you at the fair!</h2>
 
 
           </div>
@@ -45,21 +46,22 @@
 
 
 
-    <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center ">
+    <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center  ">
 
       <div class="flex content container  xl:px-24">
         <div class="align-center   xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
-            <h1 class=" text-5xl font-sans md:font-serif  text-white text-left hidMe ">We have fun, come and
+            <h1 class=" text-5xl  text-white text-left hidMe uppercase   ">We have fun,
+              come and
               join us.</h1>
-            <h2 class="mt-4  text-white hidMe">
+            <h2 class="mt-4  text-white hidMe ">
               Every great career fair needs awesome hosts and Teknikfokus is no different. We will need lots of help with
               everything from
               setting up the fair to answering all kinds of questions in the info desk and hosting the companies to make
               sure they
               feel welcome. If you want to be a part of the team, don’t hesitate to apply!
             </h2>
-            <br>
+
 
 
 
@@ -74,16 +76,46 @@
               </div>
 
             </div>
+
           </div>
         </div>
 
         <!-- Righty stuff -->
-        <div class="hidden xl:grid  xl:w-1/2  hidMe ">
-          <div class="max-w-full mx-auto xl:visible py-11">
-            <img src="../assets/images/fun.jpg" class="max-w-full" alt="Group of attendees" />
+        <!-- <div class="hidden xl:grid xl:w-1/2  hidMe ">
+          <div class="max-w-full  mx-auto   xl:visible py-12 ">
+            <img src="../assets/images/fun.jpg" class="max-w-full " alt="Group of attendees" />
+
 
           </div>
 
+        </div> -->
+        <div class=" hidden xl:grid xl:w-1/2 mx-auto  ">
+          <div class="flex flex-wrap justify-around items-center  hidMe ">
+            <img src="../assets/images/te.jpg"
+              class="w-1/3 mt-2  rotate-3 drop-shadow-md border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
+              alt="Group of attendees" />
+
+            <img src="../assets/images/mpg1.jpg"
+              class="w-1/3 mt-2  rotate-[-6deg] drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
+              alt="Group of attendees" />
+
+            <img src="../assets/images/mpg2.jpg"
+              class="w-1/3 mt-2  rotate-2 drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
+              alt="Group of attendees" />
+
+            <img src="../assets/images/mpg3.jpg"
+              class="w-1/3 mt-2  rotate-[-6deg] drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
+              alt="Group of attendees" />
+
+
+            <img src="../assets/images/mpg4.jpg"
+              class="w-1/3 mt-2  rotate-6 drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
+              alt="Group of attendees" />
+            <img src="../assets/images/mpg5.jpg"
+              class="w-1/3 mt-2  rotate-[-6deg] drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
+              alt="Group of attendees" />
+
+          </div>
         </div>
       </div>
 
@@ -184,18 +216,14 @@ export default {
 @import '/src/css/animationStyle.css';
 
 .student-background {
-  background-image: url('../assets/images/newbgmassa20.jpg');
+  background-image: url('../assets/images/massa2020blur_large.jpg');
 
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 
-  background-position: center;
-  background-size: cover;
-  z-index: -1; */
 
 
 }
+
+
+
+/* CSS för din container */
 </style>

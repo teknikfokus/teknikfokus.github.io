@@ -89,7 +89,7 @@
     <div :class="{ 'min-h-[60vh]': $route.name !== 'Home' }">
       <router-view />
     </div>
-    <Footer v-if="!isHomePage" id="footer" ref="footer"></Footer>
+    <Footer v-if="!isHomeOrAbout" id="footer" ref="footer"></Footer>
   </div>
 </template>
 
@@ -246,8 +246,10 @@ export default {
       var images = require.context('@/assets/images/', false, /(\.png)|(\.jpg)|(\.jpeg)$/)
       return images('./' + name);
     },
-    isHomePage() {
-      return this.$route.name === 'Home';
+    isHomeOrAbout() {
+      // return this.$route.name === 'Home';
+      return this.$route.name === 'Home' || this.$route.name === 'About';
+
     },
 
     parallaxImageHeight() {
