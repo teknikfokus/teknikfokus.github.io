@@ -20,10 +20,10 @@
 
            <div class="flex flex-col pt-8 md center xl:w-96 xl:align-left">
             <div class="py-2 hidden xl:grid">
-              <cool-button text="Host Application" href="https://www.teknikfokus.se/host"/>
+              <cool-button text="Host Application" href="/host"/>
             </div>
             <div class="py-2 grid xl:hidden">
-              <cool-button2 text="Host Application" href="https://www.teknikfokus.se/host"/>
+              <cool-button2 text="Host Application" href="/host"/>
             </div>
             <!-- <div class="py-2 hidden xl:grid">
               <cool-button text="Student Sessions" href="https://www.teknikfokus.se/sessions"/>
