@@ -1,15 +1,19 @@
-
 <template>
   <div id="host" class="scroll-smooth">
     <div id="About-hosts" class="py-6"></div>
     <h1 class="my-12 text-5xl text-center font-bold">About Hosts</h1>
-    <h3 class="text-lg text-center max-w-[80ch] mx-auto">Every great career fair needs awesome hosts and Teknikfokus is no
-      different. We will need lots of help with setting things up for the fair and with answering all kinds
-      of questions about the fair in the info desk. We will also need company host that ensure that the companies
-      feel welcome. There are many more roles that hosts can have and there is something for everyone. You can find the
-      descriptions for all the roles for Teknikfokus 2024 below. Those who take part as hosts will receive many benefits
-      such as attending the Teknikfokus Banquet, merch and other festivities. So apply to be a host for Teknikfokus,
-      together we will make Teknikfokus possible!</h3>
+    <h3 class="text-lg text-center max-w-[80ch] mx-auto">
+      Every great career fair needs awesome hosts and Teknikfokus is no
+      different. We will need lots of help with setting things up for the fair
+      and with answering all kinds of questions about the fair in the info desk.
+      We will also need company host that ensure that the companies feel
+      welcome. There are many more roles that hosts can have and there is
+      something for everyone. You can find the descriptions for all the roles
+      for Teknikfokus 2024 below. Those who take part as hosts will receive many
+      benefits such as attending the Teknikfokus Banquet, merch and other
+      festivities. So apply to be a host for Teknikfokus, together we will make
+      Teknikfokus possible!
+    </h3>
 
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>
@@ -41,8 +45,8 @@
 </template>
 
 <script>
-import Question from '../components/Question'
-import scroll_to_hash from '../router/scroll_to_hash'
+import Question from "../components/Question";
+import scroll_to_hash from "../router/scroll_to_hash";
 
 const jobs = [
   {
@@ -51,7 +55,7 @@ const jobs = [
           <p>Would you like the chance to converse and network with one or two of the companies participating in Teknikfokus 2024? If so, consider applying to be a company host!</p>
           <br>
           <p>As a company host, you'll be tasked with overseeing one to two companies during the event. Your primary responsibilities will include ensuring that company contacts receive all necessary information prior to the fair, assisting in the setup of company booths, and providing support if the company requires assistance or has inquiries during the event.</p>
-        `
+        `,
   },
   {
     question: "Night Watch",
@@ -61,7 +65,7 @@ const jobs = [
           <p>On the night between the exhibition days, companies' belongings and other items will be stored in the E-house. To ensure the companies feel secure enough to leave their items there, we need night guards to keep a watchful eye and prevent any losses.</p>
           <br>
           <p>Unfortunately, there is a possibility that this may coincide with the time of the Banquet. Instead, you will have the option to order pizza, snacks, and soft drinks during the night, with Teknikfokus covering the cost. You'll also have the flexibility to spend your time as you wish, as long as you are supervising the company's belongings.</p>
-        `
+        `,
   },
   {
     question: "Info Desk",
@@ -70,7 +74,7 @@ const jobs = [
         <br>
         <p>This is one of the most social positions at the fair. Throughout the event, companies, hosts, and visitors will be able to approach you with questions related to the fair. Besides being at service on the fair, you will be responsible for items that 
           companies eventually could borrow for their booths and more.</p>
-      `
+      `,
   },
   {
     question: "Food and wardrobe host",
@@ -80,7 +84,7 @@ const jobs = [
         <p>In this post, you will be responsible for breakfast, lunch, lounges and the wardrobe during the fair. You will assist with various tasks, such as taking care of attendees' outerwear upon their arrival. You will also be responsible for maintaining the lounge area, ensuring it looks inviting with amenities like coffee, creating a cozy environment where company representatives can unwind. It's an ideal opportunity for engaging with different companies!
   Additionally, you will ensure that breakfast is available in the lounge each morning for both hosts and company representatives.
   </p>
-      `
+      `,
   },
   {
     question: "Banquet host",
@@ -88,7 +92,7 @@ const jobs = [
         <p>Are you an organized and cheerful person who loves decorating? Then you should consider applying for Banquet Host!</p>
         <br>
         <p>Join us in making the first day of the fair, February 13th, truly exceptional! We're hosting a Banquet, and your assistance is crucial in transforming the hall into a stunning setting for the evening. Your team will be responsible for decorations and ensuring that everything is perfectly arranged. Although you'll miss a portion of the first day's events while preparing, you'll have the chance to change and participate in the Banquet before the guests arrive. Your contribution will help set the stage for an unforgettable evening.</p>
-      `
+      `,
   },
   // {
   //   question: "Lunch/Food Host",
@@ -113,7 +117,15 @@ const jobs = [
         <br>
         <p>As a photo host for Teknikfokus, your role will involve taking pictures of the exhibition, the Banquet and other events related to the fair. The photos will be used both for Teknikfokus 2024 and possibly for future years. Having prior experience in photography is favorable but not required.
 </p>
-      `
+      `,
+  },
+  {
+    question: "Electricity/Internet Host",
+    answer: `
+      <p>Do you like to solve technical issues? Then you are perfect for the electricity/ internet host at Teknikfokus!</p>
+      <br>
+      <p>Your main job will be to help companies with the cables, electricity and internet related tasks. If there is something that's not working or if the companies need any cables, you will be the first to help.</p>
+    `,
   },
   {
     question: "Student Session Coordinator",
@@ -123,7 +135,7 @@ const jobs = [
         <p>This role is specifically a coordinating position, as it involves a bit more responsibility than that of a host. It's worth noting that this type of coordinator will not be responsible for an own group of hosts, distinguishing it from other coordinators. 
 Before the fair, students will have the opportunity to submit their resumes, which companies will review to select the students they wish to speak with. To facilitate this process, a student sessions coordinator is needed to oversee our student portal and ensure that the right individuals are matched with the right companies. You will also assist both company representatives and students in finding their way to the contact meetings during the fair.
 </p>
-      `
+      `,
   },
 ];
 
@@ -135,7 +147,7 @@ const questions = [
         <br>
         <p>As a host you will also be able to attend events before the fair, a thank you party after the fair, and get a ticket to the Teknikfokus Banquet for free!
         </p>
-      `
+      `,
   },
   {
     question: "What is the Teknikfokus Banquet, and when is it?",
@@ -143,38 +155,38 @@ const questions = [
       <p>The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes for all the company representatives and hosts that have been engaged in Teknikfokus. Delicious food is promised and all the hosts that have been engaged at Teknikfokus will get a free ticket to the Teknikfokus Banquet.</p>
       <br>
       <p>The banquet will be held  February 13th at AF-Borgen, Sandgatan 2, 223 50 Lund. We have not yet determined at what time the doors will open, but more information is to come!</p>
-      `
+      `,
   },
   {
     question: "What is a coordinator?",
     answer: `
         <p>A coordinator will work just as any other host during the fair, but they will also have additional resposibility. The coordinators will be responsible for a group of hosts during the fair and make sure everything runs smoothly. If the hosts have any questions, their coordinator is the one they should first make contact with. Thus, they will function a bit like a team leader which will be a valuable experience!</p>
-      `
+      `,
   },
   {
     question: "How much work is expected of a host?",
     answer: `
         <p>Overall there is not a lot of work as a host during Teknikfokus since most of the work will be done during the two fair days. However, the work intensity can vary depending on what kind of host you are. Some hosts will work during longer periods of time, but at the same time a little calmer, for example the night watch, while some will work for a shorter period of time but more intensively, for example the lunch host. While you are expected to be able to work both days during the fair, you will of course not have to be at your post the entire time.</p>
-      `
+      `,
   },
   {
     question: "Who gets to apply for host at Teknikfokus?",
     answer: `
         <p>All students from the E and D-faculties are welcome to apply to be a host!</p>
-      `
-  }
+      `,
+  },
 ];
 //fick en varning och därför importerar jag den o
-import ErrorMessage from '../components/ErrorMessage'
+import ErrorMessage from "../components/ErrorMessage";
 
 export default {
-  name: 'Host',
+  name: "Host",
   components: {
     Question,
-    ErrorMessage
+    ErrorMessage,
   },
   setup() {
-    return { jobs, questions }
+    return { jobs, questions };
   },
   mounted() {
     scroll_to_hash();
@@ -182,16 +194,17 @@ export default {
 
   methods: {
     openForm() {
-      window.open('https://docs.google.com/forms/d/e/1FAIpQLSdB2UstHt6vg5SYvJC7NU1qOFqG81XsKvV-L8bJkrLTAb8egQ/viewform', '_blank');
-    }
-  }
-
-
-}
+      window.open(
+        "https://docs.google.com/forms/d/e/1FAIpQLSdB2UstHt6vg5SYvJC7NU1qOFqG81XsKvV-L8bJkrLTAb8egQ/viewform",
+        "_blank"
+      );
+    },
+  },
+};
 </script>
 <style>
 .apply-button {
-  background-color: #14273E;
+  background-color: #14273e;
   /* Green */
   border: none;
   color: white;
