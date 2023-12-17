@@ -1,7 +1,7 @@
 <template>
   <div id="for-companies" class="scroll-smooth">
 
-    <UnderNav title="FOR STUDENT" />
+    <UnderNav title="FOR STUDENTS" />
 
 
 
@@ -13,10 +13,10 @@
 
     <div class="  flex-row xl:flex xl:items-center  bg-blackTrans-trans ">
 
-      <div class="flex content container   py-20 xl:px-24">
+      <div class="flex content container   py-40 xl:px-24">
         <div class="align-center xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8     ">
-            <h1 class="text-4xl  text-white  text-left  uppercase hidMe  ">What is Teknikfokus?
+            <h1 class="drop-shadow-md  text-4xl  text-white  text-left  uppercase hidMe  ">What is Teknikfokus?
             </h1>
             <h2 class="mt-4  text-white  hidMe  ">
               Teknikfokus is a career fair aimed towards students studying at the E and D guilds. During the 13:th and
@@ -46,9 +46,9 @@
 
 
 
-    <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center  ">
+    <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center   ">
 
-      <div class="flex content container  xl:px-24">
+      <div class="flex content container  xl:px-24 ">
         <div class="align-center   xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
             <h1 class=" text-5xl  text-white text-left hidMe uppercase   ">We have fun,
@@ -81,42 +81,26 @@
         </div>
 
         <!-- Righty stuff -->
-        <!-- <div class="hidden xl:grid xl:w-1/2  hidMe ">
+        <div class="hidden xl:grid xl:w-1/2  hidMe ">
           <div class="max-w-full  mx-auto   xl:visible py-12 ">
             <img src="../assets/images/fun.jpg" class="max-w-full " alt="Group of attendees" />
 
 
           </div>
 
-        </div> -->
-        <div class=" hidden xl:grid xl:w-1/2 mx-auto  ">
-          <div class="flex flex-wrap justify-around items-center  hidMe ">
-            <img src="../assets/images/te.jpg"
-              class="w-1/3 mt-2  rotate-3 drop-shadow-md border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
-              alt="Group of attendees" />
-
-            <img src="../assets/images/mpg1.jpg"
-              class="w-1/3 mt-2  rotate-[-6deg] drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
-              alt="Group of attendees" />
-
-            <img src="../assets/images/mpg2.jpg"
-              class="w-1/3 mt-2  rotate-2 drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
-              alt="Group of attendees" />
-
-            <img src="../assets/images/mpg3.jpg"
-              class="w-1/3 mt-2  rotate-[-6deg] drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
-              alt="Group of attendees" />
-
-
-            <img src="../assets/images/mpg4.jpg"
-              class="w-1/3 mt-2  rotate-6 drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
-              alt="Group of attendees" />
-            <img src="../assets/images/mpg5.jpg"
-              class="w-1/3 mt-2  rotate-[-6deg] drop-shadow-md  border-6 border-b-12 border-classic-white hover:scale-[200%] hover:z-10 transition-transform duration-500"
-              alt="Group of attendees" />
-
-          </div>
         </div>
+
+        <!-- <VintageGallery /> -->
+
+        <!-- <GalleryComponent /> -->
+
+
+
+
+
+
+
+
       </div>
 
 
@@ -147,6 +131,9 @@ import scroll_to_hash from '../router/scroll_to_hash';
 import observerMixin from '../components//observerMixin.js';
 import UnderNav from '../components/UnderNav.vue';
 import BackgroundComponent from '../components/BackgroundComponent.vue';
+import GalleryComponent from '../components/GalleryComponent.vue';
+import VintageGallery from '../components/VintageGallery.vue';
+
 
 
 const questions = [
@@ -182,7 +169,9 @@ export default {
     CoolButton,
     CoolButton2,
     UnderNav,
-    BackgroundComponent
+    BackgroundComponent,
+    GalleryComponent,
+    VintageGallery
 
   },
   setup() {
@@ -216,12 +205,25 @@ export default {
 @import '/src/css/animationStyle.css';
 
 .student-background {
-  background-image: url('../assets/images/massa2020blur_large.jpg');
+  background-image: url('../assets/images/massa2020blur.jpg');
+
 
 
 
 
 }
+
+/* .student-background2 {
+  background-image: url('../assets/images/massa2020blur.jpg');
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: bottom;
+} */
+
+
+
 
 
 

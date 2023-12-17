@@ -29,7 +29,8 @@
 
     <!-- Shown on larger screens -->
     <div v-if="$route.name !== 'Home'">
-      <div class="hidden md:block fixed w-full top-0  z-20 bg-blue-primary border-gray-400">
+      <!-- border-b-2 -->
+      <div class="hidden md:block fixed w-full top-0  z-20  bg-blue-primary border-gray-400">
         <div class="flex justify-center">
           <router-link
             class="block w-48 text-center py-3 mx-2 font-medium text-lg text-gray-50 hover:text-blue-primary hover:bg-gray-50 hover:no-underline hover:bg-opacity-50 hover:rounded-full"

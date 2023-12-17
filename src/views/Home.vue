@@ -6,7 +6,6 @@
 
 
 
-
       <CountDown :firstDate="firstDate" :secondDate="secondDate" />
 
 
@@ -57,14 +56,13 @@
 
 
           <div class=" content  container  py-2">
-            <button
-              class=" responsive-button  bg-white  text-black font-normal  py-2 px-4 rounded-full focus:outline-none"
+            <button class=" responsive-button  bg-white  text-black font-bold   py-2 px-4 rounded-full focus:outline-none"
               @click="goToForStudents">
               For Students
             </button>
 
 
-            <button class=" responsive-button bg-white  text-black font-normal py-2 px-3 rounded-full focus:outline-none"
+            <button class=" responsive-button bg-white  text-black font-bold py-2 px-3 rounded-full focus:outline-none"
               @click="goToForCompany">
               For Companies
             </button>
@@ -158,7 +156,7 @@ export default {
 }
 
 .hero-background {
-  background-image: url('../assets/images/tek33.jpg');
+  background-image: url('../assets/images/massa2020blur_large.jpg');
   background-position: center;
   background-size: cover;
 

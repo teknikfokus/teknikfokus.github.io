@@ -176,7 +176,7 @@ export default {
   justify-content: center;
   flex-wrap: wrap;
   align-items: stretch;
-  margin: 0 -20px;
+  margin: 0;
 
 }
 </style>

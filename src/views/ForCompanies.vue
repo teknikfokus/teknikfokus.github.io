@@ -6,9 +6,11 @@
 
     <UnderNav title="For Companies" />
     <BackgroundComponent customClass="student-background" />
-    <div class=" flex-row xl:flex xl:items-center bg-blackTrans-trans  ">
+    <!-- <BackgroundComponent /> -->
 
-      <div class="flex content container xl:px-24  py-20  ">
+    <div class="  flex-row xl:flex xl:items-center bg-blackTrans-trans  ">
+
+      <div class="flex content container xl:px-24  py-40  ">
         <div class="align-center xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
             <h1 class=" text-white drop-shadow-md  text-4xl   text-left hidMe uppercase">What is
@@ -40,12 +42,20 @@
     </div>
 
 
+
+
+
+
+
+
+
     <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center ">
       <div class=" flex-row xl:flex xl:items-center  flex content container  xl:px-24">
+
         <div class="align-center xl:w-1/2">
           <!-- Lefty stuff -->
           <div class="p-10 text-lg xl:pr-8 ">
-            <h1 class="text-5xl font-sans md:font-serif  text-white text-left hidMe uppercase ">Join Us at Teknikfokus
+            <h1 class="text-4xl   text-white text-left hidMe uppercase ">Join Us at Teknikfokus
               2024</h1>
             <h2 class="mt-4 text-white  hidMe ">
               Embrace this opportunity to be at the forefront of innovation and talent acquisition. We are excited to see
@@ -67,6 +77,7 @@
           </div>
         </div>
 
+
         <div class=" hidden xl:grid  xl:w-1/2  hidMe ">
           <!-- Righty stuff -->
           <div class="max-w-full mx-auto xl:visible py-11">
@@ -77,6 +88,10 @@
       </div>
 
     </div>
+
+
+
+
 
     <!-- <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Application</h1>
@@ -296,10 +311,14 @@ export default {
 @import '/src/css/animationStyle.css';
 
 .student-background {
-  background-image: url('../assets/images/newbgmassa20.jpg');
+  background-image: url('../assets/images/massa2020blur.jpg');
 
 
-
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: bottom;
 
 }
 </style>
