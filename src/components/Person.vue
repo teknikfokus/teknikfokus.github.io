@@ -1,6 +1,6 @@
 <template>
   <div id="person">
-    <div class="img-wrapper" :style="{'background-image': `url(${((info.imageUrl == '') ? getImgUrl('@/placeholder-person.png') : getImgUrl(info.imageUrl))})`}"></div>
+    <div class="img-wrapper" :style="{'background-image': `url(${((info.imageUrl == '') ? getImgUrl('@/placeholder-person.webp') : getImgUrl(info.imageUrl))})`}"></div>
      <!-- denna div ska tas bort när bilder är klara o ersätts med den ovan  -->
     <!-- <div class="img-wrapper">
  <i class="fa-solid fa-user icon"></i>

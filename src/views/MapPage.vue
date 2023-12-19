@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center">
         <div class="p-8">
-            <img src="../assets/images/map.png" class="mx-auto max-h-[70vh]" alt="Map" />
+            <img src="../assets/images/map.webp" class="mx-auto max-h-[70vh]" alt="Map" />
         </div>
     </div>
     <div class="text-center pb-8">

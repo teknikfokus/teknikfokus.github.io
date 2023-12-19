@@ -83,7 +83,7 @@
         <!-- Righty stuff -->
         <!-- <div class="hidden xl:grid xl:w-1/2  hidMe ">
           <div class="max-w-full  mx-auto   xl:visible py-12 ">
-            <img src="../assets/images/fun.jpg" class="max-w-full " alt="Group of attendees" />
+             <img src="../assets/images/massa2.webp" class="max-w-full" alt="Group of attendees" />
 
 
           </div>
