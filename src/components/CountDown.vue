@@ -1,6 +1,8 @@
 <template>
-    <div class="text-3xl md:text-5xl mt-10">
-        <div v-if="timeLeft > 0" class="mt-6 flex justify-center space-x-5" >
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <div class="text-3xl md:text-5xl   mt-10 ">
+        <div v-if="timeLeft > 0" class="mt-6 flex justify-center space-x-5">
             <div>
                 <div class="leading-4">{{ days }}</div>
                 <span class="text-base md:text-xl ">{{ addPluralCharS(days, 'Day') }}</span>
@@ -22,14 +24,16 @@
         <div v-else>
             <div v-if="date(firstDate, 'end') > Date.now()">
                 Open to {{ clockTime(date(firstDate, 'end')) }} today!
-                <div class="text-3xl text-gray-200 block mt-6">({{ clockTime(date(secondDate)) }} to {{ clockTime(date(secondDate, 'end')) }} tomorrow)</div>
+                <div class="text-3xl text-gray-200 block mt-6">({{ clockTime(date(secondDate)) }} to {{
+                    clockTime(date(secondDate, 'end')) }} tomorrow)</div>
             </div>
             <div v-else-if="date(secondDate) > Date.now()">
                 <div>
                     Thanks for {{ date(firstDate).getDay() == new Date().getDay() ? 'today' : 'yesterday' }}!
                 </div>
                 <div class="block mt-1 text-5xl text-gray-200">
-                    We open {{ date(firstDate).getDay() == new Date().getDay() ? 'tomorrow' : 'today' }} again {{ clockTime(date(secondDate)) }}
+                    We open {{ date(firstDate).getDay() == new Date().getDay() ? 'tomorrow' : 'today' }} again {{
+                        clockTime(date(secondDate)) }}
                 </div>
             </div>
             <div v-else-if="date(secondDate, 'end') > Date.now()">
@@ -62,7 +66,7 @@ export default {
             seconds: 0,
         }
     },
-    beforeMount(){
+    beforeMount() {
         this.calculateTime();
     },
 
@@ -90,10 +94,10 @@ export default {
 
         date(openHours, time = "start") {
             return new Date(
-                openHours.date.year, 
+                openHours.date.year,
                 openHours.date.month - 1,  //Month starts at 0
-                openHours.date.day, 
-                openHours.time[time].hour, 
+                openHours.date.day,
+                openHours.time[time].hour,
                 openHours.time[time].minute ?? 0
             );
         },
@@ -120,5 +124,4 @@ export default {
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
