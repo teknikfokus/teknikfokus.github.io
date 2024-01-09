@@ -156,7 +156,7 @@ export default {
 }
 
 .hero-background {
-  background-image: url('../assets/images/massa2020blur_large.jpg');
+  background-image: url('../assets/images/massa2020blur_large.webp');
   background-position: center;
   background-size: cover;
 
