@@ -14,12 +14,12 @@ export default {
     data() {
         return {
             images: [
-                { src: require('@/assets/images/mpg6.jpg'), alt: 'Group of attendees' },
-                { src: require('@/assets/images/mpg1.jpg'), alt: 'Group of attendees' },
-                { src: require('@/assets/images/mpg2.jpg'), alt: 'Group of attendees' },
-                { src: require('@/assets/images/mpg3.jpg'), alt: 'Group of attendees' },
-                { src: require('@/assets/images/mpg4.jpg'), alt: 'Group of attendees' },
-                { src: require('@/assets/images/mpg5.jpg'), alt: 'Group of attendees' }
+                { src: require('@/assets/images/mpg6.jpg'), alt: 'Hosts' },
+                { src: require('@/assets/images/mpg1.jpg'), alt: 'Hosts' },
+                { src: require('@/assets/images/mpg2.jpg'), alt: 'Hosts' },
+                { src: require('@/assets/images/mpg3.jpg'), alt: 'Hosts' },
+                { src: require('@/assets/images/mpg4.jpg'), alt: 'Hosts' },
+                { src: require('@/assets/images/mpg5.jpg'), alt: 'Hosts' }
             ]
         }
     }

@@ -46,9 +46,78 @@
 
 
 
+    <div class=" bg-blue-primary-lightest  flex-row xl:flex xl:items-center   ">
+
+      <div class="flex content container  xl:px-24 ">
+        <div class="align-center   xl:w-1/2 ">
+          <div class=" p-10 text-lg xl:pr-8 ">
+            <h1 class=" text-3xl  text-white text-left hidMe uppercase   ">
+              Your Next Chapter: Engage in Student Sessions!</h1>
+            <h2 class="mt-4  text-white hidMe ">
+              Step into the spotlight with Student Sessions at the fair! Upload your CV,
+              pick your favorite companies, and they might just choose you for a one-on-one chat.
+              These pivotal meetings, set in the vibrant E-huset, are your gateway to exciting career paths.
+              Keep an eye on your inbox for your personal meeting schedule!
+            </h2>
+
+
+
+
+
+
+            <div class="flex flex-col pt-8  md center xl:w-96 xl:align-left hidMe  ">
+              <div class="py-2  hidden xl:grid">
+                <cool-button text="Apply" href="/sessions" />
+              </div>
+              <div class="py-2 grid xl:hidden">
+                <cool-button2 text="Apply" href="/sessions" />
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- Righty stuff -->
+        <div class="hidden xl:grid xl:w-1/2  hidMe ">
+          <div class="max-w-full  mx-auto   xl:visible py-12 ">
+            <img src="../assets/images/studentSession.webp" class="max-w-full rounded-xl" alt="Group of attendees" />
+
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
     <div class=" bg-blue-primary-lightest flex-row xl:flex xl:items-center   ">
 
       <div class="flex content container  xl:px-24 ">
+
+
+
+
         <div class="align-center   xl:w-1/2 ">
           <div class=" p-10 text-lg xl:pr-8 ">
             <h1 class=" text-5xl  text-white text-left hidMe uppercase   ">We have fun,
@@ -80,19 +149,19 @@
           </div>
         </div>
 
-        <!-- Righty stuff -->
-        <!-- <div class="hidden xl:grid xl:w-1/2  hidMe ">
+
+        <div class="hidden xl:grid xl:w-1/2  hidMe ">
           <div class="max-w-full  mx-auto   xl:visible py-12 ">
-             <img src="../assets/images/massa2.webp" class="max-w-full" alt="Group of attendees" />
+            <img src="../assets/images/fun.jpg" class="max-w-full rounded-xl " alt="Group of attendees" />
 
 
           </div>
 
-        </div> -->
+        </div>
 
-        <VintageGallery />
+        <!-- <VintageGallery /> -->
 
-        <!-- <GalleryComponent /> -->
+
 
 
 
@@ -108,9 +177,30 @@
 
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- <div id="Students-FAQ" class="py-6"></div> -->
-    <h1 class=" text-5xl text-center font-bold bg-gray-normal p-5  ">FAQ</h1>
-    <div id="students-faq" class="pt-5 pb-5 bg-gray-normal">
+    <h1 class=" text-5xl text-center font-bold bg-gray-normal  p-5  ">FAQ</h1>
+    <div id="students-faq" class="pt-5 pb-5 bg-gray-normal ">
       <div class="max-w-510xl mx-auto  ">
         <div id="students-faq-accordion" class="divide-y-2 content container xl:px-24  divide-gray-200 ">
           <Question class="hidMe  " v-for="(question, index) in questions" :key="index" :info="question" :index="index">
@@ -131,7 +221,7 @@ import scroll_to_hash from '../router/scroll_to_hash';
 import observerMixin from '../components//observerMixin.js';
 import UnderNav from '../components/UnderNav.vue';
 import BackgroundComponent from '../components/BackgroundComponent.vue';
-import GalleryComponent from '../components/GalleryComponent.vue';
+
 import VintageGallery from '../components/VintageGallery.vue';
 
 
@@ -170,7 +260,7 @@ export default {
     CoolButton2,
     UnderNav,
     BackgroundComponent,
-    GalleryComponent,
+
     VintageGallery
 
   },

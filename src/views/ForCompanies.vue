@@ -81,7 +81,7 @@
         <div class=" hidden xl:grid  xl:w-1/2  hidMe ">
           <!-- Righty stuff -->
           <div class="max-w-full mx-auto xl:visible py-11">
-            <img src="../assets/images/massa1.webp" class="max-w-full" alt="Group of attendees" />
+            <img src="../assets/images/massa1.webp" class="max-w-full rounded-xl" alt="Group of attendees" />
           </div>
         </div>
 

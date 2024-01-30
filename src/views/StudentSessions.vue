@@ -1,17 +1,31 @@
 <template>
   <div id="Student-session" class="scroll-smooth"></div>
-  <div class="flex flex-col mx-auto text-lg py-6">
+  <div class="flex flex-col  container mx-auto text-lg py-6">
     <h1 class="mt-12 text-5xl text-center font-bold">About</h1>
-    <p class="pt-4 text-center text-lg">
-      A Student Session is a personal meeting with the company of your choice, and a chance for companies to get to know you. Prior to the fair students may upload CV:s and select which companies they would like to discuss future opportunities with. Companies may then ask for a personal meeting with students they find particularly interesting. The meetings will take place in group rooms at the first and second floors of E-huset during the days of the fair. Further information regarding the time of your meeting will be sent via email once all companies have selected their students to meet.
+    <p class="pt-4 text-center  text-lg">
+      A Student Session is a personal meeting with the company of your choice, and a chance for companies to get to know
+      you. Prior to the fair students may upload CV:s and select which companies they would like to discuss future
+      opportunities with. Companies may then ask for a personal meeting with students they find particularly interesting.
+      The meetings will take place in group rooms at the first and second floors of E-huset during the days of the fair.
+      Further information regarding the time of your meeting will be sent via email once all companies have selected their
+      students to meet.
     </p>
     <br>
-    <p class="text-center text-lg">
+    <!-- <p class="text-center text-lg">
       Applications for student sessions are coming soon!
-    </p>
+    </p> -->
+    <h2 class="text-center font-bold">
+      Click the button to access our Student Sessions portal! Remember, applications close on 6/2!
+    </h2>
+    <a class="my-16 mx-auto text-white text-xl font-bold bg-blue-primary p-8 rounded-xl shadow-lg hover:bg-blue-primary-lightest"
+      href="https://teknikfokus.karriardag.se/" target="_blank">
+      <p class="no-underline"> Apply </p>
+    </a>
+
     <br>
     <p class="text-center text-lg">
-      For any questions or additional inquiries please contact <a class="font-bold" href="mailto:it@teknikfokus.se">it@teknikfokus.se</a>.
+      For any questions or additional inquiries please contact <a class="font-bold"
+        href="mailto:it@teknikfokus.se">it@teknikfokus.se</a>.
     </p>
 
     <h1 class="mt-12 text-5xl text-center font-bold">Schedule</h1>
@@ -27,62 +41,32 @@
         <tbody class="text-gray-700 text-center">
           <tr>
             <td class="px-2 pt-2">Acconeer</td>
-            <td class="px-2 pt-2">15th</td>
+            <td class="px-2 pt-2">13th </td>
             <td class="px-2 pt-2">Rayleigh</td>
           </tr>
-          <tr>
-            <td class="px-2">Electrolux Professional AB</td>
-            <td class="px-2">15th</td>
-            <td class="px-2">Lamarr</td>
-          </tr>
-          <tr>
-            <td class="px-2">Lime Technologies</td>
-            <td class="px-2">15th</td>
-            <td class="px-2">Lovelace</td>
-          </tr>
+
+
+
+
           <tr>
             <td class="px-2">Neo4j</td>
-            <td class="px-2">15th</td>
+            <td class="px-2">13th & 14th</td>
             <td class="px-2">Boole</td>
           </tr>
           <tr>
             <td class="px-2">Arm</td>
-            <td class="px-2">15th</td>
+            <td class="px-2">13th & 14th</td>
             <td class="px-2">Erlang</td>
           </tr>
-          <tr>
-            <td class="pb-2 border-b-2 border-white"></td>
-            <td class="pb-2 border-b-2 border-white"></td>
-            <td class="pb-2 border-b-2 border-white"></td>
-          </tr>
-          <tr>
-            <td class="py-2 px-2">Sandvine</td>
-            <td class="py-2 px-2">15th & 16th</td>
-            <td class="py-2 px-2">Knuth</td>
-          </tr>
-          <tr>
-            <td class="pt-2 border-t-2 border-white"></td>
-            <td class="pt-2 border-t-2 border-white"></td>
-            <td class="pt-2 border-t-2 border-white"></td>
-          </tr>
-          <tr>
-            <td class="px-2">Robert Bosch Lund AB</td>
-            <td class="px-2">16th</td>
-            <td class="px-2">Lamarr</td>
-          </tr>
-          <tr>
-            <td class="px-2 pb-2 md:pb-0">Triathlon Group</td>
-            <td class="px-2 pb-2 md:pb-0">16th</td>
-            <td class="px-2 pb-2 md:pb-0">Lovelace</td>
-          </tr>
+
         </tbody>
       </table>
     </div>
-    
-    
+
+
 
     <div class="filler xl:px-24">
-      <router-view/>
+      <router-view />
     </div>
   </div>
 </template>
@@ -91,15 +75,15 @@
 import scroll_to_hash from '../router/scroll_to_hash'
 
 export default {
-    name: 'ForCompanies',
-    mounted() {
-      scroll_to_hash();
-    }
+  name: 'ForCompanies',
+  mounted() {
+    scroll_to_hash();
   }
+}
 </script>
 
 <style>
-  .filler {
-    min-height: calc(100vh - 929px);
-  }
+.filler {
+  min-height: calc(100vh - 929px);
+}
 </style>
