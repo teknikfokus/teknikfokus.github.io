@@ -17,8 +17,9 @@
 
     <div id="How-to-apply" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Apply for Host</h1>
-    <!-- <h3 class="pt-4 text-center text-lg">Host application for 2024 has closed. For any questions or additional inquiries please contact <a class="font-bold" href="mailto:hosts@teknikfokus.se">hosts@teknikfokus.se</a>.</h3> -->
-    <button class="apply-button" @click="openForm">Apply for Host</button>
+    <h3 class="pt-4 text-center text-lg">Host application for 2024 has closed. For any questions or additional inquiries
+      please contact <a class="font-bold" href="mailto:hosts@teknikfokus.se">hosts@teknikfokus.se</a>.</h3>
+    <!-- <button class="apply-button" @click="openForm">Apply for Host</button> -->
 
     <div id="Descriptions" class="py-6"></div>
     <h1 class="mt-12 text-5xl text-center font-bold">Host Descriptions</h1>

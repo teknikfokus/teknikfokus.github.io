@@ -12,12 +12,26 @@
   
   
   .hidMe {
-    transform: translateX(-30%);
+    transform: translateX(-50%);
     opacity: 0;
-    transition: transform 1s ease-out, opacity 1s ease-out;
+    transition: transform 1.2s ease-out, opacity 1s ease-out;
   }
   
   .showMe {
     transform: translateX(0);
     opacity: 1;
   }
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+
