@@ -208,7 +208,7 @@ const questions = [
   },
   {
     question: "When is Teknikfokus?",
-    answer: "<p>The fair will take place between 09:00 and 16:30, the 13th & 14th of February.</p>"
+    answer: "<p>The fair will take place between 09:00 and 16:00, the 13th & 14th of February.</p>"
   },
   {
     question: "Where will Teknikfokus take place?",
