@@ -14,13 +14,13 @@
     <!-- <p class="text-center text-lg">
       Applications for student sessions are coming soon!
     </p> -->
-    <h2 class="text-center font-bold">
+    <!-- <h2 class="text-center font-bold">
       Click the button to access our Student Sessions portal! Remember, applications close on 6/2!
-    </h2>
-    <a class="my-16 mx-auto text-white text-xl font-bold bg-blue-primary p-8 rounded-xl shadow-lg hover:bg-blue-primary-lightest"
+    </h2> -->
+    <!-- <a class="my-16 mx-auto text-white text-xl font-bold bg-blue-primary p-8 rounded-xl shadow-lg hover:bg-blue-primary-lightest"
       href="https://teknikfokus.karriardag.se/" target="_blank">
       <p class="no-underline"> Apply </p>
-    </a>
+    </a> -->
 
     <br>
     <p class="text-center text-lg">
@@ -84,6 +84,6 @@ export default {
 
 <style>
 .filler {
-  min-height: calc(100vh - 929px);
+  min-height: calc(100vh - 829px);
 }
 </style>
