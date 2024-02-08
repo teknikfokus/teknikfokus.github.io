@@ -1,0 +1,22 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+interface Props {
+  name: string;
+  image?: ImageMetadata;
+}
+const { name, image } = Astro.props;
+---
+
+<div
+  class="grid place-items-center rounded-2xl bg-white p-4 shadow-xl sm:p-6 md:p-8"
+>
+  {
+    image ? (
+      <Image src={image} alt={name} class="h-full w-full object-contain" />
+    ) : (
+      <p class="font-bold text-teknikfokus-950">{name}</p>
+    )
+  }
+</div>

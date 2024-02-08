@@ -1,0 +1,168 @@
+---
+import { Image } from "astro:assets";
+import Layout from "~/layouts/Layout.astro";
+import joinUs from "~/assets/join_us.webp";
+---
+
+<Layout>
+  <div class="mx-auto max-w-7xl space-y-20 p-8">
+    <section class="flex flex-col gap-4 space-y-2">
+      <div class="flex flex-col gap-8 md:flex-row md:justify-between">
+        <div class="flex flex-col gap-8">
+          <h2 class="text-balance font-extrabold text-6xl">
+            Join us at Teknikfokus
+          </h2>
+          <p class="max-w-prose">
+            Step into the spotlight with Student Sessions at the fair! Upload
+            your CV, pick your favorite companies, and they might just choose
+            you for a one-on-one chat. These pivotal meetings, set in the
+            vibrant E-huset, are your gateway to exciting career paths. Keep an
+            eye on your inbox for your personal meeting schedule!
+          </p>
+          <p class="max-w-prose">
+            Embrace this opportunity to be at the forefront of innovation and
+            talent acquisition. We are excited to see how your company will
+            inspire and lead in this dynamic environment. For more information
+            and to register your interest, please visit our <a
+              class="font-bold underline"
+              href="https://forms.gle/SeHL9dKvoGmH2dQj6"
+            >
+              application form</a
+            > or contact us at <a
+              class="font-bold underline"
+              href="mailto:relations@teknikfokus.se"
+            >
+              relations@teknikfokus.se</a
+            >.
+          </p>
+          <p class="max-w-prose">
+            We look forward to welcoming you to an event that promises to be as
+            transformative for your company as it will be for the aspiring
+            professionals attending. Let's shape the future together at
+            Teknikfokus 2024!
+          </p>
+          <p>See you at the fair!</p>
+        </div>
+        <Image
+          class="w-full max-w-sm overflow-hidden rounded-xl object-cover shadow-md md:max-w-md"
+          src={joinUs}
+          alt="Company representatives at Teknikfokus"
+        />
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-4 space-y-2">
+      <div class="flex flex-col gap-8">
+        <h2 class="text-balance font-extrabold text-6xl">FAQ</h2>
+      </div>
+      <details class="bg-offset p-8">
+        <summary class="font-bold">Why Teknikfokus?</summary>
+        What makes us stand out is not our banquet or lounges, it is our students.
+        Here at E-huset we pride ourselves in our desire to learn, our desire to
+        specialize and our desire to develop and create. This is the place for you
+        to meet the future’s brightest engineers in software, biomedicine, electronics,
+        computer science, information and communication technologies as well as other
+        amazing specialities. This is the fair for those who want to reach new levels
+        in the world of engineering.
+      </details>
+      <details class="bg-offset p-8">
+        <summary class="font-bold">When is Teknikfokus?</summary>
+        The fair will take place between 09:00 and 16:00, the 13th & 14th of February.
+      </details>
+      <details class="bg-offset p-8">
+        <summary class="font-bold">Where will Teknikfokus take place?</summary>
+        At Ole Römers väg 3, inside E-huset.
+        <iframe
+          class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.2498072316307!2d13.209636197891264!3d55.711069045083036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397ca158a6165%3A0x7f9339d3824e88ee!2sOle%20R%C3%B6mers%20v%C3%A4g%203%2C%20223%2063%20Lund!5e0!3m2!1ssv!2sse!4v1665410976182!5m2!1ssv!2sse"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+          E-huset LTH Ole Römers väg 3.
+        </iframe>
+      </details>
+      <details class="bg-offset p-8">
+        <summary class="font-bold">
+          What are students studying at the E-guild and the D-guild at LTH?
+        </summary>
+        Students at the E-guild and the D-guild are studying to get a Master of Science
+        in Engineering in the four areas: Computer Science and Engineering, Information
+        and Communication Engineering, Electrical Engineering and Biomedical Engineering.
+      </details>
+      <details class="bg-offset p-8">
+        <summary class="font-bold">Who organizes Teknikfokus?</summary>
+        Teknikfokus is arranged by a project group consisting of students from the
+        four programs at the E- and D-faculties at LTH, who in parallel with their
+        studies prepare the fair and all our events. The goal is to have a fair where
+        everyone feels welcome, and where all attendees feel satisfied with the fair.
+        In addition, the fair would never be able to take place if it wasn’t for
+        all the students that volunteer at the fair. If you have any questions regarding
+        the project group or our volunteers you can contact our project leaders,
+        Samuel Högfeldt, <a
+          class="font-bold"
+          href="mailto:samuel@teknikfokus.se"
+        >
+          samuel@teknikfokus.se
+        </a> or Alen Mahmutovic,
+        <a class="font-bold" href="mailto:alen@teknikfokus.se">
+          alen@teknikfokus.se
+        </a>. You can read about everyone in the project group under
+        <a class="font-bold" href="/abour">About us</a>.
+      </details>
+
+      <details class="bg-offset p-8">
+        <summary class="font-bold">What are student sessions?</summary>
+        Student Sessions provide companies a possibility to have a private sit down
+        with students on the days of the fair, to talk about summer jobs, internships,
+        exam work or future employment. Interested students can register at the company
+        booth and a link to the student profile and their resume will be available
+        to the company who will schedule a meeting. If you have questions about student
+        sessions, please contact one of our project managers.
+      </details>
+
+      <details class="bg-offset p-8">
+        <summary class="font-bold">
+          When should company representatives arrive?
+        </summary>
+        As the fair will start at 09:00 it is recommended to arrive at 08:00 to setup
+        your stand, but it is also possible to deliver any items the day before if
+        needed. A company host will also be there to help during the fair.
+      </details>
+
+      <details class="bg-offset p-8">
+        <summary class="font-bold">What is the banquet?</summary>
+        The Teknikfokus Banquet is the formal large meal that Teknikfokus organizes
+        for all the company representatives and hosts that have been engaged in Teknikfokus.
+        The banquet will be held February 13th at AF-Borgen, Sandgatan 2, 223 50
+        Lund.
+      </details>
+
+      <details class="bg-offset p-8">
+        <summary class="font-bold"
+          >Who should you contact if you have questions about the companies?</summary
+        >
+        <p>
+          If you have questions as a company or regarding a company attending
+          Teknikfokus, please contact us at <a
+            class="font-bold"
+            href="mailto:relations@teknikfokus.se">relations@teknikfokus.se</a
+          >. Also, feel free to reach out to us using contact information under <a
+            class="font-bold"
+            target="_blank"
+            href="https://www.teknikfokus.se/about#PG">About us</a
+          >. If you have comments about the companies invited, or feel that a
+          company doesn’t represent Teknikfokus in a good way, contact one of
+          our project managers at <a
+            class="font-bold"
+            href="mailto:projektledare@teknikfokus.se"
+            >projektledare@teknikfokus.se</a
+          >.
+        </p>
+      </details>
+    </section>
+  </div>
+</Layout>

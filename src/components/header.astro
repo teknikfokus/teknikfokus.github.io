@@ -1,32 +1,40 @@
 ---
 import { Icon } from "astro-icon/components";
 import ThemeSwitcher from "~/components/theme-switcher.astro";
-import type { NavItem } from "~/types";
 
-const navItems: Array<NavItem> = [
-  { title: "Features", url: "#features" },
-  { title: "Compatibility", url: "#compatibility" },
-  { title: "Showcase", url: "#showcase" },
+interface Props {
+  fixed?: boolean;
+}
+
+const { fixed = true } = Astro.props;
+
+const navItems = [
+  { title: "Home", url: "/" },
+  { title: "Attendees", url: "/attendees" },
+  { title: "For students", url: "/students" },
+  { title: "For companies", url: "/companies" },
+  { title: "About us", url: "/about" },
 ];
 ---
 
 <header
   id="page-header"
-  class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
+  class={`absolute bottom-0 z-20 flex h-20 w-full items-center justify-between border-b border-transparent px-8 py-4` +
+    (fixed ? " fixed-header" : "")}
+  data-fixed={fixed.toString()}
 >
-  <a class="flex items-center gap-3 hover:!text-default" href="#">
-    <h1 class="sr-only">Astro</h1>
+  <a class="flex items-center gap-3 hover:!text-default" href="/">
+    <h1 class="sr-only">Teknikfokus</h1>
     <Icon name="logomark" class="size-10" />
-    <Icon name="wordmark" class="hidden h-4 sm:block" />
   </a>
   <div>
     <div class="flex items-center gap-6">
-      <nav class="hidden sm:block">
+      <nav class="hidden md:block">
         <ul class="flex items-center gap-6">
           {
             navItems.map(({ title, url }) => (
               <li>
-                <a class="text-sm" href={url}>
+                <a class="text-nowrap text-sm" href={url}>
                   {title}
                 </a>
               </li>
@@ -37,7 +45,7 @@ const navItems: Array<NavItem> = [
       <button
         id="open-nav-button"
         type="button"
-        class="btn sm:hidden"
+        class="btn md:hidden"
         aria-label="Navigation"
       >
         <Icon name="mdi:menu" class="size-8" />
@@ -79,44 +87,52 @@ const navItems: Array<NavItem> = [
   </div>
 </header>
 
+{fixed && <div class="mb-20" />}
+
 <script>
   import MicroModal from "micromodal";
   import invariant from "tiny-invariant";
 
-  const menuModalId = "menu-modal";
+  function setupNavigation() {
+    const menuModalId = "menu-modal";
 
-  const header = document.querySelector("#page-header") as HTMLElement;
-  const page = document.documentElement;
-  const menu = document.querySelector(`#${menuModalId} ul`);
-  const openNavButton = document.querySelector("#open-nav-button");
-  const closeNavButton = document.querySelector("#close-nav-button");
+    const header = document.querySelector("#page-header") as HTMLElement;
+    const page = document.documentElement;
+    const menu = document.querySelector(`#${menuModalId} ul`);
+    const openNavButton = document.querySelector("#open-nav-button");
+    const closeNavButton = document.querySelector("#close-nav-button");
 
-  invariant(header, "header should not be null");
-  invariant(menu, "menu should not be null");
-  invariant(openNavButton, "openNavButton should not be null");
-  invariant(closeNavButton, "closeNavButton should not be null");
+    invariant(header, "header should not be null");
+    invariant(menu, "menu should not be null");
+    invariant(openNavButton, "openNavButton should not be null");
+    invariant(closeNavButton, "closeNavButton should not be null");
 
-  const openMenu = () => {
-    MicroModal.show(menuModalId, { disableScroll: true });
-  };
+    const openMenu = () => {
+      MicroModal.show(menuModalId, { disableScroll: true });
+    };
 
-  const closeMenu = () => {
-    MicroModal.close(menuModalId);
-  };
+    const closeMenu = () => {
+      MicroModal.close(menuModalId);
+    };
 
-  openNavButton.addEventListener("click", openMenu);
-  closeNavButton.addEventListener("click", closeMenu);
+    openNavButton.addEventListener("click", openMenu);
+    closeNavButton.addEventListener("click", closeMenu);
 
-  document.addEventListener("scroll", () => {
-    const d = page.clientHeight - page.scrollTop - header.offsetHeight;
-    header.classList.toggle("fixed-header", d < 0);
-  });
-
-  menu.addEventListener("click", (event) => {
-    if ((event.target as HTMLElement).tagName === "A") {
-      closeMenu();
+    if (header.dataset.fixed != "true") {
+      document.addEventListener("scroll", () => {
+        const d = page.clientHeight - page.scrollTop - header.offsetHeight;
+        header.classList.toggle("fixed-header", d < 0);
+      });
     }
-  });
+
+    menu.addEventListener("click", (event) => {
+      if ((event.target as HTMLElement).tagName === "A") {
+        closeMenu();
+      }
+    });
+  }
+  setupNavigation();
+  document.addEventListener("astro:after-swap", setupNavigation);
 </script>
 
 <noscript>

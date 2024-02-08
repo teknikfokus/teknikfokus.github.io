@@ -1,74 +1,126 @@
 ---
-import "@fontsource-variable/inter";
-import Compatibility from "~/components/compatibility.astro";
-import Features from "~/components/features.astro";
-import Footer from "~/components/footer.astro";
-import Header from "~/components/header.astro";
-import Intro from "~/components/intro.astro";
-import Showcase from "~/components/showcase.astro";
-import Splash from "~/components/splash.astro";
-import "~/styles/index.css";
-
-const { generator, site } = Astro;
-const image = new URL("social.jpg", site);
-const description =
-  "Build fast websites, faster. Astro is a new kind of site builder for the modern web. Lightning-fast performance meets powerful developer experience.";
+import LandingLayout from "~/layouts/LandingLayout.astro";
+import Timeline from "~/components/timeline/timeline.astro";
+import cover from "../assets/cover.jpg";
+import map1 from "../assets/map_1.png";
+import map2 from "../assets/map_2.png";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 ---
 
-<!doctype html>
-<html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <meta name="generator" content={generator} />
+<LandingLayout>
+  <section class="relative h-full overflow-hidden">
+    <div
+      class="h-full lg:grid lg:grid-flow-col lg:place-content-center lg:gap-20"
+    >
+      <div class="mx-4 flex flex-col items-center py-12 short:py-8">
+        <h1
+          class="mb-4 w-min text-center font-extrabold text-4xl [line-height:1.5] short:[line-height:1.0]"
+        >
+          Welcome to TEKNIK<span class="font-light">FOKUS</span>
+        </h1>
 
-    <title>Astro Landing Page</title>
-    <meta name="description" content={description} />
+        <h2 class="font-bold">13-14 FEBRUARY 2024</h2>
+        <h3 class="font-light">E BUILDING, LTH</h3>
 
-    <!-- social media -->
-    <meta property="og:title" content="Astro" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    <meta property="og:url" content={site} />
-    <meta name="twitter:card" content="summary_large_image" />
+        <Icon
+          name="logomark"
+          class="mt-8 size-36 lg:hidden short:mt-4 short:size-20"
+        />
 
-    <!-- initialize theme -->
-    <script is:inline>
-      const themeSaved = localStorage.getItem("theme");
+        <div class="mt-8 flex flex-col gap-4 md:flex-row short:mt-4">
+          <a
+            href="/students"
+            class="rounded-full border-4 border-white bg-teknikfokus-600 px-8 py-4 font-bold text-white text-lg hover:bg-teknikfokus-500 short:py-2"
+          >
+            FOR STUDENTS
+          </a>
+          <a
+            href="/companies"
+            class="rounded-full border-4 border-white bg-teknikfokus-950 px-8 py-4 font-bold text-white text-lg hover:bg-teknikfokus-900 short:py-2"
+          >
+            FOR COMPANIES
+          </a>
+        </div>
 
-      if (themeSaved) {
-        document.documentElement.dataset.theme = themeSaved;
-      } else {
-        const prefersDark = window.matchMedia(
-          "(prefers-color-scheme: dark)",
-        ).matches;
-        document.documentElement.dataset.theme = prefersDark ? "dark" : "light";
-      }
+        <p class="mt-8 text-balance text-center font-serif italic text-2xl">
+          Where the present meets the future
+        </p>
+      </div>
 
-      window
-        .matchMedia("(prefers-color-scheme: dark)")
-        .addEventListener("change", (event) => {
-          if (!localStorage.getItem("theme")) {
-            document.documentElement.dataset.theme = event.matches
-              ? "dark"
-              : "light";
-          }
-        });
-    </script>
-  </head>
-  <body
-    class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-secondary selection:text-white"
-  >
-    <Header />
-    <Splash />
-    <div class="space-y-24 px-8 py-32">
-      <Intro />
-      <Features />
-      <Compatibility />
-      <Showcase />
+      <Icon name="full-logo" class="hidden size-4/5 lg:block" />
     </div>
-    <Footer />
-  </body>
-</html>
+
+    <!-- Background -->
+    <Image
+      src={cover}
+      alt="Background image of the fair"
+      class="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"
+    />
+    <div
+      class="hero-background absolute inset-0 -z-10 h-full w-full bg-teknikfokus-950/10 opacity-40"
+    >
+    </div>
+    <!-- Background -->
+  </section>
+
+  <div class="mx-auto max-w-prose space-y-16 px-8 py-16">
+    <section class="flex flex-col gap-4 space-y-2">
+      <div class="flex flex-col gap-8">
+        <Icon name="logomark" class="mx-auto size-32 md:mx-0" />
+        <h2
+          class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+        >
+          About the fair
+        </h2>
+      </div>
+      <p>
+        <b>Teknikfokus</b> is a career fair aimed towards students studying at the
+        E and D guilds. During the 13:th and 14:th of February companies will be
+        in the E building to present what they are all about. This is your chance
+        to get in contact with future employers through summer jobs, master’s theses
+        and much more.
+      </p>
+      <p>
+        Along with the fair there will also be lunch lectures, pubs and student
+        sessions happening all around the E building. Follow the links to read
+        more about participating in student sessions and applying to become a
+        host.
+      </p>
+      <p>See you at the fair!</p>
+    </section>
+
+    <section class="flex flex-col gap-4 space-y-2">
+      <h2
+        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+      >
+        Schedule
+      </h2>
+      <Timeline />
+    </section>
+
+    <section class="flex flex-col gap-4 space-y-2">
+      <h2
+        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+      >
+        Map
+      </h2>
+      <Image
+        src={map1}
+        alt="Map of the fair - day 1"
+        class="rounded-xl border-2"
+      />
+      <Image
+        src={map2}
+        alt="Map of the fair - day 2"
+        class="rounded-xl border-2"
+      />
+    </section>
+  </div>
+</LandingLayout>
+
+<style>
+  .hero-background {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23489ab8' fill-opacity='0.14'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+</style>
