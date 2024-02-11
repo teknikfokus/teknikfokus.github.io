@@ -14,13 +14,17 @@ const { name, position, image, linkedin, email } = Astro.props;
 ---
 
 <div class="flex flex-col items-center">
-  <Image src={image} alt={name} class="size-60 rounded-full object-cover" />
+  <Image
+    src={image}
+    alt={name}
+    class="size-60 rounded-full object-cover object-top"
+  />
   <p class="mt-6 text-center font-bold text-xl">{name}</p>
   <p class="mb-4 font-light text-offset text-sm">{position}</p>
   <div class="flex items-center gap-8">
-    <a href={linkedin}
-      ><Icon name="fa-brands:linkedin" class="size-6 hover:text-primary" /></a
-    >
+    <a href={linkedin}>
+      <Icon name="fa-brands:linkedin" class="size-6 hover:text-primary" />
+    </a>
     <a href={"mailto:" + email}>
       <Icon name="mdi:email" class="size-6 hover:text-primary" />
     </a>
