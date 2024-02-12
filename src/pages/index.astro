@@ -48,7 +48,7 @@ import { Icon } from "astro-icon/components";
         </p>
       </div>
 
-      <Icon name="full-logo" class="hidden size-4/5 lg:block" />
+      <Icon name="full-logo" class="hidden size-4/5 min-w-48 lg:block" />
     </div>
 
     <!-- Background -->
@@ -95,6 +95,20 @@ import { Icon } from "astro-icon/components";
         Schedule
       </h2>
       <Timeline />
+    </section>
+
+    <section class="flex flex-col gap-4 space-y-2">
+      <h2
+        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+      >
+        Attendees
+      </h2>
+      <p>
+        You can view the list of attending companies <a
+          href="/attendees"
+          class="underline hover:text-offset">here</a
+        >.
+      </p>
     </section>
 
     <section class="flex flex-col gap-4 space-y-2">
