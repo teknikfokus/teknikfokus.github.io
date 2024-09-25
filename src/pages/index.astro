@@ -9,9 +9,9 @@ import { Icon } from "astro-icon/components";
 ---
 
 <LandingLayout>
-  <section class="relative h-full overflow-hidden">
+  <section class="h-screen">
     <div
-      class="h-full lg:grid lg:grid-flow-col lg:place-content-center lg:gap-20"
+      class="h-screen lg:grid lg:grid-flow-col lg:place-content-center lg:gap-20"
     >
       <div class="mx-4 flex flex-col items-center py-12 short:py-8">
         <h1
@@ -20,7 +20,7 @@ import { Icon } from "astro-icon/components";
           Welcome to TEKNIK<span class="font-light">FOKUS</span>
         </h1>
 
-        <h2 class="font-bold">13-14 FEBRUARY 2024</h2>
+        <h2 class="font-bold">13-14 FEBRUARY 2025</h2>
         <h3 class="font-light">E BUILDING, LTH</h3>
 
         <Icon
@@ -111,6 +111,7 @@ import { Icon } from "astro-icon/components";
       <Timeline />
     </section>
 
+    <!-- TODO: display map once we have one
     <section class="flex flex-col gap-4 space-y-2">
       <h2
         class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
@@ -127,7 +128,8 @@ import { Icon } from "astro-icon/components";
         alt="Map of the fair - day 2"
         class="rounded-xl border-2"
       />
-    </section>
+    </section> 
+    -->
   </div>
 </LandingLayout>
 
