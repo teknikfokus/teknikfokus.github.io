@@ -1,128 +1,122 @@
 ---
 import Layout from "~/layouts/Layout.astro";
 import Person from "~/components/person.astro";
-import samuel from "~/assets/pg/samuel.webp";
-import alen from "~/assets/pg/alen.webp";
 import cristiana from "~/assets/pg/cristiana.webp";
-import yara from "~/assets/pg/yara.webp";
-import jonathan from "~/assets/pg/jonathan.webp";
-import danny from "~/assets/pg/danny.webp";
 import arvid from "~/assets/pg/arvid.webp";
-import felicia from "~/assets/pg/felicia.webp";
-import sara from "~/assets/pg/sara.webp";
-import tristan from "~/assets/pg/tristan.webp";
-import olivia from "~/assets/pg/olivia.webp";
-import noor from "~/assets/pg/noor.webp";
-import daniel from "~/assets/pg/daniel.webp";
-import group from "~/assets/pg/group.webp";
+import placeholder from "~/assets/pg/placeholder.webp";
 import { Image } from "astro:assets";
 
 const projectGroup = [
   {
-    name: "Samuel Högfeldt",
+    name: "Arvid Nygren",
     position: "Project Manager",
-    image: samuel,
-    linkedin: "https://se.linkedin.com/in/samuel-högfeldt-958958225",
-    email: "samuel@teknikfokus.se",
-  },
-  {
-    name: "Alen Mahmutovic",
-    position: "Project Manager",
-    image: alen,
-    linkedin: "https://www.linkedin.com/in/alen-mahmutovic-264807257/",
-    email: "alen@teknikfokus.se",
+    image: arvid,
+    linkedin: "https://www.linkedin.com/in/arvid-nygren-b049591a2/",
+    email: "arvid@teknikfokus.se",
   },
   {
     name: "Cristiana Adelina Onufriciuc",
-    position: "Recruitment Manager",
+    position: "Project Manager",
     image: cristiana,
     linkedin:
       "https://www.linkedin.com/in/cristiana-adelina-onufriciuc-3465b520b/",
     email: "cristiana@teknikfokus.se",
   },
   {
-    name: "Yara Zaghmout",
-    position: "Logistics Manager",
-    image: yara,
-    linkedin: "https://www.linkedin.com/in/yara-zaghmout-37324029a/",
-    email: "yara@teknikfokus.se",
+    name: "Anton Strömblad",
+    position: "Recruitment Manager",
+    image: placeholder,
+    linkedin: "",
+    email: "anton@teknikfokus.se",
   },
   {
-    name: "Jonathan Martin-Lööf",
+    name: "Mina Musebes",
     position: "Logistics Manager",
-    image: jonathan,
-    linkedin: "https://www.linkedin.com/in/jonathan-martin-löf-98587a299/",
-    email: "jonathan@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "mina@teknikfokus.se",
   },
-
   {
-    name: "Danny Tang",
+    name: "Sandra Christoffersen",
+    position: "Logistics Manager",
+    image: placeholder,
+    linkedin: "",
+    email: "sandra@teknikfokus.se",
+  },
+  {
+    name: "Huda Shahin",
     position: "Event Manager",
-    image: danny,
-    linkedin:
-      "https://www.linkedin.com/in/danny-tang-b383a7228/?originalSubdomain=se",
-    email: "danny@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "huda@teknikfokus.se",
   },
   {
-    name: "Arvid Nygren",
+    name: "Vanessa Aela",
+    position: "Event Manager",
+    image: placeholder,
+    linkedin: "",
+    email: "vanessa@teknikfokus.se",
+  },
+  {
+    name: "Amir Rezai",
     position: "Business Manager",
-    image: arvid,
-    linkedin: "https://www.linkedin.com/in/arvid-nygren-b049591a2/",
-    email: "arvid@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "amir@teknikfokus.se",
   },
   {
-    name: "Felicia Huynh",
+    name: "Erfan Azad",
     position: "Business Manager",
-    image: felicia,
-    linkedin:
-      "https://www.linkedin.com/in/felicia-huynh-83339a206/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    email: "felicia@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "erfan@teknikfokus.se",
   },
   {
-    name: "Sara Reimers",
+    name: "Nimat Shihabi",
     position: "Business Manager",
-    image: sara,
-    linkedin: "http://linkedin.com/in/sara-reimers-b9545a1a3",
-    email: "sara@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "nimat@teknikfokus.se",
   },
   {
-    name: "Tristan Farkas",
+    name: "Axel Hallefält",
     position: "Financial Manager",
-    image: tristan,
-    linkedin: "https://www.linkedin.com/in/tristan-farkas-8921a71a3/",
-    email: "tristan@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "axel@teknikfokus.se",
   },
-
   {
-    name: "Olivia Bjursten",
+    name: "Chrysella Marlyn",
     position: "Marketing Manager",
-    image: olivia,
-    linkedin: "https://www.linkedin.com/in/olivia-bjursten/",
-    email: "olivia@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "chrysella@teknikfokus.se",
   },
   {
-    name: "Noor Mustafa",
+    name: "Isak Kallini",
     position: "IT Manager",
-    image: noor,
-    linkedin: "https://www.linkedin.com/in/noor-e-mustafa-173122262/",
-    email: "noor@teknikfokus.se",
+    image: placeholder,
+    linkedin: "https://www.linkedin.com/in/isak-kallini/",
+    email: "isak@teknikfokus.se",
   },
   {
-    name: "Daniel Adu-Gyan	",
+    name: "Theodor Fransson",
     position: "IT Manager",
-    image: daniel,
-    linkedin: "https://www.linkedin.com/in/daniel-adugyan/",
-    email: "daniel@teknikfokus.se",
+    image: placeholder,
+    linkedin: "",
+    email: "theodor@teknikfokus.se",
   },
 ];
 ---
 
 <Layout>
+  <!-- TODO: update this image once it is taken
   <Image
     class="max-h-[60vh] w-full object-cover"
     src={group}
     alt="Project Group"
   />
+   -->
   <div class="mx-auto my-8 max-w-prose py-8">
     <section>
       <h2 class="mb-8 text-balance text-center font-extrabold text-6xl">
