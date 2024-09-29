@@ -1,0 +1,10 @@
+{
+  "spotCount": 5,
+  "spots": [
+    { "id": 1, "occupied": false },
+    { "id": 2, "occupied": false },
+    { "id": 3, "occupied": false },
+    { "id": 4, "occupied": true },
+    { "id": 5, "occupied": false }
+  ]
+}
