@@ -1,10 +1,16 @@
 ---
 import Availabilitymap from "~/components/availabilitymap.astro";
 import Layout from "~/layouts/Layout.astro";
+var data = await (
+    await fetch(
+      "https://raw.githubusercontent.com/teknikfokus/teknikfokus.github.io/spotdata/data.json",
+      { method: "GET" },
+    )
+  ).json();
 ---
 
 <Layout>
-  <div class="w-6">
-    <Availabilitymap />
+  <div class="text-center">
+    <Availabilitymap test={data} />
   </div>
 </Layout>
