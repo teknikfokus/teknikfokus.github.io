@@ -1,13 +1,9 @@
 <script>
-  var data = await (
-    await fetch(
-      "https://raw.githubusercontent.com/teknikfokus/teknikfokus.github.io/refs/heads/spotdata/data.json",
-      { method: "GET" },
-    )
-  ).json();
+  const test = JSON.parse(document.getElementById("dayData")?.dataset.day ?? "");
+  console.log(test);
   var svgNS = "http://www.w3.org/2000/svg";
-  data.day1.forEach((spot: { id: string; occupied: any; }) => {
-    const spotId = "spot-" + spot.id;
+  test.day2.forEach((spot: { id: string; occupied: any; }) => {
+    const spotId = "day2-spot-" + spot.id;
     var elem = document.getElementById(spotId);
     if (elem !== null) {
       var newText = document.createElementNS(svgNS, "text");
@@ -37,7 +33,7 @@
   width="1920"
   height="1000"
   viewBox="0 0 1920 1000"
-  class="m-auto md:w-1/2 w-full"
+  class="m-auto h-auto w-full"
   id="maingroup"
 >
   <path
@@ -81,7 +77,7 @@
     transform="translate(-4.2228699e-8,-202.30245)"></path>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-1"
+    id="day2-spot-1"
     width="93.499992"
     height="93.499992"
     x="421.88733"
@@ -98,7 +94,7 @@
     transform="translate(-4.2228699e-8,-202.30245)"></path>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-11"
+    id="day2-spot-11"
     width="93.499992"
     height="93.499992"
     x="979.67645"
@@ -106,7 +102,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-2"
+    id="day2-spot-2"
     width="93.499992"
     height="93.499992"
     x="564.17938"
@@ -114,7 +110,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-3"
+    id="day2-spot-3"
     width="93.499992"
     height="93.499992"
     x="800.73956"
@@ -122,7 +118,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-6"
+    id="day2-spot-6"
     width="93.499992"
     height="93.499992"
     x="1296.7529"
@@ -130,7 +126,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-4"
+    id="day2-spot-4"
     width="93.499992"
     height="93.499992"
     x="931.72009"
@@ -138,7 +134,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-5"
+    id="day2-spot-5"
     width="93.499992"
     height="93.499992"
     x="1062.7006"
@@ -146,7 +142,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-9"
+    id="day2-spot-9"
     width="93.499992"
     height="93.499992"
     x="1222.6343"
@@ -154,7 +150,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-10"
+    id="day2-spot-10"
     width="93.499992"
     height="93.499992"
     x="1101.1553"
@@ -162,7 +158,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-17"
+    id="day2-spot-17"
     width="93.499992"
     height="93.499992"
     x="688.64111"
@@ -170,7 +166,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-20"
+    id="day2-spot-20"
     width="93.499992"
     height="93.499992"
     x="1172.3021"
@@ -178,7 +174,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-19"
+    id="day2-spot-19"
     width="93.499992"
     height="93.499992"
     x="1011.0818"
@@ -186,7 +182,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-18"
+    id="day2-spot-18"
     width="93.499992"
     height="93.499992"
     x="849.86145"
@@ -194,7 +190,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-7"
+    id="day2-spot-7"
     width="93.499992"
     height="93.499992"
     x="1433.9316"
@@ -202,7 +198,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-16"
+    id="day2-spot-16"
     width="93.499992"
     height="93.499992"
     x="389.98209"
@@ -210,7 +206,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-22"
+    id="day2-spot-22"
     width="93.499992"
     height="93.499992"
     x="1504.7428"
@@ -218,7 +214,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-23"
+    id="day2-spot-23"
     width="93.499992"
     height="93.499992"
     x="1355.8066"
@@ -226,7 +222,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-29"
+    id="day2-spot-29"
     width="93.499992"
     height="93.499992"
     x="368.77402"
@@ -234,7 +230,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-21"
+    id="day2-spot-21"
     width="93.499992"
     height="93.499992"
     x="1429.1742"
@@ -242,7 +238,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-28"
+    id="day2-spot-28"
     width="93.499992"
     height="93.499992"
     x="514.19531"
@@ -265,7 +261,7 @@
     sodipodi:nodetypes="cccc"></path>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-8"
+    id="day2-spot-8"
     width="93.499992"
     height="93.499992"
     x="1433.25"
@@ -327,7 +323,7 @@
   </g>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-13"
+    id="day2-spot-13"
     width="93.499992"
     height="93.499992"
     x="649.51062"
@@ -335,7 +331,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-12"
+    id="day2-spot-12"
     width="93.499992"
     height="93.499992"
     x="770.98944"
@@ -343,7 +339,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-15"
+    id="day2-spot-15"
     width="93.499992"
     height="93.499992"
     x="317.51062"
@@ -351,7 +347,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-14"
+    id="day2-spot-14"
     width="93.499992"
     height="93.499992"
     x="438.98944"
@@ -359,7 +355,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-27"
+    id="day2-spot-27"
     width="93.499992"
     height="93.499992"
     x="688.64117"
@@ -367,7 +363,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-24"
+    id="day2-spot-24"
     width="93.499992"
     height="93.499992"
     x="1172.3021"
@@ -375,7 +371,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-25"
+    id="day2-spot-25"
     width="93.499992"
     height="93.499992"
     x="1011.0818"
@@ -383,7 +379,7 @@
     ry="17.041857"></rect>
   <rect
     style="font-variation-settings:'wght' 400;fill:#3c803c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-    id="spot-26"
+    id="day2-spot-26"
     width="93.499992"
     height="93.499992"
     x="849.86145"
