@@ -1,3 +1,3 @@
 import PocketBase from "pocketbase";
 
-export default new PocketBase("http://127.0.0.1:8090");
+export default new PocketBase(import.meta.env.PUBLIC_BASE_API_URL);

@@ -1,7 +1,5 @@
 <script lang="ts">
   import api from "~/services/api";
-  export let user;
-  console.log(user);
   let name = "";
   let pass = "";
 
@@ -30,6 +28,7 @@
     <button
       class="bg-gray-800 rounded-lg border-black p-2 w-auto"
       on:click={async () => {
+        console.log("hi")
         const authData = await api
           .collection("users")
           .authWithPassword(name, pass);
@@ -43,6 +42,5 @@
     <button class="bg-gray-800 rounded-lg border-black p-2 w-auto"
       >log out</button
     >
-    user: {user?.username}
   </div>
 </div>
