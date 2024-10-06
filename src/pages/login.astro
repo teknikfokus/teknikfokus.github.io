@@ -1,0 +1,11 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Test from "~/components/Test.svelte";
+
+const { user } = Astro.locals;
+console.log(user)
+---
+
+<Layout>
+  <Test client:load user={user} />
+</Layout>
