@@ -1,0 +1,62 @@
+---
+import Layout from "~/layouts/Layout.astro";
+
+const { api } = Astro.locals;
+
+const errors = { name: "", password: "" };
+if (Astro.request.method === "POST") {
+  try {
+    const data = await Astro.request.formData();
+    const name = data.get("username") ?? "";
+    const password = data.get("password") ?? "";
+    if (typeof name !== "string") {
+      errors.name = "Invalid username.";
+    }
+    if (typeof password !== "string" || password.length < 8) {
+      errors.password = "Password must be at least 8 characters";
+    }
+    if (errors.password === "") {
+      const authData = await api
+        .collection("users")
+        .authWithPassword(name.toString(), password.toString());
+      if (authData) {
+        Astro.cookies.set("token", authData.token);
+        // return Astro.redirect("/admin");
+      }
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(error.message);
+    }
+  }
+}
+---
+
+<Layout>
+  <form action="/actions/login" method="post" class="mx-auto mt-5 flex h-full flex-col gap-6 gap-y-3">
+    <div class="font-semibold text-lg">Log in</div>
+    <label class="flex flex-col">
+      <div class="font-light text-sm">Name:</div>
+      <input
+        type="text"
+        name="username"
+        class="rounded-md px-2"
+        placeholder="name"
+        required
+      />
+    </label>
+    <label class="flex flex-col">
+      <div class="font-light text-sm">Password:</div>
+      <input
+        type="password"
+        name="password"
+        class="rounded-md px-2"
+        placeholder="password"
+        required
+      />
+    </label>
+    <div class="mx-auto mb-auto">
+      <button class="rounded-md bg-offset p-2 hover:text-offset">Log in</button>
+    </div>
+  </form>
+</Layout>
