@@ -1,0 +1,98 @@
+---
+import Layout from "~/layouts/Layout.astro";
+---
+
+<Layout>
+  <section
+    class="bg-background-offset flex min-h-screen flex-col items-center justify-center px-4 py-8"
+  >
+    <h1
+      class="text-gradient mb-8 bg-clip-text text-center font-extrabold text-3xl"
+    >
+      Student Sessions Login
+    </h1>
+    <div
+      class="bg-background flex w-full max-w-5xl items-start space-x-16 rounded-lg"
+    >
+      <div class="bg-background-offset text-text w-1/2 p-8">
+        <h2 class="mb-4 font-bold text-lg">For Students</h2>
+        <form action="/sessions/student-login" method="post" class="space-y-4">
+          <div>
+            <label for="student-email" class="block font-medium text-sm"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="student-email"
+              name="email"
+              required
+              class="border-border mt-1 w-full rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+            />
+          </div>
+          <div>
+            <label for="student-password" class="block font-medium text-sm"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="student-password"
+              name="password"
+              required
+              class="border-border mt-1 w-full rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+            />
+          </div>
+          <button
+            type="submit"
+            class="hover:bg-primary/90 w-full rounded-md bg-primary px-4 py-2 font-bold text-white"
+          >
+            Log In
+          </button>
+          <p class="mt-4 text-center text-sm">
+            Don’t have an account? <a
+              href="/sessions/student-signup"
+              class="text-primary hover:underline">Sign up here</a
+            >
+          </p>
+        </form>
+      </div>
+
+      <div class="h-full w-0.5 border"></div>
+
+      <div class="bg-background-offset text-text w-1/2 p-8">
+        <h2 class="mb-4 font-bold text-lg">For Companies</h2>
+        <form action="/sessions/company-login" method="post" class="space-y-4">
+          <div>
+            <label for="company-email" class="block font-medium text-sm"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="company-email"
+              name="email"
+              required
+              class="border-border mt-1 w-full rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+            />
+          </div>
+          <div>
+            <label for="company-password" class="block font-medium text-sm"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="company-password"
+              name="password"
+              required
+              class="border-border mt-1 w-full rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+            />
+          </div>
+          <button
+            type="submit"
+            class="hover:bg-primary/90 w-full rounded-md bg-primary px-4 py-2 font-bold text-white"
+          >
+            Log In
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</Layout>
