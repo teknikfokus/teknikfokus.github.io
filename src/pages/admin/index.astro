@@ -1,0 +1,11 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Login from "./_login.astro"
+import AdminPage from "./_adminpage.astro";
+
+const { user } = Astro.locals;
+---
+
+<Layout>
+  {user?.isAdmin ? <AdminPage /> : <Login />}
+</Layout>

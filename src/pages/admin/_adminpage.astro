@@ -1,0 +1,50 @@
+---
+const { api } = Astro.locals;
+const spots: {
+  number: number;
+  isOccupiedDay1: boolean;
+  isOccupiedDay2: boolean;
+}[] = await api.collection("spots").getFullList({
+  sort: "number",
+});
+---
+
+<form action="/admin/actions/updateSpots" method="post" class="m-auto flex flex-col">
+  <table class="">
+    <thead
+      ><tr>
+        <th>Spot nr</th>
+        <th>Day 1</th>
+        <th>day 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        spots.map((s) => (
+          <tr>
+            <td>{s.number}</td>
+            <fieldset>
+            <td>
+              <input
+                type="checkbox"
+                name={`${s.id}-1`}
+                checked={s.isOccupiedDay1}
+              />
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                name={`${s.id}-2`}
+                checked={s.isOccupiedDay2}
+              />
+            </td>
+          </fieldset>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+  <input type="hidden" name="spotCount" value={spots.length} />
+  <button class="rounded-md bg-offset p-2 hover:text-offset">Save</button>
+</form>
+
