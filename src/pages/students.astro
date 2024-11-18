@@ -3,6 +3,51 @@ import { Image } from "astro:assets";
 import Layout from "~/layouts/Layout.astro";
 import studentSession from "~/assets/student_session.webp";
 import fun from "~/assets/fun.webp";
+
+const hosts = [
+  {
+    title: "Company Host",
+    subtitle:
+      "Do you enjoy engaging in conversation and networking with industry professionals? If so, the Company Host position might be perfect for you! ",
+    body: "As a Company Host at Teknikfokus 2025, you will be assigned to assist one or two participating companies. Key responsibilities include ensuring that company representatives have all necessary information leading up to the event, assisting with booth setup, and providing support during the fair. Your role is essential in helping companies feel welcome and supported throughout the event, and before the event contact them and answer their questions.",
+  },
+  {
+    title: "Banquet Host",
+    subtitle:
+      "Are you an organized, cheerful individual with a flair for decorating? Consider applying for the role of Banquet Host!",
+    body: "As a Banquet Host, you will play a key role in making the first evening of the fair, truly remarkable. Your team will be responsible for transforming Gasque into a beautiful and welcoming environment, setting the perfect ambiance for the evening. While you'll miss part of the fair's opening day during setup, you'll have the opportunity to change and join the banquet festivities before the guests arrive. Your efforts will help create an unforgettable experience for all.",
+  },
+  {
+    title: "Night Guard",
+    subtitle:
+      "Are you a night owl who appreciates the perks of free snacks? Consider applying for the Night Guard position!",
+    body: "As a Night Guard, you'll be entrusted with overseeing the security of companies' belongings and other items stored in the E-house between exhibition days. Your presence will ensure that companies feel comfortable leaving their equipment on-site overnight. While this role may coincide with the Banquet, you'll be able to order pizza, snacks, and soft drinks for your shift, with Teknikfokus covering the cost. You'll also have flexibility in how you spend the night, as long as you're keeping a watchful eye on the items in your care.",
+  },
+  {
+    title: "Food and Wardrobe Host",
+    subtitle:
+      "Do you have a passion for service and seek a diverse role at Teknikfokus 2025? Apply to be the Food and Wardrobe Host!",
+    body: "In this role, you'll oversee the fair's food service, lounge areas, and wardrobe. Responsibilities include managing breakfast and lunch service, organizing the lounge, and maintaining a welcoming space with amenities like coffee. You'll also assist attendees with coat check services upon their arrival, ensuring a positive and seamless experience. This role offers a great opportunity to interact with company representatives in a relaxed setting, while making sure that they have everything they need for a productive day.",
+  },
+  {
+    title: "Info Desk Host",
+    subtitle:
+      "Are you a sociable, service-oriented individual who enjoys answering questions and representing an organization? Then apply for the Info Desk Host role!",
+    body: "This position is one of the most interactive at the fair. Throughout the event, companies, fellow hosts, and visitors will rely on you for answers and support. You'll be the go-to person for questions related to the fair, while also managing any items companies may need to borrow for their booths. Your role as an Info Desk Host is critical in helping make Teknikfokus a smooth and successful experience for everyone involved.",
+  },
+  {
+    title: "Photographer",
+    subtitle:
+      "Do you have a passion for capturing special moments and showcasing the energy of Teknikfokus 2025? Apply to be a Photographer!",
+    body: "As the event's Photographer, you'll document key moments, from the exhibitions to the Banquet and other fair highlights. Your photos will be featured in Teknikfokus 2025's promotional materials and may also be used in future events. Prior experience in photography is a plus, though not required. This role is a wonderful opportunity to creatively contribute to the event and capture memories that last! ",
+  },
+  {
+    title: "Electricity/Internet Host",
+    subtitle:
+      "Do you have an interest in preparing and setting up electricity and internet? Apply to join our team as an electricity and internet host!",
+    body: "In this role you will sett up branch outlets and Ethernet ports before the affair begins, and work closely with the logistic manager. Under the affair you will be assisting companies and hosts that need help with ethernet and electricity. Most of your work will take place on the prep day. ",
+  },
+];
 ---
 
 <Layout>
@@ -49,6 +94,34 @@ import fun from "~/assets/fun.webp";
           alt="Having fun at Teknikfokus"
         />
       </div>
+      <div class="flex flex-col sm:flex-row">
+        <div class="flex flex-col sm:w-1/2">
+          {
+            hosts.slice(0, hosts.length / 2 + 1).map((v) => (
+              <details class="m-3 bg-offset p-4">
+                <summary class="text-balance font-bold text-xl">
+                  {v.title}
+                  <div class="font-light text-sm">{v.subtitle}</div>
+                </summary>
+                <p class="pt-2 text-sm">{v.body}</p>
+              </details>
+            ))
+          }
+        </div>
+        <div class="flex flex-col sm:w-1/2">
+          {
+            hosts.slice(hosts.length / 2 + 1).map((v) => (
+              <details class="m-3 bg-offset p-4">
+                <summary class="text-balance font-bold text-xl">
+                  {v.title}
+                  <div class="font-light text-sm">{v.subtitle}</div>
+                </summary>
+                <p class="pt-2 text-sm">{v.body}</p>
+              </details>
+            ))
+          }
+        </div>
+      </div>
     </section>
 
     <section class="flex flex-col gap-4 space-y-2">
@@ -64,11 +137,11 @@ import fun from "~/assets/fun.webp";
         In addition, the fair would never be able to take place if it wasn’t for
         all the students that volunteer at the fair. If you have any questions regarding
         the project group or our volunteers you can contact our project leaders at<a
-        class="font-bold"
-        href="mailto:projektledare@teknikfokus.se"
-      >
-        projektledare@teknikfokus.se
-      </a>. You can read about everyone in the project group under
+          class="font-bold"
+          href="mailto:projektledare@teknikfokus.se"
+        >
+          projektledare@teknikfokus.se
+        </a>. You can read about everyone in the project group under
         <a class="font-bold" href="/abour">About us</a>.
       </details>
       <details class="bg-offset p-8">
