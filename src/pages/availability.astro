@@ -3,16 +3,9 @@ import Availabilitymapday1 from "~/components/availabilitymapday1.astro";
 import Availabilitymapday2 from "~/components/availabilitymapday2.astro";
 
 import Layout from "~/layouts/Layout.astro";
-var data = await (
-  await fetch(
-    "https://raw.githubusercontent.com/teknikfokus/teknikfokus.github.io/spotdata/data.json",
-    { method: "GET" },
-  )
-).json();
 ---
 
 <Layout>
-  <div id="dayData" data-day={JSON.stringify(data)}></div>
   <div class="mx-auto max-w-prose pt-10">
     Here you can see which spots are open for each day. Contact us at <a
       href="mailto:relations@teknikfokus.se"
@@ -26,9 +19,9 @@ var data = await (
     Two days: 43 000 kr - picking your spot included
     <div class="text-center">
       <div class="font-bold text-lg">Day 1</div>
-      <Availabilitymapday1 day={data.day1} />
+      <Availabilitymapday1 />
       <div class="font-bold text-lg">Day 2</div>
-      <Availabilitymapday2 day={data.day2} />
+      <Availabilitymapday2 />
     </div>
   </div>
 </Layout>

@@ -1,7 +1,8 @@
 <script>
-  const test = JSON.parse(
-    document.getElementById("dayData")?.dataset.day ?? "",
+  const response = await fetch(
+    "https://raw.githubusercontent.com/teknikfokus/teknikfokus.github.io/spotdata/data.json",
   );
+  const test = await response.json();
   console.log(test);
   var svgNS = "http://www.w3.org/2000/svg";
   test.day2.forEach((spot: { id: string; occupied: any }) => {
