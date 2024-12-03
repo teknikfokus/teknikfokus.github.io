@@ -31,7 +31,7 @@
     { "id": 26, "occupied": false },
     { "id": 27, "occupied": false },
     { "id": 28, "occupied": false },
-    { "id": 29, "occupied": false }
+    { "id": 29, "occupied": true }
   ],
   "day2": [
     { "id": 1, "occupied": false },
@@ -64,6 +64,6 @@
     { "id": 26, "occupied": false },
     { "id": 27, "occupied": false },
     { "id": 28, "occupied": false },
-    { "id": 29, "occupied": false }
+    { "id": 29, "occupied": true }
   ]
 }
