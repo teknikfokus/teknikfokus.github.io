@@ -64,6 +64,6 @@
     { "id": 26, "occupied": false },
     { "id": 27, "occupied": false },
     { "id": 28, "occupied": false },
-    { "id": 29, "occupied": false }
+    { "id": 29, "occupied": true }
   ]
 }
