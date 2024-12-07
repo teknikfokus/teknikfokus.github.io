@@ -8,6 +8,7 @@
     },
   );
   const responseData = await response.json();
+  console.log(responseData);
   responseData.day2.forEach((spot: { id: string; occupied: any }) => {
     const spotId = "day2-spot-" + spot.id;
     var elem = document.getElementById(spotId);
@@ -238,8 +239,9 @@
       rx="32.5"
       ry="32.5"
       id="day2-spot-9"></rect>
-    <g id="day2-spot-10">
+    <g>
       <rect
+        id="day2-spot-10"
         class="cls-16 stroke-current"
         x="1137.25"
         y="757.5"
@@ -1505,4 +1507,3 @@
     >
   </g>
 </svg>
-
