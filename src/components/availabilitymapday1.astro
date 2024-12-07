@@ -2,7 +2,6 @@
   const test = JSON.parse(
     document.getElementById("dayData")?.dataset.day ?? "",
   );
-  var svgNS = "http://www.w3.org/2000/svg";
   test.day1.forEach((spot: { id: string; occupied: any }) => {
     const spotId = "spot-" + spot.id;
     var elem = document.getElementById(spotId);
@@ -18,7 +17,7 @@
   height="1080"
   viewBox="0 0 2100 1080"
   version="1.1"
-  class="m-auto h-auto w-full rotate-90"
+  class="m-auto h-auto w-full"
 >
   <defs id="defs1">
     <style id="style1">
