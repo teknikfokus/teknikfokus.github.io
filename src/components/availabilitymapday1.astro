@@ -1,8 +1,14 @@
 <script>
-  const test = JSON.parse(
-    document.getElementById("dayData")?.dataset.day ?? "",
+  const response = await fetch(
+    "https://api.github.com/repos/teknikfokus/teknikfokus.github.io/contents/data.json?ref=spotdata",
+    {
+      headers: {
+        Accept: "application/vnd.github.v3.raw",
+      },
+    },
   );
-  test.day1.forEach((spot: { id: string; occupied: any }) => {
+  const responseData = await response.json();
+  responseData.day1.forEach((spot: { id: string; occupied: any }) => {
     const spotId = "spot-" + spot.id;
     var elem = document.getElementById(spotId);
     if (elem !== null) {
