@@ -27,7 +27,7 @@
     { "id": 22, "occupied": true },
     { "id": 23, "occupied": false },
     { "id": 24, "occupied": false },
-    { "id": 25, "occupied": false },
+    { "id": 25, "occupied": true },
     { "id": 26, "occupied": true },
     { "id": 27, "occupied": false },
     { "id": 28, "occupied": false },
