@@ -20,7 +20,7 @@
     { "id": 15, "occupied": true },
     { "id": 16, "occupied": false },
     { "id": 17, "occupied": false },
-    { "id": 18, "occupied": false },
+    { "id": 18, "occupied": true },
     { "id": 19, "occupied": false },
     { "id": 20, "occupied": false },
     { "id": 21, "occupied": true },
