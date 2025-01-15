@@ -34,7 +34,7 @@
     { "id": 29, "occupied": false }
   ],
   "day2": [
-    { "id": 1, "occupied": false },
+    { "id": 1, "occupied": true },
     { "id": 2, "occupied": true },
     { "id": 3, "occupied": true },
     { "id": 4, "occupied": true },
