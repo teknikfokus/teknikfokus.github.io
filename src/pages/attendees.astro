@@ -2,34 +2,242 @@
 import Layout from "~/layouts/Layout.astro";
 import Company from "~/components/company.astro";
 import IAESTE from "~/assets/companies/IAESTE.webp";
-import iGem from "~/assets/companies/iGem Lund.webp";
 import Infrasight from "~/assets/companies/Infrasight Labs.webp";
-import Iternio from "~/assets/companies/Iternio-Rivian.webp";
+import Iternio from "~/assets/companies/Rivian Iternio.webp";
 import LFS from "~/assets/companies/Lund formula student.webp";
-import MCA from "~/assets/companies/MCA.webp";
-import Molnlycke from "~/assets/companies/Molnlycke Health Care.webp";
 import Neo4j from "~/assets/companies/Neo4j.webp";
 import Netcompany from "~/assets/companies/Netcompany.webp";
 import Sectra from "~/assets/companies/Sectra.webp";
 import Tactel from "~/assets/companies/Tactel.webp";
-import Verisure from "~/assets/companies/Verisure.webp";
-import Visma from "~/assets/companies/Visma.webp";
 import Voyado from "~/assets/companies/Voyado.webp";
 import Acconeer from "~/assets/companies/Acconeer.webp";
 import ASSA from "~/assets/companies/ASSA ABLOY.webp";
 import Axis from "~/assets/companies/Axis Communications.webp";
 import Bosch from "~/assets/companies/Bosch.webp";
-import Capgemini from "~/assets/companies/Capgemini.webp";
-import Combitech from "~/assets/companies/Combitech.webp";
-import Cygni from "~/assets/companies/Cygni.webp";
 import Ericsson from "~/assets/companies/Ericsson.webp";
-import Gigstep from "~/assets/companies/Gigstep.webp";
-import Grade from "~/assets/companies/Grade.webp";
-import Hello from "~/assets/companies/Hello World!.webp";
+import Hello from "~/assets/companies/Hello World.webp";
 import Edda from "~/assets/companies/Edda Knowledge.webp";
+import EON from "~/assets/companies/EON.webp";
+import ARM from "~/assets/companies/Arm.webp";
+import Asperiq from "~/assets/companies/Asperiq.webp";
+import Diaverum from "~/assets/companies/Diaverum.webp";
+import Hemocue from "~/assets/companies/HemoCue.webp";
+import Lime from "~/assets/companies/Lime Technologies.webp";
+import Qlik from "~/assets/companies/Qlik.webp";
+import Sirona from "~/assets/companies/Sirona.webp";
+import Tedsys from "~/assets/companies/Tedsys.webp";
+import WEIQ from "~/assets/companies/WEIQ.webp";
 
-const companies: { name: string; description: string; image: ImageMetadata }[] =
-  [];
+const companies: {
+  name: string;
+  description: string;
+  image?: ImageMetadata;
+}[] = [
+  {
+    name: "Mission Consultancy Assistance",
+    description: `Joining us is above all to become part of a human-sized, welcoming and fast-growing company with great projects to achieve! Joining MCA is the guarantee of benefiting from personalized support throughout your career and according to your aspirations, whether you are a consultant, a business manager, or a support function. Our extremely dynamic but also sustainable growth allows us to develop  our activities in France and in Europe, which offers all our teams varied and stimulating opportunities within the Group.`,
+  },
+  {
+    name: "Sveriges Ingenjörer",
+    description:
+      "Sveriges Ingenjörer är ett fackförbund och en intresseorganisation för högskoleutbildade ingenjörer. Med 175 000 medlemmar har vi kraft att påverka samhället, skapa goda arbetsvillkor och stärka ingenjörsrollen. Våra medlemmar erbjuds inkomstförsäkring, lönestatistik, karriärservice, juridiskt stöd och rådgivning.",
+  },
+  {
+    name: "HIQ Skåne AB",
+    description:
+      "På HiQ är vi övertygade om att tech formar framtiden. Våra fantastiska konsulter kombinerar djup teknisk kunskap med gränslös kreativitet och löser utmaningar i alla branscher. Tillsammans skapar vi en arbetsplats där jobb och glädje går hand i hand, vilket ger både fantastiska resultat och glada medarbetare. Med kontinuerlig utveckling, stöttande ledarskap och bra förmåner är HiQ inte bara en arbetsplats – det är en levande gemenskap av tech-entusiaster som bygger morgondagen.",
+  },
+  {
+    name: "WEIQ",
+    image: WEIQ,
+    description:
+      "WEIQ is the most popular table-service app on the Swedish market. With high demand for our service, we are growing and looking for talents that want to join our team.",
+  },
+  {
+    name: "Tedsys",
+    image: Tedsys,
+    description:
+      "Vi är ett härligt gäng på lite mer än 50 personligheter som tycker om att ha kul tillsammans och lära oss nya saker. Det gör vi både på och utanför kontoret i olika former. Vår huvudsakliga inriktning är system- & applikationsutveckling samt inbyggda- & uppkopplade system. Genom denna kompetens och erfarenhet hjälper vi våra kunder att digitalisera sina affärsprocesser och tjänster samt skapa intelligens åt och uppkoppling mellan sina produkter.  ",
+  },
+  {
+    name: "Sirona",
+    image: Sirona,
+    description:
+      "Vi är ett innovativt managementkonsultbolag med cirka 30 anställda som hjälper kommuner, regioner, myndigheter och privata aktörer inom life science att skapa bästa möjliga hälsa, vård och omsorg. Här arbetar bland annat läkare, civilingenjörer, ekonomer, biomedicinare, sjuksköterskor och apotekare. ",
+  },
+  {
+    name: "Qlik",
+    image: Qlik,
+    description:
+      "Our vision is to empower a data-literate world, where everyone can use data to answer questions, shine a light on decision-making and solve their most challenging problems.",
+  },
+  {
+    name: "HemoCue",
+    image: Hemocue,
+    description:
+      "At HemoCue we’re in the business of advancing care. ​For over 4 decades, we’ve been a beacon of accuracy and reliability regardless of where the point of care may be. If you, like us, are passionate about improving global health and making a positive impact on others, a career at HemoCue has many rewards.",
+  },
+  {
+    name: "Asperiq",
+    image: Asperiq,
+    description: `Asperiq specialise in quantum-secure network encryption technology, both in development and implementation.
+
+Serving defence and government agencies, our encryption is the foundational building block of a robust cyber defence against the ceaseless tide of sophisticated cyber-attacks. It is not to be taken lightly, as it stands as the ultimate guardian of critical communication.
+
+In the face of unforeseen events, such as a physical invasion, encryption becomes a critical asset, empowering a nation to respond with operational security and bolstering national resilience. Asperiq's cutting-edge encryption technology plays a crucial role in safeguarding national secrets and ensuring the integrity of sensitive information.`,
+  },
+  {
+    name: "EON",
+    image: EON,
+    description:
+      "Energiomställningen är den största samhällsförändringen sedan den industriella revolutionen, och som anställd hos oss är du med och driver den. Du erbjuds stora möjligheter att utvecklas i din yrkesroll samtidigt som du kan bibehålla balansen mellan arbete och fritid. Självklart ingår även en rad förmåner, med fokus på bland annat hälsa och trygghet.",
+  },
+  {
+    name: "Lime Technologies",
+    image: Lime,
+    description: `At Lime, we love CRM! 
+Lime is a successful Nasdaq-listed international software company that develops, sells, and implements its own CRM solutions. We have shown profitable growth ever since the early days of being a start-up in the 90ties and are now among the market leaders in northern Europe. Today we are around 400 colleagues and with offices in Sweden, Norway, Denmark, Finland, Netherlands, and Germany. 
+We are extremely passionate, and we usually say that the only thing we take seriously is our customers. Still interested? Great!  We are constantly on the lookout for new and passionate talents with strong technical interests. Now we are looking for you who want to be a part of the sharpest CRM team and join our European Trainee Program with start in January and August every year.
+Let’s unpack your potential, welcome to Lime!`,
+  },
+  {
+    name: "Volvo Cars",
+    description: `A company with a great heritage & purpose
+We share a rich and purposeful heritage and even bolder future aspirations to match. Since 1927, we have created world-changing safety innovation: The modern seatbelt. The side impact protection system. The pedestrian detection system (to name just a few). In the spirit of openness, collaboration, and curiosity, we welcome you to an echo system of diverse talent and teams that allow us to do more together, to do good together. And to solve sustainable, safe and personal mobility for all.  
+  
+We are a global organization where the future of mobility is assembled 
+Volvo Cars is one of the most well-known and respected premium car brands, preparing for a new future that will be all-electric, autonomous, and connected. This proud history of innovation is the result of a collaborative, diverse and inclusive Volvo Cars community. Grounded in a shared passion for protecting people and our planet. In short, without people that care, there is no positive progress.  A progressive global organization committed to driving change awaits – a place where ideas can be freely expressed, creativity can flourish, and you can proudly contribute to the exploration of our shared future. 
+Freedom to Be - the Swedish way 
+Our commitment to people is the Freedom to Be in a personal, sustainable, and safe way - echoing our purpose of giving people the Freedom to move.  From clean air and water to genuine care and respect for the individual, we offer a truly people-centric work environment. At Volvo Cars, minimizing the use of resources is as natural as maximizing well-being. In essence, what we offer is quality of all aspects of life – the Swedish way.   
+ 
+Changemakers who share our aspirations and values 
+We are calling the free thinkers. The self-motivators. The visionaries. The leaders. The dreamers. The believers.  The doers. We welcome you who share our aspirations; low – tech and hi–tech, art and science, design and function, education, and innovation.  
+`,
+  },
+  {
+    name: "IAESTE Lund",
+    image: IAESTE,
+    description: `International Association for the Exchange of Students for Technical Experience (IAESTE) is an international non-profit organisation. We benefit students, employers and universities through the IAESTE network. Paid internships abroad help students gain professional experience and cross-cultural skills. Employers and universities gain access to talented international interns, who bring new impulses and insights to their business or research. IAESTE provides primarily STEM internships, however we expand to other fields, such as marketing, management and languages. IAESTE connects students and employers in more than 80 countries worldwide. 
+iaeste.org
+iaeste.se 
+https://www.linkedin.com/company/iaeste-lund/ `,
+  },
+  {
+    name: "Infrasight Labs",
+    image: Infrasight,
+    description: `InfraSight Labs is a Swedish software company that develops and provides vScope. vScope is an IT Asset Management tool that automatically inventories and provides an overview of organizations' IT information, whether it is located locally, in the cloud, or with an outsourcing partner. With the keywords simplicity, overview, and collaboration, vScope assists operations managers, IT managers, and service owners in keeping their IT information updated, enabling them to share it with technicians and other stakeholders.
+Using vScope, IT departments can create powerful reports, analyses, and statistics to ensure a secure, stable, and cost-effective delivery of IT services. There is also the possibility to expand with features for cost allocation, automatic billing data, and a complete service catalog.
+We started in 2010, and in just a few years, we have evolved from a small startup to an established player in the IT industry with customers both in Sweden and abroad.
+Our product is built on in-house developed database technology, enabling numerous exciting development projects that we initiate and bring to fruition.`,
+  },
+  {
+    name: "Iternio/Rivian",
+    image: Iternio,
+    description: `Rivian is on a mission to keep the world adventurous forever. This goes for the emissions-free Electric Adventure Vehicles we build, and the curious, courageous souls we seek to attract. 
+Rivian/Iternio is establishing a strong foothold in the Lund technology scene and attracting talent aligned with Rivian's core values and motivated by our challenging vision of saving the planet by disrupting and revolutionizing the automobile industry. We are a cross functional team of all backgrounds that values diversity of culture, ideas, and talent. This is an exciting opportunity to join a high performing team early on and help grow our digital technology platform's technical foundation.
+Iternio, based in Lund, Sweden, is a vital part of Rivian, and known for ABetterRouteplanner (ABRP), the leading EV trip planning app. We specialize in providing EV planning services and APIs, serving both Rivian's in-car navigation and external clients, including other car manufacturers.`,
+  },
+  {
+    name: "Lund Formula Student",
+    image: LFS,
+    description: `Every year, we gather a new team and build a formula style racecar that we take down to Europe in the summer to compete against other universities from around the world, you may have seen it in StudieC. The team now consists of approximately 70 dedicated members who do this in their free time. Our workshop is located in the M-building, where we do everything from programming and electronics to welding and carbon fiber work. We are looking for individuals who have accumulated knowledge through studies or personal interest and are excited to apply it to something real, unlike the conventional labs at school. For information about the different positions, visit our website or apply when the recruitment for 2025 begins this spring! `,
+  },
+  {
+    name: "Neo4j",
+    image: Neo4j,
+    description: `Neo4j is the clear leader in the rapidly emerging graph database category. Our internet-scale graph platform helps companies around the world connect data to reveal invisible contexts and hidden relationships that drive breakthrough applications and analytics.
+We build technology that helps cure cancers, addresses diabetes, and gets humans to Mars. We're proud to fight fraud, crush pandemics, and even help journalists uncover the secrets in the Panama papers.
+Do you like to solve advanced and complex computer science problems? Do you like to be part of a team that values user success and where you can have intellectually honest discussions? Join our engineering headquarters located in Malmö, Sweden. You will also work with colleagues from our London office.
+Did you know
+Being a persistent store of connected information, Neo4j plays an essential role within Generative AI applications. Neo4j is used together with Large Language Models (LLMs) to create applications like chatbots, recommendation systems, and knowledge retrieval. Neo4j can serve as a complement to LLMs, keeping their output grounded, traceable, and accurate.`,
+  },
+  {
+    name: "Netcompany",
+    image: Netcompany,
+    description: `Netcompany is a pure-play IT service company founded in 2000 with headquarters in Copenhagen, Denmark. Today, we leads the way in the next generation of IT consulting in Northern Europe, building modern IT solutions and introducing advanced use of technology for large global customer, side by side in agile teams. What guides us is a core belief that technology makes a real and positive difference to societies, businesses, the environment, and our common future – if done right. Our goal is to empower societies and citizens of Europe to stand independently and strongly, and to lead the way in shaping a better future for all.`,
+  },
+  {
+    name: "Sectra",
+    image: Sectra,
+    description: `Sectra provides solutions for medial IT and cybersecurity. We assist hospitals and institutions training the future healthcare workforce in improving their efficiency, enabling better patient care. We also support defense, other government agencies, and various critical societal functions, helping them secure their communication against eavesdropping and protect their systems from intrusions. This is how we create conditions for healthier and safer societies.`,
+  },
+  {
+    name: "Tactel",
+    image: Tactel,
+    description: `Älskar du att koda, lösa problem och leverera användarupplevelser i världsklass? Vill du ha en trygg och familjär arbetsplats där du känner dig avslappnad nog att ta av dig skorna? Välkommen till oss!
+Tillsammans i agila team och med nära samarbete mellan teknik och design utvecklar vi framtidens system inom allt från kartlösningar på flygplan till appar för kollektivtrafik och mobiloperatörer i Norden. Lika vackra på insidan som på utsidan!`,
+  },
+  {
+    name: "Voyado",
+    image: Voyado,
+    description: `Voyado is the ultimate solution for personalization and relevance across all channels—online and offline. Used by retailers and e-commerce companies worldwide, the Voyado customer experience cloud makes it possible for every brand to engage customers, elevate shopping experiences, and evolve their businesses.
+Read about what it's like being a Voyadoer here: https://careers.voyado.com/`,
+  },
+  {
+    name: "Acconeer",
+    image: Acconeer,
+    description: `Acconeer is a young and innovative company developing the world´s smallest 60 GHz radar based on research from Lund University. The Acconeer radar sensors combines extremely low power consumption with sub-mm distance estimation accuracy. It enables distance measurements, micro-motion detection, material classification and much more, all within a sensor sized 5×5 mm including antennas.
+Acconeer is located in a brand-new office in Västra Hamnen, Malmö. We are currently a group of around 50 people with high R&D focus, working closely together over the R&D disciplines – hardware, software, and algorithm research. We have a large and growing international customer base in the automotive, consumer electronics, industrial and IoT segments which means our sensors are integrated in everything from cars and robotic lawn mowers to industrial tank-level gauges and touchless buttons for smart cities.
+We love working in a scaleup where we have real possibilities to influence both the product and how we work. As we are a small company with open-minded employees it is always easy to discuss with people outside your team to satisfy your appetite for knowledge. We get to work with cutting edge technology in close collaboration with our colleagues. We believe that people are most efficient when we are allowed to plan our work life in a way that suits our individual needs and circumstances.
+So even though we all have our personal desk in our lovely office, working from home is a natural part of our way of working at Acconeer. If you feel the same way about teamwork and amazing technology, we’d love to meet you! | http://www.acconeer.com/`,
+  },
+  {
+    name: "ASSA ABLOY",
+    image: ASSA,
+    description: `Every day, we help billions of people move through a safer, more open world with ease. If you’ve ever walked through an automatic door, stayed in a hotel, or gone through passport control, you’ve probably used one of our products or services. Learn more at assaabloy.com Do you want to work with a company that is always growing, never boring and leading right? Check out our career opportunities here: https://www.assaabloy.com/career/en/open-positions`,
+  },
+  {
+    name: "Axis Communications",
+    image: Axis,
+    description: `Axis is the industry leader in video surveillance, we develop and supply innovative network solutions that improve security and business performance. We were founded in 1984 and our headquarters are in Lund, Sweden. We are around 4,500 employees in over 50 countries. We provide network solutions in video surveillance, access control, intercom, and audio systems. They are enhanced by intelligent analytics applications and supported by high-quality training. Customers across the world use our solutions to protect people and property and improve business performance.
+If you believe that creativity, commitment, and technology can change the world, then Axis is the place for you. We‘ll give you the opportunities and the support to explore your ideas and turn them into reality. In return, you’ll help us make the world a smarter, safer place. You get to work closely with a diverse team, to both create and use leading-edge technology. Axis is also a place to grow – you’ll get opportunities to develop as a professional and as an individual.
+We are looking for students or recently graduated people who are interested in software, programming, encryption, design, AI, machine learning and much more. Find more at www.axis.com/student.`,
+  },
+  {
+    name: "Bosch",
+    image: Bosch,
+    description: `Bosch R&D Center Lund stands for modern software development in cutting edge technology in the areas of connectivity, security, mobility solutions and AI. We don't do drills and fridges, instead we do software for cars, bikes, sensors and more. Established in 2016, we are growing rapidly and are always looking for people to join us on our mission to become the Bosch Group’s number one location for secure connected mobility solutions`,
+  },
+  {
+    name: "Ericsson",
+    image: Ericsson,
+    description: `At Ericsson you’ll have a unique opportunity.
+The chance to use your skills and imagination to push the boundaries of what’s possible. To create never-seen-before solutions to some of the world’s toughest problems. You’ll be challenged. But you won’t be alone. You’ll be part of a team of like-minded innovators, all driven to go beyond the status quo to build what comes next. You’ll collaborate across disciplines, borders and continents. You’ll be empowered to lead and perform at your best. You’ll shape technology for people, societies, industries and humanity. You’ll be part of a diverse community where you can bring your own perfectly-unique self to work.
+At Ericsson you can be an explorer, a change maker and a force for good. 
+Imagine a better, brighter tomorrow. You can be the one who makes it possible.`,
+  },
+  {
+    name: "Hello World!",
+    image: Hello,
+    description: `Hello World! is a non-profit organization that democratizes tech by offering a free After School program in coding and digital creation at schools and libraries. The target group is children and young people between the ages of 8-16 and our priority is reaching underrepresented groups in tech.
+We are looking for students with basic programming skills who want to be part of our After School program and teach kids how to code! Our Hello World! leaders play a key role as they become role models for the participants and give them the tools and inspiration to choose a technical education. 
+`,
+  },
+  {
+    name: "Arm",
+    image: ARM,
+    description:
+      "Together with its vast ecosystem, Arm technology is changing the world again, building the future of computing and bringing ideas to life.",
+  },
+  //{ name: "Student Node", description: "" },
+  {
+    name: "Sigma Evolution AB",
+    description:
+      "We are looking for all kinds of people, with all sorts of skills. To create all sorts of technical solutions, in all possible places. So that people all over the world can expect a better tomorrow. We know you have the skills to come up with the solutions. But where do you want to contribute to a better tomorrow?",
+  },
+  {
+    name: "Diaverum",
+    image: Diaverum,
+    description:
+      "Diaverum is a Swedish-born, multinational provider of renal care services. The success of our business is made possible by our greatest asset, our people, each of whom brings their competence, passion and inspiration to grow with us. With our True care culture at the core of everything we do, Diaverum actively invests in nurturing a diverse, inclusive and engaged workplace. We support continuous development and actively promote employee well-being. We offer career opportunities in a multicultural environment, stable work hours for medical professionals and work flexibility for business professionals. Come join us!",
+  },
+  {
+    name: "Edda Knowledge",
+    image: Edda,
+    description:
+      "Edda utgörs av två viktiga delar: vår forskning och vår utveckling. För att säkerställa en hög kvalitet på läromedlen vi utvecklar granskas dessa kritiskt i vad som utgör vår forskning. Där undersöks noggrant vilken inlärning läromedlen tillhandahåller, och hur detta jämför sig med traditionella läromedel.",
+  },
+];
 ---
 
 <Layout>
@@ -56,7 +264,7 @@ const companies: { name: string; description: string; image: ImageMetadata }[] =
           ))}
       </div>
     ) : (
-      <div class="text-4xl text-center font-bold pt-24">Coming soon!</div>
+      <div class="pt-24 text-center font-bold text-4xl">Coming soon!</div>
     )
   }
 </Layout>
