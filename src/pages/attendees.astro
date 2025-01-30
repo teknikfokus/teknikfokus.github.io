@@ -27,6 +27,11 @@ import Qlik from "~/assets/companies/Qlik.webp";
 import Sirona from "~/assets/companies/Sirona.webp";
 import Tedsys from "~/assets/companies/Tedsys.webp";
 import WEIQ from "~/assets/companies/WEIQ.webp";
+import Volvo from "~/assets/companies/Volvo.webp"
+import MCA from "~/assets/companies/MCA.webp"
+import SverigesIngenjörer from "~/assets/companies/sveriges-ingenjorer.webp"
+import HiQ from "~/assets/companies/HiQ.webp"
+import Sigma from "~/assets/companies/sigma.webp"
 
 const companies: {
   name: string;
@@ -35,15 +40,18 @@ const companies: {
 }[] = [
   {
     name: "Mission Consultancy Assistance",
+    image: MCA,
     description: `Joining us is above all to become part of a human-sized, welcoming and fast-growing company with great projects to achieve! Joining MCA is the guarantee of benefiting from personalized support throughout your career and according to your aspirations, whether you are a consultant, a business manager, or a support function. Our extremely dynamic but also sustainable growth allows us to develop  our activities in France and in Europe, which offers all our teams varied and stimulating opportunities within the Group.`,
   },
   {
     name: "Sveriges Ingenjörer",
+    image: SverigesIngenjörer,
     description:
       "Sveriges Ingenjörer är ett fackförbund och en intresseorganisation för högskoleutbildade ingenjörer. Med 175 000 medlemmar har vi kraft att påverka samhället, skapa goda arbetsvillkor och stärka ingenjörsrollen. Våra medlemmar erbjuds inkomstförsäkring, lönestatistik, karriärservice, juridiskt stöd och rådgivning.",
   },
   {
-    name: "HIQ Skåne AB",
+    name: "HIQ",
+    image: HiQ,
     description:
       "På HiQ är vi övertygade om att tech formar framtiden. Våra fantastiska konsulter kombinerar djup teknisk kunskap med gränslös kreativitet och löser utmaningar i alla branscher. Tillsammans skapar vi en arbetsplats där jobb och glädje går hand i hand, vilket ger både fantastiska resultat och glada medarbetare. Med kontinuerlig utveckling, stöttande ledarskap och bra förmåner är HiQ inte bara en arbetsplats – det är en levande gemenskap av tech-entusiaster som bygger morgondagen.",
   },
@@ -57,7 +65,7 @@ const companies: {
     name: "Tedsys",
     image: Tedsys,
     description:
-      "Vi är ett härligt gäng på lite mer än 50 personligheter som tycker om att ha kul tillsammans och lära oss nya saker. Det gör vi både på och utanför kontoret i olika former. Vår huvudsakliga inriktning är system- & applikationsutveckling samt inbyggda- & uppkopplade system. Genom denna kompetens och erfarenhet hjälper vi våra kunder att digitalisera sina affärsprocesser och tjänster samt skapa intelligens åt och uppkoppling mellan sina produkter.  ",
+      "Vi är ett härligt gäng på lite mer än 50 personligheter som tycker om att ha kul tillsammans och lära oss nya saker. Det gör vi både på och utanför kontoret i olika former. Vår huvudsakliga inriktning är system- & applikationsutveckling samt inbyggda- & uppkopplade system. Genom denna kompetens och erfarenhet hjälper vi våra kunder att digitalisera sina affärsprocesser och tjänster samt skapa intelligens åt och uppkoppling mellan sina produkter. Tedsys är nu del av Knightec Group, som bildats genom samgåendet mellan Semcon och Knightec. Tillsammans blir vi en strategisk partner inom produkt- och digital tjänsteutveckling som stöttar kunder genom alla delar av utvecklingscykeln.",
   },
   {
     name: "Sirona",
@@ -102,6 +110,7 @@ Let’s unpack your potential, welcome to Lime!`,
   },
   {
     name: "Volvo Cars",
+    image: Volvo,
     description: `A company with a great heritage & purpose
 We share a rich and purposeful heritage and even bolder future aspirations to match. Since 1927, we have created world-changing safety innovation: The modern seatbelt. The side impact protection system. The pedestrian detection system (to name just a few). In the spirit of openness, collaboration, and curiosity, we welcome you to an echo system of diverse talent and teams that allow us to do more together, to do good together. And to solve sustainable, safe and personal mobility for all.  
   
@@ -223,6 +232,7 @@ We are looking for students with basic programming skills who want to be part of
   //{ name: "Student Node", description: "" },
   {
     name: "Sigma Evolution AB",
+    image: Sigma,
     description:
       "We are looking for all kinds of people, with all sorts of skills. To create all sorts of technical solutions, in all possible places. So that people all over the world can expect a better tomorrow. We know you have the skills to come up with the solutions. But where do you want to contribute to a better tomorrow?",
   },
