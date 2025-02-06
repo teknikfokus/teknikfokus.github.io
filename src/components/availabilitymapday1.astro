@@ -5,7 +5,7 @@
       headers: {
         Accept: "application/vnd.github.v3.raw",
       },
-    }
+    },
   );
   const responseData = await response.json();
   responseData.day1.forEach((spot: { id: string; occupied: any }) => {
