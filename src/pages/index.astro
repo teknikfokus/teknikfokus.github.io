@@ -2,8 +2,8 @@
 import LandingLayout from "~/layouts/LandingLayout.astro";
 import Timeline from "~/components/timeline/timeline.astro";
 import cover from "../assets/cover.webp";
-import map1 from "../assets/map_1.webp";
-import map2 from "../assets/map_2.webp";
+import map1 from "../assets/day1Light.webp";
+import map2 from "../assets/day2Light.webp";
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 ---
@@ -113,25 +113,25 @@ import { Icon } from "astro-icon/components";
       <Timeline />
     </section>
 
-    <!-- TODO: display map once we have one
-    <section class="flex flex-col gap-4 space-y-2">
+    <section class="flex flex-col gap-0">
       <h2
-        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+        class="mb-4 bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
       >
         Map
       </h2>
+      <div class="mb-2 font-bold text-lg">Day 1</div>
       <Image
         src={map1}
         alt="Map of the fair - day 1"
-        class="rounded-xl border-2"
+        class="mb-6 rounded-xl border-2"
       />
+      <div class="mb-2 font-bold text-lg">Day 2</div>
       <Image
         src={map2}
         alt="Map of the fair - day 2"
         class="rounded-xl border-2"
       />
-    </section> 
-    -->
+    </section>
   </div>
 </LandingLayout>
 
