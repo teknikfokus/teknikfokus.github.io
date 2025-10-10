@@ -261,29 +261,34 @@ We are looking for students with basic programming skills who want to be part of
 
 <Layout>
   {
-    companies.length > 0 ? (
-      <div
-        class="mx-auto grid max-w-prose grid-cols-2 gap-4 p-8 sm:grid-cols-3 md:grid-cols-4"
-        id="company-container"
-      >
-        {companies
-          .sort((c1, c2) => {
-            if (c1.name < c2.name) return -1;
-            if (c1.name > c2.name) return 1;
-            return 0;
-          })
-          .map((company) => (
-            <div
-              id={company.name}
-              data-description={company.description}
-              class="contents"
-            >
-              <Company {...company} />
-            </div>
-          ))}
-      </div>
-    ) : (
-      <div class="pt-24 text-center font-bold text-4xl">Coming soon!</div>
+    (
+      <h2 class="flex h-screen items-center justify-center bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl">
+        TBA
+      </h2>
+      // companies.length > 0 ? (
+      //   <div
+      //     class="mx-auto grid max-w-prose grid-cols-2 gap-4 p-8 sm:grid-cols-3 md:grid-cols-4"
+      //     id="company-container"
+      //   >
+      //     {companies
+      //       .sort((c1, c2) => {
+      //         if (c1.name < c2.name) return -1;
+      //         if (c1.name > c2.name) return 1;
+      //         return 0;
+      //       })
+      //       .map((company) => (
+      //         <div
+      //           id={company.name}
+      //           data-description={company.description}
+      //           class="contents"
+      //         >
+      //           <Company {...company} />
+      //         </div>
+      //       ))}
+      //   </div>
+      // ) : (
+      //   <div class="pt-24 text-center font-bold text-4xl">Coming soon!</div>
+      // )
     )
   }
 </Layout>
