@@ -2,8 +2,8 @@
   "spotCount": 29,
   "day1": [
     { "id": 1, "occupied": false },
-    { "id": 2, "occupied": true },
-    { "id": 3, "occupied": true },
+    { "id": 2, "occupied": false },
+    { "id": 3, "occupied": false },
     { "id": 4, "occupied": true },
     { "id": 5, "occupied": true },
     { "id": 4, "occupied": true },
