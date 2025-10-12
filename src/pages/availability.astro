@@ -7,23 +7,90 @@ import Layout from "~/layouts/Layout.astro";
 
 <Layout>
   <div class="mx-auto max-w-prose px-8 pt-10">
-    Here you can see which spots are open for each day. Contact us at <a
-      href="mailto:relations@teknikfokus.se"
-      class="underline"
-    >
-      relations@teknikfokus.se</a
-    >
-    about securing a spot.
-    <br />
-    Note that food and drinks are not allowed in the rooms where spot 14-27 are located.
-    <div class="mt-5 font-bold text-xl">Prices</div>
-    One day: 31 000 kr - pick your spot for an additional 3 000 kr <br />
-    Two days: 43 000 kr - picking your spot included
-    <div class="text-center">
-      <div class="font-bold text-lg">Day 1</div>
-      <Availabilitymapday1 />
-      <div class="mt-10 font-bold text-lg">Day 2</div>
-      <Availabilitymapday2 />
-    </div>
+    <section>
+      <h2
+        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+      >
+        Secure your spot!
+      </h2>
+      Here you can see which spots are open for each day. Contact us at <a
+        href="mailto:relations@teknikfokus.se"
+        class="underline"
+      >
+        relations@teknikfokus.se</a
+      >
+      about securing a spot.
+      <br />
+      A green dot means that the spot is available, a red that it is not. Note that
+      food and drinks are not allowed in the rooms where spot 14-27 are located.
+      <div class="text-center">
+        <div class="font-bold text-lg">Day 1</div>
+        <Availabilitymapday1 />
+        <div class="mt-10 font-bold text-lg">Day 2</div>
+        <Availabilitymapday2 />
+      </div>
+    </section>
+    <section>
+      <br />
+      <h2
+        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
+      >
+        Våra paket
+      </h2>
+    </section>
   </div>
+  <section>
+    <div class="flex w-screen justify-between">
+      <div
+        class="align-center m-5 flex flex-1 flex-col justify-center text-center shadow-md"
+      >
+        <h2 class="mt-10 p-3 font-bold text-xl">1 Dag Biomedicin</h2>
+        <h3 class="font-bold">10000 kr</h3>
+        <hr
+          class="border-forange w- mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>1 Barbord</p>
+        <hr
+          class="border-forange mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>1 Barstol</p>
+        <hr
+          class="border-forange mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>2 Lunchbiljetter/dag</p>
+        <hr
+          class="border-forange mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>2 Bankettbiljetter</p>
+        <hr
+          class="border-forange mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>1 Parkeringsplats</p>
+        <hr
+          class="border-forange mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>Lounge Tillgänglig</p>
+        <hr
+          class="border-forange mx-auto my-3 w-52 self-center rounded-xl border border-blue-500"
+        />
+        <p>Garderob Tillgänglig</p>
+        <br class="mb-10" />
+      </div>
+      <div
+        class="align-center m-5 flex flex-1 flex-col justify-center text-center shadow-md"
+      >
+        <h2>1 dag standard</h2>
+      </div>
+      <div
+        class="align-center m-5 flex flex-1 flex-col justify-center text-center shadow-md"
+      >
+        <h2>2 dagar standard</h2>
+      </div>
+      <div
+        class="align-center m-5 flex flex-1 flex-col justify-center text-center shadow-md"
+      >
+        <h2>2 dagar lyx</h2>
+      </div>
+    </div>
+  </section>
 </Layout>
