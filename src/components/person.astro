@@ -6,7 +6,11 @@ import { Image } from "astro:assets";
 interface Props {
   name: string;
   position: string;
-  image: ImageMetadata;
+  image: {
+    data: ImageMetadata,
+    position?: string;
+    zoom?: number;
+  };
   linkedin: string;
   email: string;
 }
@@ -14,11 +18,14 @@ const { name, position, image, linkedin, email } = Astro.props;
 ---
 
 <div class="flex flex-col items-center">
-  <Image
-    src={image}
-    alt={name}
-    class="size-60 rounded-full object-cover object-top"
-  />
+  <div class="size-60 rounded-full overflow-hidden">
+    <Image
+      src={image.data}
+      alt={name}
+      class="w-full h-full object-cover"
+      style={`object-position: ${image.position || 'center top'}; ${image.zoom ? `transform-origin: ${image.position || 'center top'}; transform: scale(${image.zoom});` : ''}`}
+    />
+  </div>
   <p class="mt-6 text-center font-bold text-xl">{name}</p>
   <p class="mb-4 font-light text-offset text-sm">{position}</p>
   <div class="flex items-center gap-8">
