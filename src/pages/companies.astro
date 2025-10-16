@@ -4,7 +4,6 @@ import { Icon } from "astro-icon/components";
 import Layout from "~/layouts/Layout.astro";
 import joinUs from "~/assets/join_us.webp";
 import logomarkGold from "~/assets/logomark-double-gold.png";
-import logomarkDouble from "~/icons/logomark-double.svg";
 ---
 
 <Layout>
@@ -43,14 +42,15 @@ import logomarkDouble from "~/icons/logomark-double.svg";
     </section>
 
     <section>
-      <h2 class="mb-8 text-balance font-extrabold text-6xl">Våra paket</h2>
+      <h2 class="mb-8 text-balance font-extrabold text-6xl">Prices</h2>
 
+      <!-- boxes -->
       <div
-        class="mx-auto mb-5 flex w-full flex-col items-center justify-center gap-4 lg:flex-row"
+        class="mx-auto mb-5 grid w-full grid-cols-1 justify-items-center gap-4 lg:grid-cols-3"
       >
         <!-- box 1 -->
         <div
-          class="min-w-80 max-w-96 flex-1 overflow-hidden rounded-xl bg-offset shadow-md lg:mx-auto"
+          class="h-full min-w-80 max-w-96 flex-1 rounded-xl bg-offset shadow-md lg:mx-auto"
         >
           <!-- Header -->
 
@@ -58,7 +58,7 @@ import logomarkDouble from "~/icons/logomark-double.svg";
             <div class="flex items-start justify-between">
               <div>
                 <h2 class="font-bold text-2xl">Standard</h2>
-                <h2 class="font-bold text-2xl">1 Dag</h2>
+                <h2 class="font-bold text-2xl">1 Day</h2>
               </div>
               <div class="flex items-center space-x-1">
                 <Icon name="logomark" class="size-16" />
@@ -70,7 +70,7 @@ import logomarkDouble from "~/icons/logomark-double.svg";
 
           <div class="px-6 pb-6">
             <div class="flex items-baseline justify-center">
-              <span class="font-bold text-4xl">10 000 kr</span>
+              <span class="font-bold text-4xl">31 000 kr</span>
             </div>
           </div>
 
@@ -79,88 +79,67 @@ import logomarkDouble from "~/icons/logomark-double.svg";
           <div class="px-6 pb-6">
             <ul class="space-y-2">
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Limited to 3 users
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">3x2m exhibition area</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">One (1) bar table and one (1) bar chair</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                100 devices
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Access nearly all of Tailscale's features
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">Access to a career fair host</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2"
+                  >Access to focus lounge, wardrobe and information desk</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Use Tailscale for free, indefinitely
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2"
+                  >Breakfast, coffee and refreshments during the day</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Add-on devices for $0.50 each per month
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Lunch tickets for two (2) company representatives</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2">One (1) free parking ticket</span>
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Two (2) tickets to the Teknikfokus Banquette</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2">Access to Wi-Fi and electrical outlets</span>
               </li>
             </ul>
           </div>
@@ -168,7 +147,7 @@ import logomarkDouble from "~/icons/logomark-double.svg";
 
         <!-- box 2 -->
         <div
-          class="min-w-80 max-w-96 flex-1 overflow-hidden rounded-xl bg-offset shadow-md lg:mx-auto"
+          class="h-full min-w-80 max-w-96 flex-1 rounded-xl bg-offset shadow-md lg:mx-auto"
         >
           <!-- Header -->
 
@@ -176,7 +155,7 @@ import logomarkDouble from "~/icons/logomark-double.svg";
             <div class="flex items-start justify-between">
               <div>
                 <h2 class="font-bold text-2xl">Standard</h2>
-                <h2 class="font-bold text-2xl">2 Dagar</h2>
+                <h2 class="font-bold text-2xl">2 Days</h2>
               </div>
               <div class="flex items-center space-x-1">
                 <Icon name="logomark-double" class="h-16 w-auto" />
@@ -188,7 +167,7 @@ import logomarkDouble from "~/icons/logomark-double.svg";
 
           <div class="px-6 pb-6">
             <div class="flex items-baseline justify-center">
-              <span class="font-bold text-4xl">20 000 kr</span>
+              <span class="font-bold text-4xl">43 000 kr</span>
             </div>
           </div>
 
@@ -197,88 +176,67 @@ import logomarkDouble from "~/icons/logomark-double.svg";
           <div class="px-6 pb-6">
             <ul class="space-y-2">
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Limited to 3 users
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">3x2m exhibition area</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">One (1) bar table and one (1) bar chair</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                100 devices
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Access nearly all of Tailscale's features
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">Access to a career fair host</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2"
+                  >Access to focus lounge, wardrobe and information desk</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Use Tailscale for free, indefinitely
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2"
+                  >Breakfast, coffee and refreshments during both days</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Add-on devices for $0.50 each per month
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Lunch tickets for two (2) company representatives per day</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2">One (1) free parking ticket</span>
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Two (2) tickets to the Teknikfokus Banquette</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2">Access to Wi-Fi and electrical outlets</span>
               </li>
             </ul>
           </div>
@@ -286,15 +244,15 @@ import logomarkDouble from "~/icons/logomark-double.svg";
 
         <!-- box 3 -->
         <div
-          class="min-w-80 max-w-96 flex-1 overflow-hidden rounded-xl bg-offset shadow-md lg:mx-auto"
+          class="h-full min-w-80 max-w-96 flex-1 rounded-xl bg-offset shadow-md lg:mx-auto"
         >
           <!-- Header -->
 
           <div class="p-6">
             <div class="flex items-start justify-between">
               <div>
-                <h2 class="font-bold text-2xl">Lyx</h2>
-                <h2 class="font-bold text-2xl">2 Dagar</h2>
+                <h2 class="font-bold text-2xl">Luxury</h2>
+                <h2 class="font-bold text-2xl">2 Days</h2>
               </div>
               <div class="flex items-center space-x-1">
                 <Image
@@ -311,7 +269,7 @@ import logomarkDouble from "~/icons/logomark-double.svg";
 
           <div class="px-6 pb-6">
             <div class="flex items-baseline justify-center">
-              <span class="font-bold text-4xl">30 000 kr</span>
+              <span class="font-bold text-4xl">48 000 kr</span>
             </div>
           </div>
 
@@ -320,88 +278,89 @@ import logomarkDouble from "~/icons/logomark-double.svg";
           <div class="px-6 pb-6">
             <ul class="space-y-2">
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                1 Tablechair
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">3x2m exhibition area</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                100 devices
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">40" TV Screen</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">One (1) bar table and one (1) bar chair</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Access nearly all of Tailscale's features
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Use Tailscale for free, indefinitely
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2">Access to a private career fair host</span>
               </li>
-
               <li class="flex items-center">
-                <svg
-                  class="mr-2 h-5 w-5 text-green-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2"
+                  >Access to focus lounge, wardrobe and information desk</span
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"></path>
-                </svg>
-
-                Add-on devices for $0.50 each per month
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6" />
+                </div>
+                <span class="ml-2"
+                  >Breakfast, coffee and refreshments during both days</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Lunch tickets for three (3) company representatives per day</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2">One (1) free parking ticket</span>
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Three (3) tickets to the Teknikfokus Banquette</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2">Access to Wi-Fi and electrical outlets</span>
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >One week of on-site marketing prior to the fair</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div class="h-6 w-6 flex-shrink-0">
+                  <Icon name="checkmark" class="size-6 text-green-500" />
+                </div>
+                <span class="ml-2"
+                  >Automatic reservation of the best exhibition stand spots</span
+                >
               </li>
             </ul>
           </div>
