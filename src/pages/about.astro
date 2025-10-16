@@ -1,130 +1,122 @@
 ---
 import Layout from "~/layouts/Layout.astro";
 import Person from "~/components/person.astro";
-import amir from "~/assets/pg/amir.webp";
-import anton from "~/assets/pg/anton.webp";
-import arvid from "~/assets/pg/arvid.webp";
-import axel from "~/assets/pg/axel.webp";
-import chrysella from "~/assets/pg/chrysella.webp";
-import cristiana from "~/assets/pg/cristiana.webp";
-import erfan from "~/assets/pg/erfan.webp";
-import huda from "~/assets/pg/huda.webp";
-import isak from "~/assets/pg/isak.webp";
-import mena from "~/assets/pg/mena.webp";
-import nimat from "~/assets/pg/nimat.webp";
-import sandra from "~/assets/pg/sandra.webp";
-import theodor from "~/assets/pg/theodor.webp";
-import vanessa from "~/assets/pg/vanessa.webp";
+import catherine from "~/assets/pg/catherine.webp";
+import sofia from "~/assets/pg/sofia.webp";
+import tilda from "~/assets/pg/tilda.webp";
+import david from "~/assets/pg/david.webp";
+import adrian from "~/assets/pg/adrian.webp";
+import ella from "~/assets/pg/ella.webp";
+import hadar from "~/assets/pg/hadar.webp";
+import tilde from "~/assets/pg/tilde.webp";
+import oscar from "~/assets/pg/oscar.webp";
+import lilly from "~/assets/pg/lilly.webp";
+import gabriel from "~/assets/pg/gabriel.webp";
+import dag from "~/assets/pg/dag.webp";
+import hannes from "~/assets/pg/hannes.webp";
 import group from "~/assets/pg/group.webp";
 
 import { Image } from "astro:assets";
 
 const projectGroup = [
   {
-    name: "Arvid Nygren",
+    name: "Catherine Guillard",
     position: "Project Manager",
-    image: arvid,
-    linkedin: "https://www.linkedin.com/in/arvid-nygren-b049591a2/",
-    email: "arvid@teknikfokus.se",
+    image: { data: catherine, zoom: 1.55, position: "center 28%" },
+    linkedin: "https://www.linkedin.com/in/catherine-guillard-aa0718355/",
+    email: "catherine@teknikfokus.se",
   },
   {
-    name: "Cristiana Adelina Onufriciuc",
+    name: "Sofia Gerholm",
     position: "Project Manager",
-    image: cristiana,
-    linkedin:
-      "https://www.linkedin.com/in/cristiana-adelina-onufriciuc-3465b520b/",
-    email: "cristiana@teknikfokus.se",
+    image: { data: sofia, zoom: 1.85, position: "50% 29%" },
+    linkedin: "",
+    email: "sofia@teknikfokus.se",
   },
   {
-    name: "Anton Strömblad",
+    name: "Tilda Olsson",
     position: "Recruitment Manager",
-    image: anton,
-    linkedin: "https://www.linkedin.com/in/anton-str%C3%B6mblad-22308420b/",
-    email: "anton@teknikfokus.se",
+    image: { data: tilda, zoom: 1.5, position: "center 30%" },
+    linkedin: "https://www.linkedin.com/in/tilda-olsson-810215268/",
+    email: "tilda@teknikfokus.se",
   },
   {
-    name: "Mena Msaebes",
+    name: "David Sandström",
     position: "Logistics Manager",
-    image: mena,
-    linkedin: "https://www.linkedin.com/in/mena-msaebes-988064231/",
-    email: "mena@teknikfokus.se",
+    image: { data: david, zoom: 1.4, position: "30% 24%" },
+    linkedin: "",
+    email: "david@teknikfokus.se",
   },
   {
-    name: "Sandra Christoffersen",
+    name: "Adrian Carlström Selimovic",
     position: "Logistics Manager",
-    image: sandra,
-    linkedin: "",
-    email: "sandra@teknikfokus.se",
+    image: { data: adrian, zoom: 1.6, position: "center 28%" },
+    linkedin:
+      "https://www.linkedin.com/in/adrian-carlström-selimovic-98b49738a/",
+    email: "adrian@teknikfokus.se",
   },
   {
-    name: "Huda Shahin",
+    name: "Ella Hagberg",
     position: "Event Manager",
-    image: huda,
-    linkedin: "https://www.linkedin.com/in/huda-shahin-99019a245/",
-    email: "huda@teknikfokus.se",
+    image: { data: ella, zoom: 1.5, position: "37% 31%" },
+    linkedin: "https://www.linkedin.com/in/ella-hagberg-743aa736b/",
+    email: "ella@teknikfokus.se",
   },
   {
-    name: "Vanessa Nugaela",
-    position: "Event Manager",
-    image: vanessa,
-    linkedin: "https://www.linkedin.com/in/vanessa-n-94819a247/",
-    email: "vanessa@teknikfokus.se",
-  },
-  {
-    name: "Amir Rezai",
+    name: "Hadar Eklund",
     position: "Business Manager",
-    image: amir,
+    image: { data: hadar, zoom: 1.63, position: "42% 25%" },
+    linkedin: "https://www.linkedin.com/in/hadar-eklund-882037239/",
+    email: "hadar@teknikfokus.se",
+  },
+  {
+    name: "Tilde Kilgren",
+    position: "Business Manager",
+    image: { data: tilde, zoom: 1.5, position: "43% 28%" },
     linkedin: "",
-    email: "amir@teknikfokus.se",
+    email: "tilde@teknikfokus.se",
   },
   {
-    name: "Erfan Azad",
+    name: "Oscar Enghag",
     position: "Business Manager",
-    image: erfan,
+    image: { data: oscar, zoom: 1.4, position: "40% 28%" },
     linkedin: "",
-    email: "erfan@teknikfokus.se",
+    email: "oscar@teknikfokus.se",
   },
   {
-    name: "Nimat Shihabi",
-    position: "Business Manager",
-    image: nimat,
-    linkedin: "https://www.linkedin.com/in/nimat-shihabi-786612263/",
-    email: "nimat@teknikfokus.se",
-  },
-  {
-    name: "Axel Hallefält",
+    name: "Lilly Andersson",
     position: "Financial Manager",
-    image: axel,
-    linkedin: "http://www.linkedin.com/in/axelhallef%C3%A4lt",
-    email: "axel@teknikfokus.se",
+    image: { data: lilly, zoom: 1.45, position: "55% 27%" },
+    linkedin: "https://www.linkedin.com/in/lilly-andersson-96a489349/",
+    email: "lilly@teknikfokus.se",
   },
   {
-    name: "Chrysella Marlyn",
+    name: "Gabriel Wåhlin",
     position: "Marketing Manager",
-    image: chrysella,
-    linkedin: "https://www.linkedin.com/in/chrysella-marlyn-98578a219/",
-    email: "chrysella@teknikfokus.se",
+    image: { data: gabriel, zoom: 1.45, position: "36% 25%" },
+    linkedin: "",
+    email: "gabriel@teknikfokus.se",
   },
   {
-    name: "Isak Kallini",
+    name: "Dag Hemberg",
     position: "IT Manager",
-    image: isak,
-    linkedin: "https://www.linkedin.com/in/isak-kallini/",
-    email: "isak@teknikfokus.se",
+    image: { data: dag, zoom: 1.6, position: "center 34%" },
+    linkedin: "https://www.linkedin.com/in/daghemberg/",
+    email: "dag@teknikfokus.se",
   },
   {
-    name: "Theodor Fransson",
+    name: "Hannes Bolmehag",
     position: "IT Manager",
-    image: theodor,
-    linkedin: "https://www.linkedin.com/in/theodorfransson",
-    email: "theodor@teknikfokus.se",
+    image: { data: hannes, zoom: 1.5, position: "45% 27%" },
+    linkedin: "https://www.linkedin.com/in/hannesbolmehag/",
+    email: "hannes@teknikfokus.se",
   },
 ];
 ---
 
 <Layout>
   <Image
-    class="max-h-[60vh] w-full object-cover"
+    class="max-h-[60vh] w-full object-cover object-[center_13%]"
     src={group}
     alt="Project Group"
   />

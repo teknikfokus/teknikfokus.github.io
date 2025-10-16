@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Iterate over all files in src/assets
-for file in ../src/assets/*.*
+for file in ../src/assets*.*
 do
   # Skip if the file is already a .webp file
   if [[ $file != *.webp ]]
