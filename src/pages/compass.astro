@@ -1,0 +1,10 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Quiz from "~/components/compass/quiz.svelte";
+---
+
+<Layout>
+  <div class="mx-auto h-full w-full max-w-4xl p-8 md:min-h-[32rem]">
+    <Quiz client:load />
+  </div>
+</Layout>
