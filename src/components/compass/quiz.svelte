@@ -26,7 +26,6 @@
     {#if !quizFinished}
       {#key currentQuestion}
         <div
-          class="absolute"
           in:fly={{ y: 20, duration: 300, delay: 300 }}
           out:fly={{ y: -20, duration: 300 }}
         >
@@ -46,11 +45,11 @@
     {/if}
   {:else}
     <div
-      class="absolute flex w-full max-w-lg flex-col items-center gap-4 rounded-xl bg-offset p-4 text-center shadow-lg sm:p-8"
+      class="flex w-full max-w-lg flex-col items-center gap-4 rounded-xl bg-offset p-4 text-center shadow-lg sm:p-8"
     >
       <h2 class="text-balance font-bold text-2xl sm:text-4xl">Host Compass</h2>
       <h3 class="mb-4">
-        Unsure which host position to apply for? Fill out the compass!
+        Unsure which host position to apply for? Follow the compass!
       </h3>
       <button
         class="rounded-full border-4 border-white bg-teknikfokus-600 px-6 py-3 font-bold text-white text-base hover:bg-teknikfokus-500 sm:px-8 sm:py-4 sm:text-lg"
