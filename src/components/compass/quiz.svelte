@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Tally } from "./data";
-  import { questions } from "./data";
+  import { questions, applicationLink } from "./data";
   import { fly, fade } from "svelte/transition";
 
   import Question from "./question.svelte";
@@ -41,6 +41,7 @@
             <p class="font-light text-xl sm:text-2xl">{host}</p>
           {/each}
         {/if}
+        <a href={applicationLink} class="mt-10 font-bold underline text-xl">Apply here!</a>
       </div>
     {/if}
   {:else}
