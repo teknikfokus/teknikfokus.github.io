@@ -134,3 +134,5 @@ export const questions: QuestionData[] = [
     },
   },
 ];
+
+export const applicationLink = "https://forms.gle/N3sYozRTNp3X1UZp9";
