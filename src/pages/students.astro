@@ -3,8 +3,7 @@ import { Image } from "astro:assets";
 import Layout from "~/layouts/Layout.astro";
 import studentSession from "~/assets/student_session.webp";
 import fun from "~/assets/fun.webp";
-import { hosts, applicationLink } from "~/components/compass/data.ts"
-
+import { hosts, applicationLink } from "~/components/compass/data.ts";
 ---
 
 <Layout>
@@ -41,12 +40,7 @@ import { hosts, applicationLink } from "~/components/compass/data.ts"
             Every great career fair needs awesome hosts and Teknikfokus is no
             different. We will need lots of help with everything from setting up
             the fair to answering all kinds of questions in the info desk and
-            hosting the companies to make sure they feel welcome. If you want to
-            be a part of the team, don’t hesitate to apply <a
-              href={applicationLink}
-              target="_blank"
-              class="font-bold underline">here</a
-            >!
+            hosting the companies to make sure they feel welcome.
           </p>
         </div>
         <Image
@@ -55,10 +49,10 @@ import { hosts, applicationLink } from "~/components/compass/data.ts"
           alt="Having fun at Teknikfokus"
         />
       </div>
-      <div class="flex flex-col sm:flex-row">
+      <!-- <div class="flex flex-col sm:flex-row">
         <div class="flex flex-col sm:w-1/2">
           {
-            hosts.slice(0, hosts.length / 2 ).map((v) => (
+            hosts.slice(0, hosts.length / 2).map((v) => (
               <details class="m-3 bg-offset p-4">
                 <summary class="text-balance font-bold text-xl">
                   {v.title}
@@ -83,16 +77,19 @@ import { hosts, applicationLink } from "~/components/compass/data.ts"
           }
         </div>
       </div>
-      <div class="m-3 text-center bg-offset p-10 font-bold text-3xl">
+      <div class="m-3 bg-offset p-10 text-center font-bold text-3xl">
         Interested? Apply <a
           href={applicationLink}
           target="_blank"
           class="font-extrabold underline">here</a
         >!
         <div class="mt-2 font-light text-lg">
-          Still unsure which position to apply for? Follow the <a href="/compass" class="font-extrabold underline">host compass</a>!
+          Still unsure which position to apply for? Follow the <a
+            href="/compass"
+            class="font-extrabold underline">host compass</a
+          >!
         </div>
-      </div>
+      </div> -->
     </section>
 
     <section class="flex flex-col gap-4 space-y-2">
