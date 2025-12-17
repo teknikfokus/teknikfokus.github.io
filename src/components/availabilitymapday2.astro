@@ -9,11 +9,13 @@
   );
   const responseData = await response.json();
 
-  responseData.day2.forEach((spot: { id: string; occupied: any }) => {
+  responseData.day2.forEach((spot: { id: string; occupied: string }) => {
     const spotId = "day2-spot-" + spot.id;
     var elem = document.getElementById(spotId);
-    if (elem !== null && spot.occupied) {
+    if (elem !== null && spot.occupied == "red") {
       elem.style.fill = "#ef403d";
+    } else if (elem !== null && spot.occupied == "orange") {
+      elem.style.fill = "#f99548";
     }
   });
 </script>
