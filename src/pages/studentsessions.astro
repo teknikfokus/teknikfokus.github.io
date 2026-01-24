@@ -1,0 +1,42 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import SessionForm from "~/components/sessions/sessionform.svelte";
+
+import netcompanyLogoLight from "~/assets/companies/Netcompany-logotype-black-RGB.png";
+import netcompanyLogoDark from "~/assets/companies/Netcompany-logotype-white-RGB.png";
+import qlikLogo from "~/assets/companies/Qlik.jpg";
+import regionSkaneLogo from "~/assets/companies/Region Skåne.jpg";
+import sectraLogo from "~/assets/companies/Sectra.png";
+import sverigesIngenjorerLogo from "~/assets/companies/Sveriges Ingenjörer.png";
+import synapseLogo from "~/assets/companies/Synapse logo.png";
+
+const participatingCompanies = [
+  {
+    name: "Netcompany",
+    logo: netcompanyLogoLight.src,
+    logoDark: netcompanyLogoDark.src,
+    pitch: "IT services and digital solutions at scale.",
+  },
+  { name: "Qlik", logo: qlikLogo.src, pitch: "Data analytics and business intelligence." },
+  { name: "Region Skåne", logo: regionSkaneLogo.src, pitch: "Public sector innovation in healthcare and services." },
+  { name: "Sectra", logo: sectraLogo.src, pitch: "Medical imaging and secure communications." },
+  { name: "Sveriges Ingenjörer", logo: sverigesIngenjorerLogo.src, pitch: "Professional organization for engineers." },
+  { name: "Synapse", logo: synapseLogo.src, pitch: "Life science consulting and data‑driven solutions." },
+];
+---
+
+<Layout title="Student Sessions 2026">
+  <main class="mx-auto max-w-3xl space-y-10 px-4 py-12">
+    <section class="space-y-4">
+      <h1 class="text-balance font-extrabold text-6xl">Student Sessions 2026</h1>
+      <p class="max-w-prose text-slate-600 dark:text-slate-300">
+        Apply to meet companies during Student Sessions. Choose the companies
+        you want to meet and upload your CV.
+      </p>
+    </section>
+
+    <section class="space-y-6">
+      <SessionForm client:load companies={participatingCompanies} />
+    </section>
+  </main>
+</Layout>
