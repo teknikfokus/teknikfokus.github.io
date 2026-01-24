@@ -24,14 +24,14 @@ export const hosts: Host[] = [
   {
     title: "Company Host",
     subtitle:
-      "Do you enjoy engaging in conversation and networking with industry professionals? If so, the Company Host position might be perfect for you! ",
+      "Do you enjoy engaging in conversation and networking with industry professionals? If so, the Company Host position might be perfect for you!",
     body: "As a Company Host at Teknikfokus 2026, you will be assigned to assist one or two participating companies. Key responsibilities include ensuring that company representatives have all necessary information leading up to the event, assisting with booth setup, and providing support during the fair. Your role is essential in helping companies feel welcome and supported throughout the event, and before the event contact them and answer their questions.",
   },
   {
     title: "Banquet Host",
     subtitle:
       "Are you an organized, cheerful individual with a flair for decorating? Consider applying for the role of Banquet Host!",
-    body: "As a Banquet Host, you will play a key role in making the first evening of the fair, truly remarkable. Your team will be responsible for transforming Gasque into a beautiful and welcoming environment, setting the perfect ambiance for the evening. While you'll miss part of the fair's opening day during setup, you'll have the opportunity to change and join the banquet festivities before the guests arrive. Your efforts will help create an unforgettable experience for all.",
+    body: "As a Banquet Host, you will play a key role in making the first evening of the fair truly remarkable. Your team will be responsible for transforming the banquet venue into a beautiful and welcoming environment, setting the perfect ambiance for the evening. While you'll miss part of the fair's opening day during setup, you'll have the opportunity to change and join the banquet festivities before the guests arrive. Your efforts will help create an unforgettable experience for all.",
   },
   {
     title: "Night Guard",
@@ -42,7 +42,7 @@ export const hosts: Host[] = [
   {
     title: "Food and Wardrobe Host",
     subtitle:
-      "Do you have a passion for service and seek a diverse role at Teknikfokus 2026? Apply to be the Food and Wardrobe Host!",
+      "Do you have a passion for service and are seeking a diverse role at Teknikfokus 2026? Apply to be a Food and Wardrobe Host!",
     body: "In this role, you'll oversee the fair's food service, lounge areas, and wardrobe. Responsibilities include managing breakfast and lunch service, organizing the lounge, and maintaining a welcoming space with amenities like coffee. You'll also assist attendees with coat check services upon their arrival, ensuring a positive and seamless experience. This role offers a great opportunity to interact with company representatives in a relaxed setting, while making sure that they have everything they need for a productive day.",
   },
   {
@@ -55,13 +55,13 @@ export const hosts: Host[] = [
     title: "Photographer",
     subtitle:
       "Do you have a passion for capturing special moments and showcasing the energy of Teknikfokus 2026? Apply to be a Photographer!",
-    body: "As the event's Photographer, you'll document key moments, from the exhibitions to the Banquet and other fair highlights. Your photos will be featured in Teknikfokus 2026's promotional materials and may also be used in future events. Prior experience in photography is a plus, though not required. This role is a wonderful opportunity to creatively contribute to the event and capture memories that last! ",
+    body: "As the event's Photographer, you'll document key moments, from the exhibitions to the Banquet and other fair highlights. Your photos will be featured in Teknikfokus 2026's promotional materials and may also be used in future events. Prior experience in photography is a plus, though not required. This role is a wonderful opportunity to creatively contribute to the event and capture memories that last!",
   },
   {
     title: "Electricity/Internet Host",
     subtitle:
-      "Do you have an interest in preparing and setting up electricity and internet? Apply to join our team as an electricity and internet host!",
-    body: "In this role you will sett up branch outlets and Ethernet ports before the affair begins, and work closely with the logistic manager. Under the affair you will be assisting companies and hosts that need help with ethernet and electricity. Most of your work will take place on the prep day. ",
+      "Do you have an interest in preparing and setting up electricity and internet? Apply to join our team as an Electricity and Internet host!",
+    body: "In this role you will sett up branch outlets and Ethernet ports before the fair begins, and work closely with the Logistics manager. During the fair you will be assisting companies and hosts that need help with ethernet and electricity. Most of your work will take place on the prep day.",
   },
 ];
 
