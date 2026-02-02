@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Iterate over all files in src/assets
-for file in ../src/assets*.*
+for file in ../src/assets/companies/*
 do
   # Skip if the file is already a .webp file
   if [[ $file != *.webp ]]
@@ -11,4 +11,4 @@ do
   fi
 done
 
-rm ../src/assets/*.!(webp)
+rm ../src/assets/companies/*.!(webp)
