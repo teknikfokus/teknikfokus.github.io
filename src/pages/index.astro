@@ -1,14 +1,12 @@
 ---
-import LandingLayout from "~/layouts/LandingLayout.astro";
-import Timeline from "~/components/timeline/timeline.astro";
+import NewLandingLayout from "~/layouts/NewLandingLayout.astro";
 import cover from "../assets/cover.webp";
-import map1 from "../assets/day1.webp";
-import map2 from "../assets/day2.webp";
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
+import Logo from "~/components/deltaLogo.astro";
 ---
 
-<LandingLayout>
+<NewLandingLayout>
   <section class="h-screen">
     <div
       class="h-screen lg:grid lg:grid-flow-col lg:place-content-center lg:gap-20"
@@ -17,11 +15,26 @@ import { Icon } from "astro-icon/components";
         <h1
           class="mb-4 w-min text-center font-extrabold text-4xl [line-height:1.5] short:[line-height:1.0]"
         >
-          Welcome to TEKNIK<span class="font-light">FOKUS</span>
+          TEKNIK<span class="font-light">FOKUS</span>
         </h1>
 
-        <h2 class="font-bold">10-11 FEBRUARY 2026</h2>
-        <h3 class="font-light">E BUILDING, LTH</h3>
+        <p class="mt-2 text-center font-bold leading-snug text-2xl">
+          Teknikfokus has transformed into <span
+            class="underline decoration-2 underline-offset-4"
+            >two separate fairs</span
+          >.
+        </p>
+
+        <div class="mt-6 flex flex-col items-center gap-4 font-bold text-lg">
+          <p>Delta for Computer and Communications engineers</p>
+          <p>Impuls for Electrical and Biomedical engineers</p>
+        </div>
+
+        <div class="my-6 w-24 border-t border-default"></div>
+
+        <p class="text-center font-light text-offset text-base">
+          Visit their websites for more information
+        </p>
 
         <Icon
           name="logomark"
@@ -30,22 +43,21 @@ import { Icon } from "astro-icon/components";
 
         <div class="mt-8 flex flex-col gap-4 md:flex-row short:mt-4">
           <a
-            href="/students"
-            class="rounded-full border-4 border-white bg-teknikfokus-600 px-8 py-4 font-bold text-white text-lg hover:bg-teknikfokus-500 short:py-2"
+            href="https://delta.dsek.se"
+            class="rounded-full border-4 border-white bg-[#f280a1] px-8 py-4 font-bold text-white text-lg hover:bg-[#ff89aa] short:py-2"
           >
-            FOR STUDENTS
+            <!-- <h1 aria-label="DELTA" role="img" class="contents">
+              <Logo class="text-7xl lg:text-9xl" animate />
+            </h1> -->
+            DELTA
           </a>
           <a
-            href="/companies"
-            class="rounded-full border-4 border-white bg-teknikfokus-950 px-8 py-4 font-bold text-white text-lg hover:bg-teknikfokus-900 short:py-2"
+            href="https://impuls.esek.se"
+            class="rounded-full border-4 border-white bg-[#181818] px-8 py-4 font-bold text-white text-lg hover:bg-[#2c2c2c] short:py-2"
           >
-            FOR COMPANIES
+            IMPULS
           </a>
         </div>
-
-        <p class="mt-8 text-balance text-center font-serif italic text-2xl">
-          Where the present meets the future
-        </p>
       </div>
 
       <Icon name="full-logo" class="hidden size-4/5 min-w-48 lg:block" />
@@ -63,77 +75,7 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Background -->
   </section>
-
-  <div class="mx-auto max-w-prose space-y-16 px-8 py-16">
-    <section class="flex flex-col gap-4 space-y-2">
-      <div class="flex flex-col gap-8">
-        <Icon name="logomark" class="mx-auto size-32 md:mx-0" />
-        <h2
-          class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
-        >
-          About the fair
-        </h2>
-      </div>
-      <p>
-        <b>Teknikfokus</b> is a career fair aimed towards students studying at the
-        E and D guilds. During the 10:th and 11:th of February companies will be
-        in the E building to present what they are all about. This is your chance
-        to get in contact with future employers through summer jobs, master’s theses
-        and much more.
-      </p>
-      <p>
-        Along with the fair there will also be <a
-          href="https://www.teknikfokus.se/studentsessions"
-          class="font-bold underline">student sessions</a
-        > happening all around the E building.
-      </p>
-      <p>See you at the fair!</p>
-    </section>
-
-    <section class="flex flex-col gap-4 space-y-2">
-      <h2
-        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
-      >
-        Attendees
-      </h2>
-      <p>
-        You can view the list of attending companies <a
-          href="/attendees"
-          class="underline hover:text-offset">here</a
-        >.
-      </p>
-    </section>
-
-    <section class="flex flex-col gap-4 space-y-2">
-      <h2
-        class="bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
-      >
-        Schedule
-      </h2>
-      <Timeline />
-    </section>
-
-    <section class="flex flex-col gap-0">
-      <h2
-        class="mb-4 bg-gradient-to-br from-blue-600 to-cyan-400 bg-clip-text font-extrabold tracking-tight text-transparent text-6xl"
-      >
-        Map
-      </h2>
-      <div class="mb-2 font-bold text-lg">Day 1</div>
-      <Image
-        src={map1}
-        alt="Map of the fair - day 1"
-        class="mb-6 rounded-xl border-2"
-      />
-      <div class="mb-2 font-bold text-lg">Day 2</div>
-      <Image
-        src={map2}
-        alt="Map of the fair - day 2"
-        class="rounded-xl border-2"
-      />
-    </section>
-  </div>
-</LandingLayout>
+</NewLandingLayout>
 
 <style>
   .hero-background {

@@ -1,0 +1,18 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+interface Props extends HTMLAttributes<"div"> {
+  animate?: boolean;
+}
+
+const { animate = false, class: className, ...rest } = Astro.props;
+---
+
+<div
+  class:list={["font-noto-sans text-brand-primary font-bold", className]}
+  {...rest}
+>
+  &gt;&nbsp;<span class="text-brand-secondary">DELT</span>&Delta;<span
+    class={animate ? "animate-caret-blink" : ""}>&#95;</span
+  >
+</div>
